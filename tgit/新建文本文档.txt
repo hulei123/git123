@@ -1,0 +1,287 @@
+推荐序
+前言
+PART 1 拥抱Android
+UNIT 1 Android造时势或是时势造Android	2
+1-1 Android从何而来	3
+1-2 Android的功能、应用和商机	4
+1-3 先睹为快——Android手机和平板电脑模拟器	6
+UNIT 2 安装Android程序开发工具	9
+2-1 不同操作系统的开发工具版本	9
+2-2 安装Android程序开发工具的步骤	10
+2-3 Android程序开发工具的维护和更新	20
+UNIT 3 建立Android应用程序项目	22
+3-1 修改程序的接口	26
+UNIT 4 Eclipse程序项目管理技巧	29
+4-1 根据已经写好的程序文件来建立项目	29
+4-2 根据Android SDK中的程序范例来建立项目	30
+4-3 把建立好的Android程序项目加载Eclipse	30
+4-4 程序项目的管理和维护	31
+PART 2 开发Android应用程序的流程
+UNIT 5 Eclipse程序项目管理技巧	35
+UNIT 6 使用TextView、EditText和Button接口组件	40
+6-1 TextView接口组件	41
+6-2 EditText接口组件	42
+6-3 Button接口组件	43
+6-4 链接接口组件和程序代码	44
+6-5 设置Button的click事件listener	44
+6-6 取得edtSex和edtAge接口组件中的字符串	47
+6-7 将结果显示在txtResult接口组件	47
+6-8 在模拟器中输入中文	49
+UNIT 7 程序的错误类型和除错方法	51
+7-1 程序的语法错误和调试的方法	51
+7-2 程序的逻辑错误和调试的方法	52
+7-3 运行时期错误和调试的方法	54
+UNIT 8 使用Android模拟器的技巧	57
+8-1 启动模拟器的时机	57
+8-2 Eclipse选择不同版本AVD的规则	60
+8-3 同时运行多个AVD	60
+8-4 使用AVD的调试功能	61
+8-5 AVD的语言设置、时间设置和上网功能	63
+8-6 把实体手机或平板电脑当成模拟器	64
+UNIT 9 良好的程序架构是程序开发和维护的重要基础	66
+UNIT 10 升级Android手机程序成为平板电脑程序	71
+10-1 针对Android 平板电脑作优化	72
+10-2 将程序升级成为Android平板电脑专属程序	73
+PART 3 学习使用基本接口组件和布局模式
+UNIT 11 学习更多接口组件的属性	76
+11-1 match_parent和wrap_content的差别	78
+11-2 android:inputType属性的效果	79
+11-3 控制文字大小、颜色和底色	80
+11-4 控制组件四周的间隔距离以及组件内部的文字和边的距离	81
+UNIT 12 Spinner下拉式菜单组件	82
+12-1 建立Spinner下拉式菜单的第一种方法	82
+12-2 建立Spinner下拉式菜单的第二种方法	87
+UNIT 13 使用RadioGroup和RadioButton组件建立单选清单	91
+13-1 将“婚姻建议”程序改成使用RadioGroup菜单	92
+UNIT 14 CheckBox多选清单和ScrollView滚动条	98
+UNIT 15 LinearLayout界面编排模式	105
+UNIT 16 TableLayout接口编排模式	109
+UNIT 17 RelativeLayout布局	115
+UNIT 18 FrameLayout布局和 Tab卷标页	126
+18-1 建立Tab标签页的步骤	127
+18-2 范例程序	130
+PART 4 学图像接口组件与动画效果
+UNIT 19 ImageButton和ImageView接口组件	134
+UNIT 20 Gallery、GridView和ImageSwitcher接口组件	140
+20-1 Gallery组件和GridView组件的使用方法	141
+20-2 ImageSwitcher组件的使用方法	146
+20-3 完成“图像画廊”程序	148
+UNIT 21 使用Tween动画效果	151
+21-1 建立动画资源文件	152
+21-2 建立各种类型的动画	154
+21-3 使用随机动画的“图像画廊”程序	157
+21-4 在程序代码中建立动画效果	159
+21-5 应该使用动画资源文件还是在程序代码中建立动画对象	160
+UNIT 22 Frame animation和Multi-Thread游戏程序	161
+22-1 建立Frame animation的两种方法	161
+22-2 Multi-Thread“掷骰子游戏”程序	163
+22-3 使用Handler对象传送信息	164
+22-4 实现“掷骰子游戏”程序	164
+UNIT 23 Property animation初体验	170
+23-1 Property animation的基本用法	171
+23-2 范例程序	173
+UNIT 24 Property animation加上Listener成为动画超人	178
+24-1 使用AnimatorSet	178
+24-2 加上动画事件listener	180
+24-3 ValueAnimator	182
+24-4 范例程序	183
+PART 5 Fragment与进阶接口组件
+UNIT 25 使用Fragment让程序界面一分为多	189
+25-1 使用Fragment的步骤	190
+25-2 为Fragment加上外框并重设大小和位置	191
+25-3 范例程序	192
+UNIT 26 动态Fragment让程序成为变形金刚	200
+26-1 Fragment的总管——FragmentManager	200
+26-2 范例程序	202
+UNIT 27 Fragment的进阶用法	212
+27-1 控制FrameLayout的显示和隐藏	213
+27-2 使用Fragment的Back Stack功能和动画效果	215
+UNIT 28 Fragment和Activity之间的callback机制	220
+28-1 检查“计算机猜拳游戏”程序架构	220
+28-2 实现Fragment和Activity之间的callback机制	222
+28-3 范例程序	224
+UNIT 29 ListView和ExpandableListView	232
+29-1 使用ListActivity建立ListView菜单	232
+29-2 帮ListView加上小图标	236
+29-3 ExpandableListView二层式选项列表	239
+UNIT 30 AutoCompleteTextView自动完成文字输入	243
+UNIT 31 SeekBar和RatingBar接口组件	248
+PART 6 其他接口组件与对话框
+UNIT 32 时间日期接口组件和对话框	255
+32-1 DatePicker日期接口组件	255
+32-2 TimePicker时间接口组件	256
+32-3 范例程序	257
+32-4 DatePickerDialog和TimePickerDialog对话框	259
+UNIT 33 ProgressBar、ProgressDialog和Multi-Thread程序	261
+33-1 Multi-Thread程序	263
+33-2 使用Handler对象完成Thread之间的信息沟通	263
+33-3 第一版的Multi-Thread ProgressBar范例程序	264
+33-4 第二版的Multi-Thread ProgressBar范例程序	269
+33-5 ProgressDialog对话框	270
+UNIT 34 AlertDialog对话框	271
+34-1 使用AlertDialog.Builder类别建立AlertDialog对话框	271
+34-2 使用AlertDialog类别建立AlertDialog对话框	273
+34-3 范例程序	274
+UNIT 35 Toast消息框	279
+UNIT 36 自定义Dialog对话框	282
+PART 7 Intent、Intent Filter和传送数据
+UNIT 37 工程中的AndroidManifest.xml程序功能描述文件	289
+UNIT 38 Intent粉墨登场	296
+38-1 Eclipse的DDMS功能以及模拟器的Linux 命令行模式	299
+UNIT 39 Tab标签页接口——使用Intent对象	303
+UNIT 40 Intent Filter让程序也能帮助别人	308
+40-1 设置AndroidManifest.xml文件中的Intent Filter	309
+40-2 Android系统检查Intent和Intent Filter的规则	311
+40-3 程序接收到Intent对象的工作	311
+40-4 范例程序	312
+UNIT 41 让Intent对象附带数据	318
+41-1 传送数据的Activity需要完成的工作	318
+41-2 从Intent对象中取出数据	320
+41-3 范例程序	320
+UNIT 42 要求被调用的Activity 返回数据	327
+PART 8 Broadcast Receiver、Service和App Widget
+UNIT 43 Broadcast Intent和Broadcast Receiver	334
+43-1 程序广播Intent对象的方法	334
+43-2 建立Broadcast Receiver监听广播消息	335
+43-3 范例程序	336
+UNIT 44 Service是幕后英雄	341
+44-1 Service的运行方式和生命周期	341
+44-2 在程序项目中建立Service	342
+44-3 启动Service的第一种方法	345
+44-4 启动Service的第二种方法	346
+44-5 范例程序	347
+UNIT 45 App Widget小工具程序	351
+UNIT 46 使用Alarm Manager增强App Widget程序	358
+46-1 建立增强版的App Widget程序	358
+46-2 取得并更新App Widget程序的界面	362
+UNIT 47 App Widget程序的其他两种执行模式	365
+47-1 预定运行时间的App Widget程序	365
+47-2 用按钮启动App Widget程序	367
+PART 9 Activity的生命周期与进阶功能
+UNIT 48 Activity的生命周期	371
+UNIT 49 帮Activity加上菜单	375
+49-1 onCreateOptionsMenu()的工作	376
+49-2 onOptionsItemSelected()的工作	376
+49-3 建立xml格式的菜单定义文件	377
+49-4 范例程序	379
+UNIT 50 使用Context Menu	384
+50-1 Context Menu的用法和限制	384
+50-2 范例程序	385
+UNIT 51 在Action Bar加上功能选项	389
+51-1 控制Action Bar	390
+51-2 在Action Bar加上Action Item	391
+51-3 在Action Bar加上Action View	392
+51-4 范例程序	392
+UNIT 52 在Action Bar上建立Tab标签页	398
+UNIT 53 在状态栏显示信息	404
+PART 10 储存程序数据
+UNIT 54 使用SharedPreferences 储存数据	411
+54-1 储存数据的步骤	411
+54-2 读取数据的步骤	412
+54-3 删除数据的步骤	412
+54-4 清空数据的步骤	413
+54-5 范例程序	413
+UNIT 55 使用SQLite数据库储存数据	417
+55-1 进入模拟器的Linux命令行模式操作SQLite数据库	417
+55-2 SQLiteOpenHelper类	419
+55-3 SQLiteDatabase类	420
+55-4 范例程序	421
+UNIT 56 使用Content Provider跨程序存取数据	428
+56-1 Activity和Content Provider之间的运行机制	429
+56-2 范例程序	431
+UNIT 57 使用文件储存数据	438
+57-1 将数据写入文件的方法	438
+57-2 从文件读取数据的方法	439
+57-3 范例程序	440
+PART 11 程序项目的整备工作和发布
+UNIT 58 支持多语系和屏幕模式	446
+58-1 让程序支持多语系的方法	447
+58-2 让程序支持多种屏幕模式	448
+58-3 范例程序	449
+UNIT 59 开发不同Android版本程序的考虑	453
+59-1 利用Fragment控制分页或单页显示	455
+UNIT 60 取得屏幕的宽度、高度和 分辨率	465
+60-1 取得屏幕的宽高和分辨率	465
+60-2 取得程序界面的宽和高	466
+60-3 利用AndroidManifest.xml文件设置程序运行的屏幕条件	471
+UNIT 61 将程序安装到设备或在网络上发布	474
+61-1 利用Export Wizard帮程序加上数字签名和完成zipalign	475
+61-2 将程序上传到Google的Android Market网站	477
+PART 12 2D和3D绘图
+UNIT 62 使用Drawable对象	479
+62-1 从res/drawable文件夹的图像文件建立Drawable对象	479
+62-2 在res/drawable文件夹中建立xml文件格式的Drawable对象定义文件	480
+62-3 在程序中建立Drawable类型的对象	481
+62-4 范例程序	482
+UNIT 63 使用Canvas绘图	485
+UNIT 64 使用View在Canvas上绘制动画	489
+64-1 程序绘制动画的原理	489
+64-2 范例程序	490
+UNIT 65 使用SurfaceView进行高速绘图	494
+65-1 使用SurfaceView的步骤	494
+65-2 范例程序	495
+UNIT 66 3D绘图	500
+66-1 3D绘图的基本概念	500
+66-2 3D绘图程序	502
+PART 13 Google地图程序
+UNIT 67 使用Google地图	509
+67-1 开发Google地图应用程序的准备工作	509
+67-2 建立Google地图应用程序的步骤	513
+67-3 范例程序	515
+UNIT 68 Google地图的进阶用法	519
+68-1 地图的缩放和拖曳功能	519
+68-2 加上键盘控制功能	521
+68-3 切换地图显示模式	522
+UNIT 69 帮地图加上标记	526
+69-1 地图程序使用Overlay的步骤	526
+69-2 范例程序	531
+UNIT 70 加上定位让地图活起来	533
+70-1 移动设备的定位技术	534
+70-2 第一种定位方法——使用MyLocationOverlay	535
+70-3 第二种定位方法——使用LocationManager	538
+PART 14 拍照、录音、录像与多媒体播放
+UNIT 71 使用MediaPlayer建立音乐播放器	544
+71-1 音乐播放程序的架构	544
+71-2 MediaPlayer类的用法	545
+71-3 范例程序	548
+UNIT 72 播放背景音乐和Audio Focus	555
+72-1 用Service的方式运行MediaPlayer	555
+72-2 使用状态栏信息控制Foreground Service	557
+72-3 使用Audio Focus和Wake Lock	559
+72-4 播放不同来源的文件	560
+72-5 范例程序	561
+UNIT 73 录音程序	571
+73-1 MediaRecorder类的用法	571
+73-2 范例程序	574
+UNIT 74 播放影片	579
+74-1 Android支持的图像和影片文件格式	579
+74-2 使用VideoView和MediaController	580
+UNIT 75 拍照程序	585
+75-1 Camera和SurfaceView	585
+75-2 范例程序	587
+UNIT 76 录像程序	594
+76-1 Camera和MediaRecorder通力合作	594
+76-2 在接口布局文件中建立SurfaceView	595
+76-3 范例程序	596
+PART 15 WebView与网页处理
+UNIT 77 WebView的网页浏览功能	606
+77-1 WebView的用法	606
+77-2 范例程序	608
+UNIT 78 自己打造网页浏览器	611
+78-1 WebView的网页操作方法	612
+78-2 设置WebViewClient和WebChromeClient	613
+78-3 范例程序	615
+UNIT 79 JavaScript和Android程序代码之间的调用	622
+79-1 从JavaScript调用Android程序代码	622
+79-2 从Android程序代码调用JavaScript的function	624
+79-3 使用WebView的loadData()	625
+79-4 范例程序	625
+PART 16 开发NFC程序
+UNIT 80 NFC程序设计	632
+80-1 Android处理NFC tag数据的方式	633
+80-2 开发NFC程序	635
+UNIT 81 把资料写入NFC tag	638
+81-1 Android 4.X的Android Application Record（AAR）	639
+81-2 Android Beam	640
+UNIT 82 NFC的进阶用法	642
+82-1 让运行中的程序优先处理NFC Intent	644

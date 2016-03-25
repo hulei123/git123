@@ -1,0 +1,127 @@
+Release Name: Kinetis Bootloader
+Version: 1.2.0
+
+Package - Kinetis         Filename: FSL_Kinetis_Bootloader_1_2_0.zip
+Bootloader
+
+CMSIS Core header files   Description: Industry-standard header files
+                          distributed by ARM for Cortex-M cores
+                          Version: 3.2.0
+                          Author:  ARM
+                          License: Open Source - BSD-3-Clause
+                          Format: source code
+                          URL: http://silver.arm.com
+                          Location: 
+                          Kinetis_Bootloader/src/include/device
+
+USB                       Description: Freescale USB stack.  This is a
+                          subset of  the USB stack that has been
+                          integrated with the Kinetis Bootloader.  The
+                          original source of many of the files is from
+                          ARC International's USB code for MQX.
+                          Author: FSL
+                          License: Proprietary. See 
+                          LICENSE_LA_OPT_FSL_OPEN_3RD_PARTY_IP, 
+                          Appendix A, MQX RTOS Code.
+                          Format: source code
+                          Location: Kinetis_Bootloader/src/usb_stack
+
+Bootloader Source         Description: Software drivers for
+                          Bootloaders and Flashloaders
+                          Author: FSL
+                          License: Open Source - BSD-3-Clause
+                          Format: source code
+                          Location: Kinetis_Bootloader/src
+
+Host tools - Serial       Description: Windows Serial peripheral support
+support                   Author: Bus Pirate Project
+                          License: Open Source - CC0-1.0 (Creative Commons Zero)
+                          URL: http://code.google.com/p/the-bus-pirate/
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/serial.h, 
+                          src/serial.c
+
+Host tools - USB HID      Description: Windows USB HID support
+support                   Author: HIDAPI
+                          License: Open Source - BSD-3-Clause
+                          URL: http://github.com/signal11/hidapi
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/hidapi.h, 
+                          src/hid-*.c
+
+Host tools - JSON support Description: Windows JSON support
+                          Author: JSONCPP
+                          License: Open Source - MIT
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/json.h, 
+                          src/jsoncpp.cpp
+
+Host tools - options      Description: Command line parsing utility
+support                   Author: bradapp@enteract.com
+                          License: Open Source - MIT
+                          URL: 
+                          http://www.bradapp.com
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/options.h, 
+                          src/options.cpp
+
+Host tools - devsupport   Description: Windows development support
+                          Author: simon.mourier@softfluent.com
+                          License: Open Source - MS-PL (Microsoft Public License)
+                          URL: 
+                          http://www.codeforge.com/read/211837/About.cs__html
+                          Format: source code
+                          Location:
+                          Kinetis_Bootloader/apps/winupdater/devsupport/device.cs, 
+                          deviceclass.cs, native.cs, devicemanager.cs
+
+KinetisUpdater.exe -      Description: MVVM with Asynchronous command support
+Async Commands support    Author: Stephen Cleary (stephenandmandy@gmail.com)
+                          License: Open Source - MS-LPL (Microsoft Limited Public License)
+                          URL: 
+                          http://msdn.microsoft.com/en-us/magazine/dn630647.aspx
+                          Format: source code
+                          Location:
+                          Kinetis_Bootloader/apps/winupdater/KinetisUpdater/NotifyTaskCompletion.cs, 
+                          MvvmFramework.cs
+
+KinetisUpdater.exe -      Description: System.Windows.Interactivity
+Behaviors support         Author: Microsoft
+                          License: Microsoft Visual Studio Professional 2013
+                          URL: 
+                          http://www.microsoftstore.com/store/msusa/en_US/pdp/Visual-Studio-Professional-2013/productID.284832200
+                          Format: binary
+                          Location:
+                          Kinetis_Bootloader/apps/winupdater/KinetisUpdater/Resources/System.Windows.Interactivity.dll,
+                          Kinetis_Bootloader/bin/win/KinetisUpdater/System.Windows.Interactivity.dll
+
+Bootloader Source,        Description: C++ interface to the Vincent Rijmen's Rijndael block cipher
+Host Source - blfwk.lib   Author: Szymon Stefanek (stefanek@tin.it)
+                          License: Public Domain
+                          URL:
+                          http://www.pragmaware.net/software/rijndael/index.php
+                          Format: source code
+                          Location:
+                          Kinetis_Bootloader/src/blfwk/rijndael.h,
+                          src/rijndael.cpp
+
+Utility Source - elf.py   Description: Python implementation of an ELF file reader.
+                          Author: Chris Liechti (cliechti@gmx.net)
+                          License: Open Source - BSD License
+                          URL:
+                          http://bazaar.launchpad.net/~zsquareplusc/python-msp430-tools/trunk/view/head:/msp430/memory/elf.py
+                          Format: source code
+                          Location:
+                          Kinetis_Bootloader/bin/elf.py
+
+printk                    Description: The standard C library routine printf(), but without all the baggage.
+                          Version: n/a
+                          Author: Motorola
+                          License: Open Source - a Motorola permissive open source license
+                          Format: source code
+                          URL: http://www.freescale.com/webapp/sps/site/prod_summary.jsp?code=M5407C3
+                          Location: Kinetis_Bootloader/src/usb_stack/os/bm/printf.c

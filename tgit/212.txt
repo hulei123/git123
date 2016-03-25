@@ -1,0 +1,58 @@
+blhost -p com49 -- get-property 1
+cd desktop
+SWD: serial wire debug
+openSDA: serial debug adapter
+Tasks:
+1.finished reading  the schemetics of km22f512,256 boards and reference book ,reading the source code of blhost
+and bootloader and other source code .
+2.learned how blhost and bootloader communicates. learned what is SWD and openSDA ,learned the pin function of km22f512
+board.
+Issues:
+1.why is  the flash capacity  of one of the km22f512 board  is 1024kb and another is 512kb,they should be the same.
+suggestions:
+1.the blhost has a window surface may be better to use  , the blhost and  the KinetisUpdater get together in one
+window.
+
+
+Here is a list of training plan today. Let¡¯s have it this afternoon.
+
+
+1.      Kibble's process and the key purpose  --- Fanny
+
+2.      Kibble's test project and different test method  -- Fanny
+
+3.      BCA module introduction  --- Xiangyi
+
+4.      Buspal setup introduction --- Xiangyi
+
+ 
+
+Also we will have other plan like our automation introduction, plan to have these later.
+
+ 
+
+Do you still have some special requirement? You can purpose.
+
+
+
+
+
+#include file writing rules £ºif under a downer or same folder lever with this source code £¬writing include "xxx.h"  
+if under a upper folder lever with this source code ,writing xxx/"xxx.h"
+
+
+
+
+
+0000 0000 0000 0000 0000 0000 0000 0011 
+
+0x00000003 * 2^20=3145728       0x0030 0000
+0x0000 1800
+0x00000003 * 2^22 =12582912    0x00c0  0000
+0x0000 3000                                  0x00f0  0000
+
+
+0x0000 4800
+0xe000 e000
+
+
