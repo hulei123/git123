@@ -11,7 +11,8 @@
  * o Redistributions in binary form must reproduce the above copyright notice, this
  *   list of conditions and the following disclaimer in the documentation and/or
  *   other materials provided with the distribution.
- *
+ *阿斯顿发的说法的手法加快递费大家看法的开发就爱看的房间爱看的风景卡的积分卡的发的fajd
+爱的房间爱看的份大姐夫
  * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
  *   contributors may be used to endorse or promote products derived from this
  *   software without specific prior written permission.
