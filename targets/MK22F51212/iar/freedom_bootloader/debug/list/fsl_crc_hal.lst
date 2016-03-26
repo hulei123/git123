@@ -1,0 +1,453 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:53
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\crc\hal\fsl_crc_hal.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\crc\hal\fsl_crc_hal.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\fsl_crc_hal.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_crc_hal.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\crc\hal\fsl_crc_hal.c
+      1          /*
+      2           * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          #include "drivers/crc/hal/fsl_crc_hal.h"
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __interwork __softfp void CRC_HAL_SetSeedOrDataMode(CRC_Type *, bool)
+   \                     CRC_HAL_SetSeedOrDataMode: (+1)
+   \   00000000   0x3008             ADDS     R0,R0,#+8
+   \   00000002   0x0140             LSLS     R0,R0,#+5
+   \   00000004   0x....             LDR.N    R2,??DataTable2  ;; 0x42000064
+   \   00000006   0x5011             STR      R1,[R2, R0]
+   \   00000008   0x4770             BX       LR               ;; return
+     31          #if FSL_FEATURE_SOC_CRC_COUNT
+     32          #if !BL_TARGET_RAM
+     33          /*******************************************************************************
+     34           * Code
+     35           ******************************************************************************/
+     36          /*FUNCTION**********************************************************************
+     37           *
+     38           * Function Name : CRC_HAL_Init
+     39           * Description   : This function initializes the module to a known state.
+     40           *
+     41           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+     42          void CRC_HAL_Init(CRC_Type * base)
+     43          {
+     44              uint32_t seedAndData = 0;
+     45          
+     46              CRC_BWR_CTRL_TCRC(base, kCrc32Bits);
+   \                     CRC_HAL_Init: (+1)
+   \   00000000   0xF100 0x0108      ADD      R1,R0,#+8
+   \   00000004   0x0149             LSLS     R1,R1,#+5
+   \   00000006   0x....             LDR.N    R3,??DataTable2_1  ;; 0x42000060
+   \   00000008   0x2201             MOVS     R2,#+1
+   \   0000000A   0x505A             STR      R2,[R3, R1]
+     47              /*SetReadTranspose (no transpose)*/
+     48              CRC_BWR_CTRL_TOTR(base, kCrcNoTranspose);
+     49              /*SetWriteTranspose (no transpose)*/
+     50              CRC_BWR_CTRL_TOT(base, kCrcNoTranspose);
+     51              /*SetXorMode (xor mode disabled)*/
+     52              CRC_BWR_CTRL_FXOR(base, false);
+   \   0000000C   0x....             LDR.N    R3,??DataTable2_2  ;; 0x42000068
+   \   0000000E   0x6882             LDR      R2,[R0, #+8]
+   \   00000010   0xF022 0x5240      BIC      R2,R2,#0x30000000
+   \   00000014   0x6082             STR      R2,[R0, #+8]
+   \   00000016   0x6882             LDR      R2,[R0, #+8]
+   \   00000018   0x0092             LSLS     R2,R2,#+2
+   \   0000001A   0x0892             LSRS     R2,R2,#+2
+   \   0000001C   0x6082             STR      R2,[R0, #+8]
+   \   0000001E   0x2200             MOVS     R2,#+0
+   \   00000020   0x505A             STR      R2,[R3, R1]
+   \   00000022   0xF101 0x4184      ADD      R1,R1,#+1107296256
+   \   00000026   0x2201             MOVS     R2,#+1
+   \   00000028   0xF841 0x2F64      STR      R2,[R1, #+100]!
+     53              /*SetSeedOrDataMode (seed selected)*/
+     54              CRC_BWR_CTRL_WAS(base, true);
+     55          
+     56          #if FSL_FEATURE_CRC_HAS_CRC_REG
+     57              CRC_WR_CRC(base, seedAndData);
+     58          #else
+     59              CRC_WR_DATA(base, seedAndData);
+   \   0000002C   0x2200             MOVS     R2,#+0
+   \   0000002E   0x6002             STR      R2,[R0, #+0]
+     60          #endif
+     61              /*SetSeedOrDataMode (seed selected)*/
+     62              CRC_BWR_CTRL_WAS(base, false);
+   \   00000030   0x600A             STR      R2,[R1, #+0]
+     63          
+     64          #if FSL_FEATURE_CRC_HAS_CRC_REG
+     65              CRC_WR_CRC(base, seedAndData);
+     66          #else
+     67              CRC_WR_DATA(base, seedAndData);
+   \   00000032   0x6002             STR      R2,[R0, #+0]
+     68          #endif
+     69          }
+   \   00000034   0x4770             BX       LR               ;; return
+     70          
+     71          /*FUNCTION**********************************************************************
+     72           *
+     73           * Function Name : CRC_HAL_GetCrc32
+     74           * Description   : This method appends 32-bit data to current CRC calculation
+     75           *                 and returns new result
+     76           *
+     77           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+     78          uint32_t CRC_HAL_GetCrc32(CRC_Type * base, uint32_t data, bool newSeed, uint32_t seed)
+     79          {
+   \                     CRC_HAL_GetCrc32: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+   \   00000006   0x461E             MOV      R6,R3
+     80              if (newSeed == true)
+   \   00000008   0xB13A             CBZ.N    R2,??CRC_HAL_GetCrc32_0
+     81              {
+     82                  CRC_HAL_SetSeedOrDataMode(base, true);
+   \   0000000A   0x2101             MOVS     R1,#+1
+   \   0000000C   0x.... 0x....      BL       CRC_HAL_SetSeedOrDataMode
+     83                  CRC_HAL_SetDataReg(base, seed);
+   \   00000010   0x.... 0x....      BL       ?Subroutine1
+     84                  CRC_HAL_SetSeedOrDataMode(base, false);
+     85                  CRC_HAL_SetDataReg(base, data);
+   \                     ??CrossCallReturnLabel_2: (+1)
+   \   00000014   0x6025             STR      R5,[R4, #+0]
+     86                  return CRC_HAL_GetCrcResult(base);
+   \   00000016   0x4620             MOV      R0,R4
+   \   00000018   0xE000             B.N      ??CRC_HAL_GetCrc32_1
+     87              }
+     88              else
+     89              {
+     90                  CRC_HAL_SetDataReg(base, data);
+   \                     ??CRC_HAL_GetCrc32_0: (+1)
+   \   0000001A   0x6025             STR      R5,[R4, #+0]
+     91                  return CRC_HAL_GetCrcResult(base);
+     92              }
+   \                     ??CRC_HAL_GetCrc32_1: (+1)
+   \   0000001C   0x....             B.N      ?Subroutine0
+     93          }
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine0: (+1)
+   \   00000000   0xE8BD 0x4070      POP      {R4-R6,LR}
+   \   00000004   0x....             B.N      CRC_HAL_GetCrcResult
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine1: (+1)
+   \   00000000   0x6026             STR      R6,[R4, #+0]
+   \   00000002   0x2100             MOVS     R1,#+0
+   \   00000004   0x4620             MOV      R0,R4
+   \   00000006   0x....             B.N      CRC_HAL_SetSeedOrDataMode
+     94          
+     95          /*FUNCTION**********************************************************************
+     96           *
+     97           * Function Name : CRC_HAL_GetCrc16
+     98           * Description   : This method appends 16-bit data to current CRC calculation
+     99           *                 and returns new result
+    100           *
+    101           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    102          uint32_t CRC_HAL_GetCrc16(CRC_Type * base, uint16_t data, bool newSeed, uint32_t seed)
+    103          {
+   \                     CRC_HAL_GetCrc16: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+   \   00000006   0x461E             MOV      R6,R3
+    104              if (newSeed == true)
+   \   00000008   0xB13A             CBZ.N    R2,??CRC_HAL_GetCrc16_0
+    105              {
+    106                  CRC_HAL_SetSeedOrDataMode(base, true);
+   \   0000000A   0x2101             MOVS     R1,#+1
+   \   0000000C   0x.... 0x....      BL       CRC_HAL_SetSeedOrDataMode
+    107                  CRC_HAL_SetDataReg(base, seed);
+   \   00000010   0x.... 0x....      BL       ?Subroutine1
+    108                  CRC_HAL_SetSeedOrDataMode(base, false);
+    109                  CRC_HAL_SetDataLReg(base, data);
+   \                     ??CrossCallReturnLabel_1: (+1)
+   \   00000014   0x8025             STRH     R5,[R4, #+0]
+    110                  return CRC_HAL_GetCrcResult(base);
+   \   00000016   0x4620             MOV      R0,R4
+   \   00000018   0xE000             B.N      ??CRC_HAL_GetCrc16_1
+    111              }
+    112              else
+    113              {
+    114                  CRC_HAL_SetDataLReg(base, data);
+   \                     ??CRC_HAL_GetCrc16_0: (+1)
+   \   0000001A   0x8025             STRH     R5,[R4, #+0]
+    115                  return CRC_HAL_GetCrcResult(base);
+    116              }
+   \                     ??CRC_HAL_GetCrc16_1: (+1)
+   \   0000001C                      REQUIRE ?Subroutine0
+   \   0000001C                      ;; // Fall through to label ?Subroutine0
+    117          }
+    118          
+    119          /*FUNCTION**********************************************************************
+    120           *
+    121           * Function Name : CRC_HAL_GetCrc8
+    122           * Description   : This method appends 8-bit data to current CRC calculation
+    123           *                 and returns new result
+    124           *
+    125           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    126          uint32_t CRC_HAL_GetCrc8(CRC_Type * base, uint8_t data, bool newSeed, uint32_t seed)
+    127          {
+   \                     CRC_HAL_GetCrc8: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+   \   00000006   0x461E             MOV      R6,R3
+    128              if (newSeed == true)
+   \   00000008   0xB13A             CBZ.N    R2,??CRC_HAL_GetCrc8_0
+    129              {
+    130                  CRC_HAL_SetSeedOrDataMode(base, true);
+   \   0000000A   0x2101             MOVS     R1,#+1
+   \   0000000C   0x.... 0x....      BL       CRC_HAL_SetSeedOrDataMode
+    131                  CRC_HAL_SetDataReg(base, seed);
+   \   00000010   0x.... 0x....      BL       ?Subroutine1
+    132                  CRC_HAL_SetSeedOrDataMode(base, false);
+    133                  CRC_HAL_SetDataLLReg(base, data);
+   \                     ??CrossCallReturnLabel_0: (+1)
+   \   00000014   0x7025             STRB     R5,[R4, #+0]
+    134                  return CRC_HAL_GetCrcResult(base);
+   \   00000016   0x4620             MOV      R0,R4
+   \   00000018   0xE000             B.N      ??CRC_HAL_GetCrc8_1
+    135              }
+    136              else
+    137              {
+    138                  CRC_HAL_SetDataLLReg(base, data);
+   \                     ??CRC_HAL_GetCrc8_0: (+1)
+   \   0000001A   0x7025             STRB     R5,[R4, #+0]
+    139                  return CRC_HAL_GetCrcResult(base);
+    140              }
+   \                     ??CRC_HAL_GetCrc8_1: (+1)
+   \   0000001C   0x....             B.N      ?Subroutine0
+    141          }
+    142          
+    143          /*FUNCTION**********************************************************************
+    144           *
+    145           * Function Name : CRC_HAL_GetCrcResult
+    146           * Description   : This method returns current result of CRC calculation
+    147           *
+    148           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    149          uint32_t CRC_HAL_GetCrcResult(CRC_Type * base)
+    150          {
+    151              uint32_t result = 0;
+    152              crc_transpose_t transpose;
+    153              crc_prot_width_t width;
+    154          
+    155              width = CRC_HAL_GetProtocolWidth(base);
+   \                     CRC_HAL_GetCrcResult: (+1)
+   \   00000000   0xF100 0x0208      ADD      R2,R0,#+8
+   \   00000004   0x0152             LSLS     R2,R2,#+5
+   \   00000006   0x....             LDR.N    R3,??DataTable2_1  ;; 0x42000060
+   \   00000008   0x589A             LDR      R2,[R3, R2]
+   \   0000000A   0x2100             MOVS     R1,#+0
+    156          
+    157              switch(width)
+   \   0000000C   0xB2D2             UXTB     R2,R2
+   \   0000000E   0xB11A             CBZ.N    R2,??CRC_HAL_GetCrcResult_0
+   \   00000010   0x2A01             CMP      R2,#+1
+   \   00000012   0xBF08             IT       EQ 
+   \   00000014   0x6801             LDREQ    R1,[R0, #+0]
+    158              {
+    159              case kCrc16Bits:
+    160                  transpose = CRC_HAL_GetReadTranspose(base);
+    161          
+    162                  if( (transpose == kCrcTransposeBoth) || (transpose == kCrcTransposeBytes) )
+    163                  {
+    164                      /* Return upper 16bits of CRC because of transposition in 16bit mode */
+    165                      result = CRC_HAL_GetDataHReg(base);
+    166                  }
+    167                  else
+    168                  {
+    169                      result = CRC_HAL_GetDataLReg(base);
+    170                  }
+    171                  break;
+    172              case kCrc32Bits:
+    173                  result = CRC_HAL_GetDataReg(base);
+   \   00000016   0xE008             B.N      ??CRC_HAL_GetCrcResult_1
+   \                     ??CRC_HAL_GetCrcResult_0: (+1)
+   \   00000018   0x6881             LDR      R1,[R0, #+8]
+   \   0000001A   0x0F09             LSRS     R1,R1,#+28
+   \   0000001C   0xF001 0x0103      AND      R1,R1,#0x3
+   \   00000020   0x2902             CMP      R1,#+2
+   \   00000022   0xBF1A             ITTE     NE 
+   \   00000024   0x2903             CMPNE    R1,#+3
+   \   00000026   0x8801             LDRHNE   R1,[R0, #+0]
+   \   00000028   0x8841             LDRHEQ   R1,[R0, #+2]
+    174                  break;
+    175              default:
+    176                  break;
+    177              }
+    178              return result;
+   \                     ??CRC_HAL_GetCrcResult_1: (+1)
+   \   0000002A   0x4608             MOV      R0,R1
+   \   0000002C   0x4770             BX       LR               ;; return
+    179          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \   00000000   0x42000064         DC32     0x42000064
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \   00000000   0x42000060         DC32     0x42000060
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \   00000000   0x42000068         DC32     0x42000068
+    180          #endif
+    181          #endif
+    182          /*******************************************************************************
+    183           * EOF
+    184           ******************************************************************************/
+    185          
+    186          
+    187          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   CRC_HAL_GetCrc16
+         0   -> CRC_HAL_GetCrcResult
+        16   -> CRC_HAL_SetSeedOrDataMode
+      16   CRC_HAL_GetCrc32
+         0   -> CRC_HAL_GetCrcResult
+        16   -> CRC_HAL_SetSeedOrDataMode
+      16   CRC_HAL_GetCrc8
+         0   -> CRC_HAL_GetCrcResult
+        16   -> CRC_HAL_SetSeedOrDataMode
+       0   CRC_HAL_GetCrcResult
+       0   CRC_HAL_Init
+       0   CRC_HAL_SetSeedOrDataMode
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       6  ?Subroutine0
+       8  ?Subroutine1
+      28  CRC_HAL_GetCrc16
+      30  CRC_HAL_GetCrc32
+      30  CRC_HAL_GetCrc8
+      46  CRC_HAL_GetCrcResult
+      54  CRC_HAL_Init
+      10  CRC_HAL_SetSeedOrDataMode
+
+ 
+ 224 bytes in section .text
+ 
+ 224 bytes of CODE memory
+
+Errors: none
+Warnings: none

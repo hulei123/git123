@@ -1,0 +1,656 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:45:59
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmmsgq.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmmsgq.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\bmmsgq.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmmsgq.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmmsgq.c
+      1          /**HEADER********************************************************************
+      2          * 
+      3          * Copyright (c) 2010, 2013 - 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          *************************************************************************** 
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR 
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          **************************************************************************
+     22          *
+     23          * $FileName: bmmsgq.c$
+     24          * $Version : 
+     25          * $Date    : 
+     26          *
+     27          * Comments:
+     28          *
+     29          *   
+     30          *
+     31          *
+     32          *END************************************************************************/
+     33          #include "types.h"
+     34          #include "bmmsgq.h"
+     35          #include "adapter_bm.h"
+     36          
+     37          /*FUNCTION*-------------------------------------------------------------------
+     38          *
+     39          * Function Name    : _bm_msgq_init
+     40          * Returned Value   :
+     41          * Comments         : Initialize message queue. Allocate message pointer. Make queue in QUEUE_EMPTY status.
+     42          *    
+     43          *
+     44          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     45          bm_msgq_handle _bm_msgq_init
+     46          (
+     47              /* Number of messages created after the header */
+     48              uint32_t num_messages,
+     49          
+     50              /* The size of the messages in _mqx_max_type's */
+     51              uint32_t msg_size
+     52          )
+     53          {
+   \                     _bm_msgq_init: (+1)
+   \   00000000   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \   00000004   0x4604             MOV      R4,R0
+   \   00000006   0x460D             MOV      R5,R1
+     54              uint32_t i;
+     55              bm_msgq_struct_t* p_msgq = NULL;
+     56          
+     57              p_msgq = (bm_msgq_struct_t*)malloc(sizeof(bm_msgq_struct_t));
+   \   00000008   0x2020             MOVS     R0,#+32
+   \   0000000A   0x.... 0x....      BL       malloc
+   \   0000000E   0x0006             MOVS     R6,R0
+     58              if (p_msgq == NULL)
+   \   00000010   0xD01C             BEQ.N    ??_bm_msgq_init_0
+     59              {
+     60                  return NULL;
+     61              }
+     62              
+     63              p_msgq->size = msg_size;
+     64              p_msgq->max_size = num_messages;
+     65              p_msgq->element_array = (bm_msgq_element_t*)malloc(num_messages * sizeof (bm_msgq_element_t));
+   \   00000012   0xF04F 0x080C      MOV      R8,#+12
+   \   00000016   0x60F5             STR      R5,[R6, #+12]
+   \   00000018   0x6134             STR      R4,[R6, #+16]
+   \   0000001A   0xFB08 0xF004      MUL      R0,R8,R4
+   \   0000001E   0x.... 0x....      BL       malloc
+   \   00000022   0x61F0             STR      R0,[R6, #+28]
+     66              if (p_msgq->element_array == NULL)
+   \   00000024   0xB178             CBZ.N    R0,??_bm_msgq_init_1
+     67              {
+     68                  _bm_msgq_deinit(p_msgq);
+     69                  return NULL;
+     70              }
+     71              
+     72              for (i = 0; i < num_messages; i++)
+   \   00000026   0x2700             MOVS     R7,#+0
+   \   00000028   0xE000             B.N      ??_bm_msgq_init_2
+   \                     ??_bm_msgq_init_3: (+1)
+   \   0000002A   0x1C7F             ADDS     R7,R7,#+1
+   \                     ??_bm_msgq_init_2: (+1)
+   \   0000002C   0x42A7             CMP      R7,R4
+   \   0000002E   0xD20F             BCS.N    ??_bm_msgq_init_4
+     73              {
+     74                  p_msgq->element_array[i].message_data = (void*)malloc(msg_size*sizeof(uint32_t));
+   \   00000030   0x00A8             LSLS     R0,R5,#+2
+   \   00000032   0x.... 0x....      BL       malloc
+   \   00000036   0x69F2             LDR      R2,[R6, #+28]
+   \   00000038   0xFB08 0xF107      MUL      R1,R8,R7
+   \   0000003C   0x5088             STR      R0,[R1, R2]
+     75                  if (p_msgq->element_array[i].message_data == NULL)
+   \   0000003E   0x69F0             LDR      R0,[R6, #+28]
+   \   00000040   0x5808             LDR      R0,[R1, R0]
+   \   00000042   0x2800             CMP      R0,#+0
+   \   00000044   0xD1F1             BNE.N    ??_bm_msgq_init_3
+     76                  {
+     77                      _bm_msgq_deinit(p_msgq);
+   \                     ??_bm_msgq_init_1: (+1)
+   \   00000046   0x4630             MOV      R0,R6
+   \   00000048   0x.... 0x....      BL       _bm_msgq_deinit
+     78                      return NULL;
+   \                     ??_bm_msgq_init_0: (+1)
+   \   0000004C   0x2000             MOVS     R0,#+0
+   \   0000004E   0xE008             B.N      ??_bm_msgq_init_5
+     79                  }
+     80                  
+     81              }
+     82              /* Set head pointer and tail pointer are NULL */
+     83              p_msgq->head = NULL;
+   \                     ??_bm_msgq_init_4: (+1)
+   \   00000050   0x2000             MOVS     R0,#+0
+   \   00000052   0x6030             STR      R0,[R6, #+0]
+     84              p_msgq->tail = NULL;
+   \   00000054   0x6070             STR      R0,[R6, #+4]
+     85          
+     86              /* set information for queue */
+     87              p_msgq->queue_status = BM_MSGQ_EMPTY;
+   \   00000056   0x2002             MOVS     R0,#+2
+   \   00000058   0x60B0             STR      R0,[R6, #+8]
+     88              p_msgq->current_size = 0;
+   \   0000005A   0x2000             MOVS     R0,#+0
+   \   0000005C   0x6170             STR      R0,[R6, #+20]
+     89              p_msgq->index = 0;
+   \   0000005E   0x61B0             STR      R0,[R6, #+24]
+     90          
+     91              return (bm_msgq_handle)p_msgq;
+   \   00000060   0x4630             MOV      R0,R6
+   \                     ??_bm_msgq_init_5: (+1)
+   \   00000062   0xE8BD 0x81F0      POP      {R4-R8,PC}       ;; return
+     92          }
+     93          
+     94          /*FUNCTION*-------------------------------------------------------------------
+     95          *
+     96          * Function Name    : _bm_msgq_send
+     97          * Returned Value   :
+     98          * Comments         : Send a message to the message pool.
+     99          *    
+    100          *
+    101          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    102          uint32_t _bm_msgq_send
+    103            (
+    104                bm_msgq_handle handle,
+    105                /* Number of messages created after the header */
+    106                int32_t*   message
+    107            )
+    108          {
+   \                     _bm_msgq_send: (+1)
+   \   00000000   0xB530             PUSH     {R4,R5,LR}
+    109              bm_msgq_struct_t*  p_msgq = (bm_msgq_struct_t*)handle;
+    110              bm_msgq_element_t* new_element_ptr;
+    111           
+    112              int32_t *to_ptr;
+    113              int32_t *from_ptr;
+    114              int32_t i;
+    115            
+    116              if (p_msgq == NULL)
+   \   00000002   0x2800             CMP      R0,#+0
+   \   00000004   0xBF1C             ITT      NE 
+   \   00000006   0x6882             LDRNE    R2,[R0, #+8]
+   \   00000008   0x2A01             CMPNE    R2,#+1
+    117              {
+    118                  return BM_MSGQ_SEND_ERROR;
+    119              }
+    120             /* check status of queue */
+    121              if (BM_MSGQ_FULL == p_msgq->queue_status)
+   \   0000000A   0xD101             BNE.N    ??_bm_msgq_send_0
+    122              {
+    123                  return BM_MSGQ_SEND_ERROR;
+   \   0000000C   0x2001             MOVS     R0,#+1
+   \   0000000E   0xBD30             POP      {R4,R5,PC}
+    124              }
+    125           
+    126              p_msgq->index++;
+   \                     ??_bm_msgq_send_0: (+1)
+   \   00000010   0x6982             LDR      R2,[R0, #+24]
+    127              if (p_msgq->max_size == p_msgq->index) 
+   \   00000012   0x6903             LDR      R3,[R0, #+16]
+   \   00000014   0x1C52             ADDS     R2,R2,#+1
+   \   00000016   0x6182             STR      R2,[R0, #+24]
+   \   00000018   0x4293             CMP      R3,R2
+   \   0000001A   0xBF04             ITT      EQ 
+   \   0000001C   0x2200             MOVEQ    R2,#+0
+   \   0000001E   0x6182             STREQ    R2,[R0, #+24]
+    128              {
+    129                  p_msgq->index = 0;
+    130              }
+    131              new_element_ptr = &p_msgq->element_array[p_msgq->index];
+   \   00000020   0x69C2             LDR      R2,[R0, #+28]
+   \   00000022   0x6983             LDR      R3,[R0, #+24]
+   \   00000024   0x240C             MOVS     R4,#+12
+   \   00000026   0xFB04 0x2203      MLA      R2,R4,R3,R2
+    132            
+    133              /* copy data from message to new element */
+    134              to_ptr = (int32_t *)(new_element_ptr->message_data);
+    135              from_ptr = message;
+    136              /* copy data */
+    137              i = (int32_t)p_msgq->size+1;
+   \   0000002A   0x68C4             LDR      R4,[R0, #+12]
+   \   0000002C   0x6813             LDR      R3,[R2, #+0]
+   \   0000002E   0x1C64             ADDS     R4,R4,#+1
+   \   00000030   0xE003             B.N      ??_bm_msgq_send_1
+    138              while (--i) 
+    139              {
+    140                 *to_ptr++ = *from_ptr++;
+   \                     ??_bm_msgq_send_2: (+1)
+   \   00000032   0xF851 0x5B04      LDR      R5,[R1], #+4
+   \   00000036   0xF843 0x5B04      STR      R5,[R3], #+4
+    141              } /* Endwhile */
+   \                     ??_bm_msgq_send_1: (+1)
+   \   0000003A   0x1E64             SUBS     R4,R4,#+1
+   \   0000003C   0xD1F9             BNE.N    ??_bm_msgq_send_2
+    142          
+    143              /* Link new element to link list */
+    144              /* Check queue status */
+    145              if (BM_MSGQ_EMPTY == p_msgq->queue_status){ /* this is the first element */
+   \   0000003E   0x6881             LDR      R1,[R0, #+8]
+   \   00000040   0x2902             CMP      R1,#+2
+   \   00000042   0xD104             BNE.N    ??_bm_msgq_send_3
+    146              /*
+    147                  head   new_element
+    148                 ___________________
+    149                 |NULL|   1   |NULL|
+    150                 |____|_______|____|
+    151          
+    152                  tail          
+    153               */
+    154                  new_element_ptr->next = NULL;
+   \   00000044   0x2100             MOVS     R1,#+0
+   \   00000046   0x6051             STR      R1,[R2, #+4]
+    155                  new_element_ptr->prev = NULL;
+   \   00000048   0x6091             STR      R1,[R2, #+8]
+    156                  p_msgq->head = new_element_ptr; 
+   \   0000004A   0x6002             STR      R2,[R0, #+0]
+    157                  p_msgq->tail = new_element_ptr;
+   \   0000004C   0xE005             B.N      ??_bm_msgq_send_4
+    158              } 
+    159              else 
+    160              { /* this is NOT the first element */
+    161              
+    162                  new_element_ptr->next = NULL;
+   \                     ??_bm_msgq_send_3: (+1)
+   \   0000004E   0x2100             MOVS     R1,#+0
+   \   00000050   0x6051             STR      R1,[R2, #+4]
+    163              /*
+    164                                                  new_element
+    165                 ___________________      ___________________
+    166              -->|n-1 |   n   |NULL|      |  n |  n+1  |NULL|
+    167              <--|____|_______|____|      |____|_______|____|
+    168                  tail                                          */
+    169                  
+    170                  new_element_ptr->prev = p_msgq->tail;
+   \   00000052   0x6841             LDR      R1,[R0, #+4]
+   \   00000054   0x6091             STR      R1,[R2, #+8]
+    171              /*
+    172                                                  new_element
+    173                 ___________________      ___________________
+    174              -->|n-1 |   n   |NULL|      |  n |  n+1  |NULL|
+    175              <--|____|_______|____|<-----|____|_______|____|
+    176                  tail                                          */
+    177                                                      
+    178                  p_msgq->tail->next = new_element_ptr;
+   \   00000056   0x6841             LDR      R1,[R0, #+4]
+   \   00000058   0x604A             STR      R2,[R1, #+4]
+    179              /*                                  new_element
+    180                 ___________________      ___________________
+    181              -->|n-1 |   n   |n+1 |----->|  n |  n+1  |NULL|
+    182              <--|____|_______|____|<-----|____|_______|____|
+    183                  tail
+    184                                                            */
+    185                  p_msgq->tail = new_element_ptr;
+   \                     ??_bm_msgq_send_4: (+1)
+   \   0000005A   0x6042             STR      R2,[R0, #+4]
+    186              /*                                  new_element
+    187                 ___________________      ___________________
+    188              -->|n-1 |   n   |n+1 |----->|  n |  n+1  |NULL|
+    189              <--|____|_______|____|<-----|____|_______|____|
+    190                                           tail
+    191                                                            */
+    192              }
+    193            
+    194              /* update new current size */
+    195              p_msgq->current_size++;
+   \   0000005C   0x6941             LDR      R1,[R0, #+20]
+    196            
+    197              /* Set status of queue after send an element */
+    198              if (p_msgq->current_size == p_msgq->max_size)
+   \   0000005E   0x6902             LDR      R2,[R0, #+16]
+   \   00000060   0x1C49             ADDS     R1,R1,#+1
+   \   00000062   0x6141             STR      R1,[R0, #+20]
+   \   00000064   0x4291             CMP      R1,R2
+   \   00000066   0xBF0C             ITE      EQ 
+   \   00000068   0x2101             MOVEQ    R1,#+1
+   \   0000006A   0x2100             MOVNE    R1,#+0
+    199              {
+    200                  p_msgq->queue_status = BM_MSGQ_FULL;
+    201              }
+    202              else
+    203              {
+    204                  p_msgq->queue_status = BM_MSGQ_VALID;
+   \   0000006C   0x....             B.N      ?Subroutine0
+    205              }
+    206          
+    207              return BM_MSGQ_OK;
+    208          }
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine0: (+1)
+   \   00000000   0x6081             STR      R1,[R0, #+8]
+   \   00000002   0x2000             MOVS     R0,#+0
+   \   00000004   0xBD30             POP      {R4,R5,PC}       ;; return
+    209          
+    210          /*FUNCTION*-------------------------------------------------------------------
+    211          *
+    212          * Function Name    : _bm_msgq_receive
+    213          * Returned Value   :
+    214          * Comments         : Receive a message from the message pool.
+    215          *    
+    216          *
+    217          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    218          uint32_t _bm_msgq_receive
+    219            (
+    220                bm_msgq_handle handle,
+    221                /* Number of messages created after the header */
+    222                int32_t*   message
+    223            )
+    224          {
+   \                     _bm_msgq_receive: (+1)
+   \   00000000   0xB530             PUSH     {R4,R5,LR}
+    225              bm_msgq_struct_t* p_msgq = (bm_msgq_struct_t*)handle;
+    226              bm_msgq_element_t* receive_element_ptr;
+    227              int32_t *to_ptr;
+    228              int32_t *from_ptr;
+    229              int32_t i;
+    230           
+    231              if (p_msgq == NULL)
+   \   00000002   0x2800             CMP      R0,#+0
+   \   00000004   0xBF1C             ITT      NE 
+   \   00000006   0x6882             LDRNE    R2,[R0, #+8]
+   \   00000008   0x2A02             CMPNE    R2,#+2
+    232              {
+    233                  return BM_MSGQ_RECEIVE_ERROR;
+    234              }
+    235              /* check status of queue */
+    236              if (BM_MSGQ_EMPTY == p_msgq->queue_status)
+   \   0000000A   0xD101             BNE.N    ??_bm_msgq_receive_0
+    237              {
+    238                  return BM_MSGQ_RECEIVE_ERROR;
+   \   0000000C   0x2002             MOVS     R0,#+2
+   \   0000000E   0xBD30             POP      {R4,R5,PC}
+    239              }
+    240            
+    241              /* Get receive element in the link list (it is the first element) */
+    242              receive_element_ptr = p_msgq->head;
+   \                     ??_bm_msgq_receive_0: (+1)
+   \   00000010   0x6802             LDR      R2,[R0, #+0]
+    243            
+    244              /* Copy data from receive element to message */
+    245              /* Set address of source and destination */
+    246              to_ptr = message;
+    247              from_ptr = (int32_t *)(receive_element_ptr->message_data);
+    248              /* copy data */
+    249              i = (int32_t)(p_msgq->size+1);
+   \   00000012   0x68C4             LDR      R4,[R0, #+12]
+   \   00000014   0x6813             LDR      R3,[R2, #+0]
+   \   00000016   0x1C64             ADDS     R4,R4,#+1
+   \   00000018   0xE003             B.N      ??_bm_msgq_receive_1
+    250              while (--i) 
+    251              {
+    252                  *to_ptr++ = *from_ptr++;
+   \                     ??_bm_msgq_receive_2: (+1)
+   \   0000001A   0xF853 0x5B04      LDR      R5,[R3], #+4
+   \   0000001E   0xF841 0x5B04      STR      R5,[R1], #+4
+    253              } /* Endwhile */
+   \                     ??_bm_msgq_receive_1: (+1)
+   \   00000022   0x1E64             SUBS     R4,R4,#+1
+   \   00000024   0xD1F9             BNE.N    ??_bm_msgq_receive_2
+    254            
+    255              /* Remove receive element from link list */
+    256              /* Check queue status */
+    257              if (1 == p_msgq->current_size)
+   \   00000026   0x6941             LDR      R1,[R0, #+20]
+   \   00000028   0x2901             CMP      R1,#+1
+   \   0000002A   0xD103             BNE.N    ??_bm_msgq_receive_3
+    258              { /* there are only 1 element in queue */
+    259                /*
+    260                  head   
+    261                 ___________________
+    262                 |NULL|   1   |NULL|
+    263                 |____|_______|____|
+    264          
+    265                  tail          
+    266               */
+    267                  p_msgq->head = NULL;
+   \   0000002C   0x2100             MOVS     R1,#+0
+   \   0000002E   0x6001             STR      R1,[R0, #+0]
+    268                  p_msgq->tail = NULL;
+   \   00000030   0x6041             STR      R1,[R0, #+4]
+   \   00000032   0xE003             B.N      ??_bm_msgq_receive_4
+    269              
+    270              } 
+    271              else 
+    272              {
+    273              /*
+    274                  head receive_element            
+    275                 ___________________      ___________________
+    276                 |NULL|   1   | 2  |----->|  1 |   2   | 3  |--->
+    277                 |____|_______|____|<-----|____|_______|____|<---
+    278          
+    279               */
+    280                  p_msgq->head = receive_element_ptr->next; 
+   \                     ??_bm_msgq_receive_3: (+1)
+   \   00000034   0x6851             LDR      R1,[R2, #+4]
+   \   00000036   0x6001             STR      R1,[R0, #+0]
+    281              /*
+    282                 receive_element           head   
+    283                 ___________________      ___________________
+    284                 |NULL|   1   | 2  |----->|  1 |   2   | 3  |--->
+    285                 |____|_______|____|<-----|____|_______|____|<---
+    286          
+    287               */
+    288                  p_msgq->head->prev = NULL;
+   \   00000038   0x2200             MOVS     R2,#+0
+   \   0000003A   0x608A             STR      R2,[R1, #+8]
+    289              /*
+    290                 receive_element           head   
+    291                 ___________________      ___________________
+    292                 |NULL|   1   | 2  |----->|NULL|   2   | 3  |--->
+    293                 |____|_______|____|<--x--|____|_______|____|<---
+    294          
+    295               */
+    296              }
+    297            
+    298              /* Free receive element */
+    299              p_msgq->current_size--;
+   \                     ??_bm_msgq_receive_4: (+1)
+   \   0000003C   0x6941             LDR      R1,[R0, #+20]
+   \   0000003E   0x1E49             SUBS     R1,R1,#+1
+   \   00000040   0x6141             STR      R1,[R0, #+20]
+    300              /* update index of last element */
+    301              if (0 == p_msgq->current_size)
+   \   00000042   0xBF0C             ITE      EQ 
+   \   00000044   0x2102             MOVEQ    R1,#+2
+   \   00000046   0x2100             MOVNE    R1,#+0
+    302              {
+    303                  p_msgq->queue_status = BM_MSGQ_EMPTY;
+    304              }
+    305              else 
+    306              {
+    307                  p_msgq->queue_status = BM_MSGQ_VALID;
+   \   00000048                      REQUIRE ?Subroutine0
+   \   00000048                      ;; // Fall through to label ?Subroutine0
+    308              }
+    309           
+    310              return BM_MSGQ_OK;
+    311          }
+    312          
+    313          /*FUNCTION*-------------------------------------------------------------------
+    314          *
+    315          * Function Name    : _bm_msgq_deinit
+    316          * Returned Value   :
+    317          * Comments         : deinit the message pool.
+    318          *    
+    319          *
+    320          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    321          uint32_t _bm_msgq_deinit(bm_msgq_handle handle)
+    322          {
+   \                     _bm_msgq_deinit: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0x4604             MOV      R4,R0
+    323              uint32_t i = 0;
+   \   00000004   0x2500             MOVS     R5,#+0
+    324              bm_msgq_struct_t* p_msgq = (bm_msgq_struct_t*)handle;
+    325              if (p_msgq == NULL)
+   \   00000006   0xB90C             CBNZ.N   R4,??_bm_msgq_deinit_0
+    326                  return BM_MSGQ_INIT_ERROR;
+   \   00000008   0x2003             MOVS     R0,#+3
+   \   0000000A   0xBD70             POP      {R4-R6,PC}
+    327          
+    328              if (p_msgq->element_array != NULL)
+   \                     ??_bm_msgq_deinit_0: (+1)
+   \   0000000C   0x69E0             LDR      R0,[R4, #+28]
+   \   0000000E   0xB178             CBZ.N    R0,??_bm_msgq_deinit_1
+   \   00000010   0xE00B             B.N      ??_bm_msgq_deinit_2
+    329              {
+    330                  for (i = 0; i < p_msgq->max_size; i++)
+    331                  {
+    332                      if (p_msgq->element_array[i].message_data != NULL)
+   \                     ??_bm_msgq_deinit_3: (+1)
+   \   00000012   0x200C             MOVS     R0,#+12
+   \   00000014   0xFB00 0xF605      MUL      R6,R0,R5
+   \   00000018   0x69E0             LDR      R0,[R4, #+28]
+   \   0000001A   0x5830             LDR      R0,[R6, R0]
+   \   0000001C   0xB120             CBZ.N    R0,??_bm_msgq_deinit_4
+    333                      {
+    334                          free(p_msgq->element_array[i].message_data);
+   \   0000001E   0x.... 0x....      BL       free
+    335                          p_msgq->element_array[i].message_data = NULL;
+   \   00000022   0x69E1             LDR      R1,[R4, #+28]
+   \   00000024   0x2000             MOVS     R0,#+0
+   \   00000026   0x5070             STR      R0,[R6, R1]
+    336                      }
+    337                  }    
+   \                     ??_bm_msgq_deinit_4: (+1)
+   \   00000028   0x1C6D             ADDS     R5,R5,#+1
+   \                     ??_bm_msgq_deinit_2: (+1)
+   \   0000002A   0x6920             LDR      R0,[R4, #+16]
+   \   0000002C   0x4285             CMP      R5,R0
+   \   0000002E   0xD3F0             BCC.N    ??_bm_msgq_deinit_3
+    338              }
+    339          
+    340              free(p_msgq->element_array);
+   \                     ??_bm_msgq_deinit_1: (+1)
+   \   00000030   0x69E0             LDR      R0,[R4, #+28]
+   \   00000032   0x.... 0x....      BL       free
+    341              p_msgq->element_array = NULL;
+   \   00000036   0x2000             MOVS     R0,#+0
+   \   00000038   0x61E0             STR      R0,[R4, #+28]
+    342              free(p_msgq);
+   \   0000003A   0x4620             MOV      R0,R4
+   \   0000003C   0x.... 0x....      BL       free
+    343              p_msgq = NULL;
+    344              return (uint32_t)BM_MSGQ_OK;
+   \   00000040   0x2000             MOVS     R0,#+0
+   \   00000042   0xBD70             POP      {R4-R6,PC}       ;; return
+    345          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _bm_msgq_deinit
+        16   -> free
+      24   _bm_msgq_init
+        24   -> _bm_msgq_deinit
+        24   -> malloc
+      12   _bm_msgq_receive
+      12   _bm_msgq_send
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       6  ?Subroutine0
+      68  _bm_msgq_deinit
+     102  _bm_msgq_init
+      72  _bm_msgq_receive
+     110  _bm_msgq_send
+
+ 
+ 358 bytes in section .text
+ 
+ 358 bytes of CODE memory
+
+Errors: none
+Warnings: none

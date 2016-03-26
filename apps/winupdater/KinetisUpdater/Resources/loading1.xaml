@@ -1,0 +1,71 @@
+﻿<!--
+/*
+ * Copyright (c) 2014, Freescale Semiconductor, Inc.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted provided that the following conditions are met:
+ *
+ * o Redistributions of source code must retain the above copyright notice, this list
+ *   of conditions and the following disclaimer.
+ *
+ * o Redistributions in binary form must reproduce the above copyright notice, this
+ *   list of conditions and the following disclaimer in the documentation and/or
+ *   other materials provided with the distribution.
+ *
+ * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+ *   contributors may be used to endorse or promote products derived from this
+ *   software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DrawingImage x:Key="loading1_image">
+        <DrawingImage.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Transform>
+                    <MatrixTransform Matrix="1,0,0,1,0.64,-0.324"/>
+                </DrawingGroup.Transform>
+                <DrawingGroup>
+                    <DrawingGroup.ClipGeometry>
+                        <RectangleGeometry Rect="0,0,94.652,94.688"/>
+                    </DrawingGroup.ClipGeometry>
+                    <DrawingGroup.Transform>
+                        <MatrixTransform Matrix="1,0,0,1,2.997,2.997"/>
+                    </DrawingGroup.Transform>
+                    <GeometryDrawing Brush="#FFFFC20F" Geometry="F1M47.407,0L0,47.344 47.242,94.688 94.652,47.344z"/>
+                </DrawingGroup>
+                <DrawingGroup>
+                    <DrawingGroup.ClipGeometry>
+                        <RectangleGeometry Rect="0,0,100.646,100.682"/>
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Geometry="F1M48.288,0.878L0.881,48.221C0.322,48.779 0.001,49.551 0,50.342 -0.002,51.131 0.317,51.903 0.874,52.461L48.117,99.804C49.285,100.975,51.182,100.975,52.355,99.804L99.764,52.461C100.323,51.903 100.644,51.131 100.646,50.342 100.647,49.551 100.329,48.779 99.772,48.221L52.527,0.878C51.942,0.292 51.175,0 50.409,0 49.642,0 48.874,0.292 48.288,0.878 M50.404,2.997L52.519,5.117z M7.235,50.342L50.396,7.236 93.411,50.341 50.247,93.444z">
+                        <GeometryDrawing.Brush>
+                            <LinearGradientBrush EndPoint="0.239,0.761" StartPoint="0.761,0.239">
+                                <GradientStop Color="#FFE66907" Offset="0"/>
+                                <GradientStop Color="#FF430010" Offset="1"/>
+                            </LinearGradientBrush>
+                        </GeometryDrawing.Brush>
+                    </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup>
+                    <DrawingGroup.Transform>
+                        <MatrixTransform Matrix="1,0,0,1,23.791,45.079"/>
+                    </DrawingGroup.Transform>
+                    <GeometryDrawing Brush="White" Geometry="F1M53.05,10.523L53.07,0 42.546,0 42.53,10.523z M31.784,10.523L31.804,0 21.28,0 21.264,10.523z M10.518,10.523L10.538,0 0.014,0 0,10.523z"/>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>

@@ -1,0 +1,15 @@
+"F:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+
+"F:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armpemicro.dll" 
+
+"C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\flashloader_loader\output\Debug\flashloader_loader.elf" 
+
+--plugin "F:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+
+--device_macro "F:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\NXP\Kxx.dmac" 
+
+--flash_loader "F:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\config\flashloader\NXP\FlashKxxFxxx128K.board" 
+
+
+
+

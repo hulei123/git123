@@ -1,0 +1,10 @@
+/*!
+
+@defgroup utilities Utilities
+@brief Utility functions and definitions.
+
+@defgroup fsl_assert Assert Function
+@ingroup utilities
+@brief Assert function.
+
+ */

@@ -1,0 +1,81 @@
+﻿<!-- 
+/*
+ * Copyright (c) 2014, Freescale Semiconductor, Inc.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted provided that the following conditions are met:
+ *
+ * o Redistributions of source code must retain the above copyright notice, this list
+ *   of conditions and the following disclaimer.
+ *
+ * o Redistributions in binary form must reproduce the above copyright notice, this
+ *   list of conditions and the following disclaimer in the documentation and/or
+ *   other materials provided with the distribution.
+ *
+ * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+ *   contributors may be used to endorse or promote products derived from this
+ *   software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+-->
+<Page x:Class="KinetisUpdater.DevicePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+      xmlns:devmgr="clr-namespace:DevSupport.DeviceManager;assembly=DevSupport"
+      xmlns:ViewModel="clr-namespace:KinetisUpdater.ViewModel"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300" Title="Home -> Device Configuration" >
+    <Page.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF0989F3" Offset="0.003"/>
+            <GradientStop Color="#FFDDECF9" Offset="1"/>
+        </LinearGradientBrush>
+    </Page.Background>
+    <Grid>
+        <Button Content="Home" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10"
+                Command="{x:Static NavigationCommands.BrowseBack}" IsDefault="True" IsCancel="True"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" >
+            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="2">
+                <Label Content="Device:"/>
+                <ComboBox Margin="5,0,0,0" SelectedItem="{Binding CurrentDevice}" ItemsSource="{Binding DeviceViewModelList}" MinWidth="150" >
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" >
+                                <Image Margin="10,3,0,3" Source="{Binding Icon}" Height="16" />
+                                <TextBlock Margin="10,3,5,3" Text="{Binding}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+                <Button Content="Connect" Margin="10,0,0,0" Visibility="{Binding CurrentDevice.UpdaterModel.IsConnected, Converter={StaticResource BooleanToVisibilityConverter},ConverterParameter=Invert, FallbackValue=false}"
+                        Command="{Binding CurrentDevice.UpdaterModel.ConnectCommand}"/>
+                <Button Content="Reset" Margin="10,0,0,0" Visibility="{Binding CurrentDevice.UpdaterModel.IsConnected, Converter={StaticResource BooleanToVisibilityConverter}, FallbackValue=false}"
+                        Command="{Binding CurrentDevice.UpdaterModel.ResetCommand}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="2" Style="{StaticResource SerialVisibilityStyle}">
+                <Label Content="Baud rate:" />
+                <ComboBox ItemsSource="{Binding UartBaudRates}" SelectedItem="{Binding CurrentDevice.PeripheralConfiguration.comPortSpeed}">
+                    <i:Interaction.Triggers>
+                        <i:EventTrigger EventName="SelectionChanged">
+                            <i:InvokeCommandAction Command="{Binding CurrentDevice.UpdaterModel.ChangeBaudRateCommand}"/>
+                        </i:EventTrigger>
+                    </i:Interaction.Triggers>
+                </ComboBox>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,23 @@
+/*!
+
+@defgroup uarts UARTs
+@ingroup drivers
+@brief UART Driver Summary
+
+@defgroup uart_driver UART Driver
+@ingroup uarts
+@brief UART Driver
+
+@defgroup scuart_driver SCUART Driver
+@ingroup uarts
+@brief SCUART Driver
+
+@defgroup uart0_driver UART0 Driver
+@ingroup uarts
+@brief UART0 Driver
+
+@defgroup lpuart_driver LPUART driver
+@ingroup uarts
+@brief LPUART driver
+
+*/

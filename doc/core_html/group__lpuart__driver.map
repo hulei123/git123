@@ -1,0 +1,5 @@
+<map id="LPUART driver" name="LPUART driver">
+<area shape="rect" id="node1" href="$group__lpuart__types.html" title="LPUART Types. " alt="" coords="284,5,395,32"/>
+<area shape="rect" id="node2" href="$group__lpuart__hal.html" title="LPUART peripheral HAL. " alt="" coords="271,56,408,83"/>
+<area shape="rect" id="node4" href="$group__uarts.html" title="UART Driver Summary. " alt="" coords="5,31,68,57"/>
+</map>

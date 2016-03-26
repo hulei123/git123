@@ -1,0 +1,162 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:45:57
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmisr.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmisr.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\bmisr.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmisr.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmisr.c
+      1          /**HEADER********************************************************************
+      2          * 
+      3          * Copyright (c) 2010, 2013- 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          *************************************************************************** 
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR 
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          **************************************************************************
+     22          *
+     23          * $FileName: bmisr.c$
+     24          * $Version : 
+     25          * $Date    : 
+     26          *
+     27          * Comments:
+     28          *
+     29          *   This file implements ISR related functionality.
+     30          *
+     31          *END************************************************************************/
+     32          
+     33          #include "types.h"
+     34          #include "soc_isr.h"
+     35          #include "nvic.h"
+     36          #include "fsl_platform_types.h"
+     37          
+
+   \                                 In section .text, align 2, keep-with-next
+     38          int32_t bm_install_isr( uint32_t vector, int_isr_fptr_t isr_ptr, void* isr_data)
+     39          {
+     40              return soc_install_isr(vector, isr_ptr, isr_data);
+   \                     bm_install_isr: (+1)
+   \   00000000   0x.... 0x....      B.W      soc_install_isr
+     41          }
+     42          
+
+   \                                 In section .text, align 2, keep-with-next
+     43          int32_t bm_int_init(uint8_t num, uint8_t prior, bool enable)
+     44          {
+     45              return nvic_int_init(num, prior, enable);
+   \                     bm_int_init: (+1)
+   \   00000000   0x.... 0x....      B.W      nvic_int_init
+     46          } 
+     47          
+     48          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   bm_install_isr
+         0   -> soc_install_isr
+       0   bm_int_init
+         0   -> nvic_int_init
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  bm_install_isr
+       4  bm_int_init
+
+ 
+ 8 bytes in section .text
+ 
+ 8 bytes of CODE memory
+
+Errors: none
+Warnings: none

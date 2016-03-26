@@ -1,0 +1,7 @@
+<map id="usb_composite_info_struct_t" name="usb_composite_info_struct_t">
+<area shape="rect" id="node2" href="$structusb__class__struct__t.html" title="Obtains the class data structure. " alt="" coords="18,363,150,389"/>
+<area shape="rect" id="node3" href="$structusb__interfaces__struct__t.html" title="Obtains the interface group. " alt="" coords="5,273,163,300"/>
+<area shape="rect" id="node4" href="$structusb__if__struct__t.html" title="Obtains the interface data structure. " alt="" coords="31,184,137,211"/>
+<area shape="rect" id="node5" href="$structusb__endpoints__t.html" title="Obtains the endpoint group. " alt="" coords="25,95,143,121"/>
+<area shape="rect" id="node6" href="$structusb__ep__struct__t.html" title="Obtains the endpoint data structure. " alt="" coords="27,5,141,32"/>
+</map>

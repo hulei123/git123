@@ -1,0 +1,4 @@
+<map id="usb_if_struct_t" name="usb_if_struct_t">
+<area shape="rect" id="node2" href="$structusb__endpoints__t.html" title="Obtains the endpoint group. " alt="" coords="5,95,123,121"/>
+<area shape="rect" id="node3" href="$structusb__ep__struct__t.html" title="Obtains the endpoint data structure. " alt="" coords="7,5,121,32"/>
+</map>

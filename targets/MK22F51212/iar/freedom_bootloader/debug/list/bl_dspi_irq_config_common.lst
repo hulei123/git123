@@ -1,0 +1,223 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:45:53
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\common\src\bl_dspi_irq_config_common.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\common\src\bl_dspi_irq_config_common.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\bl_dspi_irq_config_common.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bl_dspi_irq_config_common.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\common\src\bl_dspi_irq_config_common.c
+      1          /*
+      2           * Copyright (c) 2015, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "fsl_platform_common.h" // needed for NULL
+     32          #include "bootloader_config.h"
+     33          #include "bootloader/bl_irq_common.h"
+     34          #include "device/fsl_device_registers.h"
+     35          #include "dspi/fsl_dspi_slave_driver.h"
+     36          #include "bootloader_common.h"
+     37          #include <assert.h>
+     38          
+     39          ////////////////////////////////////////////////////////////////////////////////
+     40          // Variables
+     41          ////////////////////////////////////////////////////////////////////////////////
+
+   \                                 In section .text, align 4, keep-with-next
+     42          static const IRQn_Type dspi_irq_ids[SPI_INSTANCE_COUNT] =
+   \                     dspi_irq_ids:
+   \   00000000   0x1A 0x1B          DC8 26, 27
+     43          {
+     44          #if defined (SPI0)
+     45             SPI0_IRQn,
+     46          #else
+     47             SPI_IRQn,
+     48          #endif
+     49          #if (SPI_INSTANCE_COUNT > 1)
+     50             SPI1_IRQn,
+     51          #endif
+     52          #if (SPI_INSTANCE_COUNT > 2)
+     53             SPI2_IRQn,
+     54          #endif 
+     55          };
+     56          
+
+   \                                 In section .text, align 2, keep-with-next
+     57          void dspi_set_system_IRQ_gate(uint32_t instance, PeripheralSystemIRQSetting set)
+     58          {
+     59              switch(instance)
+   \                     dspi_set_system_IRQ_gate: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xD811             BHI.N    ??dspi_set_system_IRQ_gate_0
+   \   00000004   0x.... 0x....      ADR.W    R2,dspi_irq_ids
+   \   00000008   0x5680             LDRSB    R0,[R0, R2]
+   \   0000000A   0x2901             CMP      R1,#+1
+   \   0000000C   0xD104             BNE.N    ??dspi_set_system_IRQ_gate_1
+     60              {
+     61                  case 0:
+     62          #if (SPI_INSTANCE_COUNT > 1)
+     63                  case 1:
+     64          #endif // #if (LPI2C_INSTANCE_COUNT > 1)
+     65          #if (SPI_INSTANCE_COUNT > 2)
+     66              case 2:
+     67          #endif // #if (LPI2C_INSTANCE_COUNT > 2)
+     68                  if (set == kPeripheralEnableIRQ)
+     69                  {
+     70                      NVIC_EnableIRQ(dspi_irq_ids[instance]);
+   \   0000000E   0xF000 0x021F      AND      R2,R0,#0x1F
+   \   00000012   0x4091             LSLS     R1,R1,R2
+   \   00000014   0x....             LDR.N    R2,??DataTable1  ;; 0xe000e100
+   \   00000016   0xE004             B.N      ??dspi_set_system_IRQ_gate_2
+     71                  }
+     72                  else
+     73                  {
+     74                      NVIC_DisableIRQ(dspi_irq_ids[instance]);
+   \                     ??dspi_set_system_IRQ_gate_1: (+1)
+   \   00000018   0x2101             MOVS     R1,#+1
+   \   0000001A   0xF000 0x021F      AND      R2,R0,#0x1F
+   \   0000001E   0x4091             LSLS     R1,R1,R2
+   \   00000020   0x....             LDR.N    R2,??DataTable1_1  ;; 0xe000e180
+   \                     ??dspi_set_system_IRQ_gate_2: (+1)
+   \   00000022   0x0940             LSRS     R0,R0,#+5
+   \   00000024   0xF842 0x1020      STR      R1,[R2, R0, LSL #+2]
+     75                  }
+     76                  break;
+     77              }
+     78          }
+   \                     ??dspi_set_system_IRQ_gate_0: (+1)
+   \   00000028   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   0xE000E100         DC32     0xe000e100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \   00000000   0xE000E180         DC32     0xe000e180
+     79          
+     80          ////////////////////////////////////////////////////////////////////////////////
+     81          // EOF
+     82          ////////////////////////////////////////////////////////////////////////////////
+     83          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   dspi_set_system_IRQ_gate
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       2  dspi_irq_ids
+      42  dspi_set_system_IRQ_gate
+
+ 
+ 52 bytes in section .text
+ 
+ 52 bytes of CODE memory
+
+Errors: none
+Warnings: none

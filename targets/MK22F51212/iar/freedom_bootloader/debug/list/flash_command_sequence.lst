@@ -1,0 +1,348 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:24
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_command_sequence.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_command_sequence.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\flash_command_sequence.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_command_sequence.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_command_sequence.c
+      1          /*
+      2           * Copyright (c) 2013, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "utilities/fsl_assert.h"
+     32          #include "SSD_FTFx_Common.h"
+     33          #include "flash/flash.h"
+     34          #include "device/fsl_device_registers.h"
+     35          #include "fsl_platform_status.h"
+     36          #include "bootloader_common.h"
+     37          #include <string.h>
+     38          
+     39          #if BL_TARGET_FLASH
+     40          //! @brief A function pointer used to point to relocated flash_run_command()
+     41          #define FTFx_REG_ACCESS_TYPE  volatile uint8_t *
+
+   \                                 In section .bss, align 4
+     42          static void (*callFlashRunCommand)(FTFx_REG_ACCESS_TYPE);
+   \                     callFlashRunCommand:
+   \   00000000                      DS8 4
+     43          
+     44          //! @brief Run flash command
+     45          //!
+     46          //! This function should be copied to RAM for execution to make sure that code works
+     47          //! properly even flash cache is disabled.
+     48          //! It is for flash-resident bootloader only, not technically required for ROM or
+     49          //! flashloader (RAM-resident bootloader).
+
+   \                                 In section .text, align 2, keep-with-next
+     50          void flash_run_command(FTFx_REG_ACCESS_TYPE ftfx_fstat)
+     51          {
+     52              // clear CCIF bit
+     53              *ftfx_fstat = FTFx_FSTAT_CCIF_MASK;
+   \                     flash_run_command: (+1)
+   \   00000000   0x2180             MOVS     R1,#+128
+   \   00000002   0x7001             STRB     R1,[R0, #+0]
+     54          
+     55              // Check CCIF bit of the flash status register, wait till it is set.
+     56              // IP team indicates that this loop will always complete.
+     57              while (!((*ftfx_fstat) & FTFx_FSTAT_CCIF_MASK));
+   \                     ??flash_run_command_0: (+1)
+   \   00000004   0x7801             LDRB     R1,[R0, #+0]
+   \   00000006   0x0609             LSLS     R1,R1,#+24
+   \   00000008   0xD5FC             BPL.N    ??flash_run_command_0
+     58          }
+   \   0000000A   0x4770             BX       LR               ;; return
+     59          
+     60          //! @brief Be used for determining the size of flash_run_command()
+     61          //!
+     62          //! This function must be defined that lexically follows flash_run_command(),
+     63          //! so we can determine the size of flash_run_command() at runtime and not worry
+     64          //! about toolchain or code generation differences.
+
+   \                                 In section .text, align 2, keep-with-next
+     65          void flash_run_command_end(void)
+     66          {}
+   \                     flash_run_command_end: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+     67          
+     68          //! @brief Copy flash_run_command() to RAM
+     69          //!
+     70          //! This function copys the memory between flash_run_command() and flash_run_command_end()
+     71          //! into the buffer which is also means that copying flash_run_command() to RAM.
+
+   \                                 In section .text, align 2, keep-with-next
+     72          void copy_flash_run_command(uint8_t *flashRunCommand)
+     73          {
+   \                     copy_flash_run_command: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4604             MOV      R4,R0
+     74              // Calculate the valid length of flash_run_command() memory
+     75              uint32_t funcLength = (uint32_t)flash_run_command_end - (uint32_t)flash_run_command;
+     76          
+     77              assert(funcLength <= kFlashExecuteInRamFunction_MaxSize);
+     78          
+     79              // Since the value of ARM function pointer is always odd, but the real start address
+     80              // of function memory should be even, that's why -1 and +1 operation exist.
+     81              memcpy((void *)flashRunCommand, (void *)((uint32_t)flash_run_command - 1), funcLength);
+   \   00000004   0x....             LDR.N    R0,??DataTable1
+   \   00000006   0x....             LDR.N    R1,??DataTable1_1
+   \   00000008   0x1A0A             SUBS     R2,R1,R0
+   \   0000000A   0x1E41             SUBS     R1,R0,#+1
+   \   0000000C   0x4620             MOV      R0,R4
+   \   0000000E   0x.... 0x....      BL       __aeabi_memcpy
+     82              callFlashRunCommand = (void (*)(FTFx_REG_ACCESS_TYPE))((uint32_t)flashRunCommand + 1);
+   \   00000012   0x....             LDR.N    R1,??DataTable1_2
+   \   00000014   0x1C60             ADDS     R0,R4,#+1
+   \   00000016   0x6008             STR      R0,[R1, #+0]
+     83          }
+   \   00000018   0xBD10             POP      {R4,PC}          ;; return
+     84          #endif
+     85          
+     86          ////////////////////////////////////////////////////////////////////////////////
+     87          //!
+     88          //! @brief Flash Command Sequence
+     89          //!
+     90          //! This function is used to perform the command write sequence to the flash.
+     91          //!
+     92          //! @param index Maximum index value of the command array.
+     93          //! @param pCommandArray Pointer to the array which contains the data to be
+     94          //!        written to the FCCOB registers.
+     95          //!
+     96          //! @return An error code or kStatus_Success
+     97          //!
+     98          ////////////////////////////////////////////////////////////////////////////////
+
+   \                                 In section .text, align 2, keep-with-next
+     99          status_t flash_command_sequence(flash_driver_t * driver)
+    100          {
+   \                     flash_command_sequence: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+    101              // clear RDCOLERR & ACCERR & FPVIOL flag in flash status register
+    102              FTFx_WR_FSTAT(FTFx, FTFx_FSTAT_RDCOLERR_MASK | FTFx_FSTAT_ACCERR_MASK | FTFx_FSTAT_FPVIOL_MASK);
+   \   00000002   0x....             LDR.N    R4,??DataTable1_3  ;; 0x40020000
+   \   00000004   0x2170             MOVS     R1,#+112
+   \   00000006   0x7021             STRB     R1,[R4, #+0]
+    103          
+    104          #if BL_TARGET_FLASH
+    105              status_t returnCode = flash_check_execute_in_ram_function_info(driver);
+   \   00000008   0x.... 0x....      BL       flash_check_execute_in_ram_function_info
+    106              if (kStatus_Success != returnCode)
+   \   0000000C   0xB988             CBNZ.N   R0,??flash_command_sequence_0
+    107              {
+    108                  return returnCode;
+    109              }
+    110          
+    111              // We pass the ftfx_fstat address as a parameter to flash_run_comamnd() instead of using
+    112              // pre-processed MICRO sentences or operating global variable in flash_run_comamnd()
+    113              // to make sure that flash_run_command() will be compiled into position-independent code (PIC).
+    114              callFlashRunCommand((FTFx_REG_ACCESS_TYPE)(&FTFx_FSTAT));
+   \   0000000E   0x....             LDR.N    R1,??DataTable1_2
+   \   00000010   0x6809             LDR      R1,[R1, #+0]
+   \   00000012   0x4620             MOV      R0,R4
+   \   00000014   0x4788             BLX      R1
+    115          #else
+    116              // clear CCIF bit
+    117              FTFx_WR_FSTAT(FTFx, FTFx_FSTAT_CCIF_MASK);
+    118          
+    119              // Check CCIF bit of the flash status register, wait till it is set.
+    120              // IP team indicates that this loop will always complete.
+    121              while (!(FTFx_RD_FSTAT_CCIF(FTFx)));
+    122          #endif
+    123          
+    124              // Check error bits
+    125              // Get flash status register value
+    126              uint8_t registerValue = FTFx->FSTAT;
+   \   00000016   0x7820             LDRB     R0,[R4, #+0]
+    127          
+    128              // checking access error
+    129              if (registerValue & FTFx_FSTAT_ACCERR_MASK)
+   \   00000018   0x0681             LSLS     R1,R0,#+26
+   \   0000001A   0xD501             BPL.N    ??flash_command_sequence_1
+    130              {
+    131                  return kStatus_FlashAccessError;
+   \   0000001C   0x2067             MOVS     R0,#+103
+   \   0000001E   0xBD10             POP      {R4,PC}
+    132              }
+    133              // checking protection error
+    134              else if (registerValue & FTFx_FSTAT_FPVIOL_MASK)
+   \                     ??flash_command_sequence_1: (+1)
+   \   00000020   0x06C1             LSLS     R1,R0,#+27
+   \   00000022   0xD501             BPL.N    ??flash_command_sequence_2
+    135              {
+    136                  return kStatus_FlashProtectionViolation;
+   \   00000024   0x2068             MOVS     R0,#+104
+   \   00000026   0xBD10             POP      {R4,PC}
+    137              }
+    138              // checking MGSTAT0 non-correctable error
+    139              else if (registerValue & FTFx_FSTAT_MGSTAT0_MASK)
+   \                     ??flash_command_sequence_2: (+1)
+   \   00000028   0x07C0             LSLS     R0,R0,#+31
+   \   0000002A   0xD501             BPL.N    ??flash_command_sequence_3
+    140              {
+    141                  return kStatus_FlashCommandFailure;
+   \   0000002C   0x2069             MOVS     R0,#+105
+   \   0000002E   0xBD10             POP      {R4,PC}
+    142              }
+    143          
+    144              return kStatus_Success;
+   \                     ??flash_command_sequence_3: (+1)
+   \   00000030   0x2000             MOVS     R0,#+0
+   \                     ??flash_command_sequence_0: (+1)
+   \   00000032   0xBD10             POP      {R4,PC}          ;; return
+    145          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   0x........         DC32     flash_run_command
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \   00000000   0x........         DC32     flash_run_command_end
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_2:
+   \   00000000   0x........         DC32     callFlashRunCommand
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_3:
+   \   00000000   0x40020000         DC32     0x40020000
+    146          ////////////////////////////////////////////////////////////////////////////////
+    147          // EOF
+    148          ////////////////////////////////////////////////////////////////////////////////
+    149          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   copy_flash_run_command
+         8   -> __aeabi_memcpy
+       8   flash_command_sequence
+         8   -- Indirect call
+         8   -> flash_check_execute_in_ram_function_info
+       0   flash_run_command
+       0   flash_run_command_end
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       4  ??DataTable1_2
+       4  ??DataTable1_3
+       4  callFlashRunCommand
+      26  copy_flash_run_command
+      52  flash_command_sequence
+      12  flash_run_command
+       2  flash_run_command_end
+
+ 
+   4 bytes in section .bss
+ 108 bytes in section .text
+ 
+ 108 bytes of CODE memory
+   4 bytes of DATA memory
+
+Errors: none
+Warnings: none

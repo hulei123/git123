@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\tower\led_demo_TWR-KV46F15.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All Configurations</name>
+      <member>
+        <project>led_demo_TWR-KV46F15</project>
+        <configuration>Debug_0000</configuration>
+      </member>
+      <member>
+        <project>led_demo_TWR-KV46F15</project>
+        <configuration>Debug_a000</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

@@ -1,0 +1,11 @@
+/*!
+
+@defgroup crc_driver CRC Driver
+@ingroup drivers
+@brief CRC Driver
+
+@defgroup crc_hal CRC HAL
+@ingroup drivers
+@brief CRC HAL
+
+*/

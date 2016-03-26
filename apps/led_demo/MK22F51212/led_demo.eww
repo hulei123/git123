@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\freedom\led_demo_FRDM-K22F.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\tower\led_demo_TWR-K22F120M512R.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All Configurations</name>
+      <member>
+        <project>led_demo_FRDM-K22F</project>
+        <configuration>Debug_0000</configuration>
+      </member>
+      <member>
+        <project>led_demo_FRDM-K22F</project>
+        <configuration>Debug_a000</configuration>
+      </member>
+      <member>
+        <project>led_demo_TWR-K22F120M512R</project>
+        <configuration>Debug_0000</configuration>
+      </member>
+      <member>
+        <project>led_demo_TWR-K22F120M512R</project>
+        <configuration>Debug_a000</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

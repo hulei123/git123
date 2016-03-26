@@ -1,0 +1,8 @@
+<map id="Utilities" name="Utilities">
+<area shape="rect" id="node1" href="$group__platform__status.html" title="Status and error definitions. " alt="" coords="148,5,208,32"/>
+<area shape="rect" id="node2" href="$group__irq__lock.html" title="Global interrupt lock. " alt="" coords="127,56,229,83"/>
+<area shape="rect" id="node4" href="$group__vector__table__info.html" title="Definitions related to default vector table. " alt="" coords="119,107,237,133"/>
+<area shape="rect" id="node5" href="$group__ring__buffer.html" title="Ring buffer manager. " alt="" coords="135,157,221,184"/>
+<area shape="rect" id="node6" href="$group__rtos__irq__sync.html" title="Synchronization resource. " alt="" coords="121,208,235,235"/>
+<area shape="rect" id="node7" href="$group__fsl__assert.html" title="Assert function. " alt="" coords="121,259,235,285"/>
+</map>

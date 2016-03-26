@@ -1,0 +1,939 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:04
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\src\hardware_init_K22F512.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\src\hardware_init_K22F512.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\hardware_init_K22F512.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\hardware_init_K22F512.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\src\hardware_init_K22F512.c
+      1          /*
+      2           * Copyright (c) 2013-2015, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "bootloader_common.h"
+     32          #include "bootloader/context.h"
+     33          #include "device/fsl_device_registers.h"
+     34          #include "drivers/uart/scuart.h"
+     35          #include "utilities/kinetis_family.h"
+     36          #include "smc/smc.h"
+     37          
+     38          ////////////////////////////////////////////////////////////////////////////////
+     39          // Definitions
+     40          ////////////////////////////////////////////////////////////////////////////////
+     41          
+     42          #define UART1_RX_GPIO_PIN_NUM 1  // PIN 1 in the PTE group
+     43          #define UART1_RX_ALT_MODE 3      // ALT mode for UART1 functionality for pin 1
+     44          #define UART1_RX_GPIO_ALT_MODE 1 // ALT mdoe for GPIO functionality for pin 1
+     45          
+     46          #define UART1_TX_GPIO_PIN_NUM 0  // PIN 0 in the PTE group
+     47          #define UART1_TX_ALT_MODE 3      // ALT mode for UART1 TX functionality for pin 0
+     48          
+     49          #define PORT_IRQC_INTERRUPT_FALLING_EDGE 0xA
+     50          #define PORT_IRQC_INTERRUPT_DISABLE 0
+     51          
+     52          #ifdef TOWER
+     53          #define BOOT_PIN_NUMBER     7
+     54          #define BOOT_PIN_PORT       PORTC
+     55          #define BOOT_PIN_GPIO       PTC
+     56          #define BOOT_PIN_ALT_MODE   1
+     57          #endif
+     58          
+     59          #ifdef FREEDOM
+     60          #define BOOT_PIN_NUMBER     17
+     61          #define BOOT_PIN_PORT       PORTB
+     62          #define BOOT_PIN_GPIO       PTB
+     63          #define BOOT_PIN_ALT_MODE   1
+     64          #endif
+     65          
+     66          #define BOOT_PIN_DEBOUNCE_READ_COUNT 500
+     67          
+     68          ////////////////////////////////////////////////////////////////////////////////
+     69          // Variables
+     70          ////////////////////////////////////////////////////////////////////////////////
+     71          //! this is to store the function pointer for calling back to the function that wants
+     72          //! the UART RX instance pin that triggered the interrupt.
+
+   \                                 In section .bss, align 4
+     73          static pin_irq_callback_t s_pin_irq_func[UART_INSTANCE_COUNT] = {0};
+   \                     s_pin_irq_func:
+   \   00000000                      DS8 12
+     74          
+     75          ////////////////////////////////////////////////////////////////////////////////
+     76          // Code
+     77          ////////////////////////////////////////////////////////////////////////////////
+     78          
+     79          /* This function is called for configurating pinmux for uart module
+     80           * This function only support switching default or gpio or fixed-ALTx mode on fixed pins
+     81           * (Although there are many ALTx-pinmux configuration choices on various pins for the same
+     82           * peripheral module) */
+
+   \                                 In section .text, align 2, keep-with-next
+     83          void uart_pinmux_config(unsigned int instance, pinmux_type_t pinmux)
+     84          {
+     85              switch(instance)
+   \                     uart_pinmux_config: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xD120             BNE.N    ??uart_pinmux_config_0
+     86              {
+     87                  case 0:
+     88                      break;
+     89          #if BL_CONFIG_SCUART            
+     90                  case 1:
+     91                      switch(pinmux)
+   \   00000004   0x....             LDR.N    R0,??DataTable12  ;; 0x4004d000
+   \   00000006   0x....             LDR.N    R2,??DataTable12_1  ;; 0xfefff8ff
+   \   00000008   0xB119             CBZ.N    R1,??uart_pinmux_config_1
+   \   0000000A   0x2902             CMP      R1,#+2
+   \   0000000C   0xD011             BEQ.N    ??uart_pinmux_config_2
+   \   0000000E   0xD306             BCC.N    ??uart_pinmux_config_3
+   \   00000010   0x4770             BX       LR
+     92                      {
+     93                          case kPinmuxType_Default:
+     94                              PORT_BWR_PCR_MUX(PORTE, UART1_RX_GPIO_PIN_NUM, 0);
+   \                     ??uart_pinmux_config_1: (+1)
+   \   00000012   0x6841             LDR      R1,[R0, #+4]
+   \   00000014   0x4011             ANDS     R1,R2,R1
+   \   00000016   0x6041             STR      R1,[R0, #+4]
+     95                              PORT_BWR_PCR_MUX(PORTE, UART1_TX_GPIO_PIN_NUM, 0);
+   \   00000018   0x6801             LDR      R1,[R0, #+0]
+   \   0000001A   0x4011             ANDS     R1,R2,R1
+   \   0000001C   0xE012             B.N      ??uart_pinmux_config_4
+     96                              break;
+     97                          case kPinmuxType_GPIO:
+     98                              PORT_BWR_PCR_MUX(PORTE, UART1_RX_GPIO_PIN_NUM, UART1_RX_GPIO_ALT_MODE); // Set UART1_RX pin in GPIO mode
+   \                     ??uart_pinmux_config_3: (+1)
+   \   0000001E   0x6841             LDR      R1,[R0, #+4]
+   \   00000020   0x4011             ANDS     R1,R2,R1
+   \   00000022   0xF441 0x7180      ORR      R1,R1,#0x100
+   \   00000026   0x6041             STR      R1,[R0, #+4]
+     99                              GPIO_CLR_PDDR(PTE, 1 << UART1_RX_GPIO_PIN_NUM);                    // Set UART1_RX pin as an input
+   \   00000028   0x....             LDR.N    R0,??DataTable12_2  ;; 0x400ff114
+   \   0000002A   0x6801             LDR      R1,[R0, #+0]
+   \   0000002C   0xF021 0x0102      BIC      R1,R1,#0x2
+   \   00000030   0xE008             B.N      ??uart_pinmux_config_4
+    100                              break;
+    101                          case kPinmuxType_Peripheral:
+    102                              PORT_BWR_PCR_MUX(PORTE, UART1_RX_GPIO_PIN_NUM, UART1_RX_ALT_MODE);   // Set UART1_RX pin to UART1_RX functionality
+   \                     ??uart_pinmux_config_2: (+1)
+   \   00000032   0x6841             LDR      R1,[R0, #+4]
+   \   00000034   0x4011             ANDS     R1,R2,R1
+   \   00000036   0xF441 0x7140      ORR      R1,R1,#0x300
+   \   0000003A   0x6041             STR      R1,[R0, #+4]
+    103                              PORT_BWR_PCR_MUX(PORTE, UART1_TX_GPIO_PIN_NUM, UART1_TX_ALT_MODE);   // Set UART1_TX pin to UART1_TX functionality
+   \   0000003C   0x6801             LDR      R1,[R0, #+0]
+   \   0000003E   0x4011             ANDS     R1,R2,R1
+   \   00000040   0xF441 0x7140      ORR      R1,R1,#0x300
+   \                     ??uart_pinmux_config_4: (+1)
+   \   00000044   0x6001             STR      R1,[R0, #+0]
+    104                              break;
+    105                          default:
+    106                              break;
+    107                      }
+    108                      break;
+    109          #endif // BL_CONFIG_SCUART            
+    110                  case 2:
+    111                  case 3:
+    112                  case 4:
+    113                  case 5:
+    114                      break;
+    115                  default:
+    116                      break;
+    117              }
+    118          }
+   \                     ??uart_pinmux_config_0: (+1)
+   \   00000046   0x4770             BX       LR               ;; return
+    119          
+    120          /* This function is called for configurating pinmux for i2c module
+    121           * This function only support switching default or gpio or fixed-ALTx mode on fixed pins
+    122           * (Although there are many ALTx-pinmux configuration choices on various pins for the same
+    123           * peripheral module) */
+
+   \                                 In section .text, align 2, keep-with-next
+    124          void i2c_pinmux_config(unsigned int instance, pinmux_type_t pinmux)
+    125          {
+    126              switch(instance)
+   \                     i2c_pinmux_config: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xD000             BEQ.N    ??i2c_pinmux_config_0
+   \   00000004   0x4770             BX       LR
+    127              {
+    128                  case 0:
+    129                      break;
+    130          #if BL_CONFIG_I2C            
+    131                  case 1:
+    132                      switch(pinmux)
+   \                     ??i2c_pinmux_config_0: (+1)
+   \   00000006   0xB510             PUSH     {R4,LR}
+   \   00000008   0x....             LDR.N    R0,??DataTable12_3  ;; 0x42960594
+   \   0000000A   0x....             LDR.N    R3,??DataTable12_4  ;; 0x42960514
+   \   0000000C   0x....             LDR.N    R4,??DataTable12_1  ;; 0xfefff8ff
+   \   0000000E   0x....             LDR.N    R2,??DataTable12_5  ;; 0x4004b028
+   \   00000010   0xB111             CBZ.N    R1,??i2c_pinmux_config_1
+   \   00000012   0x2902             CMP      R1,#+2
+   \   00000014   0xD009             BEQ.N    ??i2c_pinmux_config_2
+   \   00000016   0xBD10             POP      {R4,PC}
+    133                      {
+    134                          case kPinmuxType_Default:
+    135                              PORT_BWR_PCR_MUX(PORTC, 10, 0);
+   \                     ??i2c_pinmux_config_1: (+1)
+   \   00000018   0x6811             LDR      R1,[R2, #+0]
+   \   0000001A   0x4021             ANDS     R1,R4,R1
+   \   0000001C   0x6011             STR      R1,[R2, #+0]
+    136                              PORT_BWR_PCR_MUX(PORTC, 11, 0);
+   \   0000001E   0x6851             LDR      R1,[R2, #+4]
+   \   00000020   0x4021             ANDS     R1,R4,R1
+   \   00000022   0x6051             STR      R1,[R2, #+4]
+    137                              PORT_BWR_PCR_ODE(PORTC, 10, 0);
+   \   00000024   0x2100             MOVS     R1,#+0
+   \   00000026   0x6019             STR      R1,[R3, #+0]
+    138                              PORT_BWR_PCR_ODE(PORTC, 11, 0);
+   \   00000028   0xE00C             B.N      ??i2c_pinmux_config_3
+    139                              break;
+    140                          case kPinmuxType_Peripheral:
+    141                              // Enable pins for I2C1.
+    142                              PORT_BWR_PCR_MUX(PORTC, 10, 2);  // I2C1_SCL is ALT2 for pin PTC10
+   \                     ??i2c_pinmux_config_2: (+1)
+   \   0000002A   0x6811             LDR      R1,[R2, #+0]
+   \   0000002C   0x4021             ANDS     R1,R4,R1
+   \   0000002E   0xF441 0x7100      ORR      R1,R1,#0x200
+   \   00000032   0x6011             STR      R1,[R2, #+0]
+    143                              PORT_BWR_PCR_ODE(PORTC, 10, 1);  // I2C1_SCL set for open drain
+   \   00000034   0x2101             MOVS     R1,#+1
+   \   00000036   0x6019             STR      R1,[R3, #+0]
+    144                              PORT_BWR_PCR_MUX(PORTC, 11, 2);  // I2C1_SDA is ALT2 for pin PTC11
+   \   00000038   0x6851             LDR      R1,[R2, #+4]
+   \   0000003A   0x4021             ANDS     R1,R4,R1
+   \   0000003C   0xF441 0x7100      ORR      R1,R1,#0x200
+   \   00000040   0x6051             STR      R1,[R2, #+4]
+    145                              PORT_BWR_PCR_ODE(PORTC, 11, 1);  // I2C1_SDA set for open drain
+   \   00000042   0x2101             MOVS     R1,#+1
+   \                     ??i2c_pinmux_config_3: (+1)
+   \   00000044   0x6001             STR      R1,[R0, #+0]
+    146                              break;
+    147                          default:
+    148                              break;
+    149                      }
+    150                      break;
+    151          #endif // BL_CONFIG_I2C            
+    152                  case 2:
+    153                      break;
+    154                  default:
+    155                      break;
+    156              }
+    157          }
+   \   00000046   0xBD10             POP      {R4,PC}          ;; return
+    158          
+    159          /* This function is called for configurating pinmux for spi module
+    160           * This function only support switching default or gpio or fixed-ALTx mode on fixed pins
+    161           * (Although there are many ALTx-pinmux configuration choices on various pins for the same
+    162           * peripheral module) */
+
+   \                                 In section .text, align 2, keep-with-next
+    163          void spi_pinmux_config(unsigned int instance, pinmux_type_t pinmux)
+    164          {
+    165              switch(instance)
+   \                     spi_pinmux_config: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xD125             BNE.N    ??spi_pinmux_config_0
+    166              {
+    167                  case 0:
+    168                      break;
+    169          #if BL_CONFIG_DSPI            
+    170                  case 1:
+    171                      switch(pinmux)
+   \   00000004   0x....             LDR.N    R2,??DataTable12_1  ;; 0xfefff8ff
+   \   00000006   0x....             LDR.N    R0,??DataTable12_6  ;; 0x4004c010
+   \   00000008   0xB111             CBZ.N    R1,??spi_pinmux_config_1
+   \   0000000A   0x2902             CMP      R1,#+2
+   \   0000000C   0xD00C             BEQ.N    ??spi_pinmux_config_2
+   \   0000000E   0x4770             BX       LR
+    172                      {
+    173                          case kPinmuxType_Default:
+    174                              PORT_BWR_PCR_MUX(PORTD, 4, 0);
+   \                     ??spi_pinmux_config_1: (+1)
+   \   00000010   0x6801             LDR      R1,[R0, #+0]
+   \   00000012   0x4011             ANDS     R1,R2,R1
+   \   00000014   0x6001             STR      R1,[R0, #+0]
+    175                              PORT_BWR_PCR_MUX(PORTD, 5, 0);
+   \   00000016   0x6841             LDR      R1,[R0, #+4]
+   \   00000018   0x4011             ANDS     R1,R2,R1
+   \   0000001A   0x6041             STR      R1,[R0, #+4]
+    176                              PORT_BWR_PCR_MUX(PORTD, 6, 0);
+   \   0000001C   0x6881             LDR      R1,[R0, #+8]
+   \   0000001E   0x4011             ANDS     R1,R2,R1
+   \   00000020   0x6081             STR      R1,[R0, #+8]
+    177                              PORT_BWR_PCR_MUX(PORTD, 7, 0);
+   \   00000022   0x68C1             LDR      R1,[R0, #+12]
+   \   00000024   0x4011             ANDS     R1,R2,R1
+   \   00000026   0xE012             B.N      ??spi_pinmux_config_3
+    178                              break;
+    179                          case kPinmuxType_Peripheral:
+    180                              // Enable pins for SPI0 on PTD4~7
+    181                              PORT_BWR_PCR_MUX(PORTD, 4, 7);  // SPI1_PCS0 is ALT7 for pin PTD4
+   \                     ??spi_pinmux_config_2: (+1)
+   \   00000028   0x6801             LDR      R1,[R0, #+0]
+   \   0000002A   0x4011             ANDS     R1,R2,R1
+   \   0000002C   0xF441 0x61E0      ORR      R1,R1,#0x700
+   \   00000030   0x6001             STR      R1,[R0, #+0]
+    182                              PORT_BWR_PCR_MUX(PORTD, 5, 7);  // SPI1_SCK is ALT7 for pin PTD5
+   \   00000032   0x6841             LDR      R1,[R0, #+4]
+   \   00000034   0x4011             ANDS     R1,R2,R1
+   \   00000036   0xF441 0x61E0      ORR      R1,R1,#0x700
+   \   0000003A   0x6041             STR      R1,[R0, #+4]
+    183                              PORT_BWR_PCR_MUX(PORTD, 6, 7);  // SPI1_SOUT is ALT7 for pin PTD6
+   \   0000003C   0x6881             LDR      R1,[R0, #+8]
+   \   0000003E   0x4011             ANDS     R1,R2,R1
+   \   00000040   0xF441 0x61E0      ORR      R1,R1,#0x700
+   \   00000044   0x6081             STR      R1,[R0, #+8]
+    184                              PORT_BWR_PCR_MUX(PORTD, 7, 7);  // SPI1_SIN is ALT7 for pin PTD7
+   \   00000046   0x68C1             LDR      R1,[R0, #+12]
+   \   00000048   0x4011             ANDS     R1,R2,R1
+   \   0000004A   0xF441 0x61E0      ORR      R1,R1,#0x700
+   \                     ??spi_pinmux_config_3: (+1)
+   \   0000004E   0x60C1             STR      R1,[R0, #+12]
+    185                              break;
+    186                          default:
+    187                              break;
+    188                      }
+    189                      break;
+    190          #endif // BL_CONFIG_DSPI            
+    191                  case 2:
+    192                      break;
+    193                  default:
+    194                      break;
+    195              }
+    196          }
+   \                     ??spi_pinmux_config_0: (+1)
+   \   00000050   0x4770             BX       LR               ;; return
+    197          
+
+   \                                 In section .text, align 2, keep-with-next
+    198          void init_hardware(void)
+    199          {
+   \                     init_hardware: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    200              exit_vlpr();
+   \   00000002   0x.... 0x....      BL       exit_vlpr
+    201              
+    202              // Enable all the ports
+    203              SIM->SCGC5 |= ( SIM_SCGC5_PORTA_MASK
+    204                            | SIM_SCGC5_PORTB_MASK
+    205                            | SIM_SCGC5_PORTC_MASK
+    206                            | SIM_SCGC5_PORTD_MASK
+    207                            | SIM_SCGC5_PORTE_MASK );
+   \   00000006   0x....             LDR.N    R0,??DataTable12_7  ;; 0x40048004
+   \   00000008   0x6B41             LDR      R1,[R0, #+52]
+   \   0000000A   0xF441 0x5178      ORR      R1,R1,#0x3E00
+   \   0000000E   0x6341             STR      R1,[R0, #+52]
+    208          
+    209              SIM->SOPT2 |= SIM_SOPT2_PLLFLLSEL_MASK; // set PLLFLLSEL to select the IRC48M for this clock source
+   \   00000010   0x6801             LDR      R1,[R0, #+0]
+   \   00000012   0xF441 0x3140      ORR      R1,R1,#0x30000
+   \   00000016   0x6001             STR      R1,[R0, #+0]
+    210          }
+   \   00000018   0xBD01             POP      {R0,PC}          ;; return
+    211          
+
+   \                                 In section .text, align 2, keep-with-next
+    212          void deinit_hardware(void)
+    213          {
+    214              SIM->SCGC5 &= (uint32_t)~( SIM_SCGC5_PORTA_MASK
+    215                            | SIM_SCGC5_PORTB_MASK
+    216                            | SIM_SCGC5_PORTC_MASK
+    217                            | SIM_SCGC5_PORTD_MASK
+    218                            | SIM_SCGC5_PORTE_MASK );
+   \                     deinit_hardware: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable12_7  ;; 0x40048004
+   \   00000002   0x6B41             LDR      R1,[R0, #+52]
+   \   00000004   0xF421 0x5178      BIC      R1,R1,#0x3E00
+   \   00000008   0x6341             STR      R1,[R0, #+52]
+    219          
+    220              // Restore SIM_SOPTx related bits being changed
+    221              SIM_CLR_SOPT2(SIM, SIM_SOPT2_USBSRC_MASK | SIM_SOPT2_PLLFLLSEL_MASK);
+   \   0000000A   0x6801             LDR      R1,[R0, #+0]
+   \   0000000C   0xF421 0x21E0      BIC      R1,R1,#0x70000
+   \   00000010   0x6001             STR      R1,[R0, #+0]
+    222          }
+   \   00000012   0x4770             BX       LR               ;; return
+    223          
+    224          // Note: Keep this function here to ensure compatibility, all usb related clock 
+    225          // configuration is maintained by USB stack itself.
+
+   \                                 In section .text, align 2, keep-with-next
+    226          bool usb_clock_init(void)
+    227          {
+    228              // Enable USB-OTG IP clocking
+    229              SIM_SCGC4 |= (SIM_SCGC4_USBOTG_MASK);
+   \                     usb_clock_init: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable12_7  ;; 0x40048004
+   \   00000002   0x6B01             LDR      R1,[R0, #+48]
+   \   00000004   0xF441 0x2180      ORR      R1,R1,#0x40000
+   \   00000008   0x6301             STR      R1,[R0, #+48]
+    230          
+    231              // If clock of usb module cannot be enabled, return false
+    232              if( !(SIM_SCGC4 & SIM_SCGC4_USBOTG_MASK) )
+   \   0000000A   0x6B01             LDR      R1,[R0, #+48]
+   \   0000000C   0x0349             LSLS     R1,R1,#+13
+   \   0000000E   0xD401             BMI.N    ??usb_clock_init_0
+    233              {
+    234                  return false;
+   \   00000010   0x2000             MOVS     R0,#+0
+   \   00000012   0x4770             BX       LR
+    235              }
+    236          
+    237              // Reset the USB peripheral, this must be done here instead of USB driver due to silicon errata
+    238              // for at least KL25 and K22
+    239              USB0_USBTRC0 |= USB_USBTRC0_USBRESET_MASK;
+   \                     ??usb_clock_init_0: (+1)
+   \   00000014   0x....             LDR.N    R1,??DataTable12_8  ;; 0x4007210c
+   \   00000016   0x780A             LDRB     R2,[R1, #+0]
+   \   00000018   0xF042 0x0280      ORR      R2,R2,#0x80
+   \   0000001C   0x700A             STRB     R2,[R1, #+0]
+   \   0000001E   0x2307             MOVS     R3,#+7
+    240              while (USB0_USBTRC0 & USB_USBTRC0_USBRESET_SHIFT);
+   \                     ??usb_clock_init_1: (+1)
+   \   00000020   0x780A             LDRB     R2,[R1, #+0]
+   \   00000022   0x421A             TST      R2,R3
+   \   00000024   0xD1FC             BNE.N    ??usb_clock_init_1
+    241          
+    242              // Select IRC48M clock, SIM_SOPT2_USBSRC_MASK selects internal clock,
+    243              // 0x30000 = SIM_SOPT2_PLLFLLSEL_MASK, selects IRC48MHz clock
+    244              SIM_SOPT2 |= (SIM_SOPT2_USBSRC_MASK | SIM_SOPT2_PLLFLLSEL_MASK);
+   \   00000026   0x6801             LDR      R1,[R0, #+0]
+   \   00000028   0xF441 0x21E0      ORR      R1,R1,#0x70000
+   \   0000002C   0x6001             STR      R1,[R0, #+0]
+    245          
+    246              // need to set the clock_recover_en and irc_en register
+    247              USB_BWR_CLK_RECOVER_CTRL_CLOCK_RECOVER_EN(USB0, 1);
+   \   0000002E   0x2001             MOVS     R0,#+1
+   \   00000030   0x....             LDR.N    R1,??DataTable12_9  ;; 0x42e4281c
+   \   00000032   0x7008             STRB     R0,[R1, #+0]
+    248              USB_BWR_CLK_RECOVER_IRC_EN_REG_EN(USB0, 1);
+   \   00000034   0x....             LDR.N    R1,??DataTable12_10  ;; 0x42e42880
+   \   00000036   0x7008             STRB     R0,[R1, #+0]
+    249              return true;
+   \   00000038   0x4770             BX       LR               ;; return
+    250          }
+    251          
+
+   \                                 In section .text, align 2, keep-with-next
+    252          uint32_t get_bus_clock(void)
+    253          {
+    254              uint32_t busClockDivider = ((SIM->CLKDIV1 & SIM_CLKDIV1_OUTDIV2_MASK) >> SIM_CLKDIV1_OUTDIV2_SHIFT) + 1;
+   \                     get_bus_clock: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable12_11  ;; 0x40048044
+    255              return (SystemCoreClock / busClockDivider);
+   \   00000002   0x....             LDR.N    R1,??DataTable12_12
+   \   00000004   0x6800             LDR      R0,[R0, #+0]
+   \   00000006   0x6809             LDR      R1,[R1, #+0]
+   \   00000008   0xF3C0 0x6003      UBFX     R0,R0,#+24,#+4
+   \   0000000C   0x1C40             ADDS     R0,R0,#+1
+   \   0000000E   0xFBB1 0xF0F0      UDIV     R0,R1,R0
+   \   00000012   0x4770             BX       LR               ;; return
+    256          }
+    257          
+
+   \                                 In section .text, align 2, keep-with-next
+    258          uint32_t get_uart_clock( unsigned int instance )
+    259          {
+    260              switch(instance)
+   \                     get_uart_clock: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xBF9A             ITTE     LS 
+   \   00000004   0x....             LDRLS.N  R0,??DataTable12_12
+   \   00000006   0x6800             LDRLS    R0,[R0, #+0]
+   \   00000008   0x2000             MOVHI    R0,#+0
+    261              {
+    262                  case 0:
+    263                  case 1:
+    264                      // UART0 and UART1 always use the system clock
+    265                      return SystemCoreClock;
+    266                  case 2:
+    267                  case 3:
+    268                  case 4:
+    269                  case 5:
+    270                  default:
+    271                      return 0;
+   \   0000000A   0x4770             BX       LR
+    272              }
+    273          }
+    274          
+
+   \                                 In section .text, align 2, keep-with-next
+    275          unsigned int read_autobaud_pin( unsigned int instance )
+    276          {
+    277              switch(instance)
+   \                     read_autobaud_pin: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xBF03             ITTTE    EQ 
+   \   00000004   0x....             LDREQ.N  R0,??DataTable12_13  ;; 0x400ff110
+   \   00000006   0x6800             LDREQ    R0,[R0, #+0]
+   \   00000008   0xF3C0 0x0040      UBFXEQ   R0,R0,#+1,#+1
+   \   0000000C   0x2000             MOVNE    R0,#+0
+    278              {
+    279                  case 1:
+    280                      return (GPIO_RD_PDIR(PTE) >> UART1_RX_GPIO_PIN_NUM) & 1;
+    281                  default:
+    282                      return 0;
+   \   0000000E   0x4770             BX       LR
+    283              }
+    284          }
+    285          
+
+   \                                 In section .text, align 2, keep-with-next
+    286          bool is_boot_pin_asserted(void)
+    287          {
+    288          #ifdef BL_TARGET_FLASH
+    289              // Initialize boot pin for GPIO
+    290              PORT_BWR_PCR_MUX(BOOT_PIN_PORT, BOOT_PIN_NUMBER, BOOT_PIN_ALT_MODE);
+   \                     is_boot_pin_asserted: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable12_14  ;; 0x4004a044
+   \   00000002   0x....             LDR.N    R2,??DataTable12_1  ;; 0xfefff8ff
+   \   00000004   0x6801             LDR      R1,[R0, #+0]
+   \   00000006   0x4011             ANDS     R1,R2,R1
+   \   00000008   0xF441 0x7180      ORR      R1,R1,#0x100
+   \   0000000C   0x6001             STR      R1,[R0, #+0]
+    291              // Set boot pin as an input
+    292              GPIO_CLR_PDDR(BOOT_PIN_GPIO, 1 << BOOT_PIN_NUMBER);
+   \   0000000E   0x....             LDR.N    R1,??DataTable12_15  ;; 0x400ff050
+   \   00000010   0x684A             LDR      R2,[R1, #+4]
+   \   00000012   0xF422 0x3200      BIC      R2,R2,#0x20000
+   \   00000016   0x604A             STR      R2,[R1, #+4]
+    293              // Set boot pin pullup enabled, pullup select, filter enable
+    294              PORT_SET_PCR(BOOT_PIN_PORT, BOOT_PIN_NUMBER, PORT_PCR_PE_MASK | PORT_PCR_PS_MASK | PORT_PCR_PFE_MASK);
+   \   00000018   0x6802             LDR      R2,[R0, #+0]
+   \   0000001A   0xF042 0x0213      ORR      R2,R2,#0x13
+   \   0000001E   0x6002             STR      R2,[R0, #+0]
+    295          
+    296              unsigned int readCount = 0;
+   \   00000020   0x2000             MOVS     R0,#+0
+    297          
+    298              // Sample the pin a number of times
+    299              for (unsigned int i = 0; i < BOOT_PIN_DEBOUNCE_READ_COUNT; i++)
+   \   00000022   0xF44F 0x72FA      MOV      R2,#+500
+    300              {
+    301                  readCount += (GPIO_RD_PDIR(BOOT_PIN_GPIO) >> BOOT_PIN_NUMBER) & 1;
+   \                     ??is_boot_pin_asserted_0: (+1)
+   \   00000026   0x680B             LDR      R3,[R1, #+0]
+   \   00000028   0xF3C3 0x4340      UBFX     R3,R3,#+17,#+1
+   \   0000002C   0x1818             ADDS     R0,R3,R0
+    302              }
+   \   0000002E   0x1E52             SUBS     R2,R2,#+1
+   \   00000030   0xD1F9             BNE.N    ??is_boot_pin_asserted_0
+    303          
+    304              // boot pin is pulled high so we are measuring lows, make sure most of our measurements
+    305              // registered as low
+    306              return (readCount < (BOOT_PIN_DEBOUNCE_READ_COUNT/2));
+   \   00000032   0x28FA             CMP      R0,#+250
+   \   00000034   0x4180             SBCS     R0,R0,R0
+   \   00000036   0x0FC0             LSRS     R0,R0,#+31
+   \   00000038   0x4770             BX       LR               ;; return
+    307          #else
+    308              // Boot pin for Flash only target
+    309              return false;
+    310          #endif
+    311          }
+    312          
+    313          //! @brief this is going to be used for autobaud IRQ handling for UART5
+
+   \                                 In section .text, align 2, keep-with-next
+    314          void PORTE_IRQHandler(void)
+    315          {
+    316              // Check if the pin for UART5 is what triggered the PORT E interrupt
+    317              if (PORT_RD_PCR_ISF(PORTE, UART1_RX_GPIO_PIN_NUM) && s_pin_irq_func[1])
+   \                     PORTE_IRQHandler: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable12_16  ;; 0x4004d004
+   \   00000002   0x6800             LDR      R0,[R0, #+0]
+   \   00000004   0xF3C0 0x6000      UBFX     R0,R0,#+24,#+1
+   \   00000008   0xB900             CBNZ.N   R0,??PORTE_IRQHandler_0
+   \   0000000A   0x4770             BX       LR
+   \                     ??PORTE_IRQHandler_0: (+1)
+   \   0000000C   0xB580             PUSH     {R7,LR}
+   \   0000000E   0x....             LDR.N    R0,??DataTable12_17
+   \   00000010   0x6841             LDR      R1,[R0, #+4]
+   \   00000012   0x0008             MOVS     R0,R1
+   \   00000014   0xD005             BEQ.N    ??PORTE_IRQHandler_1
+    318              {
+    319                  s_pin_irq_func[1](1);
+   \   00000016   0x2001             MOVS     R0,#+1
+   \   00000018   0x4788             BLX      R1
+    320                  PORT_WR_ISFR(PORTE, ~0U);
+   \   0000001A   0x....             LDR.N    R1,??DataTable12_18  ;; 0x4004d0a0
+   \   0000001C   0xF04F 0x30FF      MOV      R0,#-1
+   \   00000020   0x6008             STR      R0,[R1, #+0]
+    321              }
+    322          }
+   \                     ??PORTE_IRQHandler_1: (+1)
+   \   00000022   0xBD01             POP      {R0,PC}          ;; return
+    323          
+
+   \                                 In section .text, align 2, keep-with-next
+    324          void enable_autobaud_pin_irq(unsigned int instance, pin_irq_callback_t func)
+    325          {
+    326              switch(instance)
+   \                     enable_autobaud_pin_irq: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xD10F             BNE.N    ??enable_autobaud_pin_irq_0
+    327              {
+    328                  case 1:
+    329                      NVIC_SetPriority(PORTE_IRQn, 1);
+   \   00000004   0x....             LDR.N    R2,??DataTable12_19  ;; 0xe000e43f
+    330                      NVIC_EnableIRQ(PORTE_IRQn);
+    331                      // Only look for a falling edge for our interrupts
+    332                      PORT_BWR_PCR_IRQC(PORTE, UART1_RX_GPIO_PIN_NUM, PORT_IRQC_INTERRUPT_FALLING_EDGE);
+   \   00000006   0x....             LDR.N    R3,??DataTable12_20  ;; 0xfef0ffff
+   \   00000008   0x2010             MOVS     R0,#+16
+   \   0000000A   0x7010             STRB     R0,[R2, #+0]
+   \   0000000C   0xF04F 0x4000      MOV      R0,#-2147483648
+   \   00000010   0x....             LDR.N    R2,??DataTable12_21  ;; 0xe000e104
+   \   00000012   0x6010             STR      R0,[R2, #+0]
+   \   00000014   0x....             LDR.N    R0,??DataTable12_16  ;; 0x4004d004
+   \   00000016   0x6802             LDR      R2,[R0, #+0]
+   \   00000018   0x401A             ANDS     R2,R3,R2
+   \   0000001A   0xF442 0x2220      ORR      R2,R2,#0xA0000
+   \   0000001E   0x6002             STR      R2,[R0, #+0]
+    333                      s_pin_irq_func[1] = func;
+   \   00000020   0x....             LDR.N    R0,??DataTable12_17
+   \   00000022   0x6041             STR      R1,[R0, #+4]
+    334                      break;
+    335              }
+    336          }
+   \                     ??enable_autobaud_pin_irq_0: (+1)
+   \   00000024   0x4770             BX       LR               ;; return
+    337          
+
+   \                                 In section .text, align 2, keep-with-next
+    338          void disable_autobaud_pin_irq(unsigned int instance)
+    339          {
+    340              switch(instance)
+   \                     disable_autobaud_pin_irq: (+1)
+   \   00000000   0x2801             CMP      R0,#+1
+   \   00000002   0xD10B             BNE.N    ??disable_autobaud_pin_irq_0
+    341              {
+    342                  case 1:
+    343                      NVIC_DisableIRQ(PORTE_IRQn);
+   \   00000004   0x....             LDR.N    R1,??DataTable12_22  ;; 0xe000e184
+    344                      PORT_BWR_PCR_IRQC(PORTE, UART1_RX_GPIO_PIN_NUM, PORT_IRQC_INTERRUPT_DISABLE);
+   \   00000006   0x....             LDR.N    R2,??DataTable12_20  ;; 0xfef0ffff
+   \   00000008   0xF04F 0x4000      MOV      R0,#-2147483648
+   \   0000000C   0x6008             STR      R0,[R1, #+0]
+   \   0000000E   0x....             LDR.N    R0,??DataTable12_16  ;; 0x4004d004
+   \   00000010   0x6801             LDR      R1,[R0, #+0]
+   \   00000012   0x4011             ANDS     R1,R2,R1
+   \   00000014   0x6001             STR      R1,[R0, #+0]
+    345                      s_pin_irq_func[1] = 0;
+   \   00000016   0x2000             MOVS     R0,#+0
+   \   00000018   0x....             LDR.N    R1,??DataTable12_17
+   \   0000001A   0x6048             STR      R0,[R1, #+4]
+    346                      break;
+    347              }
+    348          }
+   \                     ??disable_autobaud_pin_irq_0: (+1)
+   \   0000001C   0x4770             BX       LR               ;; return
+    349          
+
+   \                                 In section .text, align 2, keep-with-next
+    350          void debug_init(void)
+    351          {
+    352          }
+   \                     debug_init: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+    353          
+    354          #if __ICCARM__
+    355          
+
+   \                                 In section .text, align 2, keep-with-next
+    356          size_t __write(int handle, const unsigned char *buf, size_t size)
+    357          {
+    358              return size;
+   \                     __write: (+1)
+   \   00000000   0x4610             MOV      R0,R2
+   \   00000002   0x4770             BX       LR               ;; return
+    359          }
+    360          
+    361          #endif // __ICCARM__
+    362          
+
+   \                                 In section .text, align 2, keep-with-next
+    363          void update_available_peripherals()
+    364          {
+    365          
+    366          }
+   \                     update_available_peripherals: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12:
+   \   00000000   0x4004D000         DC32     0x4004d000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_1:
+   \   00000000   0xFEFFF8FF         DC32     0xfefff8ff
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_2:
+   \   00000000   0x400FF114         DC32     0x400ff114
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_3:
+   \   00000000   0x42960594         DC32     0x42960594
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_4:
+   \   00000000   0x42960514         DC32     0x42960514
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_5:
+   \   00000000   0x4004B028         DC32     0x4004b028
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_6:
+   \   00000000   0x4004C010         DC32     0x4004c010
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_7:
+   \   00000000   0x40048004         DC32     0x40048004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_8:
+   \   00000000   0x4007210C         DC32     0x4007210c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_9:
+   \   00000000   0x42E4281C         DC32     0x42e4281c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_10:
+   \   00000000   0x42E42880         DC32     0x42e42880
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_11:
+   \   00000000   0x40048044         DC32     0x40048044
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_12:
+   \   00000000   0x........         DC32     SystemCoreClock
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_13:
+   \   00000000   0x400FF110         DC32     0x400ff110
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_14:
+   \   00000000   0x4004A044         DC32     0x4004a044
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_15:
+   \   00000000   0x400FF050         DC32     0x400ff050
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_16:
+   \   00000000   0x4004D004         DC32     0x4004d004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_17:
+   \   00000000   0x........         DC32     s_pin_irq_func
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_18:
+   \   00000000   0x4004D0A0         DC32     0x4004d0a0
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_19:
+   \   00000000   0xE000E43F         DC32     0xe000e43f
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_20:
+   \   00000000   0xFEF0FFFF         DC32     0xfef0ffff
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_21:
+   \   00000000   0xE000E104         DC32     0xe000e104
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_22:
+   \   00000000   0xE000E184         DC32     0xe000e184
+    367          
+    368          
+    369          ////////////////////////////////////////////////////////////////////////////////
+    370          // EOF
+    371          ////////////////////////////////////////////////////////////////////////////////
+    372          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   PORTE_IRQHandler
+         8   -- Indirect call
+       0   __write
+       0   debug_init
+       0   deinit_hardware
+       0   disable_autobaud_pin_irq
+       0   enable_autobaud_pin_irq
+       0   get_bus_clock
+       0   get_uart_clock
+       8   i2c_pinmux_config
+       8   init_hardware
+         8   -> exit_vlpr
+       0   is_boot_pin_asserted
+       0   read_autobaud_pin
+       0   spi_pinmux_config
+       0   uart_pinmux_config
+       0   update_available_peripherals
+       0   usb_clock_init
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable12
+       4  ??DataTable12_1
+       4  ??DataTable12_10
+       4  ??DataTable12_11
+       4  ??DataTable12_12
+       4  ??DataTable12_13
+       4  ??DataTable12_14
+       4  ??DataTable12_15
+       4  ??DataTable12_16
+       4  ??DataTable12_17
+       4  ??DataTable12_18
+       4  ??DataTable12_19
+       4  ??DataTable12_2
+       4  ??DataTable12_20
+       4  ??DataTable12_21
+       4  ??DataTable12_22
+       4  ??DataTable12_3
+       4  ??DataTable12_4
+       4  ??DataTable12_5
+       4  ??DataTable12_6
+       4  ??DataTable12_7
+       4  ??DataTable12_8
+       4  ??DataTable12_9
+      36  PORTE_IRQHandler
+       4  __write
+       2  debug_init
+      20  deinit_hardware
+      30  disable_autobaud_pin_irq
+      38  enable_autobaud_pin_irq
+      20  get_bus_clock
+      12  get_uart_clock
+      72  i2c_pinmux_config
+      26  init_hardware
+      58  is_boot_pin_asserted
+      16  read_autobaud_pin
+      12  s_pin_irq_func
+      82  spi_pinmux_config
+      72  uart_pinmux_config
+       2  update_available_peripherals
+      58  usb_clock_init
+
+ 
+  12 bytes in section .bss
+ 640 bytes in section .text
+ 
+ 640 bytes of CODE memory
+  12 bytes of DATA memory
+
+Errors: none
+Warnings: none

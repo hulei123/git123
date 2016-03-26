@@ -1,6 +1,0 @@
-options{}
-section (0) 
-{
-load "hello sb loader world!"> 0xb000;
-load {{ 05 20 00 bf 40 1e fc d1 70 47 }} > 0xc000;
-}

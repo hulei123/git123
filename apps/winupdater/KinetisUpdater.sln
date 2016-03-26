@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevSupport", "DevSupport\DevSupport.csproj", "{02EBCAA5-8233-4B75-86E7-5B61787530FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinetisUpdater", "KinetisUpdater\KinetisUpdater.csproj", "{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blfwkdll", "..\common\blfwkdll\blfwkdll.vcxproj", "{9FEB4020-24F9-45EF-97E4-26C044F0E570}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40} = {DE64A8C3-695A-491F-B3E3-24D6A3057A40}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blfwk", "..\common\blfwkdll\blfwk.vcxproj", "{DE64A8C3-695A-491F-B3E3-24D6A3057A40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|x86 = CD_ROM|x86
+		Debug|x86 = Debug|x86
+		DVD-5|x86 = DVD-5|x86
+		Release|x86 = Release|x86
+		SingleImage|x86 = SingleImage|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.CD_ROM|x86.ActiveCfg = Release|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.CD_ROM|x86.Build.0 = Release|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.Debug|x86.ActiveCfg = Debug|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.Debug|x86.Build.0 = Debug|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.DVD-5|x86.ActiveCfg = Debug|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.DVD-5|x86.Build.0 = Debug|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.Release|x86.ActiveCfg = Release|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.Release|x86.Build.0 = Release|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.SingleImage|x86.ActiveCfg = Release|x86
+		{02EBCAA5-8233-4B75-86E7-5B61787530FF}.SingleImage|x86.Build.0 = Release|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.CD_ROM|x86.ActiveCfg = Release|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.CD_ROM|x86.Build.0 = Release|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.Debug|x86.ActiveCfg = Debug|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.Debug|x86.Build.0 = Debug|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.DVD-5|x86.ActiveCfg = Debug|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.DVD-5|x86.Build.0 = Debug|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.Release|x86.ActiveCfg = Release|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.Release|x86.Build.0 = Release|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.SingleImage|x86.ActiveCfg = Debug|x86
+		{01FF420E-3FFD-4A08-B7A7-FC11B71FC88F}.SingleImage|x86.Build.0 = Debug|x86
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.CD_ROM|x86.ActiveCfg = Release|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.CD_ROM|x86.Build.0 = Release|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.Debug|x86.ActiveCfg = Debug|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.Debug|x86.Build.0 = Debug|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.DVD-5|x86.ActiveCfg = Debug|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.DVD-5|x86.Build.0 = Debug|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.Release|x86.ActiveCfg = Release|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.Release|x86.Build.0 = Release|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.SingleImage|x86.ActiveCfg = Release|Win32
+		{9FEB4020-24F9-45EF-97E4-26C044F0E570}.SingleImage|x86.Build.0 = Release|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.CD_ROM|x86.ActiveCfg = Release|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.CD_ROM|x86.Build.0 = Release|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.Debug|x86.Build.0 = Debug|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.DVD-5|x86.ActiveCfg = Debug|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.DVD-5|x86.Build.0 = Debug|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.Release|x86.ActiveCfg = Release|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.Release|x86.Build.0 = Release|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.SingleImage|x86.ActiveCfg = Release|Win32
+		{DE64A8C3-695A-491F-B3E3-24D6A3057A40}.SingleImage|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

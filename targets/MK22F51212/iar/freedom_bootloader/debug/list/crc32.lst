@@ -1,0 +1,404 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:18
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\crc\src\crc32.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\crc\src\crc32.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\crc32.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\crc32.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\crc\src\crc32.c
+      1          /*
+      2           * Copyright (c) 2013 - 2014, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          #include "bootloader_common.h"
+     31          #include "crc/crc32.h"
+     32          #include "fsl_platform_status.h"
+     33          #include "utilities/fsl_assert.h"
+     34          
+     35          #if !defined(BOOTLOADER_HOST)
+     36          #include "fsl_device_registers.h"
+     37          #include "utilities/fsl_rtos_abstraction.h"
+     38          #endif // !BOOTLOADER_HOST
+     39          
+     40          #if !defined(BOOTLOADER_HOST) && FSL_FEATURE_SOC_CRC_COUNT && !defined(BL_TARGET_RAM)
+     41          #include "drivers/crc/fsl_crc_driver.h"
+     42          
+     43          // initialize the members of the allocated crc32_data_t struct
+
+   \                                 In section .text, align 2, keep-with-next
+     44          void crc32_init(crc32_data_t * crc32Config)
+     45          {
+     46              assert(crc32Config);
+     47          
+     48              crc32Config->currentCrc = 0xffffffffU;
+   \                     crc32_init: (+1)
+   \   00000000   0xF04F 0x31FF      MOV      R1,#-1
+   \   00000004   0x6001             STR      R1,[R0, #+0]
+     49              crc32Config->byteCountCrc = 0;
+   \   00000006   0x2100             MOVS     R1,#+0
+   \   00000008   0x6041             STR      R1,[R0, #+4]
+     50          }
+   \   0000000A   0x4770             BX       LR               ;; return
+     51          
+     52          // "running" crc32 calculation
+
+   \                                 In section .text, align 2, keep-with-next
+     53          void crc32_update(crc32_data_t * crc32Config, const uint8_t * src, uint32_t lengthInBytes)
+     54          {
+   \                     crc32_update: (+1)
+   \   00000000   0xB57F             PUSH     {R0-R6,LR}
+   \   00000002   0x4604             MOV      R4,R0
+     55              assert(crc32Config);
+     56              assert(src);
+     57          
+     58              crc_user_config_t crcUserConfigPtr;
+     59          
+     60              crcUserConfigPtr.crcWidth = kCrc32Bits;
+   \   00000004   0x2001             MOVS     R0,#+1
+   \   00000006   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \   0000000A   0x460E             MOV      R6,R1
+     61              crcUserConfigPtr.seed = crc32Config->currentCrc;
+   \   0000000C   0x6820             LDR      R0,[R4, #+0]
+   \   0000000E   0x9001             STR      R0,[SP, #+4]
+   \   00000010   0x4615             MOV      R5,R2
+     62              crcUserConfigPtr.polynomial = 0x04c11db7U;
+   \   00000012   0x....             LDR.N    R0,??DataTable1  ;; 0x4c11db7
+   \   00000014   0x9002             STR      R0,[SP, #+8]
+     63              crcUserConfigPtr.writeTranspose = kCrcNoTranspose;
+   \   00000016   0x2000             MOVS     R0,#+0
+   \   00000018   0xF8AD 0x000C      STRH     R0,[SP, #+12]
+     64              crcUserConfigPtr.readTranspose = kCrcNoTranspose;
+     65              crcUserConfigPtr.complementRead = false;
+   \   0000001C   0xF88D 0x000E      STRB     R0,[SP, #+14]
+     66          
+     67              // Init CRC module and then run it
+     68              //! Note: We must init CRC module here, As we may seperate one crc calculation into several times
+     69              //! Note: It is better to use lock to ensure the integrity of current updating operation of crc calculation
+     70              //        in case crc module is shared by multiple crc updating requests at the same time
+     71              if (lengthInBytes)
+   \   00000020   0xB16D             CBZ.N    R5,??crc32_update_0
+     72              {
+     73                  lock_acquire();
+   \   00000022   0x.... 0x....      BL       lock_acquire
+     74                  CRC_DRV_Init(CRC_INSTANCE, &crcUserConfigPtr);
+   \   00000026   0x4669             MOV      R1,SP
+   \   00000028   0x2000             MOVS     R0,#+0
+   \   0000002A   0x.... 0x....      BL       CRC_DRV_Init
+     75                  crcUserConfigPtr.seed = CRC_DRV_GetCrcBlock(CRC_INSTANCE, (uint8_t *)src, lengthInBytes);
+   \   0000002E   0x462A             MOV      R2,R5
+   \   00000030   0x4631             MOV      R1,R6
+   \   00000032   0x2000             MOVS     R0,#+0
+   \   00000034   0x.... 0x....      BL       CRC_DRV_GetCrcBlock
+   \   00000038   0x9001             STR      R0,[SP, #+4]
+     76                  lock_release();
+   \   0000003A   0x.... 0x....      BL       lock_release
+     77              }
+     78          
+     79              crc32Config->currentCrc = crcUserConfigPtr.seed;
+   \                     ??crc32_update_0: (+1)
+   \   0000003E   0x9801             LDR      R0,[SP, #+4]
+   \   00000040   0x6020             STR      R0,[R4, #+0]
+     80              crc32Config->byteCountCrc += lengthInBytes;
+   \   00000042   0x6860             LDR      R0,[R4, #+4]
+   \   00000044   0x1828             ADDS     R0,R5,R0
+   \   00000046   0x6060             STR      R0,[R4, #+4]
+     81          }
+   \   00000048   0xBD7F             POP      {R0-R6,PC}       ;; return
+     82          
+     83          // finalize the crc32 calculation for non-word-aligned counts
+
+   \                                 In section .text, align 2, keep-with-next
+     84          void crc32_finalize(crc32_data_t * crc32Config, uint32_t * hash)
+     85          {
+   \                     crc32_finalize: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+     86              assert(crc32Config);
+     87              assert(hash);
+     88          
+     89              uint32_t extraBytes = crc32Config->byteCountCrc % 4;
+   \   00000006   0x7920             LDRB     R0,[R4, #+4]
+   \   00000008   0xF010 0x0003      ANDS     R0,R0,#0x3
+     90          
+     91              // pad with zeroes
+     92              if (extraBytes)
+   \   0000000C   0xD007             BEQ.N    ??crc32_finalize_0
+     93              {
+     94                  uint8_t temp[3] = {0,0,0};
+   \   0000000E   0x4669             MOV      R1,SP
+   \   00000010   0x2200             MOVS     R2,#+0
+   \   00000012   0x600A             STR      R2,[R1, #+0]
+     95                  crc32_update(crc32Config, temp, 4 - extraBytes);
+   \   00000014   0xF1C0 0x0204      RSB      R2,R0,#+4
+   \   00000018   0x4620             MOV      R0,R4
+   \   0000001A   0x.... 0x....      BL       crc32_update
+     96              }
+     97          
+     98              *hash = crc32Config->currentCrc;
+   \                     ??crc32_finalize_0: (+1)
+   \   0000001E   0x6820             LDR      R0,[R4, #+0]
+   \   00000020   0x6028             STR      R0,[R5, #+0]
+     99          
+    100              // De-init CRC module when we complete a full crc calculation
+    101              CRC_DRV_Deinit(CRC_INSTANCE);
+   \   00000022   0x2000             MOVS     R0,#+0
+   \   00000024   0x.... 0x....      BL       CRC_DRV_Deinit
+    102          }
+   \   00000028   0xBD31             POP      {R0,R4,R5,PC}    ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   0x04C11DB7         DC32     0x4c11db7
+
+   \                                 In section .rodata, align 4, keep-with-next
+   \                     ?_0:
+   \   00000000   0x00 0x00          DC8 0, 0, 0, 0
+   \              0x00 0x00    
+    103          #else
+    104          
+    105          ////////////////////////////////////////////////////////////////////////////////
+    106          // Variables
+    107          ////////////////////////////////////////////////////////////////////////////////
+    108          
+    109          //! Table of CRC-32's of all single byte values. The values in
+    110          //! this table are those used in the Ethernet CRC algorithm.
+    111          static const uint32_t s_crc32Table[] = {
+    112              0x00000000,
+    113              0x04c11db7, 0x09823b6e, 0x0d4326d9, 0x130476dc, 0x17c56b6b,
+    114              0x1a864db2, 0x1e475005, 0x2608edb8, 0x22c9f00f, 0x2f8ad6d6,
+    115              0x2b4bcb61, 0x350c9b64, 0x31cd86d3, 0x3c8ea00a, 0x384fbdbd,
+    116              0x4c11db70, 0x48d0c6c7, 0x4593e01e, 0x4152fda9, 0x5f15adac,
+    117              0x5bd4b01b, 0x569796c2, 0x52568b75, 0x6a1936c8, 0x6ed82b7f,
+    118              0x639b0da6, 0x675a1011, 0x791d4014, 0x7ddc5da3, 0x709f7b7a,
+    119              0x745e66cd, 0x9823b6e0, 0x9ce2ab57, 0x91a18d8e, 0x95609039,
+    120              0x8b27c03c, 0x8fe6dd8b, 0x82a5fb52, 0x8664e6e5, 0xbe2b5b58,
+    121              0xbaea46ef, 0xb7a96036, 0xb3687d81, 0xad2f2d84, 0xa9ee3033,
+    122              0xa4ad16ea, 0xa06c0b5d, 0xd4326d90, 0xd0f37027, 0xddb056fe,
+    123              0xd9714b49, 0xc7361b4c, 0xc3f706fb, 0xceb42022, 0xca753d95,
+    124              0xf23a8028, 0xf6fb9d9f, 0xfbb8bb46, 0xff79a6f1, 0xe13ef6f4,
+    125              0xe5ffeb43, 0xe8bccd9a, 0xec7dd02d, 0x34867077, 0x30476dc0,
+    126              0x3d044b19, 0x39c556ae, 0x278206ab, 0x23431b1c, 0x2e003dc5,
+    127              0x2ac12072, 0x128e9dcf, 0x164f8078, 0x1b0ca6a1, 0x1fcdbb16,
+    128              0x018aeb13, 0x054bf6a4, 0x0808d07d, 0x0cc9cdca, 0x7897ab07,
+    129              0x7c56b6b0, 0x71159069, 0x75d48dde, 0x6b93dddb, 0x6f52c06c,
+    130              0x6211e6b5, 0x66d0fb02, 0x5e9f46bf, 0x5a5e5b08, 0x571d7dd1,
+    131              0x53dc6066, 0x4d9b3063, 0x495a2dd4, 0x44190b0d, 0x40d816ba,
+    132              0xaca5c697, 0xa864db20, 0xa527fdf9, 0xa1e6e04e, 0xbfa1b04b,
+    133              0xbb60adfc, 0xb6238b25, 0xb2e29692, 0x8aad2b2f, 0x8e6c3698,
+    134              0x832f1041, 0x87ee0df6, 0x99a95df3, 0x9d684044, 0x902b669d,
+    135              0x94ea7b2a, 0xe0b41de7, 0xe4750050, 0xe9362689, 0xedf73b3e,
+    136              0xf3b06b3b, 0xf771768c, 0xfa325055, 0xfef34de2, 0xc6bcf05f,
+    137              0xc27dede8, 0xcf3ecb31, 0xcbffd686, 0xd5b88683, 0xd1799b34,
+    138              0xdc3abded, 0xd8fba05a, 0x690ce0ee, 0x6dcdfd59, 0x608edb80,
+    139              0x644fc637, 0x7a089632, 0x7ec98b85, 0x738aad5c, 0x774bb0eb,
+    140              0x4f040d56, 0x4bc510e1, 0x46863638, 0x42472b8f, 0x5c007b8a,
+    141              0x58c1663d, 0x558240e4, 0x51435d53, 0x251d3b9e, 0x21dc2629,
+    142              0x2c9f00f0, 0x285e1d47, 0x36194d42, 0x32d850f5, 0x3f9b762c,
+    143              0x3b5a6b9b, 0x0315d626, 0x07d4cb91, 0x0a97ed48, 0x0e56f0ff,
+    144              0x1011a0fa, 0x14d0bd4d, 0x19939b94, 0x1d528623, 0xf12f560e,
+    145              0xf5ee4bb9, 0xf8ad6d60, 0xfc6c70d7, 0xe22b20d2, 0xe6ea3d65,
+    146              0xeba91bbc, 0xef68060b, 0xd727bbb6, 0xd3e6a601, 0xdea580d8,
+    147              0xda649d6f, 0xc423cd6a, 0xc0e2d0dd, 0xcda1f604, 0xc960ebb3,
+    148              0xbd3e8d7e, 0xb9ff90c9, 0xb4bcb610, 0xb07daba7, 0xae3afba2,
+    149              0xaafbe615, 0xa7b8c0cc, 0xa379dd7b, 0x9b3660c6, 0x9ff77d71,
+    150              0x92b45ba8, 0x9675461f, 0x8832161a, 0x8cf30bad, 0x81b02d74,
+    151              0x857130c3, 0x5d8a9099, 0x594b8d2e, 0x5408abf7, 0x50c9b640,
+    152              0x4e8ee645, 0x4a4ffbf2, 0x470cdd2b, 0x43cdc09c, 0x7b827d21,
+    153              0x7f436096, 0x7200464f, 0x76c15bf8, 0x68860bfd, 0x6c47164a,
+    154              0x61043093, 0x65c52d24, 0x119b4be9, 0x155a565e, 0x18197087,
+    155              0x1cd86d30, 0x029f3d35, 0x065e2082, 0x0b1d065b, 0x0fdc1bec,
+    156              0x3793a651, 0x3352bbe6, 0x3e119d3f, 0x3ad08088, 0x2497d08d,
+    157              0x2056cd3a, 0x2d15ebe3, 0x29d4f654, 0xc5a92679, 0xc1683bce,
+    158              0xcc2b1d17, 0xc8ea00a0, 0xd6ad50a5, 0xd26c4d12, 0xdf2f6bcb,
+    159              0xdbee767c, 0xe3a1cbc1, 0xe760d676, 0xea23f0af, 0xeee2ed18,
+    160              0xf0a5bd1d, 0xf464a0aa, 0xf9278673, 0xfde69bc4, 0x89b8fd09,
+    161              0x8d79e0be, 0x803ac667, 0x84fbdbd0, 0x9abc8bd5, 0x9e7d9662,
+    162              0x933eb0bb, 0x97ffad0c, 0xafb010b1, 0xab710d06, 0xa6322bdf,
+    163              0xa2f33668, 0xbcb4666d, 0xb8757bda, 0xb5365d03, 0xb1f740b4
+    164          };
+    165          
+    166          ////////////////////////////////////////////////////////////////////////////////
+    167          // Code
+    168          ////////////////////////////////////////////////////////////////////////////////
+    169          
+    170          // initialize the members of the allocated crc32_data_t struct
+    171          void crc32_init(crc32_data_t * crc32Config)
+    172          {
+    173              // initialize running crc and byte count
+    174              crc32Config->currentCrc = 0xFFFFFFFF;
+    175              crc32Config->byteCountCrc = 0;
+    176          }
+    177          
+    178          // "running" crc32 calculation
+    179          void crc32_update(crc32_data_t * crc32Config, const uint8_t * src, uint32_t lengthInBytes)
+    180          {
+    181              assert(src);
+    182              uint32_t crc = crc32Config->currentCrc;
+    183              crc32Config->byteCountCrc += lengthInBytes;
+    184          
+    185              while (lengthInBytes--)
+    186              {
+    187                  uint8_t c = *src++ & 0xff;
+    188                  crc = (crc << 8) ^ s_crc32Table[(crc >> 24) ^ c];
+    189              }
+    190          
+    191              crc32Config->currentCrc = crc;
+    192          }
+    193          
+    194          // finalize the crc32 calculation for non-word-aligned counts
+    195          void crc32_finalize(crc32_data_t * crc32Config, uint32_t * hash)
+    196          {
+    197              uint32_t crc = crc32Config->currentCrc;
+    198              uint32_t byteCount = crc32Config->byteCountCrc;
+    199          
+    200              // pad with zeroes
+    201              if (byteCount % 4)
+    202              {
+    203                  unsigned i;
+    204                  for (i = byteCount % 4; i < 4; i++) {
+    205                      crc = (crc << 8) ^ s_crc32Table[(crc >> 24) ^ 0];
+    206                  }
+    207              }
+    208          
+    209              crc32Config->currentCrc = crc;
+    210          
+    211              *hash = crc32Config->currentCrc;
+    212          }
+    213          #endif
+    214          ////////////////////////////////////////////////////////////////////////////////
+    215          // EOF
+    216          ////////////////////////////////////////////////////////////////////////////////
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   crc32_finalize
+        16   -> CRC_DRV_Deinit
+        16   -> crc32_update
+       0   crc32_init
+      32   crc32_update
+        32   -> CRC_DRV_GetCrcBlock
+        32   -> CRC_DRV_Init
+        32   -> lock_acquire
+        32   -> lock_release
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ?_0
+      42  crc32_finalize
+      12  crc32_init
+      74  crc32_update
+
+ 
+   4 bytes in section .rodata
+ 132 bytes in section .text
+ 
+ 132 bytes of CODE  memory
+   4 bytes of CONST memory
+
+Errors: none
+Warnings: none

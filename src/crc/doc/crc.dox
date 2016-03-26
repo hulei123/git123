@@ -1,0 +1,14 @@
+/*!
+
+@defgroup crc CRC
+@brief CRC algorithms.
+
+@defgroup crc16 CRC16
+@ingroup crc
+@brief 16-bit CRC
+
+@defgroup crc32 CRC32
+@ingroup crc
+@brief 32-bit CRC
+
+ */

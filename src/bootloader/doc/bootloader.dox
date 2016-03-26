@@ -1,0 +1,81 @@
+/*!
+
+@defgroup bootloader Bootloader
+@brief Bootloader components.
+
+@defgroup bl_core Bootloader Core
+@ingroup bootloader
+@brief Core bootloader functionality.
+
+@defgroup peripherals Peripheral Definitions
+@ingroup bootloader
+@brief Peripheral interfaces.
+
+@defgroup command Command Handler
+@ingroup bootloader
+@brief API for the command handler.
+
+@defgroup peripheral Peripheral Interface
+@ingroup bootloader
+@brief API for peripheral interfaces.
+
+@defgroup context Context
+@ingroup bootloader
+@brief Bootloader context and API structures.
+
+@defgroup app_crc_check Application CRC Check
+@ingroup bootloader
+@brief Application CRC check API.
+
+@defgroup flashloader Flashloader
+@ingroup bootloader
+@brief Flashloader support.
+
+@defgroup dspi_peripheral DSPI Peripheral
+@ingroup peripherals
+@brief DSPI peripheral interface.
+
+@defgroup i2c_peripheral I2C Peripheral
+@ingroup peripherals
+@brief I2C peripheral interface.
+
+@defgroup lpi2c_peripheral LPI2C Peripheral
+@ingroup peripherals
+@brief LPI2C peripheral interface.
+
+@defgroup lpspi_peripheral LPSPI Peripheral
+@ingroup peripherals
+@brief LPSPI peripheral interface.
+
+@defgroup lpuart_peripheral LPUART Peripheral
+@ingroup peripherals
+@brief LPUART peripheral interface.
+
+@defgroup scuart_peripheral SCIUART Peripheral
+@ingroup peripherals
+@brief SCIUART peripheral interface.
+
+@defgroup uart_peripheral UART Peripheral
+@ingroup peripherals
+@brief UART peripheral interface.
+
+@defgroup uart0_peripheral UART0 Peripheral
+@ingroup peripherals
+@brief UART0 peripheral interface.
+
+@defgroup spi_peripheral SPI Peripheral
+@ingroup peripherals
+@brief SPI peripheral interface.
+
+@defgroup usb_hid_peripheral USB HID Peripheral
+@ingroup peripherals
+@brief USB HID peripheral interface.
+
+@defgroup flexcan_peripheral FLEXCAN Peripheral
+@ingroup peripherals
+@brief FLEXCAN peripheral interface.
+
+@defgroup drivers Device Drivers
+@brief IP device drivers.
+ 
+*/

@@ -1,0 +1,1174 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:29
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\packet\src\serial_packet.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\packet\src\serial_packet.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\serial_packet.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\serial_packet.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\packet\src\serial_packet.c
+      1          /*
+      2           * Copyright (c) 2013, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include <string.h>
+     32          #include "bootloader_common.h"
+     33          #include "bootloader/context.h"
+     34          #include "bootloader/bootloader.h"
+     35          #include "packet/command_packet.h"
+     36          #include "packet/serial_packet.h"
+     37          #include "crc/crc16.h"
+     38          #include "utilities/fsl_assert.h"
+     39          
+     40          #ifndef BOOTLOADER_HOST
+     41          #include "microseconds/microseconds.h"
+     42          #endif
+     43          
+     44          //! @addtogroup packet
+     45          //! @{
+     46          
+     47          ////////////////////////////////////////////////////////////////////////////////
+     48          // Definitions
+     49          ////////////////////////////////////////////////////////////////////////////////
+     50          
+     51          //#define TEST_NAK
+     52          
+     53          ////////////////////////////////////////////////////////////////////////////////
+     54          // Prototypes
+     55          ////////////////////////////////////////////////////////////////////////////////
+     56          
+     57          static status_t write_data(const uint8_t * buffer, uint32_t byteCount);
+     58          static status_t read_data(uint8_t * buffer, uint32_t byteCount, uint32_t timeoutMs);
+     59          static status_t read_data_packet(framing_data_packet_t * packet, uint8_t * data, packet_type_t packetType);
+     60          static status_t read_start_byte(framing_header_t * header);
+     61          static status_t read_header(framing_header_t * header);
+     62          static status_t read_length(framing_data_packet_t * packet);
+     63          static status_t read_crc16(framing_data_packet_t * packet);
+     64          static status_t wait_for_ack_packet(void);
+     65          static status_t send_deferred_ack(void);
+     66          static uint16_t calculate_framing_crc16(framing_data_packet_t * packet, const uint8_t * data);
+     67          
+     68          ////////////////////////////////////////////////////////////////////////////////
+     69          // Variables
+     70          ////////////////////////////////////////////////////////////////////////////////
+     71          
+     72          // See peripharal.h for documentation on this interface.
+
+   \                                 In section .rodata, align 4, keep-with-next
+     73          const peripheral_packet_interface_t g_framingPacketInterface = {
+   \                     g_framingPacketInterface:
+   \   00000000   0x........         DC32 serial_packet_init, serial_packet_read, serial_packet_write
+   \              0x........   
+   \              0x........   
+   \   0000000C   0x........         DC32 serial_packet_abort, serial_packet_finalize
+   \              0x........   
+   \   00000014   0x........         DC32 serial_packet_get_max_packet_size, serial_packet_queue_byte
+   \              0x........   
+     74              serial_packet_init,
+     75              serial_packet_read,
+     76              serial_packet_write,
+     77              serial_packet_abort,
+     78              serial_packet_finalize,
+     79              serial_packet_get_max_packet_size,
+     80              serial_packet_queue_byte
+     81          };
+     82          
+     83          //! @brief Ping response.
+     84          #if defined(__cplusplus)
+     85          const ping_response_t k_PingResponse = {
+     86             MAKE_VERSION(kSerialProtocol_Version_Bugfix,
+     87              kSerialProtocol_Version_Minor,
+     88              kSerialProtocol_Version_Major,
+     89              kSerialProtocol_Version_Name),
+     90              0,        // options, recalculate crc16 if this value changes
+     91              0xeaaa    // crc16 of start byte, packet type, version and options.
+     92                        // i.e. [5a a7 00 00 01 50 00 00]
+     93                        // Calculated using CRC-16/XMODEM.
+     94          };
+     95          #else
+
+   \                                 In section .text, align 4, keep-with-next
+     96          const ping_response_t k_PingResponse = {
+   \                     k_PingResponse:
+   \   00000000   0x00 0x02          DC8 0, 2, 1, 80
+   \              0x01 0x50    
+   \   00000004   0x0000 0xEAAA      DC16 0, 60074
+     97             {kSerialProtocol_Version_Bugfix,
+     98              kSerialProtocol_Version_Minor,
+     99              kSerialProtocol_Version_Major,
+    100              kSerialProtocol_Version_Name},
+    101              0,        // options, recalculate crc16 if this value changes
+    102              0xeaaa    // crc16 of start byte, packet type, version and options.
+    103                        // i.e. [5a a7 00 00 01 50 00 00]
+    104                        // Calculated using CRC-16/XMODEM.
+    105          };
+    106          #endif
+    107          
+    108          //! @brief Global context data.
+
+   \                                 In section .bss, align 4
+    109          static serial_data_t g_serialContext;
+   \                     g_serialContext:
+   \   00000000                      DS8 148
+    110          
+    111          ////////////////////////////////////////////////////////////////////////////////
+    112          // Code
+    113          ////////////////////////////////////////////////////////////////////////////////
+    114          
+    115          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    116          void serial_packet_queue_byte(uint8_t byte)
+    117          {
+    118              g_serialContext.callbackBuffer[g_serialContext.writeOffset++] = byte;
+   \                     serial_packet_queue_byte: (+1)
+   \   00000000   0x....             LDR.N    R1,??DataTable12
+   \   00000002   0xF8D1 0x2088      LDR      R2,[R1, #+136]
+   \   00000006   0x1C53             ADDS     R3,R2,#+1
+   \   00000008   0x1852             ADDS     R2,R2,R1
+   \   0000000A   0xF8C1 0x3088      STR      R3,[R1, #+136]
+   \   0000000E   0xF882 0x0020      STRB     R0,[R2, #+32]
+    119              g_serialContext.writeOffset &= kCallbackBufferSize - 1;
+   \   00000012   0xF8D1 0x0088      LDR      R0,[R1, #+136]
+   \   00000016   0xF000 0x003F      AND      R0,R0,#0x3F
+   \   0000001A   0xF8C1 0x0088      STR      R0,[R1, #+136]
+    120          }
+   \   0000001E   0x4770             BX       LR               ;; return
+    121          
+    122          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    123          status_t serial_packet_init(const peripheral_descriptor_t * self)
+    124          {
+    125              return kStatus_Success;
+   \                     serial_packet_init: (+1)
+   \   00000000   0x2000             MOVS     R0,#+0
+   \   00000002   0x4770             BX       LR               ;; return
+    126          }
+    127          
+    128          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    129          status_t serial_packet_finalize(const peripheral_descriptor_t * self)
+    130          {
+    131              return send_deferred_ack();
+   \                     serial_packet_finalize: (+1)
+   \   00000000   0x....             B.N      send_deferred_ack
+    132          }
+    133          
+    134          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    135          status_t serial_packet_read(const peripheral_descriptor_t * self, uint8_t ** packet, uint32_t * packetLength, packet_type_t packetType)
+    136          {
+   \                     serial_packet_read: (+1)
+   \   00000000   0xE92D 0x41FC      PUSH     {R2-R8,LR}
+   \   00000004   0x000C             MOVS     R4,R1
+   \   00000006   0x4615             MOV      R5,R2
+    137              if (!packet || !packetLength)
+   \   00000008   0xBF14             ITE      NE 
+   \   0000000A   0x2D00             CMPNE    R5,#+0
+   \   0000000C   0x2004             MOVEQ    R0,#+4
+   \   0000000E   0x4698             MOV      R8,R3
+    138              {
+    139                  debug_printf("Error: invalid packet\r\n");
+    140                  return kStatus_InvalidArgument;
+   \   00000010   0xD028             BEQ.N    ??serial_packet_read_0
+    141              }
+    142              *packetLength = 0;
+    143              status_t status;
+    144          
+    145              g_serialContext.isBackToBackWrite = false;
+   \   00000012   0x....             LDR.N    R7,??DataTable12
+   \   00000014   0x2000             MOVS     R0,#+0
+   \   00000016   0xF107 0x0690      ADD      R6,R7,#+144
+   \   0000001A   0x6028             STR      R0,[R5, #+0]
+   \   0000001C   0x7070             STRB     R0,[R6, #+1]
+    146          
+    147              // Send ACK if needed.
+    148              status = send_deferred_ack();
+   \   0000001E   0x.... 0x....      BL       send_deferred_ack
+    149              if (status != kStatus_Success)
+   \   00000022   0xB118             CBZ.N    R0,??serial_packet_read_1
+    150              {
+    151                  return status;
+   \   00000024   0xE01E             B.N      ??serial_packet_read_0
+    152              }
+    153          
+    154              framing_data_packet_t framingPacket;
+    155          
+    156              bool isPacketOk;
+    157              do {
+    158                  // Clear the packet data area so unsent parameters default to zero.
+    159                  memset(g_serialContext.data, 0, sizeof(g_serialContext.data));
+    160          
+    161                  // Receive the framing data packet.
+    162                  isPacketOk = true;
+    163                  status_t status = read_data_packet(&framingPacket, g_serialContext.data, packetType);
+    164                  if (status != kStatus_Success)
+    165                  {
+    166                      // No packet available.
+    167                      *packetLength = 0;
+    168                      return status;
+    169                  }
+    170          
+    171                  // Verify crc.
+    172                  uint16_t calculated_crc = calculate_framing_crc16(&framingPacket, g_serialContext.data);
+    173                  if (framingPacket.crc16 != calculated_crc)
+    174                  {
+    175                      debug_printf("Error: invalid crc 0x%x, expected 0x%x\r\n", framingPacket.crc16, calculated_crc);
+    176                      isPacketOk = false;
+    177                  }
+    178          
+    179                  // Send Nak if necessary.
+    180                  if (!isPacketOk)
+    181                  {
+    182                      serial_packet_send_sync(kFramingPacketType_Nak);
+   \                     ??serial_packet_read_2: (+1)
+   \   00000026   0x20A2             MOVS     R0,#+162
+   \   00000028   0x.... 0x....      BL       serial_packet_send_sync
+    183                  }
+   \                     ??serial_packet_read_1: (+1)
+   \   0000002C   0x2120             MOVS     R1,#+32
+   \   0000002E   0x4638             MOV      R0,R7
+   \   00000030   0x.... 0x....      BL       __aeabi_memclr4
+   \   00000034   0x4642             MOV      R2,R8
+   \   00000036   0x4639             MOV      R1,R7
+   \   00000038   0x4668             MOV      R0,SP
+   \   0000003A   0x.... 0x....      BL       read_data_packet
+   \   0000003E   0xB110             CBZ.N    R0,??serial_packet_read_3
+   \   00000040   0x2100             MOVS     R1,#+0
+   \   00000042   0x6029             STR      R1,[R5, #+0]
+   \   00000044   0xE00E             B.N      ??serial_packet_read_0
+   \                     ??serial_packet_read_3: (+1)
+   \   00000046   0x4639             MOV      R1,R7
+   \   00000048   0x4668             MOV      R0,SP
+   \   0000004A   0x.... 0x....      BL       calculate_framing_crc16
+   \   0000004E   0xF8BD 0x1004      LDRH     R1,[SP, #+4]
+   \   00000052   0x4281             CMP      R1,R0
+   \   00000054   0xD1E7             BNE.N    ??serial_packet_read_2
+    184              } while (!isPacketOk);
+    185          
+    186              // Indicate an ACK must be sent.
+    187              g_serialContext.isAckNeeded = true;
+   \   00000056   0x2001             MOVS     R0,#+1
+   \   00000058   0x7030             STRB     R0,[R6, #+0]
+    188          
+    189              // Set caller's data buffer and length
+    190              *packet = g_serialContext.data;
+   \   0000005A   0x6027             STR      R7,[R4, #+0]
+    191              *packetLength = framingPacket.length;
+   \   0000005C   0xF8BD 0x0002      LDRH     R0,[SP, #+2]
+   \   00000060   0x6028             STR      R0,[R5, #+0]
+    192          
+    193              return kStatus_Success;
+   \   00000062   0x2000             MOVS     R0,#+0
+   \                     ??serial_packet_read_0: (+1)
+   \   00000064   0xE8BD 0x81F6      POP      {R1,R2,R4-R8,PC}  ;; return
+    194          }
+    195          
+    196          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    197          status_t serial_packet_write(const peripheral_descriptor_t * self, const uint8_t * packet, uint32_t byteCount, packet_type_t packetType)
+    198          {
+   \                     serial_packet_write: (+1)
+   \   00000000   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \   00000004   0x000C             MOVS     R4,R1
+   \   00000006   0xB082             SUB      SP,SP,#+8
+   \   00000008   0x4615             MOV      R5,R2
+   \   0000000A   0x461E             MOV      R6,R3
+    199              if (!packet || (byteCount > kOutgoingPacketBufferSize))
+   \   0000000C   0xD035             BEQ.N    ??serial_packet_write_0
+   \   0000000E   0x2D21             CMP      R5,#+33
+   \   00000010   0xD233             BCS.N    ??serial_packet_write_0
+    200              {
+    201                  debug_printf("Error: invalid packet or packet size %d\r\n", byteCount);
+    202                  return kStatus_InvalidArgument;
+    203              }
+    204          
+    205              // Send ACK if needed.
+    206              status_t status = send_deferred_ack();
+   \   00000012   0x.... 0x....      BL       send_deferred_ack
+    207              if (status != kStatus_Success)
+   \   00000016   0x2800             CMP      R0,#+0
+   \   00000018   0xD13F             BNE.N    ??serial_packet_write_1
+    208              {
+    209                  return status;
+    210              }
+    211          
+    212              // Back-to-back writes require delay for receiver to enter peripheral read routine.
+    213              if (g_serialContext.isBackToBackWrite)
+   \   0000001A   0x.... 0x....      LDR.W    R8,??DataTable12
+   \   0000001E   0xF898 0x0091      LDRB     R0,[R8, #+145]
+   \   00000022   0xB110             CBZ.N    R0,??serial_packet_write_2
+    214              {
+    215                  g_serialContext.isBackToBackWrite = false;
+   \   00000024   0x2000             MOVS     R0,#+0
+   \   00000026   0xF888 0x0091      STRB     R0,[R8, #+145]
+    216          
+    217          #if defined(BOOTLOADER_HOST)
+    218                  host_delay(100);
+    219          #endif
+    220              }
+    221          
+    222              // Initialize the framing data packet.
+    223              serial_framing_packet_t * framingPacket = &g_serialContext.framingPacket;
+    224              framingPacket->dataPacket.header.startByte = kFramingPacketStartByte;
+   \                     ??serial_packet_write_2: (+1)
+   \   0000002A   0xF108 0x0760      ADD      R7,R8,#+96
+   \   0000002E   0x205A             MOVS     R0,#+90
+   \   00000030   0x7038             STRB     R0,[R7, #+0]
+    225              framingPacket->dataPacket.header.packetType = kFramingPacketType_Command;
+   \   00000032   0x20A4             MOVS     R0,#+164
+   \   00000034   0x7078             STRB     R0,[R7, #+1]
+    226              if (packetType != kPacketType_Command)
+   \   00000036   0xB10E             CBZ.N    R6,??serial_packet_write_3
+    227              {
+    228                  framingPacket->dataPacket.header.packetType = kFramingPacketType_Data;
+   \   00000038   0x20A5             MOVS     R0,#+165
+   \   0000003A   0x7078             STRB     R0,[R7, #+1]
+    229              }
+    230              framingPacket->dataPacket.length = (uint16_t)byteCount;
+   \                     ??serial_packet_write_3: (+1)
+   \   0000003C   0x807D             STRH     R5,[R7, #+2]
+    231          
+    232              // Copy the caller's data buffer into the framing packet.
+    233              if (byteCount)
+   \   0000003E   0xB12D             CBZ.N    R5,??serial_packet_write_4
+    234              {
+    235                  memcpy(framingPacket->data, packet, byteCount);
+   \   00000040   0x462A             MOV      R2,R5
+   \   00000042   0x4621             MOV      R1,R4
+   \   00000044   0xF108 0x0066      ADD      R0,R8,#+102
+   \   00000048   0x.... 0x....      BL       __aeabi_memcpy
+    236              }
+    237          
+    238              // Calculate and set the framing packet crc.
+    239              framingPacket->dataPacket.crc16 = calculate_framing_crc16(&framingPacket->dataPacket,
+    240                                                               (uint8_t *)framingPacket->data);
+   \                     ??serial_packet_write_4: (+1)
+   \   0000004C   0xF108 0x0166      ADD      R1,R8,#+102
+   \   00000050   0x4638             MOV      R0,R7
+   \   00000052   0x.... 0x....      BL       calculate_framing_crc16
+   \   00000056   0x80B8             STRH     R0,[R7, #+4]
+    241          #if defined(TEST_NAK)
+    242              ++framingPacket->dataPacket.crc16;
+    243          #endif // TEST_NAK
+    244          
+    245              // Send the framing data packet.
+    246              status = write_data((uint8_t *)framingPacket, sizeof(framing_data_packet_t) + byteCount);
+   \   00000058   0x1DA9             ADDS     R1,R5,#+6
+   \   0000005A   0x4638             MOV      R0,R7
+   \   0000005C   0x.... 0x....      BL       write_data
+    247              if (status != kStatus_Success)
+   \   00000060   0xB9D8             CBNZ.N   R0,??serial_packet_write_1
+    248              {
+    249                  return status;
+    250              }
+    251          
+    252              return wait_for_ack_packet();
+   \                     ??serial_packet_write_5: (+1)
+   \   00000062   0x4668             MOV      R0,SP
+   \   00000064   0x.... 0x....      BL       read_header
+   \   00000068   0xB9B8             CBNZ.N   R0,??serial_packet_write_1
+   \   0000006A   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \   0000006E   0x28A1             CMP      R0,#+161
+   \   00000070   0xD012             BEQ.N    ??serial_packet_write_6
+   \   00000072   0x28A2             CMP      R0,#+162
+   \   00000074   0xD006             BEQ.N    ??serial_packet_write_7
+   \   00000076   0x28A3             CMP      R0,#+163
+   \   00000078   0xD001             BEQ.N    ??serial_packet_write_8
+   \                     ??serial_packet_write_0: (+1)
+   \   0000007A   0x2004             MOVS     R0,#+4
+   \   0000007C   0xE00D             B.N      ??serial_packet_write_1
+   \                     ??serial_packet_write_8: (+1)
+   \   0000007E   0xF242 0x7012      MOVW     R0,#+10002
+   \   00000082   0xE00A             B.N      ??serial_packet_write_1
+   \                     ??serial_packet_write_7: (+1)
+   \   00000084   0x8878             LDRH     R0,[R7, #+2]
+   \   00000086   0x1D81             ADDS     R1,R0,#+6
+   \   00000088   0x4638             MOV      R0,R7
+   \   0000008A   0x.... 0x....      BL       write_data
+   \   0000008E   0xB920             CBNZ.N   R0,??serial_packet_write_1
+   \   00000090   0xF89D 0x0001      LDRB     R0,[SP, #+1]
+   \   00000094   0x28A2             CMP      R0,#+162
+   \   00000096   0xD0E4             BEQ.N    ??serial_packet_write_5
+   \                     ??serial_packet_write_6: (+1)
+   \   00000098   0x2000             MOVS     R0,#+0
+   \                     ??serial_packet_write_1: (+1)
+   \   0000009A   0xE8BD 0x81F6      POP      {R1,R2,R4-R8,PC}  ;; return
+    253          }
+    254          
+    255          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    256          void serial_packet_abort(const peripheral_descriptor_t * self)
+    257          {
+    258              assert(g_serialContext.isAckNeeded);
+    259              g_serialContext.isAckAbortNeeded = true;
+   \                     serial_packet_abort: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable12_1
+   \   00000002   0x2101             MOVS     R1,#+1
+   \   00000004   0x7081             STRB     R1,[R0, #+2]
+    260              g_serialContext.isAckNeeded = false;
+   \   00000006   0x2100             MOVS     R1,#+0
+   \   00000008   0x7001             STRB     R1,[R0, #+0]
+    261          }
+   \   0000000A   0x4770             BX       LR               ;; return
+    262          
+    263          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    264          uint32_t serial_packet_get_max_packet_size(const peripheral_descriptor_t * self)
+    265          {
+    266              return kMinPacketBufferSize;
+   \                     serial_packet_get_max_packet_size: (+1)
+   \   00000000   0x2020             MOVS     R0,#+32
+   \   00000002   0x4770             BX       LR               ;; return
+    267          }
+    268          
+    269          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    270          status_t serial_packet_send_sync(uint8_t framingPacketType)
+    271          {
+   \                     serial_packet_send_sync: (+1)
+   \   00000000   0xB580             PUSH     {R7,LR}
+    272              framing_sync_packet_t sync;
+    273              sync.header.startByte = kFramingPacketStartByte;
+   \   00000002   0x215A             MOVS     R1,#+90
+   \   00000004   0xF88D 0x1000      STRB     R1,[SP, #+0]
+    274              sync.header.packetType = framingPacketType;
+   \   00000008   0xF88D 0x0001      STRB     R0,[SP, #+1]
+    275          
+    276              // Indicate last transaction was a write.
+    277              g_serialContext.isBackToBackWrite = true;
+   \   0000000C   0x2001             MOVS     R0,#+1
+   \   0000000E   0x....             LDR.N    R1,??DataTable12
+   \   00000010   0xF881 0x0091      STRB     R0,[R1, #+145]
+    278          
+    279              status_t status = write_data((uint8_t *)&sync, sizeof(sync));
+   \   00000014   0x2102             MOVS     R1,#+2
+   \   00000016   0x4668             MOV      R0,SP
+   \   00000018   0x.... 0x....      BL       write_data
+    280              if (status != kStatus_Success)
+   \   0000001C   0xBD02             POP      {R1,PC}          ;; return
+    281              {
+    282                  debug_printf("Error: cannot send sync packet 0x%x, status = 0x%x\r\n",
+    283                               framingPacketType, status);
+    284                  return status;
+    285              }
+    286          
+    287              return status;
+    288          }
+    289          
+    290          //! @brief Wait for an ACK, handling NAKs as needed.
+    291          static status_t wait_for_ack_packet()
+    292          {
+    293              framing_sync_packet_t sync;
+    294              do {
+    295                  // Receive the sync packet.
+    296                  status_t status = read_header(&sync.header);
+    297                  if (status != kStatus_Success)
+    298                  {
+    299                      return status;
+    300                  }
+    301          
+    302                  if ((sync.header.packetType != kFramingPacketType_Ack) &&
+    303                      (sync.header.packetType != kFramingPacketType_Nak) &&
+    304                      (sync.header.packetType != kFramingPacketType_AckAbort)    )
+    305                  {
+    306                      debug_printf("Error: Unexpected sync byte 0x%x received, expected Ack, AckAbort or Nak\r\n",
+    307                                   sync.header.packetType);
+    308                      return kStatus_InvalidArgument;
+    309                  }
+    310          
+    311                  if (sync.header.packetType == kFramingPacketType_AckAbort)
+    312                  {
+    313                      return kStatus_AbortDataPhase;
+    314                  }
+    315          
+    316                  if (sync.header.packetType == kFramingPacketType_Nak)
+    317                  {
+    318                      // Re-transmit the last packet.
+    319          #if defined(TEST_NAK)
+    320                      --g_serialContext.framingPacket.dataPacket.crc16;
+    321          #endif // TEST_NAK
+    322                      status = write_data((uint8_t *)&g_serialContext.framingPacket,
+    323                                          sizeof(framing_data_packet_t) +
+    324                                              g_serialContext.framingPacket.dataPacket.length);
+    325                      if (status != kStatus_Success)
+    326                      {
+    327                          return status;
+    328                      }
+    329                  }
+    330              } while (sync.header.packetType == kFramingPacketType_Nak);
+    331          
+    332              return kStatus_Success;
+    333          }
+    334          
+    335          // See serial_packet.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    336          status_t serial_send_ping_response(const peripheral_descriptor_t * peripheral)
+    337          {
+   \                     serial_send_ping_response: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4604             MOV      R4,R0
+    338              assert(peripheral);
+    339          
+    340              // Only reply if we're in an idle state
+    341              if (!g_serialContext.isAckNeeded ||
+    342                  !g_serialContext.isBackToBackWrite ||
+    343                  !g_serialContext.isAckAbortNeeded)
+   \   00000004   0x....             LDR.N    R0,??DataTable12_1
+   \   00000006   0xB082             SUB      SP,SP,#+8
+   \   00000008   0x7801             LDRB     R1,[R0, #+0]
+   \   0000000A   0x7842             LDRB     R2,[R0, #+1]
+   \   0000000C   0x7880             LDRB     R0,[R0, #+2]
+   \   0000000E   0x4011             ANDS     R1,R2,R1
+   \   00000010   0x4201             TST      R1,R0
+   \   00000012   0xD111             BNE.N    ??serial_send_ping_response_0
+    344              {
+    345                  const uint8_t header[] = { kFramingPacketStartByte, kFramingPacketType_PingResponse };
+   \   00000014   0x.... 0x....      ADR.W    R0,?_0
+   \   00000018   0x8800             LDRH     R0,[R0, #+0]
+   \   0000001A   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+    346                  peripheral->byteInterface->write(peripheral, (const uint8_t *)&header, sizeof(header));
+   \   0000001E   0x2202             MOVS     R2,#+2
+   \   00000020   0x6923             LDR      R3,[R4, #+16]
+   \   00000022   0x685B             LDR      R3,[R3, #+4]
+   \   00000024   0x4669             MOV      R1,SP
+   \   00000026   0x4620             MOV      R0,R4
+   \   00000028   0x4798             BLX      R3
+    347                  peripheral->byteInterface->write(peripheral, (uint8_t *)&k_PingResponse, sizeof(k_PingResponse));
+   \   0000002A   0x6923             LDR      R3,[R4, #+16]
+   \   0000002C   0x.... 0x....      ADR.W    R1,k_PingResponse
+   \   00000030   0x685B             LDR      R3,[R3, #+4]
+   \   00000032   0x2208             MOVS     R2,#+8
+   \   00000034   0x4620             MOV      R0,R4
+   \   00000036   0x4798             BLX      R3
+    348              }
+    349          
+    350              return kStatus_Ping;
+   \                     ??serial_send_ping_response_0: (+1)
+   \   00000038   0xF242 0x7013      MOVW     R0,#+10003
+   \   0000003C   0xBD16             POP      {R1,R2,R4,PC}    ;; return
+    351          }
+    352          
+    353          //! @brief Send ACK if needed.
+
+   \                                 In section .text, align 2, keep-with-next
+    354          static status_t send_deferred_ack()
+    355          {
+    356              if (g_serialContext.isAckNeeded)
+   \                     send_deferred_ack: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable12_1
+   \   00000002   0x7801             LDRB     R1,[R0, #+0]
+   \   00000004   0xB119             CBZ.N    R1,??send_deferred_ack_0
+    357              {
+    358                  // Send Ack for last received packet.
+    359                  g_serialContext.isAckNeeded = false;
+   \   00000006   0x2100             MOVS     R1,#+0
+   \   00000008   0x7001             STRB     R1,[R0, #+0]
+    360                  return serial_packet_send_sync(kFramingPacketType_Ack);
+   \   0000000A   0x20A1             MOVS     R0,#+161
+   \   0000000C   0xE004             B.N      ??send_deferred_ack_1
+    361              }
+    362              else if (g_serialContext.isAckAbortNeeded)
+   \                     ??send_deferred_ack_0: (+1)
+   \   0000000E   0x7881             LDRB     R1,[R0, #+2]
+   \   00000010   0xB119             CBZ.N    R1,??send_deferred_ack_2
+    363              {
+    364                  // Send AckAbort for last received packet.
+    365                  g_serialContext.isAckAbortNeeded = false;
+   \   00000012   0x2100             MOVS     R1,#+0
+   \   00000014   0x7081             STRB     R1,[R0, #+2]
+    366                  return serial_packet_send_sync(kFramingPacketType_AckAbort);
+   \   00000016   0x20A3             MOVS     R0,#+163
+   \                     ??send_deferred_ack_1: (+1)
+   \   00000018   0x....             B.N      serial_packet_send_sync
+    367              }
+    368              else
+    369              {
+    370                  return kStatus_Success;
+   \                     ??send_deferred_ack_2: (+1)
+   \   0000001A   0x2000             MOVS     R0,#+0
+   \   0000001C   0x4770             BX       LR               ;; return
+    371              }
+    372          }
+    373          
+    374          //! @brief Write buffer to peripheral until all bytes sent.
+
+   \                                 In section .text, align 2, keep-with-next
+    375          static status_t write_data(const uint8_t * buffer, uint32_t byteCount)
+   \                     write_data: (+1)
+   \   00000000   0x....             LDR.N    R2,??DataTable12_2
+   \   00000002   0x69D3             LDR      R3,[R2, #+28]
+   \   00000004   0x460A             MOV      R2,R1
+   \   00000006   0x4601             MOV      R1,R0
+   \   00000008   0x4618             MOV      R0,R3
+   \   0000000A   0x691B             LDR      R3,[R3, #+16]
+   \   0000000C   0x685B             LDR      R3,[R3, #+4]
+   \   0000000E   0x4718             BX       R3
+    376          {
+    377              status_t retVal;
+    378          
+    379              retVal = g_bootloaderContext.activePeripheral->byteInterface->write(
+    380                          g_bootloaderContext.activePeripheral,
+    381                          buffer,
+    382                          byteCount);
+    383          
+    384              return retVal;
+    385          }
+    386          
+    387          //! @brief Read from peripheral until specified number of bytes received.
+
+   \                                 In section .text, align 2, keep-with-next
+    388          static status_t read_data(uint8_t * buffer, uint32_t byteCount, uint32_t timeoutMs)
+    389          {
+   \                     read_data: (+1)
+   \   00000000   0xE92D 0x4FF1      PUSH     {R0,R4-R11,LR}
+   \   00000004   0x468B             MOV      R11,R1
+   \   00000006   0x4614             MOV      R4,R2
+    390          #ifdef BOOTLOADER_HOST
+    391              // Host will not be relying on interrupts for reads so manually read the data out
+    392              return g_bootloaderContext.activePeripheral->byteInterface->read(
+    393                          g_bootloaderContext.activePeripheral,
+    394                          buffer,
+    395                          byteCount);
+    396          #else
+    397              // On the target we read from our interrupt buffer
+    398              uint32_t currentBytesRead = 0;
+    399              uint64_t startTicks = microseconds_get_ticks();
+   \   00000008   0x.... 0x....      BL       microseconds_get_ticks
+   \   0000000C   0x4606             MOV      R6,R0
+    400              uint64_t timeOutTicks = microseconds_convert_to_ticks(timeoutMs * 1000);
+   \   0000000E   0xF44F 0x707A      MOV      R0,#+1000
+   \   00000012   0x4689             MOV      R9,R1
+   \   00000014   0x4360             MULS     R0,R0,R4
+   \   00000016   0x.... 0x....      BL       microseconds_convert_to_ticks
+   \   0000001A   0x2500             MOVS     R5,#+0
+   \   0000001C   0x.... 0x....      LDR.W    R10,??DataTable12
+   \   00000020   0x4604             MOV      R4,R0
+   \   00000022   0x46A8             MOV      R8,R5
+   \   00000024   0xF10A 0x0788      ADD      R7,R10,#+136
+   \   00000028   0xE00E             B.N      ??read_data_0
+    401          
+    402              while(currentBytesRead != byteCount)
+    403              {
+    404                  if (timeOutTicks && ((microseconds_get_ticks() - startTicks) >= timeOutTicks))
+    405                  {
+    406                      return kStatus_Timeout;
+    407                  }
+    408           
+    409                  if (g_serialContext.readOffset != g_serialContext.writeOffset)
+   \                     ??read_data_1: (+1)
+   \   0000002A   0x6878             LDR      R0,[R7, #+4]
+   \   0000002C   0x6839             LDR      R1,[R7, #+0]
+   \   0000002E   0x4288             CMP      R0,R1
+   \   00000030   0xD00C             BEQ.N    ??read_data_2
+    410                  {
+    411                      buffer[currentBytesRead++] = g_serialContext.callbackBuffer[g_serialContext.readOffset++];
+   \   00000032   0x4450             ADD      R0,R0,R10
+   \   00000034   0x9900             LDR      R1,[SP, #+0]
+   \   00000036   0xF890 0x0020      LDRB     R0,[R0, #+32]
+   \   0000003A   0x5468             STRB     R0,[R5, R1]
+   \   0000003C   0x1C6D             ADDS     R5,R5,#+1
+    412          
+    413                      g_serialContext.readOffset &= kCallbackBufferSize - 1;
+   \   0000003E   0x6878             LDR      R0,[R7, #+4]
+   \   00000040   0x1C40             ADDS     R0,R0,#+1
+   \   00000042   0xF000 0x003F      AND      R0,R0,#0x3F
+   \   00000046   0x6078             STR      R0,[R7, #+4]
+    414                  }
+   \                     ??read_data_0: (+1)
+   \   00000048   0x455D             CMP      R5,R11
+   \   0000004A   0xD00C             BEQ.N    ??read_data_3
+   \                     ??read_data_2: (+1)
+   \   0000004C   0x2C00             CMP      R4,#+0
+   \   0000004E   0xD0EC             BEQ.N    ??read_data_1
+   \   00000050   0x.... 0x....      BL       microseconds_get_ticks
+   \   00000054   0x1B80             SUBS     R0,R0,R6
+   \   00000056   0xEB61 0x0109      SBC      R1,R1,R9
+   \   0000005A   0x4541             CMP      R1,R8
+   \   0000005C   0xD801             BHI.N    ??read_data_4
+   \   0000005E   0x42A0             CMP      R0,R4
+   \   00000060   0xD3E3             BCC.N    ??read_data_1
+   \                     ??read_data_4: (+1)
+   \   00000062   0x2005             MOVS     R0,#+5
+   \   00000064   0xE000             B.N      ??read_data_5
+    415              }
+    416          
+    417              return kStatus_Success;
+   \                     ??read_data_3: (+1)
+   \   00000066   0x2000             MOVS     R0,#+0
+   \                     ??read_data_5: (+1)
+   \   00000068   0xE8BD 0x8FF2      POP      {R1,R4-R11,PC}   ;; return
+    418          #endif
+    419          }
+    420          
+    421          //! @brief Read from peripheral until entire data framing packet read.
+
+   \                                 In section .text, align 2, keep-with-next
+    422          static status_t read_data_packet(framing_data_packet_t * packet, uint8_t * data, packet_type_t packetType)
+    423          {
+   \                     read_data_packet: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0xB082             SUB      SP,SP,#+8
+   \   00000004   0x4605             MOV      R5,R0
+   \   00000006   0x460C             MOV      R4,R1
+   \   00000008   0x4616             MOV      R6,R2
+    424              // Read the packet header.
+    425              status_t status = read_header(&packet->header);
+   \   0000000A   0x.... 0x....      BL       read_header
+    426              if (status != kStatus_Success)
+   \   0000000E   0xBB58             CBNZ.N   R0,??read_data_packet_0
+    427              {
+    428                  return status;
+    429              }
+    430          
+    431              if (packet->header.packetType == kFramingPacketType_Ping)
+   \   00000010   0x7868             LDRB     R0,[R5, #+1]
+   \   00000012   0x28A6             CMP      R0,#+166
+   \   00000014   0xD104             BNE.N    ??read_data_packet_1
+    432              {
+    433                  return serial_send_ping_response(g_bootloaderContext.activePeripheral);
+   \   00000016   0x....             LDR.N    R0,??DataTable12_2
+   \   00000018   0x69C0             LDR      R0,[R0, #+28]
+   \   0000001A   0x.... 0x....      BL       serial_send_ping_response
+   \   0000001E   0xBD76             POP      {R1,R2,R4-R6,PC}
+    434              }
+    435          
+    436              uint8_t expectedPacketType = kFramingPacketType_Command;
+   \                     ??read_data_packet_1: (+1)
+   \   00000020   0x21A4             MOVS     R1,#+164
+    437          
+    438              if (packetType != kPacketType_Command)
+   \   00000022   0xB106             CBZ.N    R6,??read_data_packet_2
+    439              {
+    440                  expectedPacketType = kFramingPacketType_Data;
+   \   00000024   0x21A5             MOVS     R1,#+165
+    441              }
+    442              if (packet->header.packetType != expectedPacketType)
+   \                     ??read_data_packet_2: (+1)
+   \   00000026   0x4288             CMP      R0,R1
+   \   00000028   0xD001             BEQ.N    ??read_data_packet_3
+    443              {
+    444                  debug_printf("Error: read_data_packet found unexpected packet type 0x%x\r\n", packet->header.packetType);
+    445                  return kStatus_Fail;
+   \   0000002A   0x2001             MOVS     R0,#+1
+   \   0000002C   0xBD76             POP      {R1,R2,R4-R6,PC}
+    446              }
+    447          
+    448              // Read the packet length.
+    449              status = read_length(packet);
+   \                     ??read_data_packet_3: (+1)
+   \   0000002E   0x.... 0x....      BL       ?Subroutine0
+   \                     ??CrossCallReturnLabel_1: (+1)
+   \   00000032   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \   00000036   0x8069             STRH     R1,[R5, #+2]
+    450              if (status != kStatus_Success)
+   \   00000038   0xB9B0             CBNZ.N   R0,??read_data_packet_0
+    451              {
+    452                  return status;
+    453              }
+    454          
+    455              // Make sure the packet doesn't exceed the allocated buffer size.
+    456              packet->length = MIN(kIncomingPacketBufferSize, packet->length);
+   \   0000003A   0x4608             MOV      R0,R1
+   \   0000003C   0x2821             CMP      R0,#+33
+   \   0000003E   0xBFA8             IT       GE 
+   \   00000040   0x2020             MOVGE    R0,#+32
+   \   00000042   0x8068             STRH     R0,[R5, #+2]
+    457          
+    458              // Read the crc
+    459              status = read_crc16(packet);
+   \   00000044   0x.... 0x....      BL       ?Subroutine0
+   \                     ??CrossCallReturnLabel_0: (+1)
+   \   00000048   0xF8BD 0x1000      LDRH     R1,[SP, #+0]
+   \   0000004C   0x80A9             STRH     R1,[R5, #+4]
+    460              if (status != kStatus_Success)
+   \   0000004E   0xB958             CBNZ.N   R0,??read_data_packet_0
+    461              {
+    462                  return status;
+    463              }
+    464          
+    465              // Read the data.
+    466              if (packet->length > 0)
+   \   00000050   0x8869             LDRH     R1,[R5, #+2]
+   \   00000052   0xB149             CBZ.N    R1,??read_data_packet_0
+    467              {
+    468                  // Clear the data area so unsent parameters default to zero.
+    469                  memset(data, 0, packet->length);
+   \   00000054   0x4620             MOV      R0,R4
+   \   00000056   0x.... 0x....      BL       __aeabi_memclr
+    470          
+    471                  status = read_data(data, packet->length, kDefaultByteReadTimeoutMs * packet->length);
+   \   0000005A   0x8869             LDRH     R1,[R5, #+2]
+   \   0000005C   0x200A             MOVS     R0,#+10
+   \   0000005E   0xFB00 0xF201      MUL      R2,R0,R1
+   \   00000062   0x4620             MOV      R0,R4
+   \   00000064   0x.... 0x....      BL       read_data
+    472              }
+    473          
+    474              return status;
+   \                     ??read_data_packet_0: (+1)
+   \   00000068   0xBD76             POP      {R1,R2,R4-R6,PC}  ;; return
+    475          }
+    476          
+    477          //! @brief Read from peripheral until start byte found.
+    478          static status_t read_start_byte(framing_header_t * header)
+    479          {
+    480          #if defined(BOOTLOADER_HOST)
+    481              uint32_t startByteReadCount = 0;
+    482          #endif
+    483             
+    484              // Read until start byte found.
+    485              do {
+    486                  status_t status = read_data(&header->startByte, 1, 0); // no timeout for first byte of packet
+    487                  if (status != kStatus_Success)
+    488                  {
+    489                      return status;
+    490                  }
+    491          
+    492          #if defined(BOOTLOADER_HOST)
+    493                  if (startByteReadCount++ > kHostMaxStartByteReadCount)
+    494                  {
+    495                      return kStatus_Timeout;
+    496                  }
+    497          
+    498                  if (header->startByte != kFramingPacketStartByte)
+    499                  {
+    500                      // This will keep us from doing non necessary delays in case the byte received
+    501                      // is actually the start byte, this delay and retry scenario is for cases when waiting
+    502                      // for a response from a device that was issued a long running command like a flash-erase-region
+    503                      // that may take several seconds to complete.
+    504                      host_delay(kDefaultByteReadTimeoutMs);
+    505                  }
+    506          #endif
+    507              } while (header->startByte != kFramingPacketStartByte);
+    508          
+    509              return kStatus_Success;
+    510          }
+    511          
+    512          //! @brief Read from peripheral until packet header found.
+
+   \                                 In section .text, align 2, keep-with-next
+    513          static status_t read_header(framing_header_t * header)
+    514          {
+   \                     read_header: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4604             MOV      R4,R0
+    515              // Wait for start byte.
+    516              status_t status = read_start_byte(header);
+   \                     ??read_header_0: (+1)
+   \   00000004   0x2200             MOVS     R2,#+0
+   \   00000006   0x2101             MOVS     R1,#+1
+   \   00000008   0x4620             MOV      R0,R4
+   \   0000000A   0x.... 0x....      BL       read_data
+   \   0000000E   0xB940             CBNZ.N   R0,??read_header_1
+    517              if (status != kStatus_Success)
+    518              {
+    519                  return status;
+   \   00000010   0x7820             LDRB     R0,[R4, #+0]
+   \   00000012   0x285A             CMP      R0,#+90
+   \   00000014   0xD1F6             BNE.N    ??read_header_0
+    520              }
+    521          
+    522              return read_data(&header->packetType, sizeof(header->packetType), kDefaultByteReadTimeoutMs * sizeof(header->packetType));
+   \   00000016   0x1C60             ADDS     R0,R4,#+1
+   \   00000018   0xE8BD 0x4010      POP      {R4,LR}
+   \   0000001C   0x220A             MOVS     R2,#+10
+   \   0000001E   0x2101             MOVS     R1,#+1
+   \   00000020   0x....             B.N      read_data
+   \                     ??read_header_1: (+1)
+   \   00000022   0xBD10             POP      {R4,PC}          ;; return
+    523          }
+    524          
+    525          //! @brief Read from peripheral until packet length found.
+    526          static status_t read_length(framing_data_packet_t * packet)
+    527          {
+    528              union {
+    529                  uint8_t bytes[sizeof(uint16_t)];
+    530                  uint16_t halfword;
+    531              } buffer;
+    532          
+    533              status_t status = read_data((uint8_t *)&buffer.bytes, sizeof(buffer), kDefaultByteReadTimeoutMs * sizeof(buffer));
+    534          
+    535              packet->length = buffer.halfword;
+    536              return status;
+    537          }
+    538          
+    539          //! @brief Read from peripheral until crc16 is found.
+    540          static status_t read_crc16(framing_data_packet_t * packet)
+    541          {
+    542              union {
+    543                  uint8_t bytes[sizeof(uint16_t)];
+    544                  uint16_t halfword;
+    545              } buffer;
+    546          
+    547              status_t status = read_data((uint8_t *)&buffer.bytes, sizeof(buffer), kDefaultByteReadTimeoutMs * sizeof(buffer));
+    548          
+    549              packet->crc16 = buffer.halfword;
+    550              return status;
+    551          }
+    552          
+    553          //! @brief Calculate crc over framing data packet.
+
+   \                                 In section .text, align 2, keep-with-next
+    554          static uint16_t calculate_framing_crc16(framing_data_packet_t * packet, const uint8_t * data)
+    555          {
+   \                     calculate_framing_crc16: (+1)
+   \   00000000   0xB530             PUSH     {R4,R5,LR}
+   \   00000002   0xB083             SUB      SP,SP,#+12
+   \   00000004   0x4604             MOV      R4,R0
+   \   00000006   0x460D             MOV      R5,R1
+    556              uint16_t crc16;
+    557          
+    558              // Initialize the CRC16 information
+    559              crc16_data_t crcInfo;
+    560              crc16_init(&crcInfo);
+   \   00000008   0x4668             MOV      R0,SP
+   \   0000000A   0x.... 0x....      BL       crc16_init
+    561          
+    562              // Run CRC on all header bytes besides the CRC field
+    563              crc16_update(&crcInfo, (uint8_t *)&packet->header.startByte, sizeof(framing_data_packet_t) - sizeof(uint16_t));
+   \   0000000E   0x2204             MOVS     R2,#+4
+   \   00000010   0x4621             MOV      R1,R4
+   \   00000012   0x4668             MOV      R0,SP
+   \   00000014   0x.... 0x....      BL       crc16_update
+    564          
+    565              // Continue running CRC on any payload bytes
+    566              crc16_update(&crcInfo, data, packet->length);
+   \   00000018   0x8862             LDRH     R2,[R4, #+2]
+   \   0000001A   0x4629             MOV      R1,R5
+   \   0000001C   0x4668             MOV      R0,SP
+   \   0000001E   0x.... 0x....      BL       crc16_update
+    567          
+    568              // Finalize the CRC calculations
+    569              crc16_finalize(&crcInfo, &crc16);
+   \   00000022   0xA901             ADD      R1,SP,#+4
+   \   00000024   0x4668             MOV      R0,SP
+   \   00000026   0x.... 0x....      BL       crc16_finalize
+    570          
+    571              return crc16;
+   \   0000002A   0xF8BD 0x0004      LDRH     R0,[SP, #+4]
+   \   0000002E   0xBD3E             POP      {R1-R5,PC}       ;; return
+    572          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12:
+   \   00000000   0x........         DC32     g_serialContext
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_1:
+   \   00000000   0x........         DC32     g_serialContext+0x90
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable12_2:
+   \   00000000   0x........         DC32     g_bootloaderContext
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine0: (+1)
+   \   00000000   0x2214             MOVS     R2,#+20
+   \   00000002   0x2102             MOVS     R1,#+2
+   \   00000004   0x4668             MOV      R0,SP
+   \   00000006   0x....             B.N      read_data
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ?_0:
+   \   00000000   0x5A 0xA7          DC8 90, 167
+    573          
+    574          //! @}
+    575          
+    576          ////////////////////////////////////////////////////////////////////////////////
+    577          // EOF
+    578          ////////////////////////////////////////////////////////////////////////////////
+    579          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   calculate_framing_crc16
+        24   -> crc16_finalize
+        24   -> crc16_init
+        24   -> crc16_update
+      40   read_data
+        40   -> microseconds_convert_to_ticks
+        40   -> microseconds_get_ticks
+      24   read_data_packet
+        24   -> __aeabi_memclr
+        24   -> read_data
+        24   -> read_header
+        24   -> serial_send_ping_response
+       8   read_header
+         0   -> read_data
+         8   -> read_data
+       0   send_deferred_ack
+         0   -> serial_packet_send_sync
+       0   serial_packet_abort
+       0   serial_packet_finalize
+         0   -> send_deferred_ack
+       0   serial_packet_get_max_packet_size
+       0   serial_packet_init
+       0   serial_packet_queue_byte
+      32   serial_packet_read
+        32   -> __aeabi_memclr4
+        32   -> calculate_framing_crc16
+        32   -> read_data_packet
+        32   -> send_deferred_ack
+        32   -> serial_packet_send_sync
+       8   serial_packet_send_sync
+         8   -> write_data
+      32   serial_packet_write
+        32   -> __aeabi_memcpy
+        32   -> calculate_framing_crc16
+        32   -> read_header
+        32   -> send_deferred_ack
+        32   -> write_data
+      16   serial_send_ping_response
+        16   -- Indirect call
+       0   write_data
+         0   -- Indirect call
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable12
+       4  ??DataTable12_1
+       4  ??DataTable12_2
+       8  ?Subroutine0
+       2  ?_0
+      48  calculate_framing_crc16
+      28  g_framingPacketInterface
+     148  g_serialContext
+       8  k_PingResponse
+     108  read_data
+     106  read_data_packet
+      36  read_header
+      30  send_deferred_ack
+      12  serial_packet_abort
+       2  serial_packet_finalize
+       4  serial_packet_get_max_packet_size
+       4  serial_packet_init
+      32  serial_packet_queue_byte
+     104  serial_packet_read
+      30  serial_packet_send_sync
+     158  serial_packet_write
+      62  serial_send_ping_response
+      16  write_data
+
+ 
+ 148 bytes in section .bss
+  28 bytes in section .rodata
+ 782 bytes in section .text
+ 
+ 782 bytes of CODE  memory
+  28 bytes of CONST memory
+ 148 bytes of DATA  memory
+
+Errors: none
+Warnings: none

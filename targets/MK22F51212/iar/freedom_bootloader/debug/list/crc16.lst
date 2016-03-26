@@ -1,0 +1,293 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:17
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\crc\src\crc16.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\crc\src\crc16.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\crc16.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\crc16.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\crc\src\crc16.c
+      1          /*
+      2           * Copyright (c) 2013 - 2014, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          #include "bootloader_common.h"
+     31          #include "crc/crc16.h"
+     32          #include "fsl_platform_status.h"
+     33          #include "fsl_platform_common.h"
+     34          #include "utilities/fsl_assert.h"
+     35          
+     36          #if !defined(BOOTLOADER_HOST)
+     37          #include "fsl_device_registers.h"
+     38          #include "utilities/fsl_rtos_abstraction.h"
+     39          #endif // !BOOTLOADER_HOST
+     40          
+     41          #if !defined(BOOTLOADER_HOST) && FSL_FEATURE_SOC_CRC_COUNT && !defined(BL_TARGET_RAM)
+     42          #include "drivers/crc/fsl_crc_driver.h"
+
+   \                                 In section .text, align 2, keep-with-next
+     43          void crc16_init(crc16_data_t * crc16Config)
+     44          {
+     45              assert(crc16Config);
+     46          
+     47              crc16Config->currentCrc = 0x0000U;
+   \                     crc16_init: (+1)
+   \   00000000   0x2100             MOVS     R1,#+0
+   \   00000002   0x8001             STRH     R1,[R0, #+0]
+     48          }
+   \   00000004   0x4770             BX       LR               ;; return
+     49          
+
+   \                                 In section .text, align 2, keep-with-next
+     50          void crc16_update(crc16_data_t * crc16Config, const uint8_t * src, uint32_t lengthInBytes)
+     51          {
+   \                     crc16_update: (+1)
+   \   00000000   0xB57F             PUSH     {R0-R6,LR}
+   \   00000002   0x4604             MOV      R4,R0
+     52              assert(crc16Config);
+     53              assert(src);
+     54          
+     55              crc_user_config_t crcUserConfigPtr;
+     56          
+     57              crcUserConfigPtr.crcWidth = kCrc16Bits;
+   \   00000004   0x2000             MOVS     R0,#+0
+   \   00000006   0xF88D 0x0000      STRB     R0,[SP, #+0]
+   \   0000000A   0x460D             MOV      R5,R1
+     58              crcUserConfigPtr.seed = crc16Config->currentCrc;
+   \   0000000C   0x8820             LDRH     R0,[R4, #+0]
+   \   0000000E   0x9001             STR      R0,[SP, #+4]
+   \   00000010   0x4616             MOV      R6,R2
+     59              crcUserConfigPtr.polynomial = 0x1021U;
+   \   00000012   0xF241 0x0021      MOVW     R0,#+4129
+   \   00000016   0x9002             STR      R0,[SP, #+8]
+     60              crcUserConfigPtr.writeTranspose = kCrcNoTranspose;
+   \   00000018   0x2000             MOVS     R0,#+0
+   \   0000001A   0xF8AD 0x000C      STRH     R0,[SP, #+12]
+     61              crcUserConfigPtr.readTranspose = kCrcNoTranspose;
+     62              crcUserConfigPtr.complementRead = false;
+   \   0000001E   0xF88D 0x000E      STRB     R0,[SP, #+14]
+     63          
+     64              // Init CRC module and then run it
+     65              //! Note: We must init CRC module here, As we may seperate one crc calculation into several times
+     66              //! Note: It is better to use lock to ensure the integrity of current updating operation of crc calculation
+     67              //        in case crc module is shared by multiple crc updating requests at the same time
+     68              if (lengthInBytes)
+   \   00000022   0xB16E             CBZ.N    R6,??crc16_update_0
+     69              {
+     70                  lock_acquire();
+   \   00000024   0x.... 0x....      BL       lock_acquire
+     71                  CRC_DRV_Init(CRC_INSTANCE, &crcUserConfigPtr);
+   \   00000028   0x4669             MOV      R1,SP
+   \   0000002A   0x2000             MOVS     R0,#+0
+   \   0000002C   0x.... 0x....      BL       CRC_DRV_Init
+     72                  crcUserConfigPtr.seed = CRC_DRV_GetCrcBlock(CRC_INSTANCE, (uint8_t *)src, lengthInBytes);
+   \   00000030   0x4632             MOV      R2,R6
+   \   00000032   0x4629             MOV      R1,R5
+   \   00000034   0x2000             MOVS     R0,#+0
+   \   00000036   0x.... 0x....      BL       CRC_DRV_GetCrcBlock
+   \   0000003A   0x9001             STR      R0,[SP, #+4]
+     73                  lock_release();
+   \   0000003C   0x.... 0x....      BL       lock_release
+     74              }
+     75          
+     76              crc16Config->currentCrc = crcUserConfigPtr.seed;
+   \                     ??crc16_update_0: (+1)
+   \   00000040   0x9801             LDR      R0,[SP, #+4]
+   \   00000042   0x8020             STRH     R0,[R4, #+0]
+     77          }
+   \   00000044   0xBD7F             POP      {R0-R6,PC}       ;; return
+     78          
+
+   \                                 In section .text, align 2, keep-with-next
+     79          void crc16_finalize(crc16_data_t * crc16Config, uint16_t * hash)
+     80          {
+     81              assert(crc16Config);
+     82              assert(hash);
+     83          
+     84              *hash = crc16Config->currentCrc;
+   \                     crc16_finalize: (+1)
+   \   00000000   0x8800             LDRH     R0,[R0, #+0]
+   \   00000002   0x8008             STRH     R0,[R1, #+0]
+     85          
+     86              // De-init CRC module when we complete a full crc calculation
+     87              CRC_DRV_Deinit(CRC_INSTANCE);
+   \   00000004   0x2000             MOVS     R0,#+0
+   \   00000006   0x.... 0x....      B.W      CRC_DRV_Deinit
+     88          }
+     89          #else
+     90          ////////////////////////////////////////////////////////////////////////////////
+     91          // Code
+     92          ////////////////////////////////////////////////////////////////////////////////
+     93          void crc16_init(crc16_data_t * crc16Config)
+     94          {
+     95              assert(crc16Config);
+     96          
+     97              // initialize running crc and byte count
+     98              crc16Config->currentCrc = 0;
+     99          }
+    100          
+    101          void crc16_update(crc16_data_t * crc16Config, const uint8_t * src, uint32_t lengthInBytes)
+    102          {
+    103              assert(crc16Config);
+    104              assert(src);
+    105          
+    106              uint32_t crc = crc16Config->currentCrc;
+    107          
+    108              uint32_t j;
+    109              for (j=0; j < lengthInBytes; ++j)
+    110              {
+    111                  uint32_t i;
+    112                  uint32_t byte = src[j];
+    113                  crc ^= byte << 8;
+    114                  for (i = 0; i < 8; ++i)
+    115                  {
+    116                      uint32_t temp = crc << 1;
+    117                      if (crc & 0x8000)
+    118                      {
+    119                          temp ^= 0x1021;
+    120                      }
+    121                      crc = temp;
+    122                  }
+    123              }
+    124          
+    125              crc16Config->currentCrc = crc;
+    126          }
+    127          
+    128          void crc16_finalize(crc16_data_t * crc16Config, uint16_t * hash)
+    129          {
+    130              assert(crc16Config);
+    131              assert(hash);
+    132          
+    133              *hash = crc16Config->currentCrc;
+    134          }
+    135          #endif
+    136          ////////////////////////////////////////////////////////////////////////////////
+    137          // EOF
+    138          ////////////////////////////////////////////////////////////////////////////////
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   crc16_finalize
+         0   -> CRC_DRV_Deinit
+       0   crc16_init
+      32   crc16_update
+        32   -> CRC_DRV_GetCrcBlock
+        32   -> CRC_DRV_Init
+        32   -> lock_acquire
+        32   -> lock_release
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      10  crc16_finalize
+       6  crc16_init
+      70  crc16_update
+
+ 
+ 86 bytes in section .text
+ 
+ 86 bytes of CODE memory
+
+Errors: none
+Warnings: none

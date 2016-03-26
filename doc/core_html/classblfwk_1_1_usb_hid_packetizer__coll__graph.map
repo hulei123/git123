@@ -1,0 +1,7 @@
+<map id="blfwk::UsbHidPacketizer" name="blfwk::UsbHidPacketizer">
+<area shape="rect" id="node2" href="$group__host__packetizers.html#classblfwk_1_1_packetizer" title="Interface class for packetization of commands and data. " alt="" coords="151,95,273,121"/>
+<area shape="rect" id="node3" href="$group__host__peripherals.html#classblfwk_1_1_peripheral" title="Represents a peripheral. " alt="" coords="5,5,123,32"/>
+<area shape="rect" id="node4" href="$group__bl__core.html#unionstandard__version__t" title="Structure of version property. " alt="" coords="147,5,277,32"/>
+<area shape="rect" id="node5" href="$structbl__hid__report__t.html" title="Structure of a bootloader HID report. " alt="" coords="301,95,408,121"/>
+<area shape="rect" id="node6" href="$structbl__hid__header__t.html" title="Structure of a bootloader HID header. " alt="" coords="302,5,415,32"/>
+</map>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\freedom\led_demo_FRDM-KL25Z.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\tower\led_demo_TWR-KL25Z48M.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All Configurations</name>
+      <member>
+        <project>led_demo_FRDM-KL25Z</project>
+        <configuration>Debug_0000</configuration>
+      </member>
+      <member>
+        <project>led_demo_FRDM-KL25Z</project>
+        <configuration>Debug_8000</configuration>
+      </member>
+      <member>
+        <project>led_demo_TWR-KL25Z48M</project>
+        <configuration>Debug_0000</configuration>
+      </member>
+      <member>
+        <project>led_demo_TWR-KL25Z48M</project>
+        <configuration>Debug_8000</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

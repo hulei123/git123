@@ -1,0 +1,11 @@
+<map id="hid_device_struct_t" name="hid_device_struct_t">
+<area shape="rect" id="node2" href="$structusb__vendor__req__callback__struct__t.html" title="Obtains the callback for vendor reqeust. " alt="" coords="445,5,611,47"/>
+<area shape="rect" id="node3" href="$structusb__endpoints__t.html" title="Obtains the endpoint group. " alt="" coords="469,71,587,98"/>
+<area shape="rect" id="node4" href="$structusb__ep__struct__t.html" title="Obtains the endpoint data structure. " alt="" coords="241,71,356,98"/>
+<area shape="rect" id="node5" href="$structusb__desc__request__notify__struct__t.html" title="Obtains the data structure of the descriptor related callback function. The application needs to impl..." alt="" coords="445,123,611,164"/>
+<area shape="rect" id="node6" href="$structhid__endpoint__data__struct__t.html" title="hid_endpoint_data_struct_t" alt="" coords="439,189,617,215"/>
+<area shape="rect" id="node7" href="$structhid__endpoint__struct__t.html" title="hid_endpoint_struct_t" alt="" coords="225,189,372,215"/>
+<area shape="rect" id="node8" href="$structhid__queue__struct__t.html" title="hid_queue_struct_t" alt="" coords="5,189,137,215"/>
+<area shape="rect" id="node9" href="$structusb__class__specific__callback__struct__t.html" title="usb_class_specific\l_callback_struct_t" alt="" coords="462,240,594,281"/>
+<area shape="rect" id="node10" href="$structusb__application__callback__struct__t.html" title="Obtains the callback for application. " alt="" coords="445,305,611,347"/>
+</map>

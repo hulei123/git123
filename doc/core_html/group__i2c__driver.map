@@ -1,0 +1,7 @@
+<map id="I2C" name="I2C">
+<area shape="rect" id="node1" href="$group__i2c__hal.html" title="I2C HAL peripheral driver. " alt="" coords="253,5,359,32"/>
+<area shape="rect" id="node2" href="$group__drivers.html" title="IP device drivers. " alt="" coords="5,81,108,108"/>
+<area shape="rect" id="node3" href="$group__i2c__slave.html" title="I2C slave mode peripheral driver. " alt="" coords="250,56,362,83"/>
+<area shape="rect" id="node4" href="$group__i2c__master.html" title="I2C master mode peripheral driver. " alt="" coords="245,107,367,133"/>
+<area shape="rect" id="node6" href="$group__i2c__irq.html" title="I2C driver IRQ functions. " alt="" coords="273,157,339,184"/>
+</map>

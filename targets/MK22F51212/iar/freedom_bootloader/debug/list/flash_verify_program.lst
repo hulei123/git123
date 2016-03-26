@@ -1,0 +1,276 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:48
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_verify_program.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_verify_program.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\flash_verify_program.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_verify_program.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_verify_program.c
+      1          /*
+      2           * Copyright (c) 2013, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "SSD_FTFx_Common.h"
+     32          #include "flash/flash.h"
+     33          #include "fsl_platform_status.h"
+     34          #include "fsl_platform_types.h"
+     35          #include "device/fsl_device_registers.h"
+     36          
+     37          ////////////////////////////////////////////////////////////////////////////////
+     38          // Code
+     39          ////////////////////////////////////////////////////////////////////////////////
+     40          
+     41          // See flash.h for documentation of this function.
+
+   \                                 In section .text, align 4, keep-with-next
+     42          status_t flash_verify_program(flash_driver_t * driver,
+     43                                        uint32_t start,
+     44                                        uint32_t lengthInBytes,
+     45                                        const uint8_t * expectedData,
+     46                                        flash_margin_value_t margin,
+     47                                        uint32_t * failedAddress,
+     48                                        uint32_t * failedData)
+     49          {
+   \                     flash_verify_program: (+1)
+   \   00000000   0xE92D 0x41F0      PUSH     {R4-R8,LR}
+   \   00000004   0x4606             MOV      R6,R0
+   \   00000006   0xEA5F 0x0803      MOVS     R8,R3
+   \   0000000A   0x460D             MOV      R5,R1
+   \   0000000C   0x4617             MOV      R7,R2
+     50              if (expectedData == NULL)
+   \   0000000E   0xBF08             IT       EQ 
+   \   00000010   0x2004             MOVEQ    R0,#+4
+     51              {
+     52                  return kStatus_InvalidArgument;
+   \   00000012   0xD01E             BEQ.N    ??flash_verify_program_0
+     53              }
+     54          
+     55              status_t returnCode = flash_check_range(driver, start, lengthInBytes, FSL_FEATURE_FLASH_PFLASH_CHECK_CMD_ADDRESS_ALIGMENT);
+   \   00000014   0x2304             MOVS     R3,#+4
+   \   00000016   0x.... 0x....      BL       flash_check_range
+     56              if (returnCode)
+   \   0000001A   0xB9D0             CBNZ.N   R0,??flash_verify_program_0
+   \   0000001C   0x9C06             LDR      R4,[SP, #+24]
+   \   0000001E   0xE001             B.N      ??flash_verify_program_1
+     57              {
+     58                  return returnCode;
+     59              }
+     60          
+     61              while (lengthInBytes)
+     62              {
+     63                  // preparing passing parameter to program check the flash block
+     64                  kFCCOBx[0] = start;
+     65                  FTFx_WR_FCCOBx(FTFx, 0, FTFx_PROGRAM_CHECK);
+     66                  FTFx_WR_FCCOBx(FTFx, 4, margin);
+     67                  kFCCOBx[2] = *(uint32_t *)expectedData;
+     68          
+     69                  // calling flash command sequence function to execute the command
+     70                  returnCode = flash_command_sequence(driver);
+     71          
+     72                  // checking for the success of command execution
+     73                  if (kStatus_Success != returnCode)
+     74                  {
+     75                      if (failedAddress)
+     76                      {
+     77                          *failedAddress  =  start;
+     78                      }
+     79                      if (failedData)
+     80                      {
+     81                          *failedData = 0;
+     82                      }
+     83          
+     84                  // Read fail returned data: if K70, Nevis2, L1PT, L2K are selected
+     85                  //! @todo Use a feature macro to determine whether this is supported.
+     86          // #if ((FTFx_KX_512K_512K_16K_4K_4K == FLASH_DERIVATIVE) || (FTFx_KX_1024K_0K_16K_4K_0K == FLASH_DERIVATIVE)\
+     87          //         ||(FTFx_NX_256K_32K_2K_2K_1K == FLASH_DERIVATIVE)||(FTFx_NX_128K_32K_2K_2K_1K == FLASH_DERIVATIVE)\
+     88          //         ||(FTFx_NX_96K_32K_2K_2K_1K == FLASH_DERIVATIVE)||(FTFx_NX_64K_32K_2K_2K_1K == FLASH_DERIVATIVE)\
+     89          //         ||(FTFx_LX_128K_0K_0K_1K_0K == FLASH_DERIVATIVE)||(FTFx_LX_96K_0K_0K_1K_0K == FLASH_DERIVATIVE)\
+     90          //         ||(FTFx_LX_64K_0K_0K_1K_0K == FLASH_DERIVATIVE)||(FTFx_LX_32K_0K_0K_1K_0K == FLASH_DERIVATIVE)\
+     91          //         ||(FTFx_LX_8K_0K_0K_1K_0K == FLASH_DERIVATIVE))
+     92          //                 *failedData     = 0x0;
+     93          //                 *(failedData+1) = 0x0;
+     94          //                 *(failedData+2) = 0x0;
+     95          //                 *(failedData+3) = 0x0;
+     96          // #else //other derivative
+     97          // #if (ENDIANNESS == BIG_ENDIAN)  // Big Endian
+     98          //                 *(failedData)   = FTFA->FCCOB4;
+     99          //                 *(failedData+1) = FTFA->FCCOB5;
+    100          //                 *(failedData+2) = FTFA->FCCOB6;
+    101          //                 *(failedData+3) = FTFA->FCCOB7;
+    102          // #else // Little Endian
+    103          //                 *(failedData+3) = FTFA->FCCOB4;
+    104          //                 *(failedData+2) = FTFA->FCCOB5;
+    105          //                 *(failedData+1) = FTFA->FCCOB6;
+    106          //                 *(failedData)   = FTFA->FCCOB7;
+    107          // #endif //of ENDIANNESS
+    108          // #endif // of FLASH_DERIVATIVE
+    109          
+    110                      break;
+    111                  }
+    112          
+    113                  lengthInBytes -= FSL_FEATURE_FLASH_PFLASH_CHECK_CMD_ADDRESS_ALIGMENT;
+   \                     ??flash_verify_program_2: (+1)
+   \   00000020   0x1F3F             SUBS     R7,R7,#+4
+    114                  expectedData += FSL_FEATURE_FLASH_PFLASH_CHECK_CMD_ADDRESS_ALIGMENT;
+    115                  start += FSL_FEATURE_FLASH_PFLASH_CHECK_CMD_ADDRESS_ALIGMENT;
+   \   00000022   0x1D2D             ADDS     R5,R5,#+4
+   \                     ??flash_verify_program_1: (+1)
+   \   00000024   0xB1AF             CBZ.N    R7,??flash_verify_program_0
+   \   00000026   0x480C             LDR.N    R0,??flash_verify_program_3
+   \   00000028   0x490C             LDR.N    R1,??flash_verify_program_3+0x4  ;; 0x40020007
+   \   0000002A   0x6800             LDR      R0,[R0, #+0]
+   \   0000002C   0x6005             STR      R5,[R0, #+0]
+   \   0000002E   0x2202             MOVS     R2,#+2
+   \   00000030   0x700A             STRB     R2,[R1, #+0]
+   \   00000032   0x710C             STRB     R4,[R1, #+4]
+   \   00000034   0xF858 0x1B04      LDR      R1,[R8], #+4
+   \   00000038   0x6081             STR      R1,[R0, #+8]
+   \   0000003A   0x4630             MOV      R0,R6
+   \   0000003C   0x.... 0x....      BL       flash_command_sequence
+   \   00000040   0x2800             CMP      R0,#+0
+   \   00000042   0xD0ED             BEQ.N    ??flash_verify_program_2
+   \   00000044   0x9907             LDR      R1,[SP, #+28]
+   \   00000046   0xB101             CBZ.N    R1,??flash_verify_program_4
+   \   00000048   0x600D             STR      R5,[R1, #+0]
+   \                     ??flash_verify_program_4: (+1)
+   \   0000004A   0x9908             LDR      R1,[SP, #+32]
+   \   0000004C   0xB109             CBZ.N    R1,??flash_verify_program_0
+   \   0000004E   0x2200             MOVS     R2,#+0
+   \   00000050   0x600A             STR      R2,[R1, #+0]
+    116              }
+    117          
+    118              return(returnCode);
+   \                     ??flash_verify_program_0: (+1)
+   \   00000052   0xE8BD 0x81F0      POP      {R4-R8,PC}       ;; return
+   \   00000056   0xBF00             Nop      
+   \                     ??flash_verify_program_3:
+   \   00000058   0x........         DC32     kFCCOBx
+   \   0000005C   0x40020007         DC32     0x40020007
+    119          }
+    120          
+    121          ////////////////////////////////////////////////////////////////////////////////
+    122          // EOF
+    123          ////////////////////////////////////////////////////////////////////////////////
+    124          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   flash_verify_program
+        24   -> flash_check_range
+        24   -> flash_command_sequence
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      96  flash_verify_program
+
+ 
+ 96 bytes in section .text
+ 
+ 96 bytes of CODE memory
+
+Errors: none
+Warnings: none

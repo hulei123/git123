@@ -1,0 +1,6 @@
+<map id="usb_dev_state_struct_t" name="usb_dev_state_struct_t">
+<area shape="rect" id="node2" href="$structusb__class__fw__object__struct__t.html" title="usb_class_fw_object\l_struct_t" alt="" coords="87,109,230,151"/>
+<area shape="rect" id="node3" href="$structusb__setup__struct__t.html" title="Obtains the setup packet information data structure. " alt="" coords="5,13,139,39"/>
+<area shape="rect" id="node4" href="$structusb__desc__request__notify__struct__t.html" title="Obtains the data structure of the descriptor related callback function. The application needs to impl..." alt="" coords="163,5,330,47"/>
+<area shape="rect" id="node5" href="$structservice__struct__t.html" title="service_struct_t" alt="" coords="254,117,367,143"/>
+</map>

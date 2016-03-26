@@ -1,0 +1,11 @@
+/*!
+
+@defgroup rtos_irq_sync Synchronization
+@ingroup utilities
+@brief Synchronization resource.
+
+@defgroup irq_lock Interrupt Lock
+@ingroup utilities
+@brief Global interrupt lock.
+
+ */

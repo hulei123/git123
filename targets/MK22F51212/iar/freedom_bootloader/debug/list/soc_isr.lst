@@ -1,0 +1,386 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:34
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\platform\soc\MK22F\soc_isr.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\platform\soc\MK22F\soc_isr.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\soc_isr.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\soc_isr.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\platform\soc\MK22F\soc_isr.c
+      1          /**HEADER*********************************************************************
+      2          *
+      3          * Copyright (c) 2013 - 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          ******************************************************************************
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          ******************************************************************************
+     22          *
+     23          * $FileName: soc_isr.c
+     24          * $Version :
+     25          * $Date    :
+     26          *
+     27          * Comments:
+     28          *
+     29          *  
+     30          *
+     31          *END*************************************************************************/
+     32          #include "types.h"
+     33          #include "soc.h"
+     34          #include "derivative.h"
+     35          #include "soc_pit.h"
+     36          #include "user_config.h"
+     37          
+     38          #if (DELAY_ENABLE) || (MAX_TIMER_OBJECTS)
+     39          #include "soc_pit.h"
+     40          #endif
+     41          #if (PRINTF_ENABLE)
+     42          #include "soc_sci.h"
+     43          #endif
+     44          #if I2S_ENABLE
+     45          #include "soc_i2s.h"
+     46          #endif
+     47          
+     48          #if BL_CONFIG_USB_HID || BL_CONFIG_HS_USB_HID
+     49          
+     50          typedef void (*int_isr_fptr_t)(void*);
+
+   \                                 In section .bss, align 4
+     51          static int_isr_fptr_t lowlevel_usb_isr_69 = NULL;
+   \                     lowlevel_usb_isr_69:
+   \   00000000                      DS8 4
+   \   00000004                      DS8 4
+   \   00000008                      DS8 4
+   \   0000000C                      DS8 4
+   \   00000010                      DS8 4
+   \   00000014                      DS8 4
+     52          static void* isr_param_69 = NULL;
+     53          static void* isr_param_uart1_isr = NULL;
+     54          
+     55          #if PORTA_ENABLE
+     56          static int_isr_fptr_t lowlevel_porta_isr_75 = NULL;
+     57          static void* isr_param_75 = NULL;
+     58          #endif /* PORTA_ENABLE */
+     59          
+     60          #if (DELAY_ENABLE) || (MAX_TIMER_OBJECTS)
+     61          static int_isr_fptr_t lowlevel_pit0_isr = NULL;
+     62          static int_isr_fptr_t lowlevel_pit1_isr = NULL;
+     63          #endif /* (DELAY_ENABLE) || (MAX_TIMER_OBJECTS) */
+     64          
+     65          #if I2S_ENABLE
+     66          static int_isr_fptr_t lowlevel_i2s0_tx_isr = NULL;
+     67          #endif /* I2S_ENABLE */
+     68          static int_isr_fptr_t lowlevel_uart1_isr = NULL;
+     69          
+
+   \                                 In section .text, align 2, keep-with-next
+     70          int32_t soc_install_isr( uint32_t vector, int_isr_fptr_t isr_ptr, void* isr_data)
+     71          {
+   \                     soc_install_isr: (+1)
+   \   00000000   0xB5F8             PUSH     {R3-R7,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+   \   00000006   0x4616             MOV      R6,R2
+     72              if(vector == 69)
+   \   00000008   0x....             LDR.N    R7,??DataTable4
+   \   0000000A   0x2C45             CMP      R4,#+69
+   \   0000000C   0xBF04             ITT      EQ 
+   \   0000000E   0x603D             STREQ    R5,[R7, #+0]
+   \   00000010   0x607E             STREQ    R6,[R7, #+4]
+     73              {
+     74                  lowlevel_usb_isr_69 = isr_ptr;
+     75                  isr_param_69 = isr_data;
+     76              }
+     77          
+     78          #if PORTA_ENABLE
+     79              if(vector == 75)
+     80              {
+     81                  lowlevel_porta_isr_75 = isr_ptr;
+     82                  isr_param_75 = isr_data;
+     83              }
+     84          #endif /* PORTA_ENABLE */
+     85            
+     86          #if (DELAY_ENABLE) || (MAX_TIMER_OBJECTS)
+     87              if(vector == pit_get_vector(0))
+   \   00000012   0x2000             MOVS     R0,#+0
+   \   00000014   0x.... 0x....      BL       pit_get_vector
+   \   00000018   0x4284             CMP      R4,R0
+   \   0000001A   0xBF08             IT       EQ 
+   \   0000001C   0x60FD             STREQ    R5,[R7, #+12]
+     88              {
+     89                  lowlevel_pit0_isr = isr_ptr;
+     90              }
+     91              
+     92              if(vector == pit_get_vector(1))
+   \   0000001E   0x2001             MOVS     R0,#+1
+   \   00000020   0x.... 0x....      BL       pit_get_vector
+   \   00000024   0x4284             CMP      R4,R0
+   \   00000026   0xBF08             IT       EQ 
+   \   00000028   0x613D             STREQ    R5,[R7, #+16]
+     93              {
+     94                  lowlevel_pit1_isr = isr_ptr;
+     95              }
+     96          #endif /* (DELAY_ENABLE) || (MAX_TIMER_OBJECTS) */
+     97              
+     98          #if I2S_ENABLE
+     99              if(vector == i2s_get_vector(0))
+    100              {
+    101                  lowlevel_i2s0_tx_isr = isr_ptr;
+    102              }
+    103          #endif /* I2S_ENABLE */
+    104              if(vector == (UART1_RX_TX_IRQn + 16))
+   \   0000002A   0x2C31             CMP      R4,#+49
+   \   0000002C   0xBF04             ITT      EQ 
+   \   0000002E   0x617D             STREQ    R5,[R7, #+20]
+   \   00000030   0x60BE             STREQ    R6,[R7, #+8]
+    105              {
+    106                  lowlevel_uart1_isr = isr_ptr;
+    107                  isr_param_uart1_isr = isr_data;
+    108              }
+    109              return 1;
+   \   00000032   0x2001             MOVS     R0,#+1
+   \   00000034   0xBDF2             POP      {R1,R4-R7,PC}    ;; return
+    110          }
+    111          
+
+   \                                 In section .text, align 2, keep-with-next
+    112          void USB0_IRQHandler(void)
+    113          {
+    114              if(lowlevel_usb_isr_69 != NULL)
+   \                     USB0_IRQHandler: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable4
+   \   00000002   0x6801             LDR      R1,[R0, #+0]
+   \   00000004   0x000A             MOVS     R2,R1
+   \   00000006   0xBF1C             ITT      NE 
+    115              {
+    116                  lowlevel_usb_isr_69(isr_param_69);
+   \   00000008   0x6840             LDRNE    R0,[R0, #+4]
+   \   0000000A   0x4708             BXNE     R1
+    117              }
+    118          }
+   \   0000000C   0x4770             BX       LR               ;; return
+    119          
+
+   \                                 In section .text, align 2, keep-with-next
+    120          void PIT0_ISR(void)
+    121          {
+   \                     PIT0_ISR: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable4
+   \   00000002   0x68C1             LDR      R1,[R0, #+12]
+   \   00000004   0x0008             MOVS     R0,R1
+   \   00000006   0xBF1C             ITT      NE 
+    122          #if (DELAY_ENABLE) || (MAX_TIMER_OBJECTS)
+    123              if(lowlevel_pit0_isr != NULL)
+    124              {
+    125                  lowlevel_pit0_isr(NULL);
+   \   00000008   0x2000             MOVNE    R0,#+0
+   \   0000000A   0x4708             BXNE     R1
+    126              }
+    127          #endif /* (DELAY_ENABLE) || (MAX_TIMER_OBJECTS) */
+    128          }
+   \   0000000C   0x4770             BX       LR               ;; return
+    129          
+
+   \                                 In section .text, align 2, keep-with-next
+    130          void PIT1_ISR(void)
+    131          {
+   \                     PIT1_ISR: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable4
+   \   00000002   0x6901             LDR      R1,[R0, #+16]
+   \   00000004   0x0008             MOVS     R0,R1
+   \   00000006   0xBF1C             ITT      NE 
+    132          #if (DELAY_ENABLE) || (MAX_TIMER_OBJECTS)
+    133              if(lowlevel_pit1_isr != NULL)
+    134              {
+    135                  lowlevel_pit1_isr(NULL);
+   \   00000008   0x2000             MOVNE    R0,#+0
+   \   0000000A   0x4708             BXNE     R1
+    136              }
+    137          #endif /* (DELAY_ENABLE) || (MAX_TIMER_OBJECTS) */
+    138          }
+   \   0000000C   0x4770             BX       LR               ;; return
+    139          
+    140          
+
+   \                                 In section .text, align 2, keep-with-next
+    141          void PORTA_ISR(void)
+    142          {
+    143          #if PORTA_ENABLE
+    144              if(lowlevel_porta_isr_75 != NULL)
+    145              {
+    146                  lowlevel_porta_isr_75(isr_param_75);
+    147              }
+    148          #endif /* PORTA_ENABLE */
+    149          }
+   \                     PORTA_ISR: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+    150          
+
+   \                                 In section .text, align 2, keep-with-next
+    151          void I2S0_TX_ISR(void)
+    152          {
+    153          #if I2S_ENABLE
+    154              if(lowlevel_i2s0_tx_isr != NULL)
+    155              {
+    156                  lowlevel_i2s0_tx_isr(NULL);
+    157              }
+    158          #endif /* I2S_ENABLE */
+    159          }
+   \                     I2S0_TX_ISR: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+    160          
+
+   \                                 In section .text, align 2, keep-with-next
+    161          void UART1_ISR(void)
+    162          {
+    163            if(lowlevel_uart1_isr != NULL)
+   \                     UART1_ISR: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable4
+   \   00000002   0x6941             LDR      R1,[R0, #+20]
+   \   00000004   0x000A             MOVS     R2,R1
+   \   00000006   0xBF1C             ITT      NE 
+    164                lowlevel_uart1_isr(isr_param_uart1_isr);
+   \   00000008   0x6880             LDRNE    R0,[R0, #+8]
+   \   0000000A   0x4708             BXNE     R1
+    165          }
+   \   0000000C   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4:
+   \   00000000   0x........         DC32     lowlevel_usb_isr_69
+    166          
+    167          #endif // BL_CONFIG_USB_HID || BL_CONFIG_HS_USB_HID
+    168          
+    169          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   I2S0_TX_ISR
+       0   PIT0_ISR
+         0   -- Indirect call
+       0   PIT1_ISR
+         0   -- Indirect call
+       0   PORTA_ISR
+       0   UART1_ISR
+         0   -- Indirect call
+       0   USB0_IRQHandler
+         0   -- Indirect call
+      24   soc_install_isr
+        24   -> pit_get_vector
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable4
+       2  I2S0_TX_ISR
+      14  PIT0_ISR
+      14  PIT1_ISR
+       2  PORTA_ISR
+      14  UART1_ISR
+      14  USB0_IRQHandler
+      24  lowlevel_usb_isr_69
+          isr_param_69
+          isr_param_uart1_isr
+          lowlevel_pit0_isr
+          lowlevel_pit1_isr
+          lowlevel_uart1_isr
+      54  soc_install_isr
+
+ 
+  24 bytes in section .bss
+ 118 bytes in section .text
+ 
+ 118 bytes of CODE memory
+  24 bytes of DATA memory
+
+Errors: none
+Warnings: none

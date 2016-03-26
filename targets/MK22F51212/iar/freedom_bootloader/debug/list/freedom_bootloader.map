@@ -1,0 +1,1064 @@
+###############################################################################
+#
+# IAR ELF Linker V7.50.3.10732/W32 for ARM                13/Mar/2016  16:47:55
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\output\Debug\freedom_bootloader.elf
+#    Map file     =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\freedom_bootloader.map
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\adapter_bm.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\app_crc_check.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\autobaud_irq.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bl_dspi_irq_config_common.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bl_i2c_irq_config_common.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bl_user_entry.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmevent.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmisr.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmmsgq.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmsem.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bootloader.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bootloader_context.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bootloader_exception_handler.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bootloader_tree_root.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\clock_config_K22F512.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\command.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\crc16.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\crc32.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\crt0.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\device_memory.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\dspi_peripheral_interface.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\ehci_dev_main.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\ehci_interface.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_cache_clear.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_command_sequence.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_densities_k_series.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_erase.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_erase_all.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_erase_all_unsecure.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_get_property.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_get_security_state.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_init.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_is_execute_only.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_is_protected.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_memory.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_program.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_program_once.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_read_once.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_read_resource.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_security_bypass.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_verify_erase.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_verify_erase_all.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_verify_program.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_assert.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_crc_common.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_crc_driver.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_crc_hal.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_dspi_hal.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_dspi_shared_irqs.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_dspi_slave_driver.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_i2c_slave_driver.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_rtos_abstraction.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_usb_khci_hal.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\hardware_init_K22F512.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\i2c_peripheral_interface.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\khci_dev.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\khci_interface.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\mem_util.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\memory.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\memory_map_K22F512.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\microseconds_sysclk.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\normal_memory.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\nvic.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\pattern_fill.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\peripherals_K22F512.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\poll.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\property.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\sbloader.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\scuart.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\scuart_peripheral_interface.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\serial_packet.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\shutdown_cleanup.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\smc.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\soc_isr.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\soc_pit.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\soc_usb.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\sram_init_cm4.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\startup.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\startup_MK22F51212.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\system_MK22F51212.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_class.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_descriptor.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_dev.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_dev_bsp.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_framework.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_hid.o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_hs_hid_peripheral_interface.o
+#        --redirect _Printf=_PrintfTiny --redirect _Scanf=_ScanfSmallNoMb -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\output\Debug\freedom_bootloader.elf
+#        --map
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\freedom_bootloader.map
+#        --log
+#        libraries,initialization,modules,redirects,sections,veneers,unused_fragments
+#        --log_file
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\freedom_bootloader.log
+#        --config
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../common/linker/iar/MK22F51212/K22FN512xxx12_application_0x0000.icf
+#        --redirect __aeabi_idiv=__iar_small___aeabi_idiv --redirect
+#        __aeabi_uidiv=__iar_small___aeabi_uidiv --redirect
+#        __aeabi_idivmod=__iar_small___aeabi_idivmod --redirect
+#        __aeabi_uidivmod=__iar_small___aeabi_uidivmod --entry Reset_Handler
+#        --no_exceptions --merge_duplicate_sections --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec, ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x0007ffff] { block ApplicationFlash };
+"P2":  place in [from 0x1fff0000 to 0x2000ffff] { block ApplicationRam };
+
+  Section                Kind        Address    Size  Object
+  -------                ----        -------    ----  ------
+"A1":                                          0x468
+  .intvec                         0x00000000   0x410  <Block>
+    .intvec              ro code  0x00000000   0x410  startup_MK22F51212.o [1]
+  .noinit                ro code  0x00000410    0x58  crt0.o [1]
+                                - 0x00000468   0x468
+
+"P1":                                         0x54fc
+  ApplicationFlash                0x00000468  0x54fc  <Block>
+    .rodata              const    0x00000468    0x88  command.o [1]
+    .rodata              const    0x000004f0    0x18  device_memory.o [1]
+    .rodata              const    0x00000508    0x18  dspi_peripheral_interface.o [1]
+    .rodata              const    0x00000520    0x20  flash_densities_k_series.o [1]
+    .rodata              const    0x00000540     0x4  flash_init.o [1]
+    .rodata              const    0x00000544    0x18  flash_memory.o [1]
+    .rodata              const    0x0000055c     0x4  fsl_crc_common.o [1]
+    .rodata              const    0x00000560    0x18  i2c_peripheral_interface.o [1]
+    .rodata              const    0x00000578    0x50  khci_interface.o [1]
+    .rodata              const    0x000005c8    0x18  memory.o [1]
+    .rodata              const    0x000005e0    0x18  normal_memory.o [1]
+    .rodata              const    0x000005f8    0x78  peripherals_K22F512.o [1]
+    .rodata              const    0x00000670    0x14  property.o [1]
+    .rodata              const    0x00000684    0x18  scuart_peripheral_interface.o [1]
+    .rodata              const    0x0000069c    0x1c  serial_packet.o [1]
+    .rodata              const    0x000006b8    0x14  usb_descriptor.o [1]
+    .rodata              const    0x000006cc    0x2c  usb_hs_hid_peripheral_interface.o [1]
+    .text                ro code  0x000006f8    0x14  adapter_bm.o [1]
+    .text                ro code  0x0000070c    0xc0  app_crc_check.o [1]
+    .text                ro code  0x000007cc    0x86  crc32.o [1]
+    .text                ro code  0x00000852     0x2  startup_MK22F51212.o [1]
+    .text                ro code  0x00000854    0x58  fsl_rtos_abstraction.o [1]
+    .text                ro code  0x000008ac   0x13c  fsl_crc_driver.o [1]
+    .text                ro code  0x000009e8    0x34  fsl_crc_hal.o [1]
+    .text                ro code  0x00000a1c   0x104  autobaud_irq.o [1]
+    .text                ro code  0x00000b20    0x88  microseconds_sysclk.o [1]
+    .text                ro code  0x00000ba8   0x266  hardware_init_K22F512.o [1]
+    .text                ro code  0x00000e0e     0x2  startup_MK22F51212.o [1]
+    .text                ro code  0x00000e10    0x2c  smc.o [1]
+    .text                ro code  0x00000e3c    0x36  bl_dspi_irq_config_common.o [1]
+    .text                ro code  0x00000e74    0x36  bl_i2c_irq_config_common.o [1]
+    .text                ro code  0x00000eac   0x1d6  bootloader.o [1]
+    .text                ro code  0x00001084    0x64  shutdown_cleanup.o [1]
+    .text                ro code  0x000010e8   0x1c0  clock_config_K22F512.o [1]
+    .text                ro code  0x000012a8   0x10e  flash_init.o [1]
+    .text                ro code  0x000013b8    0x58  flash_cache_clear.o [1]
+    .text                ro code  0x00001410    0x94  startup.o [1]
+    .text                ro code  0x000014a4    0x6c  flash_command_sequence.o [1]
+    .text                ro code  0x00001510    0x76  ABImemcpy_unaligned.o [4]
+    .text                ro code  0x00001588     0x6  ABImemclr.o [4]
+    .text                ro code  0x00001590    0x66  ABImemset.o [4]
+    .text                ro code  0x000015f8    0x28  bootloader_exception_handler.o [1]
+    .text                ro code  0x00001620   0x604  command.o [1]
+    .text                ro code  0x00001c24    0x34  flash_get_security_state.o [1]
+    .text                ro code  0x00001c58     0x6  ABImemclr4.o [4]
+    .text                ro code  0x00001c60   0x328  flash_memory.o [1]
+    .text                ro code  0x00001f88   0x344  sbloader.o [1]
+    .text                ro code  0x000022cc    0x90  flash_read_resource.o [1]
+    .text                ro code  0x0000235c    0x50  flash_security_bypass.o [1]
+    .text                ro code  0x000023ac    0x58  flash_program_once.o [1]
+    .text                ro code  0x00002404    0x50  flash_read_once.o [1]
+    .text                ro code  0x00002454    0x3a  ABImemset48.o [4]
+    .text                ro code  0x00002490    0x46  flash_get_property.o [1]
+    .text                ro code  0x000024d8    0x84  flash_is_execute_only.o [1]
+    .text                ro code  0x0000255c    0x66  normal_memory.o [1]
+    .text                ro code  0x000025c4    0x64  flash_program.o [1]
+    .text                ro code  0x00002628    0x60  flash_verify_program.o [1]
+    .text                ro code  0x00002688    0x78  flash_erase.o [1]
+    .text                ro code  0x00002700    0x7c  flash_verify_erase.o [1]
+    .text                ro code  0x0000277c    0x30  flash_erase_all.o [1]
+    .text                ro code  0x000027ac    0x18  flash_verify_erase_all.o [1]
+    .text                ro code  0x000027c4    0x80  sram_init_cm4.o [1]
+    .text                ro code  0x00002844    0x7a  pattern_fill.o [1]
+    .text                ro code  0x000028c0    0xd0  dspi_peripheral_interface.o [1]
+    .text                ro code  0x00002990   0x1fc  fsl_dspi_slave_driver.o [1]
+    .text                ro code  0x00002b8c   0x150  fsl_dspi_hal.o [1]
+    .text                ro code  0x00002cdc    0x3c  fsl_dspi_shared_irqs.o [1]
+    .text                ro code  0x00002d18   0x18c  fsl_i2c_slave_driver.o [1]
+    .text                ro code  0x00002ea4    0xd0  i2c_peripheral_interface.o [1]
+    .text                ro code  0x00002f74   0xaec  khci_dev.o [1]
+    .text                ro code  0x00003a60    0xc0  nvic.o [1]
+    .text                ro code  0x00003b20   0x3a6  usb_dev.o [1]
+    .text                ro code  0x00003ec6     0xc  memcpy.o [3]
+    .text                ro code  0x00003ed4    0x1a  soc_usb.o [1]
+    .text                ro code  0x00003eee     0x8  bmisr.o [1]
+    .text                ro code  0x00003ef8   0x3b2  usb_framework.o [1]
+    .text                ro code  0x000042aa    0x14  memset.o [3]
+    .text                ro code  0x000042c0    0x54  usb_dev_bsp.o [1]
+    .text                ro code  0x00004314    0x48  soc_isr.o [1]
+    .text                ro code  0x0000435c    0x14  soc_pit.o [1]
+    .text                ro code  0x00004370   0x198  memory.o [1]
+    .text                ro code  0x00004508   0x280  property.o [1]
+    .text                ro code  0x00004788   0x1e8  scuart.o [1]
+    .text                ro code  0x00004970    0xdc  scuart_peripheral_interface.o [1]
+    .text                ro code  0x00004a4c   0x310  serial_packet.o [1]
+    .text                ro code  0x00004d5c    0x56  crc16.o [1]
+    .text                ro code  0x00004db4    0x1c  system_MK22F51212.o [1]
+    .text                ro code  0x00004dd0    0x7c  usb_class.o [1]
+    .text                ro code  0x00004e4c   0x15c  usb_descriptor.o [1]
+    .text                ro code  0x00004fa8   0x37e  usb_hs_hid_peripheral_interface.o [1]
+    .text                ro code  0x00005328   0x29c  usb_hid.o [1]
+    .text                ro code  0x000055c4    0x1a  cmain.o [4]
+    .text                ro code  0x000055de     0x4  low_level_init.o [3]
+    .text                ro code  0x000055e4    0x28  data_init.o [4]
+    .data_init                    0x0000560c   0x28c  <Block>
+      Initializer bytes  const    0x0000560c   0x28c  <for .data-1>
+    .text                ro code  0x00005898    0x6e  device_memory.o [1]
+    .text                ro code  0x00005906     0xc  cstartup_M.o [4]
+    .text                ro code  0x00005912    0x40  zero_init3.o [4]
+    .iar.init_table      const    0x00005954    0x10  - Linker created -
+    .rodata              const    0x00005964     0x0  zero_init3.o [4]
+    CodeRelocate                  0x00005964     0x0  <Block>
+                                - 0x00005964  0x54fc
+
+"P2":                                         0x1000
+  ApplicationRam                  0x1fff0000  0x1000  <Block>
+    .data                         0x1fff0000   0x28c  <Block>
+      .data-1                     0x1fff0000   0x28c  <Init block>
+        .data            inited   0x1fff0000    0x40  bootloader_context.o [1]
+        .data            inited   0x1fff0040    0x10  command.o [1]
+        .data            inited   0x1fff0050     0xc  flash_init.o [1]
+        .data            inited   0x1fff005c    0x18  i2c_peripheral_interface.o [1]
+        .data            inited   0x1fff0074    0x48  memory_map_K22F512.o [1]
+        .data            inited   0x1fff00bc    0x10  soc_pit.o [1]
+        .data            inited   0x1fff00cc     0x4  system_MK22F51212.o [1]
+        .data            inited   0x1fff00d0    0x10  usb_descriptor.o [1]
+        .data            inited   0x1fff00e0     0x8  usb_descriptor.o [1]
+        .data            inited   0x1fff00e8    0x18  usb_descriptor.o [1]
+        .data            inited   0x1fff0100    0x14  usb_descriptor.o [1]
+        .data            inited   0x1fff0114    0x80  usb_descriptor.o [1]
+        .data            inited   0x1fff0194    0x3c  usb_descriptor.o [1]
+        .data            inited   0x1fff01d0    0x28  usb_descriptor.o [1]
+        .data            inited   0x1fff01f8    0x24  usb_descriptor.o [1]
+        .data            inited   0x1fff021c    0x14  usb_descriptor.o [1]
+        .data            inited   0x1fff0230    0x5c  usb_framework.o [1]
+    .bss                          0x1fff0290   0x568  <Block>
+      .bss               zero     0x1fff0290    0x24  autobaud_irq.o [1]
+      .bss               zero     0x1fff02b4     0x8  bootloader.o [1]
+      .bss               zero     0x1fff02bc     0x8  clock_config_K22F512.o [1]
+      .bss               zero     0x1fff02c4    0x24  command.o [1]
+      .bss               zero     0x1fff02e8     0xc  command.o [1]
+      .bss               zero     0x1fff02f4     0x8  dspi_peripheral_interface.o [1]
+      .bss               zero     0x1fff02fc    0x30  dspi_peripheral_interface.o [1]
+      .bss               zero     0x1fff032c     0x4  flash_cache_clear.o [1]
+      .bss               zero     0x1fff0330     0x4  flash_command_sequence.o [1]
+      .bss               zero     0x1fff0334    0x20  flash_init.o [1]
+      .bss               zero     0x1fff0354    0x20  flash_init.o [1]
+      .bss               zero     0x1fff0374    0x10  fsl_dspi_shared_irqs.o [1]
+      .bss               zero     0x1fff0384    0x20  fsl_i2c_slave_driver.o [1]
+      .bss               zero     0x1fff03a4     0x4  fsl_rtos_abstraction.o [1]
+      .bss               zero     0x1fff03a8     0xc  hardware_init_K22F512.o [1]
+      .bss               zero     0x1fff03b4     0x8  i2c_peripheral_interface.o [1]
+      .bss               zero     0x1fff03bc     0x8  khci_dev.o [1]
+      .bss               zero     0x1fff03c4    0xb0  khci_dev.o [1]
+      .bss               zero     0x1fff0474     0x4  khci_dev.o [1]
+      .bss               zero     0x1fff0478     0x4  memory.o [1]
+      .bss               zero     0x1fff047c     0x8  microseconds_sysclk.o [1]
+      .bss               zero     0x1fff0484     0x4  nvic.o [1]
+      .bss               zero     0x1fff0488    0xb8  property.o [1]
+      .bss               zero     0x1fff0540     0x4  property.o [1]
+      .bss               zero     0x1fff0544    0x70  sbloader.o [1]
+      .bss               zero     0x1fff05b4    0x14  sbloader.o [1]
+      .bss               zero     0x1fff05c8     0x4  scuart.o [1]
+      .bss               zero     0x1fff05cc     0x4  scuart_peripheral_interface.o [1]
+      .bss               zero     0x1fff05d0    0x94  serial_packet.o [1]
+      .bss               zero     0x1fff0664    0x18  soc_isr.o [1]
+      .bss               zero     0x1fff067c    0x10  usb_class.o [1]
+      .bss               zero     0x1fff068c     0x4  usb_descriptor.o [1]
+      .bss               zero     0x1fff0690    0xa4  usb_dev.o [1]
+      .bss               zero     0x1fff0734    0x80  usb_hid.o [1]
+      .bss               zero     0x1fff07b4    0x3c  usb_hs_hid_peripheral_interface.o [1]
+      .bss               zero     0x1fff07f0     0x1  flash_memory.o [1]
+      .bss               zero     0x1fff07f1     0x1  usb_descriptor.o [1]
+    .noinit              uninit   0x1fff0800   0x3a0  khci_dev.o [1]
+    .noinit              uninit   0x1fff0ba0    0x60  usb_dev.o [1]
+    CodeRelocateRam               0x1fff0c00     0x0  <Block>
+    CSTACK                        0x1fff0c00   0x400  <Block>
+      CSTACK             uninit   0x1fff0c00   0x400  <Block tail>
+                                - 0x1fff1000  0x1000
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x562:
+          0x1fff0290  0x562
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                             ro code  ro data  rw data
+    ------                             -------  -------  -------
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj: [1]
+    adapter_bm.o                            20
+    app_crc_check.o                        192
+    autobaud_irq.o                         260                36
+    bl_dspi_irq_config_common.o             54
+    bl_i2c_irq_config_common.o              54
+    bmisr.o                                  8
+    bootloader.o                           470                 8
+    bootloader_context.o                             64       64
+    bootloader_exception_handler.o          40
+    clock_config_K22F512.o                 448                 8
+    command.o                            1 540      152       64
+    crc16.o                                 86
+    crc32.o                                134
+    crt0.o                                  88
+    device_memory.o                        110       24
+    dspi_peripheral_interface.o            208       24       56
+    flash_cache_clear.o                     88                 4
+    flash_command_sequence.o               108                 4
+    flash_densities_k_series.o                       32
+    flash_erase.o                          120
+    flash_erase_all.o                       48
+    flash_get_property.o                    70
+    flash_get_security_state.o              52
+    flash_init.o                           270       16       76
+    flash_is_execute_only.o                132
+    flash_memory.o                         808       24        1
+    flash_program.o                        100
+    flash_program_once.o                    88
+    flash_read_once.o                       80
+    flash_read_resource.o                  144
+    flash_security_bypass.o                 80
+    flash_verify_erase.o                   124
+    flash_verify_erase_all.o                24
+    flash_verify_program.o                  96
+    fsl_crc_common.o                                  4
+    fsl_crc_driver.o                       316
+    fsl_crc_hal.o                           52
+    fsl_dspi_hal.o                         336
+    fsl_dspi_shared_irqs.o                  60                16
+    fsl_dspi_slave_driver.o                508
+    fsl_i2c_slave_driver.o                 396                32
+    fsl_rtos_abstraction.o                  88                 4
+    hardware_init_K22F512.o                614                12
+    i2c_peripheral_interface.o             208       48       32
+    khci_dev.o                           2 796             1 116
+    khci_interface.o                                 80
+    memory.o                               408       24        4
+    memory_map_K22F512.o                             72       72
+    microseconds_sysclk.o                  136                 8
+    normal_memory.o                        102       24
+    nvic.o                                 192                 4
+    pattern_fill.o                         122
+    peripherals_K22F512.o                           120
+    property.o                             640       20      188
+    sbloader.o                             836               132
+    scuart.o                               488                 4
+    scuart_peripheral_interface.o          220       24        4
+    serial_packet.o                        784       28      148
+    shutdown_cleanup.o                     100
+    smc.o                                   44
+    soc_isr.o                               72                24
+    soc_pit.o                               20       16       16
+    soc_usb.o                               26
+    sram_init_cm4.o                        128
+    startup.o                              148
+    startup_MK22F51212.o                 1 044
+    system_MK22F51212.o                     28        4        4
+    usb_class.o                            124                16
+    usb_descriptor.o                       348      372      357
+    usb_dev.o                              934               260
+    usb_dev_bsp.o                           84
+    usb_framework.o                        946       92       92
+    usb_hid.o                              668               128
+    usb_hs_hid_peripheral_interface.o      894       44       60
+    ------------------------------------------------------------
+    Total:                              21 054    1 308    3 054
+
+command line: [2]
+    ------------------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    low_level_init.o                         4
+    memcpy.o                                12
+    memset.o                                20
+    ------------------------------------------------------------
+    Total:                                  36
+
+rt7M_tl.a: [4]
+    ABImemclr.o                              6
+    ABImemclr4.o                             6
+    ABImemcpy_unaligned.o                  118
+    ABImemset.o                            102
+    ABImemset48.o                           58
+    cmain.o                                 26
+    cstartup_M.o                            12
+    data_init.o                             40
+    zero_init3.o                            64
+    ------------------------------------------------------------
+    Total:                                 432
+
+    Gaps                                    36        2       12
+    Linker created                                   16    1 024
+----------------------------------------------------------------
+    Grand Total:                        21 558    1 326    4 090
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff0290          --   Gb  - Linker created -
+.bss$$Limit             0x1fff07f4          --   Gb  - Linker created -
+.data$$Base             0x1fff0000          --   Gb  - Linker created -
+.data$$Limit            0x1fff028c          --   Gb  - Linker created -
+.data_init$$Base        0x0000560c          --   Gb  - Linker created -
+.data_init$$Limit       0x00005898          --   Gb  - Linker created -
+.iar.init_table$$Base   0x00005954          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x00005964          --   Gb  - Linker created -
+.intvec$$Base           0x00000000          --   Gb  - Linker created -
+.intvec$$Limit          0x00000410          --   Gb  - Linker created -
+?main                   0x000055c5         Code  Gb  cmain.o [4]
+ApplicationFlash$$Base  0x00000468          --   Gb  - Linker created -
+ApplicationFlash$$Limit
+                        0x00005964          --   Gb  - Linker created -
+ApplicationRam$$Base    0x1fff0000          --   Gb  - Linker created -
+ApplicationRam$$Limit   0x1fff1000          --   Gb  - Linker created -
+BusFault_Handler        0x0000161d    0x2  Code  Gb  bootloader_exception_handler.o [1]
+CRC_DRV_Configure       0x0000097d   0x58  Code  Gb  fsl_crc_driver.o [1]
+CRC_DRV_Deinit          0x000008d9   0x1e  Code  Gb  fsl_crc_driver.o [1]
+CRC_DRV_GetCrcBlock     0x000008f9   0x84  Code  Gb  fsl_crc_driver.o [1]
+CRC_DRV_Init            0x000008c5   0x14  Code  Gb  fsl_crc_driver.o [1]
+CRC_HAL_GetCrcResult    0x000009e9   0x2e  Code  Gb  fsl_crc_hal.o [1]
+CRC_HAL_SetSeedOrDataMode
+                        0x000008ad    0xa  Code  Lc  fsl_crc_driver.o [1]
+CRC_HAL_SetWriteTranspose
+                        0x000008b7    0xe  Code  Lc  fsl_crc_driver.o [1]
+CSTACK$$Base            0x1fff0c00          --   Gb  - Linker created -
+CSTACK$$Limit           0x1fff1000          --   Gb  - Linker created -
+CodeRelocate$$Base      0x00005964          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00005964          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff0c00          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff0c00          --   Gb  - Linker created -
+HardFault_Handler       0x00001619    0x2  Code  Gb  bootloader_exception_handler.o [1]
+I2C0_IRQHandler         0x00002d19    0x4  Code  Gb  fsl_i2c_slave_driver.o [1]
+I2C1_IRQHandler         0x00002d1d    0x2  Code  Gb  fsl_i2c_slave_driver.o [1]
+MemManage_Handler       0x0000161b    0x2  Code  Gb  bootloader_exception_handler.o [1]
+NVIC_ClearPendingIRQ    0x00004fa9   0x12  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+NVIC_DisableIRQ         0x00004795    0xa  Code  Lc  scuart.o [1]
+NVIC_EnableIRQ          0x00004789    0xc  Code  Lc  scuart.o [1]
+NVIC_SystemReset        0x000015f9   0x18  Code  Lc  bootloader_exception_handler.o [1]
+OS_Mutex_create         0x000006f9    0x2  Code  Gb  adapter_bm.o [1]
+OS_Mutex_destroy        0x00000703    0x4  Code  Gb  adapter_bm.o [1]
+OS_Mutex_lock           0x000006fb    0x4  Code  Gb  adapter_bm.o [1]
+OS_Mutex_unlock         0x000006ff    0x4  Code  Gb  adapter_bm.o [1]
+PORTE_IRQHandler        0x00000d4d   0x24  Code  Gb  hardware_init_K22F512.o [1]
+Region$$Table$$Base     0x00005954          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00005964          --   Gb  - Linker created -
+Reset_Handler           0x00000411         Code  Gb  crt0.o [1]
+SPI0_IRQHandler         0x00002d11    0x4  Code  Gb  fsl_dspi_shared_irqs.o [1]
+SPI1_IRQHandler         0x00002d15    0x4  Code  Gb  fsl_dspi_shared_irqs.o [1]
+SysTick_Handler         0x00000b87    0xa  Code  Gb  microseconds_sysclk.o [1]
+SystemCoreClock         0x1fff00cc    0x4  Data  Gb  system_MK22F51212.o [1]
+SystemInit              0x00004db5   0x1c  Code  Gb  system_MK22F51212.o [1]
+UART0_RX_TX_IRQHandler  0x0000489d    0xc  Code  Gb  scuart.o [1]
+UART1_RX_TX_IRQHandler  0x000048a9   0x14  Code  Gb  scuart.o [1]
+UART2_RX_TX_IRQHandler  0x000048c5    0xc  Code  Gb  scuart.o [1]
+USB0_IRQHandler         0x0000434b    0xe  Code  Gb  soc_isr.o [1]
+USB_Class_Deinit        0x00004e15   0x22  Code  Gb  usb_class.o [1]
+USB_Class_HID_Deinit    0x00005555   0x40  Code  Gb  usb_hid.o [1]
+USB_Class_HID_Init      0x000054d3   0x82  Code  Gb  usb_hid.o [1]
+USB_Class_HID_Recv_Data
+                        0x000055b7    0xe  Code  Gb  usb_hid.o [1]
+USB_Class_HID_Send_Data
+                        0x000055a9    0xe  Code  Gb  usb_hid.o [1]
+USB_Class_Hid_Event     0x00005375   0xfa  Code  Gb  usb_hid.o [1]
+USB_Class_Init          0x00004dd1   0x44  Code  Gb  usb_class.o [1]
+USB_Class_Periodic_Task
+                        0x00004e4b    0x2  Code  Gb  usb_class.o [1]
+USB_Class_Send_Data     0x00004e3d    0xe  Code  Gb  usb_class.o [1]
+USB_Control_Service     0x00003ef9  0x118  Code  Gb  usb_framework.o [1]
+USB_Control_Service_Handler
+                        0x00004061   0x4c  Code  Gb  usb_framework.o [1]
+USB_Desc_Get_Descriptor
+                        0x00004e4d   0xae  Code  Gb  usb_descriptor.o [1]
+USB_Desc_Get_Entity     0x00004f1d   0x1c  Code  Gb  usb_descriptor.o [1]
+USB_Desc_Get_Interface  0x00004efb   0x10  Code  Gb  usb_descriptor.o [1]
+USB_Desc_Set_Interface  0x00004f0b    0xe  Code  Gb  usb_descriptor.o [1]
+USB_HID_Requests        0x0000548f   0x44  Code  Gb  usb_hid.o [1]
+USB_Reset_Service       0x00004015   0x4c  Code  Gb  usb_framework.o [1]
+USB_STR_0               0x1fff0190    0x4  Data  Gb  usb_descriptor.o [1]
+USB_STR_1               0x1fff0194   0x3c  Data  Gb  usb_descriptor.o [1]
+USB_STR_2               0x1fff01d0   0x28  Data  Gb  usb_descriptor.o [1]
+USB_STR_n               0x1fff01f8   0x24  Data  Gb  usb_descriptor.o [1]
+USB_Service_Hid_IN      0x00005329   0x20  Code  Gb  usb_hid.o [1]
+USB_Service_Hid_OUT     0x00005349   0x20  Code  Gb  usb_hid.o [1]
+USB_Set_Configation     0x00004f19    0x4  Code  Gb  usb_descriptor.o [1]
+USB_Strd_Req_Feature    0x00004105   0x98  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Get_Config
+                        0x000041b9    0xc  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Get_Descriptor
+                        0x00004289   0x22  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Get_Interface
+                        0x00004209   0x24  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Get_Status
+                        0x000040ad   0x58  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Set_Address
+                        0x0000419d   0x1c  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Set_Config
+                        0x000041c5   0x44  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Set_Interface
+                        0x0000422d   0x42  Code  Lc  usb_framework.o [1]
+USB_Strd_Req_Sync_Frame
+                        0x0000426f   0x1a  Code  Lc  usb_framework.o [1]
+UsageFault_Handler      0x0000161f    0x2  Code  Gb  bootloader_exception_handler.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff7          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          --   Gb  command line/config [2]
+__Vectors               0x00000000          --   Gb  startup_MK22F51212.o [1]
+__Vectors_End           0x00000400         Data  Gb  startup_MK22F51212.o [1]
+__Vectors_Size {Abs}    0x00000400          --   Gb  startup_MK22F51212.o [1]
+__aeabi_memclr          0x00001589         Code  Gb  ABImemclr.o [4]
+__aeabi_memclr4         0x00001c59         Code  Gb  ABImemclr4.o [4]
+__aeabi_memset          0x00001591         Code  Gb  ABImemset.o [4]
+__aeabi_memset4         0x00002455         Code  Gb  ABImemset48.o [4]
+__aeabi_memset8         0x00002455         Code  Gb  ABImemset48.o [4]
+__cmain                 0x000055c5         Code  Gb  cmain.o [4]
+__iar_Memset            0x00001591         Code  Gb  ABImemset.o [4]
+__iar_Memset4_word      0x0000245d         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x0000245d         Code  Gb  ABImemset48.o [4]
+__iar_Memset_word       0x00001599         Code  Gb  ABImemset.o [4]
+__iar_data_init3        0x000055e5   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x00005907         Code  Gb  cstartup_M.o [4]
+__iar_unaligned___aeabi_memcpy
+                        0x00001511         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x00001531         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_unaligned___aeabi_memcpy8
+                        0x00001531         Code  Gb  ABImemcpy_unaligned.o [4]
+__iar_zero_init3        0x00005913   0x40  Code  Gb  zero_init3.o [4]
+__low_level_init        0x000055df    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000         Data  Gb  startup_MK22F51212.o [1]
+__vector_table_0x1c     0x0000001c         Data  Gb  startup_MK22F51212.o [1]
+_call_main              0x000055d1         Code  Gb  cmain.o [4]
+_main                   0x000055db         Code  Gb  cmain.o [4]
+_usb_device_call_service
+                        0x00003b6f   0x1e  Code  Gb  usb_dev.o [1]
+_usb_device_call_service_internal
+                        0x00003b21   0x4e  Code  Gb  usb_dev.o [1]
+_usb_device_set_address
+                        0x00003b8d   0x10  Code  Gb  usb_dev.o [1]
+_usb_khci_dev_function_table
+                        0x00000578   0x50  Data  Gb  khci_interface.o [1]
+_usb_khci_dev_swap_buf_ptr
+                        0x1fff0474    0x4  Data  Lc  khci_dev.o [1]
+_usb_khci_ep_read       0x000030a3   0x58  Code  Lc  khci_dev.o [1]
+_usb_khci_ep_write      0x000030fb   0x60  Code  Lc  khci_dev.o [1]
+_usb_khci_isr           0x00003453   0x6c  Code  Lc  khci_dev.o [1]
+_usb_khci_next_setup_token_prep
+                        0x0000303d   0x66  Code  Lc  khci_dev.o [1]
+_usb_khci_reset_ep_state
+                        0x0000315b   0x92  Code  Lc  khci_dev.o [1]
+_usb_khci_service_sof_token_intr
+                        0x000033b5   0x1c  Code  Lc  khci_dev.o [1]
+_usb_khci_service_stall_intr
+                        0x000033d1   0x82  Code  Lc  khci_dev.o [1]
+_usb_khci_service_tk_dne_intr
+                        0x000031ed  0x1ba  Code  Lc  khci_dev.o [1]
+autobaud_deinit         0x00000a4b    0x4  Code  Gb  autobaud_irq.o [1]
+autobaud_get_rate       0x00000a4f   0x4c  Code  Gb  autobaud_irq.o [1]
+autobaud_init           0x00000a1d   0x2e  Code  Gb  autobaud_irq.o [1]
+bdt                     0x1fff03c0    0x4  Data  Lc  khci_dev.o [1]
+bm_install_isr          0x00003eef    0x4  Code  Gb  bmisr.o [1]
+bm_int_init             0x00003ef3    0x4  Code  Gb  bmisr.o [1]
+bootloader_command_init
+                        0x00001621    0xe  Code  Gb  command.o [1]
+bootloader_command_pump
+                        0x0000162f   0xe2  Code  Gb  command.o [1]
+bootloader_property_get
+                        0x0000464d   0xba  Code  Gb  property.o [1]
+bootloader_property_init
+                        0x0000453b  0x108  Code  Gb  property.o [1]
+bootloader_property_load_user_config
+                        0x00004509   0x32  Code  Gb  property.o [1]
+bootloader_property_set_uint32
+                        0x00004707   0x5e  Code  Gb  property.o [1]
+bsp_usb_dev_init        0x000042c1   0x54  Code  Gb  usb_dev_bsp.o [1]
+calculate_framing_crc16
+                        0x00004d21   0x30  Code  Lc  serial_packet.o [1]
+callFlashCacheClearCommand
+                        0x1fff032c    0x4  Data  Lc  flash_cache_clear.o [1]
+callFlashRunCommand     0x1fff0330    0x4  Data  Lc  flash_command_sequence.o [1]
+clock_mode_switch       0x000011e9   0x8c  Code  Gb  clock_config_K22F512.o [1]
+configure_clocks        0x000010e9  0x100  Code  Gb  clock_config_K22F512.o [1]
+copy_flash_cache_clear_command
+                        0x000013cd   0x1a  Code  Gb  flash_cache_clear.o [1]
+copy_flash_run_command  0x000014b3   0x1a  Code  Gb  flash_command_sequence.o [1]
+crc16_finalize          0x00004da9    0xa  Code  Gb  crc16.o [1]
+crc16_init              0x00004d5d    0x6  Code  Gb  crc16.o [1]
+crc16_update            0x00004d63   0x46  Code  Gb  crc16.o [1]
+crc32_finalize          0x00000829   0x2a  Code  Gb  crc32.o [1]
+crc32_init              0x000007cd    0xc  Code  Gb  crc32.o [1]
+crc32_update            0x000007d9   0x4a  Code  Gb  crc32.o [1]
+deinit_hardware         0x00000ca5   0x14  Code  Gb  hardware_init_K22F512.o [1]
+device_copy             0x00005899   0x48  Code  Lc  device_memory.o [1]
+device_desc_req_count   0x1fff0114    0x4  Data  Gb  usb_descriptor.o [1]
+device_mem_fill         0x000058f5   0x12  Code  Gb  device_memory.o [1]
+device_mem_read         0x000058e1    0xa  Code  Gb  device_memory.o [1]
+device_mem_write        0x000058eb    0x2  Code  Gb  device_memory.o [1]
+disable_autobaud_pin_irq
+                        0x00000d97   0x1e  Code  Gb  hardware_init_K22F512.o [1]
+dspi_data_sink          0x00002909    0x6  Code  Lc  dspi_peripheral_interface.o [1]
+dspi_data_source        0x000028c9   0x1e  Code  Lc  dspi_peripheral_interface.o [1]
+dspi_full_init          0x0000290f   0x34  Code  Lc  dspi_peripheral_interface.o [1]
+dspi_full_shutdown      0x00002943   0x20  Code  Lc  dspi_peripheral_interface.o [1]
+dspi_hal_configure_data_format
+                        0x00002c3f   0x6c  Code  Gb  fsl_dspi_hal.o [1]
+dspi_hal_configure_fifos
+                        0x00002c0b   0x28  Code  Gb  fsl_dspi_hal.o [1]
+dspi_hal_configure_interrupt
+                        0x00002cc9   0x14  Code  Gb  fsl_dspi_hal.o [1]
+dspi_hal_flush_fifos    0x00002c33    0xc  Code  Gb  fsl_dspi_hal.o [1]
+dspi_hal_reset          0x00002bdb   0x30  Code  Gb  fsl_dspi_hal.o [1]
+dspi_hal_set_master_slave
+                        0x00002b8d    0x8  Code  Lc  fsl_dspi_hal.o [1]
+dspi_hal_slave_init     0x00002b95   0x3a  Code  Gb  fsl_dspi_hal.o [1]
+dspi_handle_shared_irq  0x00002cdd   0x26  Code  Lc  fsl_dspi_shared_irqs.o [1]
+dspi_initial_data_sink  0x000028e7   0x22  Code  Lc  dspi_peripheral_interface.o [1]
+dspi_irq_ids            0x00000e70    0x2  Data  Lc  bl_dspi_irq_config_common.o [1]
+dspi_poll_for_activity  0x000028c1    0x8  Code  Lc  dspi_peripheral_interface.o [1]
+dspi_set_system_IRQ_gate
+                        0x00000e3d   0x2a  Code  Gb  bl_dspi_irq_config_common.o [1]
+dspi_slave_init         0x00002a5f   0xcc  Code  Gb  fsl_dspi_slave_driver.o [1]
+dspi_slave_irq_handler  0x00002991   0xc6  Code  Wk  fsl_dspi_slave_driver.o [1]
+dspi_slave_shutdown     0x00002b2b   0x50  Code  Gb  fsl_dspi_slave_driver.o [1]
+dspi_write              0x00002963   0x10  Code  Lc  dspi_peripheral_interface.o [1]
+enable_autobaud_pin_irq
+                        0x00000d71   0x26  Code  Gb  hardware_init_K22F512.o [1]
+exit                    0x00001081    0x2  Code  Gb  bootloader.o [1]
+exit_vlpr               0x00000e11   0x22  Code  Gb  smc.o [1]
+finalize_data_phase     0x0000182f   0x44  Code  Gb  command.o [1]
+find_map_entry          0x00004469   0x42  Code  Lc  memory.o [1]
+flash_cache_clear       0x000013e7   0x1a  Code  Gb  flash_cache_clear.o [1]
+flash_cache_clear_command
+                        0x000013b9   0x12  Code  Gb  flash_cache_clear.o [1]
+flash_cache_clear_command_end
+                        0x000013cb    0x2  Code  Gb  flash_cache_clear.o [1]
+flash_check_access_ifr_range
+                        0x00001385   0x32  Code  Gb  flash_init.o [1]
+flash_check_execute_in_ram_function_info
+                        0x000012a9   0x18  Code  Gb  flash_init.o [1]
+flash_check_range       0x0000133b   0x2a  Code  Gb  flash_init.o [1]
+flash_check_resource_range
+                        0x00002325   0x38  Code  Gb  flash_read_resource.o [1]
+flash_check_user_key    0x00001365    0xc  Code  Gb  flash_init.o [1]
+flash_command_sequence  0x000014cd   0x34  Code  Gb  flash_command_sequence.o [1]
+flash_erase             0x00002689   0x78  Code  Gb  flash_erase.o [1]
+flash_erase_all         0x0000277d   0x30  Code  Gb  flash_erase_all.o [1]
+flash_get_property      0x00002491   0x46  Code  Gb  flash_get_property.o [1]
+flash_get_security_state
+                        0x00001c25   0x34  Code  Gb  flash_get_security_state.o [1]
+flash_init              0x000012df   0x5c  Code  Gb  flash_init.o [1]
+flash_is_execute_only   0x000024d9   0x84  Code  Gb  flash_is_execute_only.o [1]
+flash_mem_erase         0x00001e4f   0x4c  Code  Gb  flash_memory.o [1]
+flash_mem_erase_all     0x00001e9b   0x98  Code  Gb  flash_memory.o [1]
+flash_mem_fill          0x00001db3   0x8e  Code  Gb  flash_memory.o [1]
+flash_mem_init          0x00001c61   0x2c  Code  Gb  flash_memory.o [1]
+flash_mem_read          0x00001c8d   0x3c  Code  Gb  flash_memory.o [1]
+flash_mem_write         0x00001cc9   0xdc  Code  Gb  flash_memory.o [1]
+flash_prepare_execute_in_ram_functions
+                        0x000012c1   0x1e  Code  Gb  flash_init.o [1]
+flash_preprocess_execute_only_region
+                        0x00001f33   0x48  Code  Gb  flash_memory.o [1]
+flash_program           0x000025c5   0x64  Code  Gb  flash_program.o [1]
+flash_program_once      0x000023ad   0x58  Code  Gb  flash_program_once.o [1]
+flash_read_once         0x00002405   0x50  Code  Gb  flash_read_once.o [1]
+flash_read_resource     0x000022cd   0x50  Code  Gb  flash_read_resource.o [1]
+flash_run_command       0x000014a5    0xc  Code  Gb  flash_command_sequence.o [1]
+flash_run_command_end   0x000014b1    0x2  Code  Gb  flash_command_sequence.o [1]
+flash_security_bypass   0x0000235d   0x50  Code  Gb  flash_security_bypass.o [1]
+flash_verify_erase      0x00002701   0x7c  Code  Gb  flash_verify_erase.o [1]
+flash_verify_erase_all  0x000027ad   0x18  Code  Gb  flash_verify_erase_all.o [1]
+flash_verify_program    0x00002629   0x60  Code  Gb  flash_verify_program.o [1]
+g_alternate_interface   0x1fff07f1    0x1  Data  Lc  usb_descriptor.o [1]
+g_bootloaderContext     0x1fff0000   0x40  Data  Gb  bootloader_context.o [1]
+g_commandData           0x1fff02c4   0x24  Data  Gb  command.o [1]
+g_commandHandlerTable   0x00000468   0x88  Data  Gb  command.o [1]
+g_commandInterface      0x1fff0040   0x10  Data  Gb  command.o [1]
+g_config_descriptor     0x1fff0118   0x2c  Data  Gb  usb_descriptor.o [1]
+g_crcBase               0x0000055c    0x4  Data  Gb  fsl_crc_common.o [1]
+g_desc_callback         0x1fff021c   0x14  Data  Gb  usb_descriptor.o [1]
+g_deviceMemoryInterface
+                        0x000004f0   0x18  Data  Gb  device_memory.o [1]
+g_device_descriptor     0x1fff0100   0x14  Data  Gb  usb_descriptor.o [1]
+g_dspiBaseAddr          0x00002b84    0x8  Data  Gb  fsl_dspi_slave_driver.o [1]
+g_dspiByteInterface     0x00000518    0x8  Data  Gb  dspi_peripheral_interface.o [1]
+g_dspiControlInterface  0x00000508   0x10  Data  Gb  dspi_peripheral_interface.o [1]
+g_dspiSharedIrqConfig   0x1fff0374   0x10  Data  Gb  fsl_dspi_shared_irqs.o [1]
+g_ep                    0x1fff00d0   0x10  Data  Gb  usb_descriptor.o [1]
+g_flashMemoryInterface  0x00000544   0x18  Data  Gb  flash_memory.o [1]
+g_framingPacketInterface
+                        0x0000069c   0x1c  Data  Gb  serial_packet.o [1]
+g_hid_class             0x1fff0734   0x80  Data  Gb  usb_hid.o [1]
+g_i2cBaseAddr           0x00002e9c    0x8  Data  Lc  fsl_i2c_slave_driver.o [1]
+g_i2cByteInterface      0x00000570    0x8  Data  Gb  i2c_peripheral_interface.o [1]
+g_i2cControlInterface   0x00000560   0x10  Data  Gb  i2c_peripheral_interface.o [1]
+g_khci_data             0x1fff0800  0x3a0  Data  Gb  khci_dev.o [1]
+g_khci_dev              0x1fff03c4   0xb0  Data  Lc  khci_dev.o [1]
+g_lang_ptr              0x1fff068c    0x4  Data  Gb  usb_descriptor.o [1]
+g_languages             0x00004f94   0x14  Data  Gb  usb_descriptor.o [1]
+g_memoryInterface       0x000005c8   0x18  Data  Gb  memory.o [1]
+g_memoryMap             0x1fff0074   0x48  Data  Gb  memory_map_K22F512.o [1]
+g_normalMemoryInterface
+                        0x000005e0   0x18  Data  Gb  normal_memory.o [1]
+g_peripherals           0x000005f8   0x78  Data  Gb  peripherals_K22F512.o [1]
+g_propertyInterface     0x00000670   0x14  Data  Gb  property.o [1]
+g_propertyStore         0x1fff0488   0xb8  Data  Gb  property.o [1]
+g_report_descriptor     0x1fff0144   0x4c  Data  Gb  usb_descriptor.o [1]
+g_scuartByteInterface   0x00000694    0x8  Data  Gb  scuart_peripheral_interface.o [1]
+g_scuartControlInterface
+                        0x00000684   0x10  Data  Gb  scuart_peripheral_interface.o [1]
+g_serialContext         0x1fff05d0   0x94  Data  Lc  serial_packet.o [1]
+g_standard_request      0x1fff0258   0x34  Data  Lc  usb_framework.o [1]
+g_std_desc_size         0x00004f4c   0x24  Data  Gb  usb_descriptor.o [1]
+g_std_descriptors       0x00004f70   0x24  Data  Gb  usb_descriptor.o [1]
+g_string_desc_size      0x000006b8    0x4  Data  Gb  usb_descriptor.o [1]
+g_string_descriptors    0x000006bc   0x10  Data  Gb  usb_descriptor.o [1]
+g_usbHidControlInterface
+                        0x000006cc   0x10  Data  Gb  usb_hs_hid_peripheral_interface.o [1]
+g_usbHidPacketInterface
+                        0x000006dc   0x1c  Data  Gb  usb_hs_hid_peripheral_interface.o [1]
+g_usb_dec_class         0x1fff00f4    0xc  Data  Gb  usb_descriptor.o [1]
+g_usb_dev               0x1fff0690   0xa4  Data  Lc  usb_dev.o [1]
+g_usb_dev_data          0x1fff0ba0   0x60  Data  Gb  usb_dev.o [1]
+g_usb_if                0x1fff00e8    0xc  Data  Lc  usb_descriptor.o [1]
+g_usb_lock_level        0x1fff0484    0x4  Data  Gb  nvic.o [1]
+g_validate_request      0x1fff0230   0x28  Data  Lc  usb_framework.o [1]
+g_zero_pkt_send         0x1fff03bc    0x1  Data  Lc  khci_dev.o [1]
+get_active_peripheral   0x00000f1b   0xe4  Code  Lc  bootloader.o [1]
+get_bus_clock           0x00000cf3   0x14  Code  Gb  hardware_init_K22F512.o [1]
+get_uart_clock          0x00000d07    0xc  Code  Gb  hardware_init_K22F512.o [1]
+handle_call             0x00001a8f   0x24  Code  Gb  command.o [1]
+handle_data_consumer    0x00001873   0xd2  Code  Gb  command.o [1]
+handle_data_producer    0x0000194f   0xc2  Code  Gb  command.o [1]
+handle_execute          0x00001a25   0x6a  Code  Gb  command.o [1]
+handle_fill_memory      0x00001a11   0x14  Code  Gb  command.o [1]
+handle_flash_erase_all  0x00001759    0xa  Code  Gb  command.o [1]
+handle_flash_erase_region
+                        0x0000176b   0x14  Code  Gb  command.o [1]
+handle_flash_program_once
+                        0x00001ac1   0x14  Code  Gb  command.o [1]
+handle_flash_read_once  0x00001ad5   0x22  Code  Gb  command.o [1]
+handle_flash_read_resource
+                        0x00001af7   0x2a  Code  Gb  command.o [1]
+handle_flash_security_disable
+                        0x00001ab3    0xe  Code  Gb  command.o [1]
+handle_get_property     0x000017a5   0x34  Code  Gb  command.o [1]
+handle_read_memory      0x00001801   0x18  Code  Gb  command.o [1]
+handle_receive_sb_file  0x0000177f   0x26  Code  Gb  command.o [1]
+handle_reset            0x00001711   0x38  Code  Gb  command.o [1]
+handle_set_property     0x000017d9   0x16  Code  Gb  command.o [1]
+handle_write_memory     0x000017ef   0x12  Code  Gb  command.o [1]
+i2c_data_sink           0x00002ecd    0x6  Code  Lc  i2c_peripheral_interface.o [1]
+i2c_data_source         0x00002eaf   0x1e  Code  Lc  i2c_peripheral_interface.o [1]
+i2c_full_init           0x00002f13   0x2a  Code  Lc  i2c_peripheral_interface.o [1]
+i2c_full_shutdown       0x00002f3d   0x16  Code  Lc  i2c_peripheral_interface.o [1]
+i2c_initial_data_sink   0x00002ed3   0x24  Code  Lc  i2c_peripheral_interface.o [1]
+i2c_irq_ids             0x00000ea8    0x2  Data  Lc  bl_i2c_irq_config_common.o [1]
+i2c_peripheral_init     0x00002ef7   0x1c  Code  Lc  i2c_peripheral_interface.o [1]
+i2c_pinmux_config       0x00000bf1   0x48  Code  Gb  hardware_init_K22F512.o [1]
+i2c_poll_for_activity   0x00002ea5    0xa  Code  Lc  i2c_peripheral_interface.o [1]
+i2c_set_glitch_filter_width
+                        0x00002e39   0x4c  Code  Gb  fsl_i2c_slave_driver.o [1]
+i2c_set_system_IRQ_gate
+                        0x00000e75   0x2a  Code  Gb  bl_i2c_irq_config_common.o [1]
+i2c_slave_deinit        0x00002e01   0x38  Code  Gb  fsl_i2c_slave_driver.o [1]
+i2c_slave_init          0x00002d9f   0x62  Code  Gb  fsl_i2c_slave_driver.o [1]
+i2c_slave_irqhandler    0x00002d1f   0x6e  Code  Lc  fsl_i2c_slave_driver.o [1]
+i2c_slave_reset         0x00002d8d   0x12  Code  Gb  fsl_i2c_slave_driver.o [1]
+i2c_slave_set_data_sink_func
+                        0x00002e85    0xa  Code  Gb  fsl_i2c_slave_driver.o [1]
+i2c_write               0x00002f53   0x10  Code  Lc  i2c_peripheral_interface.o [1]
+init_crc_check_status   0x0000070d   0x24  Code  Gb  app_crc_check.o [1]
+init_data_bss           0x00001411   0x3a  Code  Gb  startup.o [1]
+init_hardware           0x00000c8b   0x1a  Code  Gb  hardware_init_K22F512.o [1]
+init_interrupts         0x0000144b   0x2a  Code  Gb  startup.o [1]
+instance_transition_callback
+                        0x00000a9d   0x7a  Code  Gb  autobaud_irq.o [1]
+isFlashRegionUnlocked   0x1fff07f0    0x1  Data  Gb  flash_memory.o [1]
+is_application_crc_check_pass
+                        0x00000731   0x98  Code  Gb  app_crc_check.o [1]
+is_boot_pin_asserted    0x00000d13   0x3a  Code  Gb  hardware_init_K22F512.o [1]
+is_valid_application_location
+                        0x00000edf   0x3c  Code  Gb  bootloader.o [1]
+isr_param_69            0x1fff0668    0x4  Data  Lc  soc_isr.o [1]
+isr_param_uart1_isr     0x1fff066c    0x4  Data  Lc  soc_isr.o [1]
+jump_to_application     0x00000ead   0x32  Code  Lc  bootloader.o [1]
+kFCCOBx                 0x00000540    0x4  Data  Gb  flash_init.o [1]
+kFlashDensities         0x00000520   0x20  Data  Gb  flash_densities_k_series.o [1]
+k_PingResponse          0x00004d54    0x8  Data  Gb  serial_packet.o [1]
+ldr_DoCallCmd           0x000020f5   0x2e  Code  Gb  sbloader.o [1]
+ldr_DoCommand           0x00002185   0x78  Code  Gb  sbloader.o [1]
+ldr_DoEraseCmd          0x00002167   0x1a  Code  Gb  sbloader.o [1]
+ldr_DoFillCmd           0x000020e7    0xe  Code  Gb  sbloader.o [1]
+ldr_DoHeader            0x00001fab    0x6  Code  Gb  sbloader.o [1]
+ldr_DoHeader1           0x00001fb1   0x28  Code  Gb  sbloader.o [1]
+ldr_DoHeader2           0x00001fe1   0x48  Code  Gb  sbloader.o [1]
+ldr_DoLoadBytes         0x00002029   0x38  Code  Gb  sbloader.o [1]
+ldr_DoLoadChunks        0x00002061   0x52  Code  Gb  sbloader.o [1]
+ldr_DoLoadCmd           0x000020cf   0x18  Code  Gb  sbloader.o [1]
+ldr_DoTagCmd            0x00002123   0x44  Code  Gb  sbloader.o [1]
+ldr_GoToNextSection     0x00001f89   0x22  Code  Gb  sbloader.o [1]
+lockObject              0x1fff03a4    0x4  Data  Lc  fsl_rtos_abstraction.o [1]
+lock_acquire            0x00000885    0xc  Code  Gb  fsl_rtos_abstraction.o [1]
+lock_init               0x00000879    0xc  Code  Gb  fsl_rtos_abstraction.o [1]
+lock_release            0x00000891   0x14  Code  Gb  fsl_rtos_abstraction.o [1]
+lowlevel_pit0_isr       0x1fff0670    0x4  Data  Lc  soc_isr.o [1]
+lowlevel_pit1_isr       0x1fff0674    0x4  Data  Lc  soc_isr.o [1]
+lowlevel_uart1_isr      0x1fff0678    0x4  Data  Lc  soc_isr.o [1]
+lowlevel_usb_isr_69     0x1fff0664    0x4  Data  Lc  soc_isr.o [1]
+main                    0x00000fff   0x6c  Code  Gb  bootloader.o [1]
+mem_erase               0x000043d5   0x40  Code  Gb  memory.o [1]
+mem_fill                0x00004415   0x2e  Code  Gb  memory.o [1]
+mem_flush               0x00004451   0x18  Code  Gb  memory.o [1]
+mem_init                0x000044e5   0x1a  Code  Gb  memory.o [1]
+mem_is_block_reserved   0x000044ab   0x3a  Code  Gb  memory.o [1]
+mem_read                0x00004371   0x28  Code  Gb  memory.o [1]
+mem_write               0x00004399   0x3c  Code  Gb  memory.o [1]
+memcpy                  0x00003ec7    0xc  Code  Gb  memcpy.o [3]
+memset                  0x000042ab   0x14  Code  Gb  memset.o [3]
+microseconds_convert_to_ticks
+                        0x00000b77    0xa  Code  Gb  microseconds_sysclk.o [1]
+microseconds_get_clock  0x00000b81    0x6  Code  Gb  microseconds_sysclk.o [1]
+microseconds_get_ticks  0x00000b57   0x20  Code  Gb  microseconds_sysclk.o [1]
+microseconds_init       0x00000b21   0x2a  Code  Gb  microseconds_sysclk.o [1]
+microseconds_shutdown   0x00000b4b    0xc  Code  Gb  microseconds_sysclk.o [1]
+normal_mem_fill         0x000025b1   0x12  Code  Gb  normal_memory.o [1]
+normal_mem_init         0x0000255d    0x4  Code  Gb  normal_memory.o [1]
+normal_mem_read         0x00002561   0x12  Code  Gb  normal_memory.o [1]
+normal_mem_write        0x00002573   0x3e  Code  Gb  normal_memory.o [1]
+nvic_int_disable        0x00003ac7   0x14  Code  Gb  nvic.o [1]
+nvic_int_enable         0x00003ab1   0x16  Code  Gb  nvic.o [1]
+nvic_int_init           0x00003a61   0x50  Code  Gb  nvic.o [1]
+pattern_fill            0x00002845         Code  Gb  pattern_fill.o [1]
+pit_get_vector          0x0000435d   0x10  Code  Gb  soc_pit.o [1]
+pit_vectors             0x1fff00bc   0x10  Data  Gb  soc_pit.o [1]
+read_data               0x00004c13   0x6c  Code  Lc  serial_packet.o [1]
+read_data_packet        0x00004c7f   0x6a  Code  Lc  serial_packet.o [1]
+read_header             0x00004cfd   0x24  Code  Lc  serial_packet.o [1]
+reset_data_phase        0x00001749   0x10  Code  Lc  command.o [1]
+s_applicationInfo       0x1fff0384   0x20  Data  Lc  fsl_i2c_slave_driver.o [1]
+s_dspiActivity          0x1fff02fc    0x2  Data  Lc  dspi_peripheral_interface.o [1]
+s_dspiInfo              0x1fff02f4    0x8  Data  Lc  dspi_peripheral_interface.o [1]
+s_dspiState             0x1fff0300   0x28  Data  Lc  dspi_peripheral_interface.o [1]
+s_dspi_app_data_sink_callback
+                        0x1fff0328    0x4  Data  Lc  dspi_peripheral_interface.o [1]
+s_firstByteTotalTicks   0x1fff0290    0x8  Data  Lc  autobaud_irq.o [1]
+s_flashCacheClearCommand
+                        0x1fff0354   0x20  Data  Lc  flash_init.o [1]
+s_flashExecuteInRamFunctionInfo
+                        0x1fff0050    0xc  Data  Lc  flash_init.o [1]
+s_flashRunCommand       0x1fff0334   0x20  Data  Lc  flash_init.o [1]
+s_flushMemoryInterface  0x1fff0478    0x4  Data  Lc  memory.o [1]
+s_hidInfo               0x1fff07b4   0x3c  Data  Lc  usb_hs_hid_peripheral_interface.o [1]
+s_highCounter           0x1fff047c    0x4  Data  Gb  microseconds_sysclk.o [1]
+s_i2cActivity           0x1fff006c    0x2  Data  Lc  i2c_peripheral_interface.o [1]
+s_i2cInfo               0x1fff03b4    0x8  Data  Lc  i2c_peripheral_interface.o [1]
+s_i2cSlaveConfig        0x1fff005c   0x10  Data  Lc  i2c_peripheral_interface.o [1]
+s_i2c_app_data_sink_callback
+                        0x1fff0070    0x4  Data  Lc  i2c_peripheral_interface.o [1]
+s_instanceMeasured      0x1fff02b0    0x4  Data  Lc  autobaud_irq.o [1]
+s_lastToggleTicks       0x1fff02a0    0x8  Data  Lc  autobaud_irq.o [1]
+s_loaderBuf             0x1fff05b4   0x14  Data  Lc  sbloader.o [1]
+s_loaderContext         0x1fff0544   0x70  Data  Lc  sbloader.o [1]
+s_pin_irq_func          0x1fff03a8    0xc  Data  Lc  hardware_init_K22F512.o [1]
+s_propertyReturnValue   0x1fff0540    0x4  Data  Lc  property.o [1]
+s_scuart_byte_receive_callback
+                        0x1fff05cc    0x4  Data  Lc  scuart_peripheral_interface.o [1]
+s_scuart_data_sink_callback
+                        0x1fff05c8    0x4  Data  Lc  scuart.o [1]
+s_secondByteTotalTicks  0x1fff0298    0x8  Data  Lc  autobaud_irq.o [1]
+s_tickPerMicrosecondMul8
+                        0x1fff0480    0x4  Data  Gb  microseconds_sysclk.o [1]
+s_ticksBetweenFailure   0x1fff02ac    0x4  Data  Lc  autobaud_irq.o [1]
+s_transitionCount       0x1fff02a8    0x4  Data  Lc  autobaud_irq.o [1]
+sbloader_finalize_jump  0x00002281   0x2a  Code  Gb  sbloader.o [1]
+sbloader_handle_chunk   0x00002253   0x2e  Code  Gb  sbloader.o [1]
+sbloader_init           0x000021fd    0xe  Code  Gb  sbloader.o [1]
+sbloader_pump           0x00002211   0x42  Code  Gb  sbloader.o [1]
+scuart_full_init        0x000049c7   0x1a  Code  Lc  scuart_peripheral_interface.o [1]
+scuart_full_shutdown    0x000049e1   0x2c  Code  Lc  scuart_peripheral_interface.o [1]
+scuart_init             0x000047bb   0xd8  Code  Gb  scuart.o [1]
+scuart_poll_for_activity
+                        0x00004971   0x56  Code  Lc  scuart_peripheral_interface.o [1]
+scuart_putchar          0x00004893    0xa  Code  Gb  scuart.o [1]
+scuart_reset            0x000047a7   0x14  Code  Gb  scuart.o [1]
+scuart_shutdown         0x000048d1   0x78  Code  Gb  scuart.o [1]
+scuart_write            0x00004a0d   0x30  Code  Lc  scuart_peripheral_interface.o [1]
+send_deferred_ack       0x00004be5   0x1e  Code  Lc  serial_packet.o [1]
+send_flash_read_once_response
+                        0x00001b7f   0x2e  Code  Gb  command.o [1]
+send_flash_read_resource_response
+                        0x00001bd9    0x6  Code  Gb  command.o [1]
+send_generic_response   0x00001b21   0x28  Code  Gb  command.o [1]
+send_get_property_response
+                        0x00001b49   0x2e  Code  Gb  command.o [1]
+send_read_memory_response
+                        0x00001b77    0x8  Code  Gb  command.o [1]
+serial_packet_abort     0x00004b79    0xc  Code  Gb  serial_packet.o [1]
+serial_packet_finalize  0x00004a71    0x2  Code  Gb  serial_packet.o [1]
+serial_packet_get_max_packet_size
+                        0x00004b85    0x4  Code  Gb  serial_packet.o [1]
+serial_packet_init      0x00004a6d    0x4  Code  Gb  serial_packet.o [1]
+serial_packet_queue_byte
+                        0x00004a4d   0x20  Code  Gb  serial_packet.o [1]
+serial_packet_read      0x00004a73   0x68  Code  Gb  serial_packet.o [1]
+serial_packet_send_sync
+                        0x00004b89   0x1e  Code  Gb  serial_packet.o [1]
+serial_packet_write     0x00004adb   0x9e  Code  Gb  serial_packet.o [1]
+serial_send_ping_response
+                        0x00004ba7   0x3e  Code  Gb  serial_packet.o [1]
+shutdown_cleanup        0x00001085   0x64  Code  Gb  shutdown_cleanup.o [1]
+soc_get_usb_base_address
+                        0x00003ed5    0xa  Code  Gb  soc_usb.o [1]
+soc_get_usb_vector_number
+                        0x00003ee5    0xa  Code  Gb  soc_usb.o [1]
+soc_install_isr         0x00004315   0x36  Code  Gb  soc_isr.o [1]
+spi_pinmux_config       0x00000c39   0x52  Code  Gb  hardware_init_K22F512.o [1]
+sram_init               0x000027c5   0x80  Code  Gb  sram_init_cm4.o [1]
+sync_init               0x00000855    0x4  Code  Gb  fsl_rtos_abstraction.o [1]
+sync_signal             0x0000086d    0x6  Code  Gb  fsl_rtos_abstraction.o [1]
+sync_wait               0x00000859   0x14  Code  Gb  fsl_rtos_abstraction.o [1]
+sys_lock                0x00003aed   0x12  Code  Gb  nvic.o [1]
+sys_unlock              0x00003b01   0x14  Code  Gb  nvic.o [1]
+uart_pinmux_config      0x00000ba9   0x48  Code  Gb  hardware_init_K22F512.o [1]
+update_available_peripherals
+                        0x00000e0d    0x2  Code  Gb  hardware_init_K22F512.o [1]
+usb_class_object        0x1fff067c   0x10  Data  Lc  usb_class.o [1]
+usb_clock_init          0x00000cb9   0x3a  Code  Gb  hardware_init_K22F512.o [1]
+usb_dci_khci_cancel     0x00003885   0x5a  Code  Gb  khci_dev.o [1]
+usb_dci_khci_deinit_endpoint
+                        0x0000363b   0x4c  Code  Gb  khci_dev.o [1]
+usb_dci_khci_free_xd    0x00002fb1   0x2a  Code  Gb  khci_dev.o [1]
+usb_dci_khci_get_endpoint_status
+                        0x00003971   0x14  Code  Gb  khci_dev.o [1]
+usb_dci_khci_get_status
+                        0x000039ed   0x38  Code  Gb  khci_dev.o [1]
+usb_dci_khci_get_xd     0x00002fdb   0x34  Code  Gb  khci_dev.o [1]
+usb_dci_khci_init       0x000034e9   0x68  Code  Gb  khci_dev.o [1]
+usb_dci_khci_init_endpoint
+                        0x00003579   0xc2  Code  Gb  khci_dev.o [1]
+usb_dci_khci_init_xd    0x0000300f   0x2e  Code  Gb  khci_dev.o [1]
+usb_dci_khci_postinit   0x00003551   0x28  Code  Gb  khci_dev.o [1]
+usb_dci_khci_preinit    0x000034bf   0x2a  Code  Gb  khci_dev.o [1]
+usb_dci_khci_recv       0x000036db   0x96  Code  Gb  khci_dev.o [1]
+usb_dci_khci_reset      0x00003a31   0x30  Code  Gb  khci_dev.o [1]
+usb_dci_khci_send       0x00003691   0x4a  Code  Gb  khci_dev.o [1]
+usb_dci_khci_set_addr   0x000038df   0x18  Code  Gb  khci_dev.o [1]
+usb_dci_khci_set_endpoint_status
+                        0x00003985   0x34  Code  Gb  khci_dev.o [1]
+usb_dci_khci_set_status
+                        0x000039b9   0x34  Code  Gb  khci_dev.o [1]
+usb_dci_khci_shutdown   0x000038f7   0x38  Code  Gb  khci_dev.o [1]
+usb_dci_khci_stall_endpoint
+                        0x00003771   0x58  Code  Gb  khci_dev.o [1]
+usb_dci_khci_unstall_endpoint
+                        0x000037d9   0x90  Code  Gb  khci_dev.o [1]
+usb_desc_ep             0x1fff00e0    0x8  Data  Gb  usb_descriptor.o [1]
+usb_device_deinit       0x00003ccd   0x26  Code  Gb  usb_dev.o [1]
+usb_device_get_status   0x00003b9d   0x2a  Code  Gb  usb_dev.o [1]
+usb_device_init         0x00003bf9   0xb0  Code  Gb  usb_dev.o [1]
+usb_device_init_endpoint
+                        0x00003cf3   0x3e  Code  Gb  usb_dev.o [1]
+usb_device_postinit     0x00003cb5   0x18  Code  Gb  usb_dev.o [1]
+usb_device_recv_data    0x00003d93   0x48  Code  Gb  usb_dev.o [1]
+usb_device_register_application_notify
+                        0x00003e8b    0xe  Code  Gb  usb_dev.o [1]
+usb_device_register_desc_request_notify
+                        0x00003ea7    0xe  Code  Gb  usb_dev.o [1]
+usb_device_register_service
+                        0x00003d31   0x5a  Code  Gb  usb_dev.o [1]
+usb_device_register_vendor_class_request_notify
+                        0x00003e99    0xe  Code  Gb  usb_dev.o [1]
+usb_device_reset        0x00003eb5   0x12  Code  Gb  usb_dev.o [1]
+usb_device_send_data    0x00003ddb   0x48  Code  Gb  usb_dev.o [1]
+usb_device_set_status   0x00003bc7   0x18  Code  Gb  usb_dev.o [1]
+usb_device_stall_endpoint
+                        0x00003e73   0x18  Code  Gb  usb_dev.o [1]
+usb_device_unstall_endpoint
+                        0x00003e3f   0x26  Code  Gb  usb_dev.o [1]
+usb_get_instance_via_ipsr
+                        0x00004fbb    0x4  Code  Gb  usb_hs_hid_peripheral_interface.o [1]
+usb_hal_khci_endpoint_clr_stall
+                        0x00002f9d   0x14  Code  Lc  khci_dev.o [1]
+usb_hal_khci_endpoint_enable_handshake
+                        0x00002f75    0xe  Code  Lc  khci_dev.o [1]
+usb_hal_khci_endpoint_set_direction
+                        0x00002f83    0xc  Code  Lc  khci_dev.o [1]
+usb_hid_Periodic_Task   0x00005323    0x4  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_app_callback    0x00004fd7   0x2c  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_app_param_callback
+                        0x00005003   0xb4  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_full_init       0x000050b7   0xb8  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_full_shutdown   0x0000516f   0x36  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_packet_abort_data_phase
+                        0x0000530b   0x10  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_packet_finalize
+                        0x0000531b    0x4  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_packet_get_max_packet_size
+                        0x0000531f    0x4  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_packet_init     0x000051a5   0x2e  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_packet_read     0x000051d3   0x82  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_packet_write    0x00005255   0x80  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+usb_hid_poll_for_activity
+                        0x00004fbf   0x18  Code  Lc  usb_hs_hid_peripheral_interface.o [1]
+write_data              0x00004c03   0x10  Code  Lc  serial_packet.o [1]
+
+
+[1] = C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+
+  21 558 bytes of readonly  code memory
+   1 326 bytes of readonly  data memory
+   4 090 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

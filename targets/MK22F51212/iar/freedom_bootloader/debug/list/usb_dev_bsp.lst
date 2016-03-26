@@ -1,0 +1,338 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:48
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\bsp\mk22f\usb_dev_bsp.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\bsp\mk22f\usb_dev_bsp.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\usb_dev_bsp.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_dev_bsp.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\bsp\mk22f\usb_dev_bsp.c
+      1          /**HEADER********************************************************************
+      2          * 
+      3          * Copyright (c) 2013 - 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          *************************************************************************** 
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR 
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          **************************************************************************
+     22          *
+     23          * Comments:  
+     24          *
+     25          *END************************************************************************/
+     26          #include "adapter.h"
+     27          #include "usb_misc.h"
+     28          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_SDK)
+     29          #include <stdint.h>
+     30          #include <stdbool.h>
+     31          #include <assert.h>
+     32          #include "fsl_device_registers.h"
+     33          #include "fsl_clock_manager.h"
+     34          #define SIM_SOPT2_IRC48MSEL_MASK                 0x30000u
+     35          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_BM)
+     36          #include "fsl_device_registers.h"
+     37          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+     38          #include "MK22F25612.h"
+     39          #endif
+     40          
+     41          extern uint8_t soc_get_usb_vector_number(uint8_t controller_id);
+     42          
+     43          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX) || (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_BM) || (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_SDK)
+     44          #define BSP_USB_INT_LEVEL                (4)
+     45          #define USB_CLK_RECOVER_IRC_EN (*(volatile unsigned char *)0x40072144)
+     46          #define SIM_SOPT2_IRC48MSEL_MASK                 0x30000u
+     47          #define BSPCFG_USB_USE_IRC48M            (1)
+     48          
+     49          static int32_t bsp_usb_dev_io_init
+     50          (
+     51              int32_t i
+     52          )
+     53          {
+     54              int32_t ret = 0;
+     55              if (i == USB_CONTROLLER_KHCI_0)
+     56              {
+     57          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+     58          #if BSPCFG_USB_USE_IRC48M
+     59                  /*
+     60                  * Configure SIM_CLKDIV2: USBDIV = 0, USBFRAC = 0
+     61                  */
+     62                  SIM_CLKDIV2 &= ~(SIM_CLKDIV2_USBFRAC_MASK | SIM_CLKDIV2_USBDIV_MASK);
+     63                  /* Configure USB to be clocked from IRC 48MHz */
+     64                  SIM_SOPT2 |= (SIM_SOPT2_USBSRC_MASK | SIM_SOPT2_IRC48MSEL_MASK);
+     65                  /* Enable USB-OTG IP clocking */
+     66                  SIM_SCGC4 |= (SIM_SCGC4_USBOTG_MASK);
+     67                  /* Enable IRC 48MHz for USB module */
+     68                  USB_CLK_RECOVER_IRC_EN = 0x03;
+     69          #else
+     70                  /* Configure USBFRAC = 0, USBDIV = 0 => frq(USBout) = 1 / 1 * frq(PLLin) */
+     71                  SIM_CLKDIV2 &= ~(SIM_CLKDIV2_USBFRAC_MASK | SIM_CLKDIV2_USBDIV_MASK);
+     72                  /* Configure USB to be clocked from PLL */
+     73                  SIM_SOPT2 |= (SIM_SOPT2_USBSRC_MASK | SIM_SOPT2_PLLFLLSEL(0x01));
+     74                  /* Enable USB-OTG IP clocking */
+     75                  SIM_SCGC4 |= (SIM_SCGC4_USBOTG_MASK);
+     76          #endif
+     77          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_SDK)
+     78                  #if BSPCFG_USB_USE_IRC48M
+     79                  /* USB clock divider */
+     80                  CLOCK_SYS_SetUsbfsDiv(i, 0U, 0U);
+     81          
+     82                  /* PLL/FLL selected as CLK source */
+     83                  CLOCK_SYS_SetUsbfsSrc(i, kClockUsbfsSrcPllFllSel);
+     84                  CLOCK_SYS_SetPllfllSel(kClockPllFllSelIrc48M);
+     85          
+     86                  /* USB Clock Gating */
+     87                  CLOCK_SYS_EnableUsbfsClock(i);
+     88                  /* Enable IRC 48MHz for USB module */
+     89                  USB_CLK_RECOVER_IRC_EN = 0x03;
+     90          #else
+     91                  /* USB clock divider */
+     92                  CLOCK_SYS_SetUsbfsDiv(i, 0U, 0U);
+     93          
+     94                  /* PLL/FLL selected as CLK source */
+     95                  CLOCK_SYS_SetUsbfsSrc(i, kClockUsbfsSrcPllFllSel);
+     96                  CLOCK_SYS_SetPllfllSel(kClockPllFllSelPll);
+     97                  
+     98                  /* USB Clock Gating */
+     99                  CLOCK_SYS_EnableUsbfsClock(i);
+    100          #endif
+    101          #else
+    102          #if BSPCFG_USB_USE_IRC48M
+    103                  /*
+    104                  * Configure SIM_CLKDIV2: USBDIV = 0, USBFRAC = 0
+    105                  */
+    106          //        HW_SIM_CLKDIV2_CLR(SIM_CLKDIV2_USBFRAC_MASK | SIM_CLKDIV2_USBDIV_MASK);
+    107                  /* Configure USB to be clocked from IRC 48MHz */
+    108          //        SIM_SOPT2_REG(SIM_BASE_PTR) |= SIM_SOPT2_USBSRC_MASK;
+    109          //        SIM_SOPT2_REG(SIM_BASE_PTR) |= SIM_SOPT2_USBSRC_MASK;
+    110                  
+    111          //        HW_SIM_SOPT2_SET(SIM_SOPT2_USBSRC_MASK | SIM_SOPT2_IRC48MSEL_MASK);
+    112                  /* Enable USB-OTG IP clocking */
+    113          //        HW_SIM_SCGC4_SET(SIM_SCGC4_USBOTG_MASK);
+    114                  /* Enable IRC 48MHz for USB module */
+    115          //        USB_CLK_RECOVER_IRC_EN = 0x03;
+    116          #else
+    117                  /* Configure USBFRAC = 0, USBDIV = 0 => frq(USBout) = 1 / 1 * frq(PLLin) */
+    118                  HW_SIM_CLKDIV2_CLR(SIM_CLKDIV2_USBFRAC_MASK | SIM_CLKDIV2_USBDIV_MASK);
+    119                  /* Configure USB to be clocked from PLL */
+    120                  HW_SIM_SOPT2_SET(SIM_SOPT2_USBSRC_MASK | SIM_SOPT2_PLLFLLSEL(0x01));
+    121                  /* Enable USB-OTG IP clocking */
+    122                  HW_SIM_SCGC4_SET(SIM_SCGC4_USBOTG_MASK);
+    123          #endif
+    124          #endif
+    125              }
+    126              else
+    127              {
+    128                  ret = -1; //unknow controller
+    129              }
+    130          
+    131              return ret;
+    132          }
+    133          
+
+   \                                 In section .text, align 4, keep-with-next
+    134          int32_t bsp_usb_dev_init(uint8_t controller_id)
+    135          {
+   \                     bsp_usb_dev_init: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+    136              int32_t result = 0;
+    137          
+    138              result = bsp_usb_dev_io_init(controller_id);
+   \   00000002   0x2400             MOVS     R4,#+0
+   \   00000004   0xF04F 0x31FF      MOV      R1,#-1
+   \   00000008   0xB100             CBZ.N    R0,??bsp_usb_dev_init_0
+   \   0000000A   0x460C             MOV      R4,R1
+    139              if (result != 0)
+   \                     ??bsp_usb_dev_init_0: (+1)
+   \   0000000C   0xB9DC             CBNZ.N   R4,??bsp_usb_dev_init_1
+    140                  return result;
+    141          
+    142              /* MPU is disabled. All accesses from all bus masters are allowed */
+    143              //MPU_CESR=0;
+    144              if (USB_CONTROLLER_KHCI_0 == controller_id)
+   \   0000000E   0xB9C8             CBNZ.N   R0,??bsp_usb_dev_init_2
+    145              {
+    146          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+    147                  /* Configure enable USB regulator for device */
+    148                  SIM_SOPT1CFG |= (SIM_SOPT1CFG_URWE_MASK);
+    149                  SIM_SOPT1 |= (SIM_SOPT1_USBREGEN_MASK);
+    150          
+    151                  /* reset USB CTRL register */
+    152                  USB0_USBCTRL = 0;
+    153          
+    154                  /* Enable internal pull-up resistor */
+    155                  USB0_CONTROL = (USB_CONTROL_DPPULLUPNONOTG_MASK);
+    156                  USB0_USBTRC0 |= (0x40); /* Software must set this bit to 1 */
+    157          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_SDK)
+    158                  /* Configure enable USB regulator for device */
+    159                  HW_SIM_SOPT1CFG_SET(SIM_BASE, SIM_SOPT1CFG_URWE_MASK);
+    160                  HW_SIM_SOPT1_SET(SIM_BASE, SIM_SOPT1_USBREGEN_MASK);
+    161          
+    162                  /* reset USB CTRL register */
+    163                  HW_USB_USBCTRL_WR(USB0_BASE, 0);
+    164          
+    165                  /* Enable internal pull-up resistor */
+    166                  HW_USB_CONTROL_WR(USB0_BASE, USB_CONTROL_DPPULLUPNONOTG_MASK);
+    167                  HW_USB_USBTRC0_SET(USB0_BASE, 0x40); /* Software must set this bit to 1 */
+    168          #else
+    169          #if !defined (K22F12810_SERIES)        
+    170                  /* Configure enable USB regulator for device */ 
+    171                  SIM_SOPT1CFG_REG(SIM_BASE_PTR) |= SIM_SOPT1CFG_URWE_MASK;        
+   \   00000010   0x480E             LDR.N    R0,??bsp_usb_dev_init_3  ;; 0x40047000
+   \   00000012   0x6841             LDR      R1,[R0, #+4]
+   \   00000014   0xF041 0x7180      ORR      R1,R1,#0x1000000
+   \   00000018   0x6041             STR      R1,[R0, #+4]
+    172                  SIM_SOPT1_REG(SIM_BASE_PTR) |= SIM_SOPT1_USBREGEN_MASK;
+   \   0000001A   0x6801             LDR      R1,[R0, #+0]
+   \   0000001C   0xF041 0x4100      ORR      R1,R1,#0x80000000
+   \   00000020   0x6001             STR      R1,[R0, #+0]
+    173          #endif
+    174                  /* reset USB CTRL register */
+    175                  USB_CONTROL_REG(USB0_BASE_PTR) = (0);
+   \   00000022   0x2100             MOVS     R1,#+0
+   \   00000024   0x480A             LDR.N    R0,??bsp_usb_dev_init_3+0x4  ;; 0x40072108
+   \   00000026   0x7001             STRB     R1,[R0, #+0]
+    176          
+    177                  /* Enable internal pull-up resistor */
+    178                  USB_CONTROL_REG(USB0_BASE_PTR) = USB_CONTROL_DPPULLUPNONOTG_MASK;
+   \   00000028   0x2110             MOVS     R1,#+16
+   \   0000002A   0x7001             STRB     R1,[R0, #+0]
+    179                  USB0_USBTRC0 |=( 0x40); /* Software must set this bit to 1 */
+   \   0000002C   0x7901             LDRB     R1,[R0, #+4]
+   \   0000002E   0xF041 0x0140      ORR      R1,R1,#0x40
+   \   00000032   0x7101             STRB     R1,[R0, #+4]
+    180          #endif
+    181                  /* setup interrupt */
+    182                  OS_intr_init((IRQn_Type)soc_get_usb_vector_number(0), BSP_USB_INT_LEVEL, 0, TRUE);
+   \   00000034   0x2000             MOVS     R0,#+0
+   \   00000036   0x.... 0x....      BL       soc_get_usb_vector_number
+   \   0000003A   0x2201             MOVS     R2,#+1
+   \   0000003C   0x2104             MOVS     R1,#+4
+   \   0000003E   0x.... 0x....      BL       bm_int_init
+   \   00000042   0xE000             B.N      ??bsp_usb_dev_init_1
+    183              }
+    184              else
+    185              {
+    186                  /* unknown controller */
+    187                  result = -1;
+   \                     ??bsp_usb_dev_init_2: (+1)
+   \   00000044   0x460C             MOV      R4,R1
+    188              }
+    189          
+    190              return result;
+   \                     ??bsp_usb_dev_init_1: (+1)
+   \   00000046   0x4620             MOV      R0,R4
+   \   00000048   0xBD10             POP      {R4,PC}          ;; return
+   \   0000004A   0xBF00             Nop      
+   \                     ??bsp_usb_dev_init_3:
+   \   0000004C   0x40047000         DC32     0x40047000
+   \   00000050   0x40072108         DC32     0x40072108
+    191          }
+    192          #endif
+    193          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   bsp_usb_dev_init
+         8   -> bm_int_init
+         8   -> soc_get_usb_vector_number
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      84  bsp_usb_dev_init
+
+ 
+ 84 bytes in section .text
+ 
+ 84 bytes of CODE memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,400 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:21
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\poll.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\poll.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\poll.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\poll.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\poll.c
+      1          /**HEADER********************************************************************
+      2          * 
+      3          * Copyright (c) 2010, 2013 - 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          *************************************************************************** 
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR 
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          **************************************************************************
+     22          *
+     23          * $FileName: poll.c$
+     24          * $Version : 
+     25          * $Date    : 
+     26          *
+     27          * Comments:
+     28          *
+     29          *   This file implements polling functionality.
+     30          *
+     31          *END************************************************************************/
+     32          #include "types.h"
+     33          #include "user_config.h"
+     34          
+     35          #include "poll.h"
+     36          
+     37          /* poll global variale */
+
+   \                                 In section .bss, align 4
+     38          poll_struct_t g_poll;
+   \                     g_poll:
+   \   00000000                      DS8 44
+     39          
+     40          /*FUNCTION*-------------------------------------------------------------------
+     41          *
+     42          * Function Name    : POLL_init
+     43          * Returned Value   : void
+     44          * Comments         : Init POLL_STRUCT object
+     45          *   
+     46          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     47          void POLL_init() 
+     48          {
+     49              uint8_t i;
+     50          
+     51              g_poll.registered_no = 0; 
+   \                     POLL_init: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable4
+   \   00000002   0x2100             MOVS     R1,#+0
+   \   00000004   0xF880 0x1028      STRB     R1,[R0, #+40]
+     52              for (i = 0; i <POLL_MAX_NUM; i++)
+   \   00000008   0x2200             MOVS     R2,#+0
+     53              {
+     54                  g_poll.p_slot[i].p_func = NULL;
+   \                     ??POLL_init_0: (+1)
+   \   0000000A   0xF840 0x2031      STR      R2,[R0, R1, LSL #+3]
+     55                  g_poll.p_slot[i].param = NULL;
+   \   0000000E   0xEB00 0x03C1      ADD      R3,R0,R1, LSL #+3
+     56              }
+   \   00000012   0x1C49             ADDS     R1,R1,#+1
+   \   00000014   0x2905             CMP      R1,#+5
+   \   00000016   0x605A             STR      R2,[R3, #+4]
+   \   00000018   0xDBF7             BLT.N    ??POLL_init_0
+     57          }
+   \   0000001A   0x4770             BX       LR               ;; return
+     58          /*FUNCTION*-------------------------------------------------------------------
+     59          *
+     60          * Function Name    : POLL_register
+     61          * Returned Value   : POLL_OK: register successfully
+     62          *                    POLL_REGISTER_FAIL: can NOT register more function to poll
+     63          * Comments         : Register funtion to poll
+     64          *   
+     65          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     66          uint8_t POLL_register(poll_pointer_t func, void* param) 
+     67          {
+   \                     POLL_register: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+     68              uint8_t ret;
+     69              
+     70              if (POLL_MAX_NUM <= g_poll.registered_no)
+   \   00000002   0x....             LDR.N    R3,??DataTable4
+   \   00000004   0xF893 0x2028      LDRB     R2,[R3, #+40]
+   \   00000008   0x4614             MOV      R4,R2
+   \   0000000A   0x2C05             CMP      R4,#+5
+   \   0000000C   0xDB01             BLT.N    ??POLL_register_0
+     71              {
+     72                  return (uint8_t)POLL_REGISTER_FAIL;
+   \   0000000E   0x20FF             MOVS     R0,#+255
+   \   00000010   0xBD10             POP      {R4,PC}
+     73              }
+     74              else
+     75              {
+     76                  ret = g_poll.registered_no;
+     77                  g_poll.p_slot[g_poll.registered_no].p_func = func;
+   \                     ??POLL_register_0: (+1)
+   \   00000012   0xF843 0x0034      STR      R0,[R3, R4, LSL #+3]
+     78                  g_poll.p_slot[g_poll.registered_no].param = param;
+   \   00000016   0xF893 0x0028      LDRB     R0,[R3, #+40]
+   \   0000001A   0xEB03 0x00C0      ADD      R0,R3,R0, LSL #+3
+   \   0000001E   0x6041             STR      R1,[R0, #+4]
+     79                  g_poll. registered_no ++;
+   \   00000020   0xF893 0x0028      LDRB     R0,[R3, #+40]
+   \   00000024   0x1C40             ADDS     R0,R0,#+1
+   \   00000026   0xF883 0x0028      STRB     R0,[R3, #+40]
+     80                  return ret;
+   \   0000002A   0x4610             MOV      R0,R2
+   \   0000002C   0xBD10             POP      {R4,PC}          ;; return
+     81              }
+     82          }
+     83          /*FUNCTION*-------------------------------------------------------------------
+     84          *
+     85          * Function Name    : Poll
+     86          * Returned Value   : void
+     87          * Comments         : Poll function to call in while loop
+     88          *   
+     89          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     90          void Poll() 
+     91          {
+   \                     Poll: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+     92              uint8_t i;
+     93          
+     94              for (i = 0; i < g_poll.registered_no; i++)
+   \   00000002   0x2400             MOVS     R4,#+0
+   \   00000004   0x....             LDR.N    R5,??DataTable4
+   \   00000006   0xE007             B.N      ??Poll_0
+     95              {
+     96                  g_poll.p_slot[i].p_func(g_poll.p_slot[i].param);
+   \                     ??Poll_1: (+1)
+   \   00000008   0xEB05 0x00C4      ADD      R0,R5,R4, LSL #+3
+   \   0000000C   0xF855 0x1034      LDR      R1,[R5, R4, LSL #+3]
+   \   00000010   0x6840             LDR      R0,[R0, #+4]
+   \   00000012   0x4788             BLX      R1
+     97              }
+   \   00000014   0x1C64             ADDS     R4,R4,#+1
+   \   00000016   0xB2E4             UXTB     R4,R4
+   \                     ??Poll_0: (+1)
+   \   00000018   0xF895 0x0028      LDRB     R0,[R5, #+40]
+   \   0000001C   0x4284             CMP      R4,R0
+   \   0000001E   0xDBF3             BLT.N    ??Poll_1
+     98          }
+   \   00000020   0xBD31             POP      {R0,R4,R5,PC}    ;; return
+     99          /*FUNCTION*-------------------------------------------------------------------
+    100          *
+    101          * Function Name    : Poll
+    102          * Returned Value   : POLL_OK: register successfully
+    103          *                    POLL_NOT_FOUND: Nothing to unregister
+    104          * Comments         : Unregister polling function
+    105          *   
+    106          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    107          uint8_t POLL_unregister(poll_pointer_t func, void * param) 
+    108          {
+   \                     POLL_unregister: (+1)
+   \   00000000   0xB5F0             PUSH     {R4-R7,LR}
+   \   00000002   0xB08B             SUB      SP,SP,#+44
+   \   00000004   0x4605             MOV      R5,R0
+   \   00000006   0x460E             MOV      R6,R1
+    109              uint8_t i;
+    110              uint8_t j =0;
+    111              uint8_t ret = (uint8_t)POLL_NOT_FOUND;
+    112          
+    113              poll_slot_struct_t temp[POLL_MAX_NUM] = {NULL};
+   \   00000008   0x4668             MOV      R0,SP
+   \   0000000A   0x2128             MOVS     R1,#+40
+   \   0000000C   0x.... 0x....      BL       __aeabi_memclr4
+   \   00000010   0x2700             MOVS     R7,#+0
+   \   00000012   0x24FE             MOVS     R4,#+254
+    114          
+    115              /* find and unregister func */
+    116              for(i = 0; i < POLL_MAX_NUM; i++) 
+   \   00000014   0x2200             MOVS     R2,#+0
+   \   00000016   0x....             LDR.N    R0,??DataTable4
+    117              {
+    118                  if ((g_poll.p_slot[i].p_func == func) && (g_poll.p_slot[i].param == param))
+   \                     ??POLL_unregister_0: (+1)
+   \   00000018   0xF850 0x1032      LDR      R1,[R0, R2, LSL #+3]
+   \   0000001C   0xEB00 0x03C2      ADD      R3,R0,R2, LSL #+3
+   \   00000020   0x42A9             CMP      R1,R5
+   \   00000022   0xBF04             ITT      EQ 
+   \   00000024   0x6859             LDREQ    R1,[R3, #+4]
+   \   00000026   0x42B1             CMPEQ    R1,R6
+   \   00000028   0xD109             BNE.N    ??POLL_unregister_1
+    119                  {
+    120                      g_poll.p_slot[i].p_func = NULL;
+   \   0000002A   0x2400             MOVS     R4,#+0
+   \   0000002C   0xF840 0x4032      STR      R4,[R0, R2, LSL #+3]
+    121                      g_poll.p_slot[i].param = NULL;
+   \   00000030   0x605C             STR      R4,[R3, #+4]
+    122                      g_poll.registered_no--;
+   \   00000032   0xF890 0x3028      LDRB     R3,[R0, #+40]
+   \   00000036   0x1E5B             SUBS     R3,R3,#+1
+   \   00000038   0xF880 0x3028      STRB     R3,[R0, #+40]
+    123                      ret = POLL_OK;
+   \   0000003C   0xE00A             B.N      ??POLL_unregister_2
+    124                  }
+    125                  else
+    126                  {
+    127                      temp[j].p_func = g_poll.p_slot[i].p_func;
+   \                     ??POLL_unregister_1: (+1)
+   \   0000003E   0xF850 0x1032      LDR      R1,[R0, R2, LSL #+3]
+   \   00000042   0xB2FF             UXTB     R7,R7
+   \   00000044   0xF84D 0x1037      STR      R1,[SP, R7, LSL #+3]
+    128                      temp[j].param = g_poll.p_slot[i].param;
+   \   00000048   0x4669             MOV      R1,SP
+   \   0000004A   0x685B             LDR      R3,[R3, #+4]
+   \   0000004C   0xEB01 0x01C7      ADD      R1,R1,R7, LSL #+3
+    129                      j++;
+   \   00000050   0x1C7F             ADDS     R7,R7,#+1
+   \   00000052   0x604B             STR      R3,[R1, #+4]
+    130                  }
+    131              }
+   \                     ??POLL_unregister_2: (+1)
+   \   00000054   0x1C52             ADDS     R2,R2,#+1
+   \   00000056   0x2A05             CMP      R2,#+5
+   \   00000058   0xDBDE             BLT.N    ??POLL_unregister_0
+    132          
+    133              /* sort the function pointer erray */
+    134              for(i = 0; i < POLL_MAX_NUM; i++) 
+   \   0000005A   0x2200             MOVS     R2,#+0
+    135              {
+    136                  g_poll.p_slot[i].p_func = temp [i].p_func;
+   \                     ??POLL_unregister_3: (+1)
+   \   0000005C   0xF85D 0x3032      LDR      R3,[SP, R2, LSL #+3]
+   \   00000060   0xF840 0x3032      STR      R3,[R0, R2, LSL #+3]
+    137                  g_poll.p_slot[i].param = temp [i].param;
+   \   00000064   0xEB00 0x05C2      ADD      R5,R0,R2, LSL #+3
+   \   00000068   0x466B             MOV      R3,SP
+   \   0000006A   0xEB03 0x03C2      ADD      R3,R3,R2, LSL #+3
+    138              }
+   \   0000006E   0x1C52             ADDS     R2,R2,#+1
+   \   00000070   0x685B             LDR      R3,[R3, #+4]
+   \   00000072   0x606B             STR      R3,[R5, #+4]
+   \   00000074   0x2A05             CMP      R2,#+5
+   \   00000076   0xDBF1             BLT.N    ??POLL_unregister_3
+    139              return ret;
+   \   00000078   0x4620             MOV      R0,R4
+   \   0000007A   0xB00B             ADD      SP,SP,#+44
+   \   0000007C   0xBDF0             POP      {R4-R7,PC}       ;; return
+    140          }
+
+   \                                 In section .rodata, align 4, keep-with-next
+   \                     ?_0:
+   \   00000000   0x00000000         DC32 0H
+   \   00000004   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \   00000018   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4:
+   \   00000000   0x........         DC32     g_poll
+    141          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   POLL_init
+       8   POLL_register
+      64   POLL_unregister
+        64   -> __aeabi_memclr4
+      16   Poll
+        16   -- Indirect call
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable4
+      40  ?_0
+      28  POLL_init
+      46  POLL_register
+     126  POLL_unregister
+      34  Poll
+      44  g_poll
+
+ 
+  44 bytes in section .bss
+  40 bytes in section .rodata
+ 238 bytes in section .text
+ 
+ 238 bytes of CODE  memory
+  40 bytes of CONST memory
+  44 bytes of DATA  memory
+
+Errors: none
+Warnings: none

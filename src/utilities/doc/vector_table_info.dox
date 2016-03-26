@@ -1,0 +1,7 @@
+/*!
+
+@defgroup vector_table_info Vector Table Info
+@ingroup utilities
+@brief Definitions related to default vector table.
+
+ */

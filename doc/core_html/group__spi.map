@@ -1,0 +1,7 @@
+<map id="SPI" name="SPI">
+<area shape="rect" id="node1" href="$group__spi__slave__driver.html" title="SPI slave mode peripheral driver. " alt="" coords="253,5,367,32"/>
+<area shape="rect" id="node3" href="$group__spi__hal.html" title="SPI peripheral HAL. " alt="" coords="274,56,346,83"/>
+<area shape="rect" id="node5" href="$group__spi__master__driver.html" title="SPI master mode peripheral driver. " alt="" coords="249,107,371,133"/>
+<area shape="rect" id="node6" href="$group__spi__types.html" title="Shared types for SPI drivers. " alt="" coords="247,157,373,184"/>
+<area shape="rect" id="node4" href="$group__drivers.html" title="IP device drivers. " alt="" coords="5,81,108,108"/>
+</map>

@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['ramsizeinbytes',['ramSizeInBytes',['../group__property.html#a3b7bb476e2de618b9d72dda5bc17f572',1,'property_store_t']]],
+  ['ramstartaddress',['ramStartAddress',['../group__property.html#abecac570119f1c0c3f8a338d74923dea',1,'property_store_t']]],
+  ['readhead',['readHead',['../group__ring__buffer.html#ad861310e9fcdb81d6144ba90e8c52cc5',1,'ring_buffer_t']]],
+  ['readoffset',['readOffset',['../group__packet.html#aade960084a345f615a2bf293bed8db6c',1,'serial_data_t']]],
+  ['readtranspose',['readTranspose',['../group__crc__driver.html#a0b17499f69439b096299a7493e42b7b3',1,'crc_user_config_t']]],
+  ['receivebuffer',['receiveBuffer',['../structspi__master__state__t.html#a9048141047b35f11b7af54523e52f708',1,'spi_master_state_t']]],
+  ['receivesync',['receiveSync',['../group__usb__hid__peripheral.html#gaa8beaecaa32bcb008b1f0dd86e5eb30d',1,'usb_hid_packetizer_info_t']]],
+  ['remainingreceivebytecount',['remainingReceiveByteCount',['../structspi__master__state__t.html#a9ac888fea2e58ae44490397fe1c7c785',1,'spi_master_state_t']]],
+  ['remainingsendbytecount',['remainingSendByteCount',['../structspi__master__state__t.html#a21a417947b4fc5d28c69b571dc71412b',1,'spi_master_state_t']]],
+  ['report',['report',['../group__usb__hid__peripheral.html#gac13f03c3a444154fcf1d6348ecf69262',1,'usb_hid_packetizer_info_t']]],
+  ['reportid',['reportID',['../structbl__hid__header__t.html#a4e99050581c777141d0088e66b25cdbc',1,'bl_hid_header_t']]],
+  ['reportsize',['reportSize',['../group__usb__hid__peripheral.html#ga18ee5e91d5e830a867207040195dd495',1,'usb_hid_packetizer_info_t']]],
+  ['request',['request',['../structusb__setup__struct__t.html#a72cd7918e0f550c169a74eb4113d1b81',1,'usb_setup_struct_t']]],
+  ['request_5ftype',['request_type',['../structusb__setup__struct__t.html#a770ef0a0b623afe1a08e35f892a731c1',1,'usb_setup_struct_t']]],
+  ['reserved',['reserved',['../group__packet.html#a010bf97f924783aa47d8111da19eb155',1,'command_packet_t::reserved()'],['../group__context.html#a0c4d1d7a5723ce0dfedf917d8c59c483',1,'bootloader_tree_t::reserved()']]],
+  ['reservedregions',['reservedRegions',['../group__property.html#a7056ab498a9964e7f563ff686f61b55e',1,'property_store_t']]],
+  ['rjw',['rjw',['../group__flexcan__hal.html#ae09132dc219aaee04dde2227a6206426',1,'flexcan_time_segment_t']]],
+  ['runbootloader',['runBootloader',['../group__context.html#a4abac12a946b1d23cd5bdc81b05dc8c4',1,'bootloader_tree_t']]],
+  ['runtimecontext',['runtimeContext',['../group__context.html#a4eb3229e4922273aafb63c1bf5d32c4a',1,'bootloader_tree_t']]],
+  ['rx_5finfo',['rx_info',['../group__flexcan__peripheral.html#afd9eaabe20d6aef945b26c129d98d3d4',1,'flexcan_transfer_info_t']]],
+  ['rx_5fmb_5fidx',['rx_mb_idx',['../group__flexcan__driver.html#a1a5fd7511629e8d4cb20e143d5bd3956',1,'flexcan_state_t']]],
+  ['rxerr',['rxerr',['../group__flexcan__hal.html#a423b057767e4b1e38963993a68e6eb78',1,'flexcan_berr_counter_t']]],
+  ['rxirqsync',['rxIrqSync',['../group__flexcan__driver.html#a223ce36c55a4618cc29d86d3cd6efefe',1,'flexcan_state_t']]]
+];

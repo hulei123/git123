@@ -1,0 +1,23 @@
+/*!
+
+@defgroup i2c_driver I2C
+@ingroup drivers
+@brief I2C driver
+
+@defgroup i2c_irq I2C IRQ
+@ingroup i2c_driver
+@brief I2C driver IRQ functions
+
+@defgroup i2c_slave I2C Slave Driver
+@ingroup i2c_driver
+@brief I2C slave mode peripheral driver
+
+@defgroup i2c_master I2C Master Driver
+@ingroup i2c_driver
+@brief I2C master mode peripheral driver
+
+@defgroup i2c_hal I2C HAL Driver
+@ingroup i2c_driver
+@brief I2C HAL peripheral driver
+
+*/

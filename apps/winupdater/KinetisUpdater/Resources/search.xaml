@@ -1,0 +1,95 @@
+﻿<!--
+/*
+ * Copyright (c) 2014, Freescale Semiconductor, Inc.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without modification,
+ * are permitted provided that the following conditions are met:
+ *
+ * o Redistributions of source code must retain the above copyright notice, this list
+ *   of conditions and the following disclaimer.
+ *
+ * o Redistributions in binary form must reproduce the above copyright notice, this
+ *   list of conditions and the following disclaimer in the documentation and/or
+ *   other materials provided with the distribution.
+ *
+ * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+ *   contributors may be used to endorse or promote products derived from this
+ *   software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+-->
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DrawingImage x:Key="search_image">
+        <DrawingImage.Drawing>
+            <DrawingGroup>
+                <DrawingGroup.Transform>
+                    <MatrixTransform Matrix="1,0,0,1,0.578,0.204"/>
+                </DrawingGroup.Transform>
+                <DrawingGroup>
+                    <DrawingGroup.ClipGeometry>
+                        <RectangleGeometry Rect="0,0,93.219,93.219"/>
+                    </DrawingGroup.ClipGeometry>
+                    <DrawingGroup.Transform>
+                        <MatrixTransform Matrix="1,0,0,1,3,3"/>
+                    </DrawingGroup.Transform>
+                    <GeometryDrawing Geometry="F1M46.61,0L93.219,46.609 46.609,93.219 0,46.61z">
+                        <GeometryDrawing.Brush>
+                            <LinearGradientBrush EndPoint="0.623,1.127" StartPoint="0.419,0.459">
+                                <GradientStop Color="#FF8AD4DF" Offset="0"/>
+                                <GradientStop Color="#FF430010" Offset="1"/>
+                            </LinearGradientBrush>
+                        </GeometryDrawing.Brush>
+                    </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup>
+                    <DrawingGroup.ClipGeometry>
+                        <RectangleGeometry Rect="0,0,99.219,99.219"/>
+                    </DrawingGroup.ClipGeometry>
+                    <GeometryDrawing Geometry="F1M47.488,0.879L0.879,47.489C0.32,48.047 0,48.82 0,49.61 0,50.4 0.32,51.173 0.879,51.732L47.487,98.341C48.046,98.899 48.819,99.219 49.609,99.219 50.399,99.219 51.172,98.899 51.73,98.341L98.34,51.731C98.899,51.172 99.219,50.399 99.219,49.609 99.219,48.819 98.899,48.046 98.34,47.488L51.731,0.879C51.173,0.32 50.4,0 49.61,0 48.82,0 48.047,0.32 47.488,0.879 M49.61,3L47.488,5.121z M7.243,49.61L49.61,7.243 91.976,49.609 49.609,91.976z">
+                        <GeometryDrawing.Brush>
+                            <LinearGradientBrush EndPoint="0.616,1.089" StartPoint="0.424,0.461">
+                                <GradientStop Color="#FF8AD4DF" Offset="0"/>
+                                <GradientStop Color="#FF430010" Offset="1"/>
+                            </LinearGradientBrush>
+                        </GeometryDrawing.Brush>
+                    </GeometryDrawing>
+                </DrawingGroup>
+                <DrawingGroup>
+                    <DrawingGroup.Transform>
+                        <MatrixTransform Matrix="1,0,0,1,48.472,51.39"/>
+                    </DrawingGroup.Transform>
+                    <GeometryDrawing Brush="White" Geometry="F1M2.587,0.696C5.064,-0.734,8.212,0.11,9.642,2.587L20.442,21.298C21.872,23.774 21.032,26.923 18.552,28.352 16.075,29.782 12.931,28.938 11.497,26.462L0.696,7.751C-0.734,5.274,0.11,2.13,2.587,0.696"/>
+                </DrawingGroup>
+                <DrawingGroup>
+                    <DrawingGroup.ClipGeometry>
+                        <RectangleGeometry Rect="0,0,42.043,42.042"/>
+                    </DrawingGroup.ClipGeometry>
+                    <DrawingGroup.Transform>
+                        <MatrixTransform Matrix="1,0,0,1,23.115,19.079"/>
+                    </DrawingGroup.Transform>
+                    <GeometryDrawing Geometry="M35.252,12.804C39.791,20.664 37.096,30.715 29.236,35.253 21.377,39.788 11.33,37.097 6.791,29.238 2.252,21.378 4.947,11.327 12.807,6.792 20.666,2.254 30.713,4.945 35.252,12.804z">
+                        <GeometryDrawing.Pen>
+                            <Pen Brush="White" DashCap="Flat" EndLineCap="Flat" LineJoin="Miter" MiterLimit="4" StartLineCap="Flat" Thickness="9.278">
+                                <Pen.DashStyle>
+                                    <DashStyle/>
+                                </Pen.DashStyle>
+                            </Pen>
+                        </GeometryDrawing.Pen>
+                    </GeometryDrawing>
+                </DrawingGroup>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>

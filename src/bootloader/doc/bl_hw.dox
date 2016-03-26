@@ -1,0 +1,7 @@
+/*!
+
+@defgroup bl_hw Bootloader Hardware
+@ingroup bootloader
+@brief Hardware management APIs.
+
+ */

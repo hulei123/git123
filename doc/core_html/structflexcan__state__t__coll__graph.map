@@ -1,0 +1,4 @@
+<map id="flexcan_state_t" name="flexcan_state_t">
+<area shape="rect" id="node2" href="$group__rtos__irq__sync.html#structsemaphore__t" title="semaphore_t" alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node3" href="$group__flexcan__hal.html#structflexcan__mb__t" title="FlexCAN message buffer structure. " alt="" coords="127,5,226,32"/>
+</map>

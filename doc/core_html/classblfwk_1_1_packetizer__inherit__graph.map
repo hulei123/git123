@@ -1,0 +1,4 @@
+<map id="blfwk::Packetizer" name="blfwk::Packetizer">
+<area shape="rect" id="node2" href="$group__serial__packetizer.html#classblfwk_1_1_serial_packetizer" title="Provides source and sink for packets that go over the serial peripherals. " alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node3" href="$group__usb__hid__packetizer.html#classblfwk_1_1_usb_hid_packetizer" title="Provides source and sink for packets that go over USB HID class. " alt="" coords="184,80,347,107"/>
+</map>

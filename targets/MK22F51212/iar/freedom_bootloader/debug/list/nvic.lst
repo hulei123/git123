@@ -1,0 +1,422 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:18
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\platform\arch\cortex_m\nvic.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\platform\arch\cortex_m\nvic.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\nvic.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\nvic.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\platform\arch\cortex_m\nvic.c
+      1          /**HEADER********************************************************************
+      2          *
+      3          * Copyright (c) 2012, 2013 - 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          ***************************************************************************
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          **************************************************************************
+     22          *
+     23          * $FileName:nvic.c
+     24          * $Version :
+     25          * $Date    :
+     26          *
+     27          * Comments:
+     28          * ARM Nested Vectored Interrupt Controller (NVIC)
+     29          *
+     30          *END************************************************************************/
+     31          #include "types.h"
+     32          #include "soc.h"
+     33          #include "nvic.h"
+     34          
+
+   \                                 In section .bss, align 4
+     35          uint32_t g_usb_lock_level;
+   \                     g_usb_lock_level:
+   \   00000000                      DS8 4
+     36          
+     37          /*FUNCTION*-----------------------------------------------------------------
+     38          *
+     39          * Function Name   : nvic_int_init
+     40          * Returned Value  : int8_t
+     41          *       NVIC_OK or error code
+     42          * Comments        :
+     43          *  	Initialize a specific interrupt in the cortex core nvic
+     44          *
+     45          *END*---------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     46          int8_t nvic_int_init
+     47          (
+     48              /* [IN] Interrupt number */
+     49              uint8_t irq,
+     50              /* [IN] Interrupt priority */
+     51              uint8_t prior,
+     52              /* [IN] enable the interrupt now? */
+     53              bool enable
+     54             )
+     55          {
+   \                     nvic_int_init: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+     56              VCORTEX_NVIC_STRUCT_PTR nvic = (VCORTEX_NVIC_STRUCT_PTR)CORTEX_PRI_PERIPH_IN_BASE;
+     57              uint8_t ext_irq_no = irq - 16;
+   \   00000002   0xF1A0 0x0310      SUB      R3,R0,#+16
+   \   00000006   0xB2DB             UXTB     R3,R3
+     58          
+     59              /* check priority value, must be below maximal enabled/set value */
+     60              if (prior >= (1 << CORTEX_PRIOR_IMPL))
+   \   00000008   0x2908             CMP      R1,#+8
+   \   0000000A   0xBFB8             IT       LT 
+   \   0000000C   0x2BFB             CMPLT    R3,#+251
+     61              {
+     62                  return NVIC_INVALID_PARAM;
+     63              }
+     64          
+     65              if (ext_irq_no <= (uint8_t)INT_LAST_INTERNAL)
+   \   0000000E   0xDA1C             BGE.N    ??nvic_int_init_0
+     66              {
+     67                  nvic->PRIORITY[ext_irq_no >> 2] = (nvic->PRIORITY[ext_irq_no >> 2] & ~(0xff << ((ext_irq_no & 3) * 8))) | (((prior << CORTEX_PRIOR_SHIFT) & CORTEX_PRIOR_MASK) << ((ext_irq_no & 3) * 8));
+   \   00000010   0xF003 0x0403      AND      R4,R3,#0x3
+   \   00000014   0xF023 0x0303      BIC      R3,R3,#0x3
+   \   00000018   0xF103 0x4360      ADD      R3,R3,#-536870912
+   \   0000001C   0xF503 0x4361      ADD      R3,R3,#+57600
+   \   00000020   0x00E4             LSLS     R4,R4,#+3
+   \   00000022   0xF8D3 0x5300      LDR      R5,[R3, #+768]
+   \   00000026   0x26FF             MOVS     R6,#+255
+   \   00000028   0x0149             LSLS     R1,R1,#+5
+   \   0000002A   0x40A6             LSLS     R6,R6,R4
+   \   0000002C   0xF001 0x01E0      AND      R1,R1,#0xE0
+   \   00000030   0x43B5             BICS     R5,R5,R6
+   \   00000032   0x40A1             LSLS     R1,R1,R4
+   \   00000034   0x4329             ORRS     R1,R1,R5
+   \   00000036   0xF8C3 0x1300      STR      R1,[R3, #+768]
+     68                  if (enable)
+   \   0000003A   0xB112             CBZ.N    R2,??nvic_int_init_1
+     69                  {
+     70                      nvic_int_enable(irq);
+   \   0000003C   0x.... 0x....      BL       nvic_int_enable
+   \   00000040   0xE001             B.N      ??nvic_int_init_2
+     71                  }
+     72                  else
+     73                  {
+     74                      nvic_int_disable(irq);
+   \                     ??nvic_int_init_1: (+1)
+   \   00000042   0x.... 0x....      BL       nvic_int_disable
+     75                  }
+     76              }
+     77              else
+     78              {
+     79                  return NVIC_INVALID_PARAM;
+     80              }
+     81          
+     82              return NVIC_OK;
+   \                     ??nvic_int_init_2: (+1)
+   \   00000046   0x2000             MOVS     R0,#+0
+   \   00000048   0xBD70             POP      {R4-R6,PC}
+   \                     ??nvic_int_init_0: (+1)
+   \   0000004A   0xF04F 0x30FF      MOV      R0,#-1
+   \   0000004E   0xBD70             POP      {R4-R6,PC}       ;; return
+     83          }
+     84          
+     85          /*FUNCTION*-----------------------------------------------------------------
+     86          *
+     87          * Function Name   : nvic_int_enable
+     88          * Returned Value  : int8_t
+     89          *       NVIC_OK or error code
+     90          * Comments        :
+     91          *     Enable interrupt on cortex core NVIC
+     92          *
+     93          *END*---------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     94          int8_t nvic_int_enable
+     95          (
+     96              /* [IN] Interrupt number */
+     97              uint8_t  irq
+     98          )
+     99          {
+    100              VCORTEX_NVIC_STRUCT_PTR nvic = (VCORTEX_NVIC_STRUCT_PTR)CORTEX_PRI_PERIPH_IN_BASE;
+    101              uint8_t ext_irq_no = irq - 16;
+   \                     nvic_int_enable: (+1)
+   \   00000000   0x3810             SUBS     R0,R0,#+16
+   \   00000002   0xB2C0             UXTB     R0,R0
+    102          
+    103              if (ext_irq_no <= INT_LAST_INTERNAL)
+   \   00000004   0x28FB             CMP      R0,#+251
+   \   00000006   0xDA05             BGE.N    ??nvic_int_enable_0
+    104              {
+    105          #if CPU_IS_ARM_CORTEX_M0P
+    106                  nvic->ENABLE = 1 << ext_irq_no;
+    107          #elif CPU_IS_ARM_CORTEX_M4
+    108                  nvic->ENABLE[ext_irq_no >> 5] = 1 << (ext_irq_no & 0x1f);
+   \   00000008   0x2101             MOVS     R1,#+1
+   \   0000000A   0xF000 0x021F      AND      R2,R0,#0x1F
+   \   0000000E   0x4091             LSLS     R1,R1,R2
+   \   00000010   0x....             LDR.N    R2,??DataTable2  ;; 0xe000e100
+   \   00000012   0x....             B.N      ?Subroutine0
+    109          #endif
+    110              }
+    111              else
+    112              {
+    113                  return NVIC_INVALID_PARAM;
+   \                     ??nvic_int_enable_0: (+1)
+   \   00000014   0x....             B.N      ?Subroutine1
+    114              }
+    115              return NVIC_OK;
+    116          }
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine1: (+1)
+   \   00000000   0xF04F 0x30FF      MOV      R0,#-1
+   \   00000004   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine0: (+1)
+   \   00000000   0x0940             LSRS     R0,R0,#+5
+   \   00000002   0xF842 0x1020      STR      R1,[R2, R0, LSL #+2]
+   \   00000006   0x2000             MOVS     R0,#+0
+   \   00000008   0x4770             BX       LR
+    117          
+    118          /*FUNCTION*-----------------------------------------------------------------
+    119          *
+    120          * Function Name   : nvic_int_disable
+    121          * Returned Value  : int8_t
+    122          *       NVIC_OK or error code
+    123          * Comments        :
+    124          *     Disable interrupt on cortex core NVIC
+    125          *
+    126          *END*---------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    127          int8_t nvic_int_disable
+    128          (
+    129              /* [IN] Interrupt number */
+    130              uint8_t irq
+    131          )
+    132          {
+    133              VCORTEX_NVIC_STRUCT_PTR nvic = (VCORTEX_NVIC_STRUCT_PTR)CORTEX_PRI_PERIPH_IN_BASE;
+    134              uint8_t ext_irq_no = irq - 16;
+   \                     nvic_int_disable: (+1)
+   \   00000000   0x3810             SUBS     R0,R0,#+16
+   \   00000002   0xB2C0             UXTB     R0,R0
+    135          
+    136              if (ext_irq_no <= INT_LAST_INTERNAL)
+   \   00000004   0x28FB             CMP      R0,#+251
+   \   00000006   0xDA05             BGE.N    ??nvic_int_disable_0
+    137              {
+    138          #if CPU_IS_ARM_CORTEX_M0P
+    139                  nvic->DISABLE = 1 << ext_irq_no;
+    140          #elif CPU_IS_ARM_CORTEX_M4
+    141                  nvic->DISABLE[ext_irq_no >> 5] = 1 << (ext_irq_no & 0x1f);
+   \   00000008   0x2101             MOVS     R1,#+1
+   \   0000000A   0xF000 0x021F      AND      R2,R0,#0x1F
+   \   0000000E   0x4091             LSLS     R1,R1,R2
+   \   00000010   0x....             LDR.N    R2,??DataTable2_1  ;; 0xe000e180
+   \   00000012   0x....             B.N      ?Subroutine0
+    142          #endif
+    143              }
+    144              else
+    145              {
+    146                  return NVIC_INVALID_PARAM;
+   \                     ??nvic_int_disable_0: (+1)
+   \   00000014                      REQUIRE ?Subroutine1
+   \   00000014                      ;; // Fall through to label ?Subroutine1
+    147              }
+    148          
+    149              return NVIC_OK;
+    150          }
+    151          
+    152          #ifdef __CC_ARM
+    153          #define _SYS_LOCK_()   __disable_irq()
+    154          #define _SYS_UNLOCK_() __enable_irq()
+    155          #else
+    156          #define _SYS_LOCK_()   asm(" CPSID i")
+    157          #define _SYS_UNLOCK_() asm(" CPSIE i")
+    158          #endif
+    159          
+
+   \                                 In section .text, align 4, keep-with-next
+    160          void sys_lock()
+    161          {
+    162              if (0 == g_usb_lock_level)
+   \                     sys_lock: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable2_2
+   \   00000002   0x6801             LDR      R1,[R0, #+0]
+   \   00000004   0x2900             CMP      R1,#+0
+   \   00000006   0xD100             BNE.N    ??sys_lock_0
+    163              {
+    164                  _SYS_LOCK_();
+   \   00000008   0xB672             CPSID i
+    165              }
+    166              g_usb_lock_level++;
+   \                     ??sys_lock_0: (+1)
+   \   0000000A   0x6801             LDR      R1,[R0, #+0]
+   \   0000000C   0x1C49             ADDS     R1,R1,#+1
+   \   0000000E   0x6001             STR      R1,[R0, #+0]
+    167          }
+   \   00000010   0x4770             BX       LR               ;; return
+    168          
+
+   \                                 In section .text, align 4, keep-with-next
+    169          void sys_unlock()
+    170          {
+    171              if (g_usb_lock_level)
+   \                     sys_unlock: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable2_2
+   \   00000002   0x6801             LDR      R1,[R0, #+0]
+   \   00000004   0x2900             CMP      R1,#+0
+   \   00000006   0xBF1E             ITTT     NE 
+   \   00000008   0x1E49             SUBNE    R1,R1,#+1
+   \   0000000A   0x6001             STRNE    R1,[R0, #+0]
+   \   0000000C   0x2900             CMPNE    R1,#+0
+    172              {
+    173                  g_usb_lock_level--;
+    174              }
+    175          
+    176              if (0 == g_usb_lock_level)
+   \   0000000E   0xD100             BNE.N    ??sys_unlock_0
+    177              {
+    178                 _SYS_UNLOCK_();
+   \   00000010   0xB662             CPSIE i
+    179              }
+    180          }
+   \                     ??sys_unlock_0: (+1)
+   \   00000012   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \   00000000   0xE000E100         DC32     0xe000e100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \   00000000   0xE000E180         DC32     0xe000e180
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \   00000000   0x........         DC32     g_usb_lock_level
+    181          
+    182          /* EOF */
+    183          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   nvic_int_disable
+       0   nvic_int_enable
+      16   nvic_int_init
+        16   -> nvic_int_disable
+        16   -> nvic_int_enable
+       0   sys_lock
+       0   sys_unlock
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+      10  ?Subroutine0
+       6  ?Subroutine1
+       4  g_usb_lock_level
+      20  nvic_int_disable
+      22  nvic_int_enable
+      80  nvic_int_init
+      18  sys_lock
+      20  sys_unlock
+
+ 
+   4 bytes in section .bss
+ 188 bytes in section .text
+ 
+ 188 bytes of CODE memory
+   4 bytes of DATA memory
+
+Errors: none
+Warnings: none

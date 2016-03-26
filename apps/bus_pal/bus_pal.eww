@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\MKL25Z4\bus_pal_FRDM-KL25Z.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\MKV46F15\bus_pal_TWR-KV46F15.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All configurations</name>
+      <member>
+        <project>bus_pal_FRDM-KL25Z</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>bus_pal_FRDM-KL25Z</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>bus_pal_TWR-KV46F15</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>bus_pal_TWR-KV46F15</project>
+        <configuration>Release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

@@ -1,0 +1,4 @@
+<map id="dspi_slave_user_config_t" name="dspi_slave_user_config_t">
+<area shape="rect" id="node2" href="$group__dspi__hal.html#structdspi__data__format__config__t" title="DSPI data format settings configuration structure. " alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node3" href="$group__dspi__slave__driver.html#structdspi__slave__callbacks__t" title="The set of callbacks used for the DSPI slave mode. " alt="" coords="203,5,357,32"/>
+</map>

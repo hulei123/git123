@@ -1,0 +1,1437 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:51
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\classes\hid\usb_hid.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\classes\hid\usb_hid.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\usb_hid.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\usb_hid.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\classes\hid\usb_hid.c
+      1          /**HEADER********************************************************************
+      2          * 
+      3          * Copyright (c) 2008, 2013 - 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          * Copyright (c) 1989-2008 ARC International;
+      7          * All Rights Reserved
+      8          *
+      9          *************************************************************************** 
+     10          *
+     11          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR 
+     12          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+     13          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+     14          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+     15          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+     16          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+     17          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+     18          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+     19          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+     20          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+     21          * THE POSSIBILITY OF SUCH DAMAGE.
+     22          *
+     23          **************************************************************************
+     24          *
+     25          * $FileName: usb_hid.c$
+     26          * $Version : 
+     27          * $Date    : 
+     28          *
+     29          * Comments:
+     30          *
+     31          * @brief The file contains USB stack HID layer implimentation.
+     32          *
+     33          *****************************************************************************/
+     34          
+     35          /******************************************************************************
+     36           * Includes
+     37           *****************************************************************************/
+     38          #include "usb_device_config.h"
+     39          #include "usb.h"
+     40          #include "usb_device_stack_interface.h"
+     41          
+     42          #if USBCFG_DEV_HID
+     43          #include "usb_class_internal.h"
+     44          #include "usb_class_hid.h"
+     45          #include "usb_hid.h"
+     46          
+     47          #if (BL_CONFIG_USB_HID || BL_CONFIG_HS_USB_HID)
+     48          
+     49          /*****************************************************************************
+     50           * Constant and Macro's
+     51           *****************************************************************************/
+     52          
+     53          /****************************************************************************
+     54           * Global Variables
+     55           ****************************************************************************/         
+
+   \                                 In section .bss, align 4
+     56          hid_device_struct_t g_hid_class[MAX_HID_DEVICE];
+   \                     g_hid_class:
+   \   00000000                      DS8 128
+     57          /*****************************************************************************
+     58           * Local Types - None
+     59           *****************************************************************************/
+     60          
+     61          /*****************************************************************************
+     62           * Local Functions Prototypes
+     63           *****************************************************************************/
+     64          #if 0
+     65          static uint8_t HID_USB_Map_Ep_To_Struct_Index(hid_device_struct_t* devicePtr, 
+     66                                    uint8_t ep_num
+     67                                    );                          
+     68          #endif                          
+     69          /*****************************************************************************
+     70           * Local Variables - None
+     71           *****************************************************************************/
+     72           
+     73           
+     74          /*****************************************************************************
+     75           * Local Functions
+     76           *****************************************************************************/
+     77           
+     78             /*************************************************************************//*!
+     79            *
+     80            * @name  USB_Hid_Allocate_Handle
+     81            *
+     82            * @brief The funtion reserves entry in device array and returns the index.
+     83            *
+     84            * @param none.
+     85            * @return returns the reserved handle or if no entry found device busy.      
+     86            *
+     87            *****************************************************************************/
+     88           static usb_status USB_Hid_Allocate_Handle(hid_device_struct_t** handle)
+     89           {
+     90               uint32_t cnt = 0;
+     91               for (;cnt< MAX_HID_DEVICE;cnt++)
+     92               {
+     93                   if (g_hid_class[cnt].handle == NULL)
+     94                   {
+     95                       *handle = (hid_device_struct_t*)&g_hid_class[cnt];
+     96                       return USB_OK;
+     97                   }
+     98               }
+     99               return USBERR_DEVICE_BUSY;
+    100           }
+    101            /*************************************************************************//*!
+    102            *
+    103            * @name  USB_Hid_Free_Handle
+    104            *
+    105            * @brief The funtion releases entry in device array .
+    106            *
+    107            * @param handle  index in device array to be released..
+    108            * @return returns and error code or USB_OK.      
+    109            *
+    110            *****************************************************************************/
+    111           
+    112           static usb_status USB_Hid_Free_Handle(hid_device_struct_t* handle)
+    113           {
+    114               int32_t cnt = 0;
+    115               for (;cnt< MAX_HID_DEVICE;cnt++)
+    116               {
+    117                   if ((&g_hid_class[cnt]) == handle)
+    118                   {
+    119                       OS_Mem_zero((void*)handle, sizeof(hid_device_struct_t));
+    120                       return USB_OK;
+    121                   }
+    122               }
+    123               return USBERR_INVALID_PARAM;
+    124           }
+    125          
+    126           /*************************************************************************//*!
+    127           *
+    128           * @name  USB_Hid_Get_Device_Ptr
+    129           *
+    130           * @brief The funtion gets the device pointer from device array .
+    131           *
+    132           * @param handle  index in device array.
+    133           * @return returns returns pointer to HID device structure..      
+    134           *
+    135           *****************************************************************************/
+    136          static hid_device_struct_t* USB_Hid_Get_Device_Ptr(hid_handle_t handle)
+    137          {
+    138              return (hid_device_struct_t *)handle; 
+    139          }
+    140          #if 0
+    141           /*************************************************************************//*!
+    142           *
+    143           * @name  HID_USB_Map_Ep_To_Struct_Index
+    144           *
+    145           * @brief The funtion maps the endpoint num to the index of the ep data 
+    146           *           structure
+    147           *
+    148           * @param handle          handle to identify the controller
+    149           * @param ep_num          endpoint num
+    150           *
+    151           * @return index          mapped index       
+    152           *
+    153           *****************************************************************************/
+    154          static uint8_t HID_USB_Map_Ep_To_Struct_Index(hid_device_struct_t* devicePtr, uint8_t ep_num)
+    155          {
+    156              uint8_t count = 0;
+    157              
+    158              usb_endpoints_t *ep_desc_data = devicePtr->ep_desc_data;
+    159              /* map the endpoint num to the index of the endpoint structure */
+    160              for (count = 0; count < ep_desc_data->count; count++) 
+    161              {
+    162                  if (ep_desc_data->ep[count].ep_num == ep_num)
+    163                  {
+    164                      break;
+    165                  }
+    166              }
+    167          
+    168              return count; 
+    169          }
+    170          #endif
+    171          
+    172          /**************************************************************************//*!
+    173           *
+    174           * @name  USB_Service_Hid_IN
+    175           *
+    176           * @brief The funtion ic callback function of HID endpoint 
+    177           *
+    178           * @param event
+    179           *
+    180           * @return None       
+    181           *
+    182           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    183          void USB_Service_Hid_IN
+    184          (
+    185              usb_event_struct_t* event,
+    186              void* arg
+    187          )
+    188          {
+   \                     USB_Service_Hid_IN: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0xB082             SUB      SP,SP,#+8
+    189          #if HID_IMPLEMENT_QUEUING
+    190              uint8_t index;
+    191              uint8_t producer;
+    192              uint8_t consumer;
+    193          #endif
+    194              hid_device_struct_t*  devicePtr;
+    195              //usb_endpoints_t *ep_desc_data;
+    196             
+    197              devicePtr = (hid_device_struct_t*)arg;
+    198              
+    199              //ep_desc_data = devicePtr->ep_desc_data; 
+    200          #if HID_IMPLEMENT_QUEUING
+    201               /* map the endpoint num to the index of the endpoint structure */
+    202              index = HID_USB_Map_Ep_To_Struct_Index(devicePtr, event->ep_num); 
+    203              producer = devicePtr->hid_endpoint_data.ep[index].bin_producer;
+    204                  
+    205              /* if there are no errors de-queue the queue and decrement the no. of 
+    206               transfers left, else send the same data again */
+    207               /* de-queue if the send is complete with no error */
+    208              devicePtr->hid_endpoint_data.ep[index].bin_consumer++;  
+    209          
+    210              consumer = devicePtr->hid_endpoint_data.ep[index].bin_consumer;
+    211          
+    212              if (consumer != producer) 
+    213              {
+    214                  /*if bin is not empty */
+    215                  hid_queue_struct_t queue;    
+    216                  /* send the next packet in queue */
+    217                  queue = devicePtr->hid_endpoint_data.ep[index].queue[consumer % HID_MAX_QUEUE_ELEMS];
+    218                  (void)USB_Class_Send_Data(devicePtr->class_handle, queue.channel, queue.app_buff, queue.size);
+    219              }
+    220          #endif
+    221              /* notify the app of the send complete */
+    222               if (devicePtr->class_specific_callback.callback != NULL) 
+   \   00000004   0x6A0C             LDR      R4,[R1, #+32]
+   \   00000006   0x0022             MOVS     R2,R4
+   \   00000008   0xD009             BEQ.N    ??USB_Service_Hid_IN_0
+    223               {
+    224                   devicePtr->class_specific_callback.callback(USB_DEV_EVENT_SEND_COMPLETE, USB_REQ_VAL_INVALID,(uint8_t**)event,0,
+    225                          (event->len == 0xFFFFFFFF)? 0 : devicePtr->class_specific_callback.arg);
+   \   0000000A   0x6882             LDR      R2,[R0, #+8]
+   \   0000000C   0xF112 0x0F01      CMN      R2,#+1
+   \   00000010   0xBF0C             ITE      EQ 
+   \   00000012   0x2100             MOVEQ    R1,#+0
+   \   00000014   0x6A49             LDRNE    R1,[R1, #+36]
+   \   00000016   0x.... 0x....      BL       ?Subroutine2
+    226              }
+   \                     ??CrossCallReturnLabel_4: (+1)
+   \   0000001A   0x2004             MOVS     R0,#+4
+   \   0000001C   0x47A0             BLX      R4
+    227          
+    228          }
+   \                     ??USB_Service_Hid_IN_0: (+1)
+   \   0000001E   0xBD13             POP      {R0,R1,R4,PC}    ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine2: (+1)
+   \   00000000   0x9100             STR      R1,[SP, #+0]
+   \   00000002   0x4602             MOV      R2,R0
+   \   00000004   0x2300             MOVS     R3,#+0
+   \   00000006   0xF64F 0x71FF      MOVW     R1,#+65535
+   \   0000000A   0x4770             BX       LR
+    229          
+    230          /**************************************************************************//*!
+    231           *
+    232           * @name  USB_Service_Hid_OUT
+    233           *
+    234           * @brief The funtion ic callback function of HID endpoint 
+    235           *
+    236           * @param event
+    237           *
+    238           * @return None       
+    239           *
+    240           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    241          void USB_Service_Hid_OUT
+    242          (
+    243              usb_event_struct_t* event,
+    244              void* arg
+    245          )
+    246          {
+   \                     USB_Service_Hid_OUT: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0xB082             SUB      SP,SP,#+8
+    247          #if HID_IMPLEMENT_QUEUING
+    248              uint8_t index;
+    249              uint8_t producer;
+    250              uint8_t consumer;
+    251          #endif
+    252              hid_device_struct_t*  devicePtr;
+    253              //usb_endpoints_t *ep_desc_data;
+    254             
+    255              devicePtr = (hid_device_struct_t*)arg;
+    256              
+    257              //ep_desc_data = devicePtr->ep_desc_data; 
+    258          #if HID_IMPLEMENT_QUEUING
+    259               /* map the endpoint num to the index of the endpoint structure */
+    260              index = HID_USB_Map_Ep_To_Struct_Index(devicePtr, event->ep_num); 
+    261              producer = devicePtr->hid_endpoint_data.ep[index].bin_producer;
+    262                  
+    263              /* if there are no errors de-queue the queue and decrement the no. of 
+    264               transfers left, else send the same data again */
+    265               /* de-queue if the send is complete with no error */
+    266              devicePtr->hid_endpoint_data.ep[index].bin_consumer++;  
+    267          
+    268              consumer = devicePtr->hid_endpoint_data.ep[index].bin_consumer;
+    269          
+    270              if (consumer != producer) 
+    271              {
+    272                  /*if bin is not empty */
+    273                  hid_queue_struct_t queue;    
+    274                  /* send the next packet in queue */
+    275                  queue = devicePtr->hid_endpoint_data.ep[index].queue[consumer % HID_MAX_QUEUE_ELEMS];
+    276                  (void)USB_Class_Send_Data(devicePtr->class_handle, queue.channel, queue.app_buff, queue.size);
+    277              }
+    278          #endif
+    279              /* notify the app of the send complete */
+    280               if (devicePtr->class_specific_callback.callback != NULL) 
+   \   00000004   0x6A0C             LDR      R4,[R1, #+32]
+   \   00000006   0x0022             MOVS     R2,R4
+   \   00000008   0xD009             BEQ.N    ??USB_Service_Hid_OUT_0
+    281               {
+    282                   devicePtr->class_specific_callback.callback(USB_DEV_EVENT_DATA_RECEIVED, USB_REQ_VAL_INVALID,(uint8_t**)event,0,
+    283                          (event->len == 0xFFFFFFFF)? 0 : devicePtr->class_specific_callback.arg);
+   \   0000000A   0x6882             LDR      R2,[R0, #+8]
+   \   0000000C   0xF112 0x0F01      CMN      R2,#+1
+   \   00000010   0xBF0C             ITE      EQ 
+   \   00000012   0x2100             MOVEQ    R1,#+0
+   \   00000014   0x6A49             LDRNE    R1,[R1, #+36]
+   \   00000016   0x.... 0x....      BL       ?Subroutine2
+    284              }
+   \                     ??CrossCallReturnLabel_5: (+1)
+   \   0000001A   0x2005             MOVS     R0,#+5
+   \   0000001C   0x47A0             BLX      R4
+    285          
+    286          }
+   \                     ??USB_Service_Hid_OUT_0: (+1)
+   \   0000001E   0xBD13             POP      {R0,R1,R4,PC}    ;; return
+    287          
+    288          
+    289          /**************************************************************************//*!
+    290           *
+    291           * @name  USB_Class_Hid_Event
+    292           *
+    293           * @brief The funtion initializes HID endpoint 
+    294           *
+    295           * @param handle          handle to Identify the controller
+    296           * @param event           pointer to event structure
+    297           * @param val             gives the configuration value 
+    298           *
+    299           * @return None       
+    300           *
+    301           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    302          void USB_Class_Hid_Event
+    303          (
+    304              uint8_t     event, 
+    305              void*       val,
+    306              void *      arg
+    307          ) 
+    308          {
+   \                     USB_Class_Hid_Event: (+1)
+   \   00000000   0xE92D 0x4FF8      PUSH     {R3-R11,LR}
+    309              uint8_t                      index;
+    310          #if USBCFG_DEV_COMPOSITE
+    311              usb_composite_info_struct_t* usb_composite_info;
+    312              uint32_t                     interface_index = 0xFF;
+    313          #else
+    314              usb_class_struct_t*          usbclass;
+    315          #endif    
+    316              usb_ep_struct_t*             ep_struct_ptr;
+    317              hid_device_struct_t*         devicePtr;
+    318          
+    319              devicePtr = (hid_device_struct_t*)arg;
+    320              if (event == USB_DEV_EVENT_CONFIG_CHANGED)
+   \   00000004   0x2801             CMP      R0,#+1
+   \   00000006   0x4680             MOV      R8,R0
+   \   00000008   0x468B             MOV      R11,R1
+   \   0000000A   0x4616             MOV      R6,R2
+   \   0000000C   0xD146             BNE.N    ??USB_Class_Hid_Event_0
+    321              {
+    322          #if USBCFG_DEV_COMPOSITE
+    323                  uint8_t count = 0;
+    324                  uint8_t type_sel;
+    325                  devicePtr->desc_callback.get_desc_entity((uint32_t)devicePtr->handle,
+    326                      USB_COMPOSITE_INFO, (uint32_t *)&usb_composite_info);
+    327                  devicePtr->desc_callback.get_desc_entity((uint32_t)devicePtr,
+    328                      USB_CLASS_INTERFACE_INDEX_INFO, (uint32_t *)&interface_index);
+    329                  
+    330                  if(interface_index == 0xFF)
+    331                  {
+    332           //           USB_PRINTF("not find interface index\n");
+    333                      return;
+    334                  }
+    335                  for (type_sel = 0;type_sel < usb_composite_info->count;type_sel++)
+    336                  {
+    337                      if ((usb_composite_info->class[type_sel].type == USB_CLASS_HID) && (type_sel == interface_index))
+    338                      {
+    339                          break;
+    340                      }
+    341                  }
+    342                  if(type_sel >= usb_composite_info->count)
+    343                  {
+    344          //            USB_PRINTF("not find hid interface\n");
+    345                      return;
+    346                  }
+    347                  devicePtr->ep_desc_data = (usb_endpoints_t *) &usb_composite_info->class[type_sel].interfaces.interface->endpoints;
+    348                  
+    349                  if (usb_composite_info->class[type_sel].interfaces.interface->endpoints.count > MAX_HID_CLASS_EP_NUM)
+    350                  {
+    351                      USB_PRINTF("too many hid endpoint for the class driver\n");
+    352                      return;
+    353                  }
+    354          
+    355                  for (index = 0; index < usb_composite_info->class[type_sel].interfaces.interface->endpoints.count; index++) 
+    356                  {
+    357                      devicePtr->hid_endpoint_data.ep[index].endpoint = 
+    358                                           usb_composite_info->class[type_sel].interfaces.interface->endpoints.ep[index].ep_num;
+    359                      devicePtr->hid_endpoint_data.ep[index].type = 
+    360                                            usb_composite_info->class[type_sel].interfaces.interface->endpoints.ep[index].type;
+    361          #if HID_IMPLEMENT_QUEUING
+    362                      devicePtr->hid_endpoint_data.ep[index].bin_consumer = 0x00;
+    363                      devicePtr->hid_endpoint_data.ep[index].bin_producer = 0x00;
+    364          #endif /* HID_IMPLEMENT_QUEUING */
+    365                  }
+    366          #else
+    367                  uint8_t count = 0;
+    368                  devicePtr->desc_callback.get_desc_entity((uint32_t)devicePtr->handle,
+    369                      USB_CLASS_INFO, (uint32_t *)&usbclass);
+   \   0000000E   0x6830             LDR      R0,[R6, #+0]
+   \   00000010   0x6BB3             LDR      R3,[R6, #+56]
+   \   00000012   0x466A             MOV      R2,SP
+   \   00000014   0x2100             MOVS     R1,#+0
+   \   00000016   0x4798             BLX      R3
+    370                  devicePtr->ep_desc_data = (usb_endpoints_t *) &usbclass->interfaces.interface->endpoints;
+   \   00000018   0x9800             LDR      R0,[SP, #+0]
+   \   0000001A   0x6880             LDR      R0,[R0, #+8]
+   \   0000001C   0x1D01             ADDS     R1,R0,#+4
+   \   0000001E   0x60F1             STR      R1,[R6, #+12]
+   \   00000020   0x2700             MOVS     R7,#+0
+    371          
+    372                  if (usbclass->interfaces.interface->endpoints.count > MAX_HID_CLASS_EP_NUM)
+   \   00000022   0x7900             LDRB     R0,[R0, #+4]
+   \   00000024   0x2803             CMP      R0,#+3
+   \   00000026   0xDA66             BGE.N    ??USB_Class_Hid_Event_1
+    373                  {
+    374                  #ifdef _DEBUG
+    375          //            USB_PRINTF("too many hid endpoint for the class driver\n");
+    376                  #endif
+    377                      return;
+    378                  }
+    379          
+    380                  for (index = 0; index < usbclass->interfaces.interface->endpoints.count; index++) 
+   \   00000028   0x2400             MOVS     R4,#+0
+   \   0000002A   0xE00F             B.N      ??USB_Class_Hid_Event_2
+    381                  {
+    382                      devicePtr->hid_endpoint_data.ep[index].endpoint = 
+    383                                                  usbclass->interfaces.interface->endpoints.ep[index].ep_num;
+   \                     ??USB_Class_Hid_Event_3: (+1)
+   \   0000002C   0x6889             LDR      R1,[R1, #+8]
+   \   0000002E   0xF811 0x1034      LDRB     R1,[R1, R4, LSL #+3]
+   \   00000032   0xEB06 0x0044      ADD      R0,R6,R4, LSL #+1
+   \   00000036   0xF800 0x1F3C      STRB     R1,[R0, #+60]!
+    384                      devicePtr->hid_endpoint_data.ep[index].type = 
+    385                                                   usbclass->interfaces.interface->endpoints.ep[index].type;
+   \   0000003A   0x9900             LDR      R1,[SP, #+0]
+   \   0000003C   0x6889             LDR      R1,[R1, #+8]
+   \   0000003E   0x6889             LDR      R1,[R1, #+8]
+   \   00000040   0xEB01 0x01C4      ADD      R1,R1,R4, LSL #+3
+    386          #if HID_IMPLEMENT_QUEUING
+    387                      devicePtr->hid_endpoint_data.ep[index].bin_consumer = 0x00;
+    388                      devicePtr->hid_endpoint_data.ep[index].bin_producer = 0x00;
+    389          #endif /* HID_IMPLEMENT_QUEUING */
+    390                  }
+   \   00000044   0x1C64             ADDS     R4,R4,#+1
+   \   00000046   0x7849             LDRB     R1,[R1, #+1]
+   \   00000048   0x7041             STRB     R1,[R0, #+1]
+   \   0000004A   0xB2E4             UXTB     R4,R4
+   \                     ??USB_Class_Hid_Event_2: (+1)
+   \   0000004C   0x9800             LDR      R0,[SP, #+0]
+   \   0000004E   0x6881             LDR      R1,[R0, #+8]
+   \   00000050   0x7908             LDRB     R0,[R1, #+4]
+   \   00000052   0x4284             CMP      R4,R0
+   \   00000054   0xDBEA             BLT.N    ??USB_Class_Hid_Event_3
+    391          #endif
+    392                  usb_endpoints_t *ep_desc_data = devicePtr->ep_desc_data; 
+   \   00000056   0x68F4             LDR      R4,[R6, #+12]
+   \   00000058   0x.... 0x....      LDR.W    R9,??DataTable2
+   \   0000005C   0x.... 0x....      LDR.W    R10,??DataTable2_1
+   \   00000060   0xE007             B.N      ??USB_Class_Hid_Event_4
+    393                  
+    394                  /* intialize all non control endpoints */
+    395                  while (count < ep_desc_data->count) 
+    396                  {
+    397                      ep_struct_ptr= (usb_ep_struct_t*) &ep_desc_data->ep[count];
+    398                      (void)usb_device_init_endpoint(devicePtr->handle, ep_struct_ptr, TRUE);
+    399          
+    400                      if (ep_struct_ptr->direction == USB_SEND)
+    401                      {
+    402                          /* register callback service for endpoint */
+    403                          (void)usb_device_register_service(devicePtr->handle,
+    404                              (uint8_t)((USB_SERVICE_EP0+ep_struct_ptr->ep_num) | ((uint8_t)(ep_struct_ptr->direction << 7))), 
+    405                              USB_Service_Hid_IN, arg);
+    406                      }
+    407                      else if (ep_struct_ptr->direction == USB_RECV)
+   \                     ??USB_Class_Hid_Event_5: (+1)
+   \   00000062   0xB928             CBNZ.N   R0,??USB_Class_Hid_Event_6
+    408                      {
+    409                          /* register callback service for endpoint */
+    410                          (void)usb_device_register_service(devicePtr->handle,
+    411                              (uint8_t)((USB_SERVICE_EP0+ep_struct_ptr->ep_num) | ((uint8_t)(ep_struct_ptr->direction << 7))), 
+    412                              USB_Service_Hid_OUT, arg);
+   \   00000064   0x7829             LDRB     R1,[R5, #+0]
+   \   00000066   0x4633             MOV      R3,R6
+   \   00000068   0x464A             MOV      R2,R9
+   \                     ??USB_Class_Hid_Event_7: (+1)
+   \   0000006A   0x6830             LDR      R0,[R6, #+0]
+   \   0000006C   0x.... 0x....      BL       usb_device_register_service
+    413                      }
+    414                      else
+    415                      {
+    416                      }
+    417                      count++;
+   \                     ??USB_Class_Hid_Event_6: (+1)
+   \   00000070   0x1C7F             ADDS     R7,R7,#+1
+   \                     ??USB_Class_Hid_Event_4: (+1)
+   \   00000072   0x7820             LDRB     R0,[R4, #+0]
+   \   00000074   0xB2FF             UXTB     R7,R7
+   \   00000076   0x4287             CMP      R7,R0
+   \   00000078   0xD236             BCS.N    ??USB_Class_Hid_Event_8
+   \   0000007A   0x6860             LDR      R0,[R4, #+4]
+   \   0000007C   0xEB00 0x05C7      ADD      R5,R0,R7, LSL #+3
+   \   00000080   0x6830             LDR      R0,[R6, #+0]
+   \   00000082   0x2201             MOVS     R2,#+1
+   \   00000084   0x4629             MOV      R1,R5
+   \   00000086   0x.... 0x....      BL       usb_device_init_endpoint
+   \   0000008A   0x78A8             LDRB     R0,[R5, #+2]
+   \   0000008C   0x2801             CMP      R0,#+1
+   \   0000008E   0xD1E8             BNE.N    ??USB_Class_Hid_Event_5
+   \   00000090   0x7829             LDRB     R1,[R5, #+0]
+   \   00000092   0x4633             MOV      R3,R6
+   \   00000094   0x4652             MOV      R2,R10
+   \   00000096   0xEA41 0x11C0      ORR      R1,R1,R0, LSL #+7
+   \   0000009A   0xE7E6             B.N      ??USB_Class_Hid_Event_7
+    418                  }
+    419              }
+    420              else if (event == USB_DEV_EVENT_ENUM_COMPLETE) 
+   \                     ??USB_Class_Hid_Event_0: (+1)
+   \   0000009C   0x2803             CMP      R0,#+3
+   \   0000009E   0xBF18             IT       NE 
+   \   000000A0   0xF1B8 0x0F00      CMPNE    R8,#+0
+    421              {
+    422          
+    423              }
+    424              else if (event == USB_DEV_EVENT_BUS_RESET) 
+   \   000000A4   0xD020             BEQ.N    ??USB_Class_Hid_Event_8
+    425              {
+    426          #if HID_IMPLEMENT_QUEUING
+    427                  if (devicePtr->hid_endpoint_data.ep != NULL){
+    428                      for (index = 0; index < MAX_HID_CLASS_EP_NUM; index++) 
+    429                      {
+    430                          devicePtr->hid_endpoint_data.ep[index].bin_consumer = 0x00;
+    431                          devicePtr->hid_endpoint_data.ep[index].bin_producer = 0x00;
+    432                      }
+    433                  }
+    434          #endif
+    435              }
+    436          	else if(event == USB_DEV_EVENT_EP_UNSTALLED)
+   \   000000A6   0x2809             CMP      R0,#+9
+   \   000000A8   0xD10E             BNE.N    ??USB_Class_Hid_Event_9
+    437              {
+    438                  uint8_t value;
+    439                  value = *((uint8_t *)val);
+   \   000000AA   0xF89B 0x7000      LDRB     R7,[R11, #+0]
+    440                  if (devicePtr->hid_endpoint_data.ep != NULL)
+   \   000000AE   0xF116 0x003C      ADDS     R0,R6,#+60
+   \   000000B2   0xD019             BEQ.N    ??USB_Class_Hid_Event_8
+    441          		{
+    442                      for (index = 0; index < MAX_HID_CLASS_EP_NUM; index++) 
+   \   000000B4   0x2400             MOVS     R4,#+0
+    443                      {
+    444          				if((value & 0x0F) == devicePtr->hid_endpoint_data.ep[index].endpoint)
+   \                     ??USB_Class_Hid_Event_10: (+1)
+   \   000000B6   0x.... 0x....      BL       ?Subroutine1
+   \                     ??CrossCallReturnLabel_2: (+1)
+   \   000000BA   0xD101             BNE.N    ??CrossCallReturnLabel_1
+    445          					usb_device_unstall_endpoint(devicePtr->handle,value & 0x0F, (value & 0x80) >> 7);
+   \   000000BC   0x.... 0x....      BL       ?Subroutine0
+    446                      }
+   \                     ??CrossCallReturnLabel_1: (+1)
+   \   000000C0   0x1C64             ADDS     R4,R4,#+1
+   \   000000C2   0x2C02             CMP      R4,#+2
+   \   000000C4   0xDBF7             BLT.N    ??USB_Class_Hid_Event_10
+   \   000000C6   0xE00F             B.N      ??USB_Class_Hid_Event_8
+    447                  }
+    448                
+    449              }
+    450          	else if(event == USB_DEV_EVENT_TYPE_CLR_EP_HALT)
+   \                     ??USB_Class_Hid_Event_9: (+1)
+   \   000000C8   0x2814             CMP      R0,#+20
+   \   000000CA   0xD10D             BNE.N    ??USB_Class_Hid_Event_8
+    451              {
+    452                  uint8_t value;
+    453                  value = *((uint8_t *)val);
+   \   000000CC   0xF89B 0x7000      LDRB     R7,[R11, #+0]
+    454                  if (devicePtr->hid_endpoint_data.ep != NULL)
+   \   000000D0   0xF116 0x003C      ADDS     R0,R6,#+60
+   \   000000D4   0xD008             BEQ.N    ??USB_Class_Hid_Event_8
+    455          		{
+    456                      for (index = 0; index < MAX_HID_CLASS_EP_NUM; index++) 
+   \   000000D6   0x2400             MOVS     R4,#+0
+    457                      {
+    458          				if((value & 0x0F) == devicePtr->hid_endpoint_data.ep[index].endpoint)
+   \                     ??USB_Class_Hid_Event_11: (+1)
+   \   000000D8   0x.... 0x....      BL       ?Subroutine1
+   \                     ??CrossCallReturnLabel_3: (+1)
+   \   000000DC   0xD101             BNE.N    ??CrossCallReturnLabel_0
+    459          					usb_device_unstall_endpoint(devicePtr->handle,value & 0x0F, (value & 0x80) >> 7);
+   \   000000DE   0x.... 0x....      BL       ?Subroutine0
+    460                      }
+   \                     ??CrossCallReturnLabel_0: (+1)
+   \   000000E2   0x1C64             ADDS     R4,R4,#+1
+   \   000000E4   0x2C02             CMP      R4,#+2
+   \   000000E6   0xDBF7             BLT.N    ??USB_Class_Hid_Event_11
+    461                  }
+    462                
+    463              }
+    464              if (devicePtr->hid_application_callback.callback != NULL)
+   \                     ??USB_Class_Hid_Event_8: (+1)
+   \   000000E8   0x6933             LDR      R3,[R6, #+16]
+   \   000000EA   0x0018             MOVS     R0,R3
+   \   000000EC   0xD003             BEQ.N    ??USB_Class_Hid_Event_1
+    465              {
+    466                  devicePtr->hid_application_callback.callback(event,val,
+    467                  devicePtr->hid_application_callback.arg);
+   \   000000EE   0x6972             LDR      R2,[R6, #+20]
+   \   000000F0   0x4659             MOV      R1,R11
+   \   000000F2   0x4640             MOV      R0,R8
+   \   000000F4   0x4798             BLX      R3
+    468              }
+    469          }
+   \                     ??USB_Class_Hid_Event_1: (+1)
+   \   000000F6   0xE8BD 0x8FF1      POP      {R0,R4-R11,PC}   ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine1: (+1)
+   \   00000000   0xEB06 0x0144      ADD      R1,R6,R4, LSL #+1
+   \   00000004   0xF007 0x000F      AND      R0,R7,#0xF
+   \   00000008   0xF891 0x103C      LDRB     R1,[R1, #+60]
+   \   0000000C   0x4288             CMP      R0,R1
+   \   0000000E   0x4770             BX       LR
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine0: (+1)
+   \   00000000   0x09F8             LSRS     R0,R7,#+7
+   \   00000002   0xF000 0x0201      AND      R2,R0,#0x1
+   \   00000006   0x6830             LDR      R0,[R6, #+0]
+   \   00000008   0xF007 0x010F      AND      R1,R7,#0xF
+   \   0000000C   0x.... 0x....      B.W      usb_device_unstall_endpoint
+    470          
+    471          /**************************************************************************//*!
+    472           *
+    473           * @name  USB_HID_Other_Requests
+    474           *
+    475           * @brief The funtion provides flexibilty to add class and vendor specific
+    476           *        requests 
+    477           *
+    478           * @param handle:
+    479           * @param setup_packet:     setup packet recieved      
+    480           * @param data:             data to be send back
+    481           * @param size:             size to be returned    
+    482           *
+    483           * @return status:       
+    484           *                        USB_OK : When Successfull       
+    485           *                        Others : When Error
+    486           *
+    487           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    488          usb_status USB_HID_Requests
+    489          (
+    490              usb_setup_struct_t* setup_packet, 
+    491              uint8_t *           *data, 
+    492              uint32_t            *size,
+    493              void*               arg
+    494          ) 
+    495          {    
+   \                     USB_HID_Requests: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0xB082             SUB      SP,SP,#+8
+   \   00000004   0x461D             MOV      R5,R3
+   \   00000006   0x4604             MOV      R4,R0
+    496              //uint8_t index;
+    497              usb_status error = USBERR_INVALID_REQ_TYPE;
+   \   00000008   0x20CE             MOVS     R0,#+206
+    498              hid_device_struct_t*  devicePtr;
+    499              /* buffer to send in case of get report req */
+    500              //uint8_t rpt_buf[REPORT_SIZE];
+    501              
+    502              //*((uint32_t*)rpt_buf) = 0;
+    503              
+    504              /*Get the device pointer to which this callback corresponds.*/
+    505              devicePtr = (hid_device_struct_t*)arg;
+    506              
+    507              if((setup_packet->request_type & USB_DEV_REQ_STD_REQUEST_TYPE_TYPE_POS) == 
+    508                                                                USB_DEV_REQ_STD_REQUEST_TYPE_TYPE_CLASS) 
+   \   0000000A   0x7823             LDRB     R3,[R4, #+0]
+   \   0000000C   0xF003 0x0660      AND      R6,R3,#0x60
+   \   00000010   0x2E20             CMP      R6,#+32
+   \   00000012   0xD10C             BNE.N    ??USB_HID_Requests_0
+    509              {  
+    510                  if(devicePtr->class_specific_callback.callback != NULL) 
+   \   00000014   0x6A2B             LDR      R3,[R5, #+32]
+   \   00000016   0xB1A3             CBZ.N    R3,??USB_HID_Requests_1
+    511                  {  
+    512                    /* handle callback if the application has supplied it */
+    513                    /* set the size of the transfer from the setup packet */  
+    514                      *size = setup_packet->length; 
+   \   00000018   0x88E0             LDRH     R0,[R4, #+6]
+   \   0000001A   0x6010             STR      R0,[R2, #+0]
+    515                          
+    516                    /* notify the application of the class request.*/
+    517                    /* give control to the application */
+    518                     error = devicePtr->class_specific_callback.callback(
+    519                                                /* request type */ 
+    520                                                setup_packet->request,
+    521                                                setup_packet->value, 
+    522                                                /* pointer to the data */
+    523                                                data,
+    524                                                /* size of the transfer */
+    525                                                size,devicePtr->class_specific_callback.arg);
+   \   0000001C   0x4613             MOV      R3,R2
+   \   0000001E   0x6A68             LDR      R0,[R5, #+36]
+   \   00000020   0x9000             STR      R0,[SP, #+0]
+   \   00000022   0x460A             MOV      R2,R1
+   \   00000024   0x8861             LDRH     R1,[R4, #+2]
+   \   00000026   0x7860             LDRB     R0,[R4, #+1]
+   \   00000028   0x6A2C             LDR      R4,[R5, #+32]
+   \   0000002A   0x47A0             BLX      R4
+   \   0000002C   0xBD76             POP      {R1,R2,R4-R6,PC}
+    526                  }
+    527              } 
+    528              else if((setup_packet->request_type & USB_DEV_REQ_STD_REQUEST_TYPE_TYPE_POS) == 
+    529                                                               USB_DEV_REQ_STD_REQUEST_TYPE_TYPE_VENDOR) 
+   \                     ??USB_HID_Requests_0: (+1)
+   \   0000002E   0xF003 0x0360      AND      R3,R3,#0x60
+   \   00000032   0x2B40             CMP      R3,#+64
+   \   00000034   0xD105             BNE.N    ??USB_HID_Requests_1
+    530              {   /* vendor specific request  */
+    531                  if(devicePtr->vendor_req_callback.callback != NULL) 
+   \   00000036   0x69AE             LDR      R6,[R5, #+24]
+   \   00000038   0x0033             MOVS     R3,R6
+   \   0000003A   0xD002             BEQ.N    ??USB_HID_Requests_1
+    532                  {
+    533                      error = devicePtr->vendor_req_callback.callback(setup_packet,
+    534                          data,size,devicePtr->vendor_req_callback.arg);
+   \   0000003C   0x69EB             LDR      R3,[R5, #+28]
+   \   0000003E   0x4620             MOV      R0,R4
+   \   00000040   0x47B0             BLX      R6
+    535                  }
+    536              } 
+    537              return error;
+   \                     ??USB_HID_Requests_1: (+1)
+   \   00000042   0xBD76             POP      {R1,R2,R4-R6,PC}  ;; return
+    538          }
+    539          
+    540          /*****************************************************************************
+    541           * Global Functions
+    542           *****************************************************************************/
+    543          
+    544          
+    545          /**************************************************************************//*!
+    546           *
+    547           * @name  USB_Class_HID_Init
+    548           *
+    549           * @brief The funtion initializes the Device and Controller layer 
+    550           *
+    551           * @param *handle: handle pointer to Identify the controller
+    552           * @param hid_class_callback:   event callback      
+    553           * @param vendor_req_callback:  vendor specific class request callback      
+    554           * @param param_callback:       application params callback      
+    555           *
+    556           * @return status       
+    557           *         USB_OK           : When Successfull 
+    558           *         Others           : Errors
+    559           ******************************************************************************
+    560           *
+    561           *This function initializes the HID Class layer and layers it is dependent on 
+    562           *
+    563           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    564          usb_status USB_Class_HID_Init
+    565          (
+    566              uint8_t controller_id,
+    567              hid_config_struct_t* hid_config_ptr,
+    568              hid_handle_t *  hidHandle
+    569          ) 
+    570          {
+   \                     USB_Class_HID_Init: (+1)
+   \   00000000   0xB5F8             PUSH     {R3-R7,LR}
+   \   00000002   0x000D             MOVS     R5,R1
+   \   00000004   0x4604             MOV      R4,R0
+   \   00000006   0x4616             MOV      R6,R2
+    571              //uint8_t index;
+    572              usb_status error = USBERR_ERROR;
+    573              hid_device_struct_t*  devicePtr;
+    574          
+    575              if (NULL == hid_config_ptr)
+   \   00000008   0xD101             BNE.N    ??USB_Class_HID_Init_0
+    576              {
+    577                  return USBERR_ERROR;
+   \   0000000A   0x20FF             MOVS     R0,#+255
+   \   0000000C   0xBDF2             POP      {R1,R4-R7,PC}
+    578              }
+    579              error = USB_Hid_Allocate_Handle(&devicePtr);/*(hid_device_struct_t*)OS_Mem_alloc_zero(sizeof(hid_device_struct_t));*/
+   \                     ??USB_Class_HID_Init_0: (+1)
+   \   0000000E   0x2000             MOVS     R0,#+0
+   \                     ??USB_Class_HID_Init_1: (+1)
+   \   00000010   0x....             LDR.N    R1,??DataTable2_2
+   \   00000012   0xEB01 0x1780      ADD      R7,R1,R0, LSL #+6
+   \   00000016   0x6839             LDR      R1,[R7, #+0]
+   \   00000018   0xB121             CBZ.N    R1,??USB_Class_HID_Init_2
+   \   0000001A   0x1C40             ADDS     R0,R0,#+1
+   \   0000001C   0x2802             CMP      R0,#+2
+   \   0000001E   0xD3F7             BCC.N    ??USB_Class_HID_Init_1
+    580              if (USB_OK != error)
+    581              {
+    582                  return error;
+   \   00000020   0x20C1             MOVS     R0,#+193
+   \   00000022   0xBDF2             POP      {R1,R4-R7,PC}
+    583              }
+    584              /*if (NULL == devicePtr)
+    585              {
+    586                  #if _DEBUG
+    587                      USB_PRINTF("USB_Class_HID_Init: Memalloc failed\n");
+    588                  #endif  
+    589                  return USBERR_ALLOC;
+    590              }
+    591              devicePtr->desc_callback_ptr = (usb_desc_request_notify_struct_t*)OS_Mem_alloc_zero(sizeof(usb_desc_request_notify_struct_t));
+    592              if (NULL == devicePtr->desc_callback_ptr)
+    593              {
+    594                  #ifdef _DEBUG
+    595                      USB_PRINTF("USB_Class_Audio_Init: desc_callback_ptr Memalloc failed\n");
+    596                  #endif
+    597                  OS_Mem_free(devicePtr);
+    598                  return USBERR_ALLOC;
+    599              }*/
+    600              //devicePtr->hid_endpoint_data.ep = NULL;
+    601          #if USBCFG_DEV_COMPOSITE
+    602              devicePtr->class_handle = USB_Class_Get_Class_Handle();
+    603              devicePtr->handle = (usb_device_handle)USB_Class_Get_Ctrler_Handle(devicePtr->class_handle);
+    604              if (NULL == devicePtr->handle)
+    605              {
+    606                  goto error1;
+    607              }
+    608          #else
+    609              /* Initialize the device layer*/
+    610              error = usb_device_init(controller_id,(&devicePtr->handle));
+   \                     ??USB_Class_HID_Init_2: (+1)
+   \   00000024   0x4639             MOV      R1,R7
+   \   00000026   0x4620             MOV      R0,R4
+   \   00000028   0x.... 0x....      BL       usb_device_init
+    611              if (error != USB_OK)
+   \   0000002C   0xBB40             CBNZ.N   R0,??USB_Class_HID_Init_3
+    612              {
+    613                  goto error1;  
+    614              }
+    615              /* Initialize the generic class functions */
+    616              devicePtr->class_handle = USB_Class_Init(devicePtr->handle,
+    617              USB_Class_Hid_Event,USB_HID_Requests,(void *)devicePtr,hid_config_ptr->desc_callback_ptr);
+   \   0000002E   0x69A8             LDR      R0,[R5, #+24]
+   \   00000030   0x....             LDR.N    R2,??DataTable2_3
+   \   00000032   0x....             LDR.N    R1,??DataTable2_4
+   \   00000034   0x9000             STR      R0,[SP, #+0]
+   \   00000036   0x463B             MOV      R3,R7
+   \   00000038   0x6838             LDR      R0,[R7, #+0]
+   \   0000003A   0x.... 0x....      BL       USB_Class_Init
+   \   0000003E   0x60B8             STR      R0,[R7, #+8]
+    618              if (error != USB_OK)
+    619              {
+    620                  goto error2;  
+    621              }
+    622          
+    623          #endif
+    624              /* save the callback pointer */
+    625              OS_Mem_copy(&hid_config_ptr->hid_application_callback,
+    626              &devicePtr->hid_application_callback,sizeof(usb_application_callback_struct_t));           
+   \   00000040   0x2208             MOVS     R2,#+8
+   \   00000042   0x4629             MOV      R1,R5
+   \   00000044   0xF107 0x0010      ADD      R0,R7,#+16
+   \   00000048   0x.... 0x....      BL       memcpy
+    627          
+    628              /* save the callback pointer */
+    629              OS_Mem_copy(&hid_config_ptr->vendor_req_callback,
+    630              &devicePtr->vendor_req_callback,sizeof(usb_vendor_req_callback_struct_t));        
+   \   0000004C   0x2208             MOVS     R2,#+8
+   \   0000004E   0xF105 0x0108      ADD      R1,R5,#+8
+   \   00000052   0xF107 0x0018      ADD      R0,R7,#+24
+   \   00000056   0x.... 0x....      BL       memcpy
+    631          
+    632              /* Save the callback to ask application for class specific params*/
+    633              OS_Mem_copy(&hid_config_ptr->class_specific_callback,
+    634              &devicePtr->class_specific_callback,sizeof(usb_class_specific_callback_struct_t));                    
+   \   0000005A   0x2208             MOVS     R2,#+8
+   \   0000005C   0xF105 0x0110      ADD      R1,R5,#+16
+   \   00000060   0xF107 0x0020      ADD      R0,R7,#+32
+   \   00000064   0x.... 0x....      BL       memcpy
+    635          
+    636              /* Save the dec  callback to ask application for class specific params*/
+    637              OS_Mem_copy(hid_config_ptr->desc_callback_ptr,
+    638              &devicePtr->desc_callback,sizeof(usb_desc_request_notify_struct_t)); 
+   \   00000068   0x69A9             LDR      R1,[R5, #+24]
+   \   0000006A   0x2214             MOVS     R2,#+20
+   \   0000006C   0xF107 0x0028      ADD      R0,R7,#+40
+   \   00000070   0x.... 0x....      BL       memcpy
+    639          
+    640              *hidHandle =(unsigned long)devicePtr;
+   \   00000074   0x6037             STR      R7,[R6, #+0]
+    641              //devicePtr->user_handle = *hidHandle;
+    642              usb_device_postinit(controller_id,devicePtr->handle);
+   \   00000076   0x4620             MOV      R0,R4
+   \   00000078   0x6839             LDR      R1,[R7, #+0]
+   \   0000007A   0x.... 0x....      BL       usb_device_postinit
+    643          
+    644              return USB_OK;
+   \   0000007E   0x2000             MOVS     R0,#+0
+    645          #if !USBCFG_DEV_COMPOSITE
+    646          error2:
+    647               /* TBD:Implement usb_device_deinit and call here*/
+    648          #endif
+    649          error1: 
+    650              //OS_Mem_free(devicePtr);
+    651              devicePtr = NULL;
+    652              return error;     
+   \                     ??USB_Class_HID_Init_3: (+1)
+   \   00000080   0xBDF2             POP      {R1,R4-R7,PC}    ;; return
+    653          }
+    654          
+    655          /**************************************************************************//*!
+    656           *
+    657           * @name  USB_Class_HID_Deinit
+    658           *
+    659           * @brief 
+    660           *
+    661           * @param handle          :   handle returned by USB_Class_HID_Init   
+    662           *
+    663           * @return status       
+    664           *         USB_OK           : When Successfull 
+    665           *         Others           : Errors
+    666           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    667          usb_status USB_Class_HID_Deinit
+    668          (
+    669              hid_handle_t handle
+    670          ) 
+    671          {
+   \                     USB_Class_HID_Deinit: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    672              usb_status error = USB_OK;
+    673              hid_device_struct_t*  devicePtr;
+    674          
+    675              if (handle == 0)
+   \   00000004   0xD101             BNE.N    ??USB_Class_HID_Deinit_0
+    676              {
+    677                  return USBERR_ERROR;
+   \   00000006   0x20FF             MOVS     R0,#+255
+   \   00000008   0xBD32             POP      {R1,R4,R5,PC}
+    678              }
+    679          
+    680              devicePtr = USB_Hid_Get_Device_Ptr(handle);
+    681          
+    682              if (NULL == devicePtr)
+    683              {
+    684                  return USBERR_NO_DEVICE_CLASS;
+    685              }
+    686          #if !USBCFG_DEV_COMPOSITE  
+    687              /* Deinitialize the generic class functions */
+    688              error = USB_Class_Deinit(devicePtr->handle,devicePtr->class_handle);
+   \                     ??USB_Class_HID_Deinit_0: (+1)
+   \   0000000A   0x68A1             LDR      R1,[R4, #+8]
+   \   0000000C   0x6820             LDR      R0,[R4, #+0]
+   \   0000000E   0x.... 0x....      BL       USB_Class_Deinit
+   \   00000012   0x0005             MOVS     R5,R0
+    689              if(error == USB_OK)
+   \   00000014   0xD103             BNE.N    ??USB_Class_HID_Deinit_1
+    690              {
+    691                  /* Deinitialize the device layer*/
+    692                  error = usb_device_deinit(devicePtr->handle);
+   \   00000016   0x6820             LDR      R0,[R4, #+0]
+   \   00000018   0x.... 0x....      BL       usb_device_deinit
+   \   0000001C   0x4605             MOV      R5,R0
+    693              }
+    694          #endif 
+    695              /*
+    696          
+    697              if(NULL != devicePtr->hid_endpoint_data.ep)
+    698              {
+    699                  OS_Mem_free(devicePtr->hid_endpoint_data.ep);
+    700              }
+    701              
+    702              if(NULL != devicePtr->desc_callback_ptr)
+    703              {
+    704                  OS_Mem_free(devicePtr->desc_callback_ptr);
+    705              }
+    706              if(NULL != devicePtr)
+    707              {
+    708                  OS_Mem_free(devicePtr);
+    709              }
+    710              */
+    711              USB_Hid_Free_Handle(devicePtr);
+   \                     ??USB_Class_HID_Deinit_1: (+1)
+   \   0000001E   0x2000             MOVS     R0,#+0
+   \   00000020   0x....             LDR.N    R1,??DataTable2_2
+   \                     ??USB_Class_HID_Deinit_2: (+1)
+   \   00000022   0xEB01 0x1280      ADD      R2,R1,R0, LSL #+6
+   \   00000026   0x42A2             CMP      R2,R4
+   \   00000028   0xD003             BEQ.N    ??USB_Class_HID_Deinit_3
+   \   0000002A   0x1C40             ADDS     R0,R0,#+1
+   \   0000002C   0x2802             CMP      R0,#+2
+   \   0000002E   0xDBF8             BLT.N    ??USB_Class_HID_Deinit_2
+   \   00000030   0xE004             B.N      ??USB_Class_HID_Deinit_4
+   \                     ??USB_Class_HID_Deinit_3: (+1)
+   \   00000032   0x2240             MOVS     R2,#+64
+   \   00000034   0x2100             MOVS     R1,#+0
+   \   00000036   0x4620             MOV      R0,R4
+   \   00000038   0x.... 0x....      BL       memset
+    712              devicePtr = NULL;
+    713          
+    714              return error;
+   \                     ??USB_Class_HID_Deinit_4: (+1)
+   \   0000003C   0x4628             MOV      R0,R5
+   \   0000003E   0xBD32             POP      {R1,R4,R5,PC}    ;; return
+    715          }
+    716          
+    717          #if USBCFG_DEV_ADVANCED_CANCEL_ENABLE
+    718          /**************************************************************************//*!
+    719           *
+    720           * @name  USB_Class_HID_Cancel
+    721           *
+    722           * @brief 
+    723           *
+    724           * @param handle          :   handle returned by USB_Class_HID_Init
+    725           * @param ep_num          :   endpoint num 
+    726           * @param direction        :   direction of the endpoint 
+    727           *
+    728           * @return status       
+    729           *         USB_OK           : When Successfull 
+    730           *         Others           : Errors
+    731           *****************************************************************************/
+    732          
+
+   \                                 In section .text, align 2, keep-with-next
+    733          usb_status USB_Class_HID_Cancel
+    734          (
+    735              hid_handle_t handle,/*[IN]*/
+    736              uint8_t ep_num,/*[IN]*/
+    737              uint8_t direction
+    738          )
+    739          {
+    740              hid_device_struct_t*  devicePtr;
+    741              //usb_endpoints_t *ep_desc_data;    
+    742              usb_status error = USB_OK;
+    743              if (handle == 0)
+   \                     USB_Class_HID_Cancel: (+1)
+   \   00000000   0x2800             CMP      R0,#+0
+   \   00000002   0xBF1C             ITT      NE 
+    744              {
+    745                  return USBERR_ERROR;
+    746              }
+    747          
+    748              devicePtr = USB_Hid_Get_Device_Ptr(handle);
+    749              if (NULL == devicePtr)
+    750              {
+    751                  return USBERR_NO_DEVICE_CLASS;
+    752              }
+    753              //ep_desc_data = devicePtr->ep_desc_data; 
+    754              error = usb_device_cancel_transfer(devicePtr->handle, ep_num, direction);
+    755          
+    756              return error;
+   \   00000004   0x6800             LDRNE    R0,[R0, #+0]
+   \   00000006   0x.... 0x....      BNE.W    usb_device_cancel_transfer
+   \   0000000A   0x20FF             MOVS     R0,#+255
+   \   0000000C   0x4770             BX       LR
+    757          
+    758          }
+    759          #endif
+    760          
+    761          /**************************************************************************//*!
+    762           *
+    763           * @name  USB_Class_HID_Send_Data
+    764           *
+    765           * @brief 
+    766           *
+    767           * @param handle          :   handle returned by USB_Class_HID_Init
+    768           * @param ep_num          :   endpoint num 
+    769           * @param app_buff        :   buffer to send
+    770           * @param size            :   length of the transfer   
+    771           *
+    772           * @return status       
+    773           *         USB_OK           : When Successfull 
+    774           *         Others           : Errors
+    775           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    776          usb_status USB_Class_HID_Send_Data
+    777          (
+    778              hid_handle_t handle,/*[IN]*/
+    779              uint8_t ep_num,/*[IN]*/
+    780              uint8_t * app_buff,/*[IN]*/
+    781              uint32_t size /*[IN]*/
+    782          ) 
+    783          {
+    784          #if HID_IMPLEMENT_QUEUING
+    785              uint8_t index;
+    786              uint8_t producer;
+    787              uint8_t consumer;
+    788          #endif 
+    789              usb_status error = USB_OK;
+    790              hid_device_struct_t*  devicePtr;
+    791              //usb_endpoints_t *ep_desc_data;    
+    792                 
+    793              if (handle == 0)
+   \                     USB_Class_HID_Send_Data: (+1)
+   \   00000000   0x2800             CMP      R0,#+0
+   \   00000002   0xBF1C             ITT      NE 
+    794              {
+    795                  return USBERR_ERROR;
+    796              }
+    797          
+    798              devicePtr = USB_Hid_Get_Device_Ptr(handle);
+    799              if (NULL == devicePtr)
+    800              {
+    801                  return USBERR_NO_DEVICE_CLASS;
+    802              }
+    803              //ep_desc_data = devicePtr->ep_desc_data; 
+    804          #if HID_IMPLEMENT_QUEUING    
+    805               /* map the endpoint num to the index of the endpoint structure */
+    806              index = HID_USB_Map_Ep_To_Struct_Index(devicePtr, ep_num); 
+    807             
+    808              producer = devicePtr->hid_endpoint_data.ep[index].bin_producer;
+    809              consumer = devicePtr->hid_endpoint_data.ep[index].bin_consumer;
+    810          
+    811              if((uint8_t)(producer - consumer) != (uint8_t)(HID_MAX_QUEUE_ELEMS))  
+    812              {/* the bin is not full*/
+    813              
+    814                  uint8_t queue_num = (uint8_t)(producer % HID_MAX_QUEUE_ELEMS);
+    815                  /* put all send request parameters in the endpoint data structure */
+    816                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].channel = ep_num;
+    817                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].app_buff = app_buff;
+    818                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].size = size; 
+    819                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].handle = devicePtr->handle;
+    820             
+    821                  /* increment producer bin by 1*/       
+    822                  devicePtr->hid_endpoint_data.ep[index].bin_producer++;
+    823                  producer++;
+    824                       
+    825                  if((uint8_t)(producer - consumer) == (uint8_t)1)         
+    826                  {
+    827          #endif
+    828                      /*send the IO if there is only one element in the queue */          
+    829                      error = USB_Class_Send_Data(devicePtr->class_handle, ep_num, app_buff,size);
+    830          #if HID_IMPLEMENT_QUEUING
+    831                  }
+    832              }
+    833              else /* bin is full */
+    834              {
+    835                  error = USBERR_DEVICE_BUSY; 
+    836              }
+    837          #endif
+    838              return error;
+   \   00000004   0x6880             LDRNE    R0,[R0, #+8]
+   \   00000006   0x.... 0x....      BNE.W    USB_Class_Send_Data
+   \   0000000A   0x20FF             MOVS     R0,#+255
+   \   0000000C   0x4770             BX       LR
+    839          }
+    840          
+    841          /**************************************************************************//*!
+    842           *
+    843           * @name  USB_Class_HID_Recv_Data
+    844           *
+    845           * @brief 
+    846           *
+    847           * @param handle          :   handle returned by USB_Class_HID_Init
+    848           * @param ep_num          :   endpoint num 
+    849           * @param app_buff        :   buffer to send
+    850           * @param size            :   length of the transfer   
+    851           *
+    852           * @return status       
+    853           *         USB_OK           : When Successfull 
+    854           *         Others           : Errors
+    855           *****************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    856          usb_status USB_Class_HID_Recv_Data
+    857          (
+    858              hid_handle_t handle,/*[IN]*/
+    859              uint8_t ep_num,/*[IN]*/
+    860              uint8_t * app_buff,/*[IN]*/
+    861              uint32_t size /*[IN]*/
+    862          ) 
+    863          {
+    864          #if HID_IMPLEMENT_QUEUING
+    865              uint8_t index;
+    866              uint8_t producer;
+    867              uint8_t consumer;
+    868          #endif 
+    869              usb_status error = USB_OK;
+    870              hid_device_struct_t*  devicePtr;
+    871              //usb_endpoints_t *ep_desc_data;    
+    872                 
+    873              if (handle == 0)
+   \                     USB_Class_HID_Recv_Data: (+1)
+   \   00000000   0x2800             CMP      R0,#+0
+   \   00000002   0xBF1C             ITT      NE 
+    874              {
+    875                  return USBERR_ERROR;
+    876              }
+    877          
+    878              devicePtr = USB_Hid_Get_Device_Ptr(handle);
+    879              if (NULL == devicePtr)
+    880              {
+    881                  return USBERR_NO_DEVICE_CLASS;
+    882              }
+    883              //ep_desc_data = devicePtr->ep_desc_data; 
+    884          #if HID_IMPLEMENT_QUEUING    
+    885               /* map the endpoint num to the index of the endpoint structure */
+    886              index = HID_USB_Map_Ep_To_Struct_Index(devicePtr, ep_num); 
+    887             
+    888              producer = devicePtr->hid_endpoint_data.ep[index].bin_producer;
+    889              consumer = devicePtr->hid_endpoint_data.ep[index].bin_consumer;
+    890          
+    891              if((uint8_t)(producer - consumer) != (uint8_t)(HID_MAX_QUEUE_ELEMS))  
+    892              {/* the bin is not full*/
+    893              
+    894                  uint8_t queue_num = (uint8_t)(producer % HID_MAX_QUEUE_ELEMS);
+    895                  /* put all send request parameters in the endpoint data structure */
+    896                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].channel = ep_num;
+    897                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].app_buff = app_buff;
+    898                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].size = size; 
+    899                  devicePtr->hid_endpoint_data.ep[index].queue[queue_num].handle = devicePtr->handle;
+    900             
+    901                  /* increment producer bin by 1*/       
+    902                  devicePtr->hid_endpoint_data.ep[index].bin_producer++;
+    903                  producer++;
+    904                       
+    905                  if((uint8_t)(producer - consumer) == (uint8_t)1)         
+    906                  {
+    907          #endif
+    908                      /*send the IO if there is only one element in the queue */          
+    909                      error = usb_device_recv_data(devicePtr->handle, ep_num, app_buff,size);
+    910          #if HID_IMPLEMENT_QUEUING
+    911                  }
+    912              }
+    913              else /* bin is full */
+    914              {
+    915                  error = USBERR_DEVICE_BUSY; 
+    916              }
+    917          #endif
+    918              return error;
+   \   00000004   0x6800             LDRNE    R0,[R0, #+0]
+   \   00000006   0x.... 0x....      BNE.W    usb_device_recv_data
+   \   0000000A   0x20FF             MOVS     R0,#+255
+   \   0000000C   0x4770             BX       LR
+    919          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \   00000000   0x........         DC32     USB_Service_Hid_OUT
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \   00000000   0x........         DC32     USB_Service_Hid_IN
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \   00000000   0x........         DC32     g_hid_class
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_3:
+   \   00000000   0x........         DC32     USB_HID_Requests
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_4:
+   \   00000000   0x........         DC32     USB_Class_Hid_Event
+    920          
+    921          #endif /*HID_CONFIG*/
+    922          
+    923          #endif //BL_CONFIG_USB_HID
+    924          /* EOF */
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   USB_Class_HID_Cancel
+         0   -> usb_device_cancel_transfer
+      16   USB_Class_HID_Deinit
+        16   -> USB_Class_Deinit
+        16   -> memset
+        16   -> usb_device_deinit
+      24   USB_Class_HID_Init
+        24   -> USB_Class_Init
+        24   -> memcpy
+        24   -> usb_device_init
+        24   -> usb_device_postinit
+       0   USB_Class_HID_Recv_Data
+         0   -> usb_device_recv_data
+       0   USB_Class_HID_Send_Data
+         0   -> USB_Class_Send_Data
+      40   USB_Class_Hid_Event
+        40   -- Indirect call
+        40   -> usb_device_init_endpoint
+        40   -> usb_device_register_service
+        40   -> usb_device_unstall_endpoint
+      24   USB_HID_Requests
+        24   -- Indirect call
+      16   USB_Service_Hid_IN
+        16   -- Indirect call
+      16   USB_Service_Hid_OUT
+        16   -- Indirect call
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+      16  ?Subroutine0
+      16  ?Subroutine1
+      12  ?Subroutine2
+      14  USB_Class_HID_Cancel
+      64  USB_Class_HID_Deinit
+     130  USB_Class_HID_Init
+      14  USB_Class_HID_Recv_Data
+      14  USB_Class_HID_Send_Data
+     250  USB_Class_Hid_Event
+      68  USB_HID_Requests
+      32  USB_Service_Hid_IN
+      32  USB_Service_Hid_OUT
+     128  g_hid_class
+
+ 
+ 128 bytes in section .bss
+ 682 bytes in section .text
+ 
+ 682 bytes of CODE memory
+ 128 bytes of DATA memory
+
+Errors: none
+Warnings: none

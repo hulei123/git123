@@ -1,0 +1,294 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:08
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\bootloader_tree_root.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\bootloader_tree_root.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\bootloader_tree_root.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bootloader_tree_root.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\bootloader_tree_root.c
+      1          /*
+      2           * Copyright (c) 2013, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "bootloader/bootloader.h"
+     32          #include "flash/flash.h"
+     33          #if BL_FEATURE_ENCRYPTION
+     34          #include "security/aes_security.h"
+     35          #endif // #if BL_FEATURE_ENCRYPTION
+     36          
+     37          //! @addtogroup context
+     38          //! @{
+     39          
+     40          ////////////////////////////////////////////////////////////////////////////////
+     41          // Variables
+     42          ////////////////////////////////////////////////////////////////////////////////
+     43          
+     44          //! @brief Function table for flash driver.
+
+   \                                 In section .rodata, align 4, keep-with-next
+     45          const flash_driver_interface_t g_flashDriverInterface = {
+   \                     g_flashDriverInterface:
+   \   00000000   0x03 0x02          DC8 3, 2, 1, 70
+   \              0x01 0x46    
+   \   00000004   0x........         DC32 flash_init, flash_erase_all, flash_erase_all_unsecure, flash_erase
+   \              0x........   
+   \              0x........   
+   \              0x........   
+   \   00000014   0x........         DC32 flash_program, flash_get_security_state, flash_security_bypass
+   \              0x........   
+   \              0x........   
+   \   00000020   0x........         DC32 flash_verify_erase_all, flash_verify_erase, flash_verify_program
+   \              0x........   
+   \              0x........   
+   \   0000002C   0x........         DC32 flash_get_property, flash_register_callback, flash_program_once
+   \              0x........   
+   \              0x........   
+   \   00000038   0x........         DC32 flash_read_once, flash_read_resource
+   \              0x........   
+   \   00000040   0x........         DC32 flash_prepare_execute_in_ram_functions
+     46                  .version = {
+     47                          .name = kFlashDriver_Version_Name,
+     48                          .major = kFlashDriver_Version_Major,
+     49                          .minor = kFlashDriver_Version_Minor,
+     50                          .bugfix = kFlashDriver_Version_Bugfix
+     51                      },
+     52                  .flash_init = flash_init,
+     53                  .flash_erase_all = flash_erase_all,
+     54                  .flash_erase_all_unsecure = flash_erase_all_unsecure,
+     55                  .flash_erase = flash_erase,
+     56                  .flash_program = flash_program,
+     57                  .flash_get_security_state = flash_get_security_state,
+     58                  .flash_security_bypass = flash_security_bypass,
+     59                  .flash_verify_erase_all = flash_verify_erase_all,
+     60                  .flash_verify_erase = flash_verify_erase,
+     61                  .flash_verify_program = flash_verify_program,
+     62                  .flash_get_property = flash_get_property,
+     63                  .flash_register_callback = flash_register_callback,
+     64          #if !BL_MIN_PROFILE
+     65                  .flash_program_once = flash_program_once,
+     66                  .flash_read_once = flash_read_once,
+     67                  .flash_read_resource = flash_read_resource,
+     68          #else
+     69                  .flash_program_once = NULL,
+     70                  .flash_read_once = NULL,
+     71                  .flash_read_resource = NULL,
+     72          #endif
+     73          #if BL_TARGET_FLASH
+     74                  .flash_prepare_execute_in_ram_functions = flash_prepare_execute_in_ram_functions,
+     75          #else
+     76                  .flash_prepare_execute_in_ram_functions = NULL,
+     77          #endif
+     78              };
+     79          
+
+   \                                 In section .rodata, align 4, keep-with-next
+     80          const aes_driver_interface_t g_aesInterface = {
+   \                     g_aesInterface:
+   \   00000000   0x00000000         DC32 0H
+   \   00000004   0x00 0x00          DC8 0, 0, 0, 0, 0, 0, 0, 0
+   \              0x00 0x00    
+   \              0x00 0x00    
+   \              0x00 0x00    
+     81          #if AES_SECURITY_SUPPORTED
+     82              .aes_init = aes_init,
+     83              .aes_encrypt = aes_encrypt,
+     84              .aes_decrypt = aes_decrypt
+     85          };
+     86          #else
+     87              0
+     88          };
+     89          #endif
+     90          
+     91          //! @brief Copyright string for the bootloader.
+
+   \                                 In section .rodata, align 4, keep-with-next
+     92          const char bootloaderCopyright[] = "Copyright (c) 2013-2014 Freescale Semiconductor, Inc. All rights reserved.";
+   \                     bootloaderCopyright:
+   \   00000000   0x43 0x6F          DC8 43H, 6FH, 70H, 79H, 72H, 69H, 67H, 68H
+   \              0x70 0x79    
+   \              0x72 0x69    
+   \              0x67 0x68    
+   \   00000008   0x74 0x20          DC8 74H, 20H, 28H, 63H, 29H, 20H, 32H, 30H
+   \              0x28 0x63    
+   \              0x29 0x20    
+   \              0x32 0x30    
+   \   00000010   0x31 0x33          DC8 31H, 33H, 2DH, 32H, 30H, 31H, 34H, 20H
+   \              0x2D 0x32    
+   \              0x30 0x31    
+   \              0x34 0x20    
+   \   00000018   0x46 0x72          DC8 46H, 72H, 65H, 65H, 73H, 63H, 61H, 6CH
+   \              0x65 0x65    
+   \              0x73 0x63    
+   \              0x61 0x6C    
+   \   00000020   0x65 0x20          DC8 65H, 20H, 53H, 65H, 6DH, 69H, 63H, 6FH
+   \              0x53 0x65    
+   \              0x6D 0x69    
+   \              0x63 0x6F    
+   \   00000028   0x6E 0x64          DC8 6EH, 64H, 75H, 63H, 74H, 6FH, 72H, 2CH
+   \              0x75 0x63    
+   \              0x74 0x6F    
+   \              0x72 0x2C    
+   \   00000030   0x20 0x49          DC8 20H, 49H, 6EH, 63H, 2EH, 20H, 41H, 6CH
+   \              0x6E 0x63    
+   \              0x2E 0x20    
+   \              0x41 0x6C    
+   \   00000038   0x6C 0x20          DC8 6CH, 20H, 72H, 69H, 67H, 68H, 74H, 73H
+   \              0x72 0x69    
+   \              0x67 0x68    
+   \              0x74 0x73    
+   \   00000040   0x20 0x72          DC8 20H, 72H, 65H, 73H, 65H, 72H, 76H, 65H
+   \              0x65 0x73    
+   \              0x65 0x72    
+   \              0x76 0x65    
+   \   00000048   0x64 0x2E          DC8 64H, 2EH, 0
+   \              0x00         
+   \   0000004B   0x00               DC8 0
+     93          
+     94          //! @brief Static API tree.
+
+   \                                 In section .rodata, align 4, keep-with-next
+     95          const bootloader_tree_t g_bootloaderTree = {
+   \                     g_bootloaderTree:
+   \   00000000   0x........         DC32 bootloader_user_entry
+   \   00000004   0x01 0x05          DC8 1, 5, 1, 75
+   \              0x01 0x4B    
+   \   00000008   0x........         DC32 bootloaderCopyright, g_bootloaderContext, g_flashDriverInterface
+   \              0x........   
+   \              0x........   
+   \   00000014   0x........         DC32 g_aesInterface
+     96                  .runBootloader = bootloader_user_entry,
+     97                  .version = {
+     98                          .name = kBootloader_Version_Name,
+     99                          .major = kBootloader_Version_Major,
+    100                          .minor = kBootloader_Version_Minor,
+    101                          .bugfix = kBootloader_Version_Bugfix
+    102                      },
+    103                  .copyright = bootloaderCopyright,
+    104                  .runtimeContext = &g_bootloaderContext,
+    105                  .flashDriver = &g_flashDriverInterface,
+    106                  .aesDriver = &g_aesInterface
+    107              };
+    108              
+    109          //! @}
+    110          
+    111          ////////////////////////////////////////////////////////////////////////////////
+    112          // EOF
+    113          ////////////////////////////////////////////////////////////////////////////////
+    114          
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      76  bootloaderCopyright
+      12  g_aesInterface
+      24  g_bootloaderTree
+      68  g_flashDriverInterface
+
+ 
+ 180 bytes in section .rodata
+ 
+ 180 bytes of CONST memory
+
+Errors: none
+Warnings: none

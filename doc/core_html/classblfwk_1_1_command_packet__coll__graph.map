@@ -1,0 +1,4 @@
+<map id="blfwk::CommandPacket" name="blfwk::CommandPacket">
+<area shape="rect" id="node2" href="$group__host__commands.html#structblfwk_1_1_command_packet_1_1_packet_with_args" title="Format of command packet. " alt="" coords="5,95,164,136"/>
+<area shape="rect" id="node3" href="$group__packet.html#structcommand__packet__t" title="Command packet format. " alt="" coords="17,5,153,32"/>
+</map>

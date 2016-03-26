@@ -1,0 +1,16 @@
+var searchData=
+[
+  ['data',['data',['../group__command.html#aab655258e141337d41fa65e605dd62dc',1,'command_processor_data_t::DataPhase::data()'],['../group__packet.html#aa0c5e372ceaa51d983b40539720cb133',1,'flash_program_once_packet_t::data()'],['../group__packet.html#a5121eae249f8dc0a66a672d88f0a1080',1,'flash_read_once_response_packet_t::data()'],['../group__packet.html#a1663ead9ade4914ca366f32eb700b2d4',1,'serial_framing_packet_t::data()'],['../group__packet.html#aba1517a11e5b30c36111e135528b5561',1,'serial_data_t::data()'],['../group__sbloader.html#aef923cff9098c76196a5148b48d85642',1,'boot_cmd_t::data()'],['../group__flexcan__hal.html#a2e50953ae8e1041b72068096729306ee',1,'flexcan_mb_t::data()']]],
+  ['data_5flength',['data_length',['../group__flexcan__driver.html#a69117446c7e002c5de86b28e4b9b8ab5',1,'flexcan_data_info_t::data_length()'],['../group__flexcan__hal.html#a11bb1ad3ec9e75fdcc5daaf2b847357b',1,'flexcan_mb_code_status_t::data_length()']]],
+  ['databytecount',['dataByteCount',['../group__packet.html#a04969786a1c8c692a9371f44a4d2298f',1,'read_memory_response_packet_t::dataByteCount()'],['../group__packet.html#a4dce9ecb14e42e4473ff264cb951645f',1,'flash_read_resource_response_packet_t::dataByteCount()']]],
+  ['databytesavailable',['dataBytesAvailable',['../group__command.html#a03aaef9461a2baf7ecbe82176cbb8df0',1,'command_processor_data_t::DataPhase']]],
+  ['dataconfig',['dataConfig',['../group__dspi__slave__driver.html#aff4e671b1e66c0ac5b032b64d536c08f',1,'dspi_slave_user_config_t::dataConfig()'],['../group__dspi__hal.html#ga2a0fd15ecde8e788b1b549af56a764b3',1,'dspi_master_config_t::dataConfig()'],['../group__dspi__hal.html#ga390dbd59c3f76acb1071799e66548e25',1,'dspi_slave_config_t::dataConfig()']]],
+  ['datapacket',['dataPacket',['../group__packet.html#ab5ec4afa89810a31aeccb51b8b9e2857',1,'serial_framing_packet_t']]],
+  ['datasink',['dataSink',['../group__spi__slave__driver.html#af32813b3009dcad214b33be49b55fe91',1,'spi_slave_callbacks_t::dataSink()'],['../group__dspi__slave__driver.html#a2d1cec4eb52d93cd4d697cf3c66991d0',1,'dspi_slave_callbacks_t::dataSink()']]],
+  ['datasource',['dataSource',['../group__spi__slave__driver.html#aaa7a7392fb3e939d85b80b0628122e2f',1,'spi_slave_callbacks_t::dataSource()'],['../group__dspi__slave__driver.html#a60303cc6a56f2985c57ebccd674c3d71',1,'dspi_slave_callbacks_t::dataSource()']]],
+  ['desc_5fcallback_5fptr',['desc_callback_ptr',['../structhid__config__struct__t.html#a41a37b144262fbc18245e394e88a6798',1,'hid_config_struct_t']]],
+  ['didreceivedataphaseabort',['didReceiveDataPhaseAbort',['../group__usb__hid__peripheral.html#gaeeebb20b413da1938644d181847b5a24',1,'usb_hid_packetizer_info_t']]],
+  ['didreceivefirstreport',['didReceiveFirstReport',['../group__usb__hid__peripheral.html#ga1689a3fd679a8dd7c04d71a7ef15a36e',1,'usb_hid_packetizer_info_t']]],
+  ['direction',['direction',['../group__spi__slave__driver.html#ad4eb458a0c1a0c0934eec53d71b78ffb',1,'spi_slave_config_t::direction()'],['../group__dspi__hal.html#ga7b5fc2246586c461ebd0325bba2e3113',1,'dspi_data_format_config_t::direction()'],['../structusb__ep__struct__t.html#a75cd6d2cf075d0b794a4c3d2b1bd5f07',1,'usb_ep_struct_t::direction()']]],
+  ['doublebaudrate',['doubleBaudRate',['../group__dspi__hal.html#ga0f48ca03566631b4a13e24450644df29',1,'dspi_baud_rate_divisors_t']]]
+];

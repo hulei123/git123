@@ -1,0 +1,517 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:51
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\crc\src\fsl_crc_driver.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\crc\src\fsl_crc_driver.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\fsl_crc_driver.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\fsl_crc_driver.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\crc\src\fsl_crc_driver.c
+      1          /*
+      2           * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "fsl_platform_common.h"
+     32          #include "drivers/crc/fsl_crc_driver.h"
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __interwork __softfp void CRC_HAL_SetSeedOrDataMode(CRC_Type *, bool)
+   \                     CRC_HAL_SetSeedOrDataMode: (+1)
+   \   00000000   0x3008             ADDS     R0,R0,#+8
+   \   00000002   0x0140             LSLS     R0,R0,#+5
+   \   00000004   0x....             LDR.N    R2,??DataTable4  ;; 0x42000064
+   \   00000006   0x5011             STR      R1,[R2, R0]
+   \   00000008   0x4770             BX       LR               ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+   \   static __interwork __softfp void CRC_HAL_SetWriteTranspose(CRC_Type *, crc_transpose_t)
+   \                     CRC_HAL_SetWriteTranspose: (+1)
+   \   00000000   0x6882             LDR      R2,[R0, #+8]
+   \   00000002   0x0092             LSLS     R2,R2,#+2
+   \   00000004   0x0892             LSRS     R2,R2,#+2
+   \   00000006   0xEA42 0x7181      ORR      R1,R2,R1, LSL #+30
+   \   0000000A   0x6081             STR      R1,[R0, #+8]
+   \   0000000C   0x4770             BX       LR               ;; return
+     33          #include "utilities/fsl_assert.h"
+     34          #if FSL_FEATURE_SOC_CRC_COUNT 
+     35          #if !BL_TARGET_RAM
+     36          ////////////////////////////////////////////////////////////////////////////////
+     37          // Code
+     38          ////////////////////////////////////////////////////////////////////////////////
+     39          
+     40          /*FUNCTION*********************************************************************
+     41           *
+     42           * Function Name : CRC_DRV_Init
+     43           * Description   : Initialize the CRC module. This API with initial configuration
+     44           * should be called before any other operations to the CRC module.
+     45           *
+     46           *END*************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+     47          crc_status_t CRC_DRV_Init(uint32_t instance, const crc_user_config_t *userConfigPtr)
+     48          {
+     49              if (!userConfigPtr)
+   \                     CRC_DRV_Init: (+1)
+   \   00000000   0xB909             CBNZ.N   R1,??CRC_DRV_Init_0
+     50              {
+     51                  return kStatus_CRC_InvalidArgument;
+   \   00000002   0x2001             MOVS     R0,#+1
+   \   00000004   0x4770             BX       LR
+     52              }
+     53              /* Enable clock for CRC. */
+     54              switch(instance)
+   \                     ??CRC_DRV_Init_0: (+1)
+   \   00000006   0xB920             CBNZ.N   R0,??CRC_DRV_Init_1
+     55              {
+     56                  case 0:
+     57          #if defined(PCC_BASE_ADDRS)
+     58                      PCC_WR_CLKCFG_CGC(PCC_CRC_INDEX, 1);
+     59          #else
+     60                      SIM_SET_SCGC6(SIM, SIM_SCGC6_CRC_MASK);
+   \   00000008   0x....             LDR.N    R2,??DataTable4_1  ;; 0x4004803c
+   \   0000000A   0x6813             LDR      R3,[R2, #+0]
+   \   0000000C   0xF443 0x2380      ORR      R3,R3,#0x40000
+   \   00000010   0x6013             STR      R3,[R2, #+0]
+     61          #endif
+     62                      break;
+     63          #if (CRC_INSTANCE_COUNT > 1U)
+     64                  #error "No corresponding code yet!"
+     65          #endif //(CRC_INSTANCE_COUNT > 1U)
+     66              }
+     67          
+     68              return CRC_DRV_Configure(instance, userConfigPtr);
+   \                     ??CRC_DRV_Init_1: (+1)
+   \   00000012   0x....             B.N      CRC_DRV_Configure
+     69          }
+     70          
+     71          /*FUNCTION**********************************************************************
+     72           *
+     73           * Function Name : CRC_DRV_Deinit
+     74           * Description   : Shutdown a CRC instance.
+     75           *
+     76           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+     77          void CRC_DRV_Deinit(uint32_t instance)
+     78          {
+   \                     CRC_DRV_Deinit: (+1)
+   \   00000000   0x....             LDR.N    R1,??DataTable4_2
+   \   00000002   0xF851 0x1020      LDR      R1,[R1, R0, LSL #+2]
+   \   00000006   0xF241 0x0221      MOVW     R2,#+4129
+   \   0000000A   0x604A             STR      R2,[R1, #+4]
+     79              // Restore control regs
+     80              CRC_WR_GPOLY(g_crcBase[instance], 0x1021U);
+     81              CRC_WR_CTRL(g_crcBase[instance], 0);
+   \   0000000C   0x2200             MOVS     R2,#+0
+   \   0000000E   0x608A             STR      R2,[R1, #+8]
+     82          
+     83              /* Gate the clock for CRC.*/
+     84              switch(instance)
+   \   00000010   0xB920             CBNZ.N   R0,??CRC_DRV_Deinit_0
+     85              {
+     86                  case 0:
+     87          #if defined(PCC_BASE_ADDRS)
+     88                      PCC_WR_CLKCFG_CGC(PCC_CRC_INDEX, 0);
+     89          #else
+     90                      SIM_WR_SCGC6_CRC(SIM, 0);
+   \   00000012   0x....             LDR.N    R0,??DataTable4_1  ;; 0x4004803c
+   \   00000014   0x6801             LDR      R1,[R0, #+0]
+   \   00000016   0xF421 0x2180      BIC      R1,R1,#0x40000
+   \   0000001A   0x6001             STR      R1,[R0, #+0]
+     91          #endif
+     92                      break;
+     93          #if (CRC_INSTANCE_COUNT > 1U)
+     94                  #error "No corresponding code yet!"
+     95          #endif //(CRC_INSTANCE_COUNT > 1U)
+     96              }
+     97          }
+   \                     ??CRC_DRV_Deinit_0: (+1)
+   \   0000001C   0x4770             BX       LR               ;; return
+     98          
+     99          /*FUNCTION**********************************************************************
+    100           *
+    101           * Function Name : CRC_DRV_GetCrcBlock
+    102           * Description   : This method appends block of bytes to current CRC calculation
+    103           *                 and returns new result
+    104           *
+    105           *END**************************************************************************/
+
+   \                                 In section .text, align 4, keep-with-next
+    106          uint32_t CRC_DRV_GetCrcBlock(uint32_t instance, uint8_t *data, uint32_t dataLen)
+    107          {
+   \                     CRC_DRV_GetCrcBlock: (+1)
+   \   00000000   0xB5F8             PUSH     {R3-R7,LR}
+   \   00000002   0x460C             MOV      R4,R1
+   \   00000004   0x....             LDR.N    R1,??DataTable4_2
+   \   00000006   0xF851 0x6020      LDR      R6,[R1, R0, LSL #+2]
+   \   0000000A   0x68B0             LDR      R0,[R6, #+8]
+    108              crc_transpose_t oldInputTranspose;
+    109              uint32_t *data32;
+    110              uint8_t *data8;
+    111              uint32_t result;
+    112          
+    113              assert(data != NULL);
+    114              assert(dataLen != 0);
+    115          
+    116              /* flip bytes because of little endian architecture */
+    117              oldInputTranspose = CRC_HAL_GetWriteTranspose(g_crcBase[instance]);
+   \   0000000C   0x0F87             LSRS     R7,R0,#+30
+    118          
+    119              switch (oldInputTranspose) {
+   \   0000000E   0x2F03             CMP      R7,#+3
+   \   00000010   0x4615             MOV      R5,R2
+   \   00000012   0xD812             BHI.N    ??CRC_DRV_GetCrcBlock_1
+   \   00000014   0xE8DF 0xF007      TBB      [PC, R7]
+   \                     ??CRC_DRV_GetCrcBlock_0:
+   \   00000018   0x02 0x04          DC8      0x2,0x4,0x6,0x8
+   \              0x06 0x08    
+    120                  case kCrcNoTranspose:
+    121                       CRC_HAL_SetWriteTranspose(g_crcBase[instance], kCrcTransposeBytes);
+   \                     ??CRC_DRV_GetCrcBlock_2: (+1)
+   \   0000001C   0x2103             MOVS     R1,#+3
+   \   0000001E   0xE004             B.N      ??CRC_DRV_GetCrcBlock_3
+    122                       break;
+    123                  case kCrcTransposeBits:
+    124                       CRC_HAL_SetWriteTranspose(g_crcBase[instance], kCrcTransposeBoth);
+   \                     ??CRC_DRV_GetCrcBlock_4: (+1)
+   \   00000020   0x2102             MOVS     R1,#+2
+   \   00000022   0xE002             B.N      ??CRC_DRV_GetCrcBlock_3
+    125                       break;
+    126                  case kCrcTransposeBoth:
+    127                       CRC_HAL_SetWriteTranspose(g_crcBase[instance], kCrcTransposeBits);
+   \                     ??CRC_DRV_GetCrcBlock_5: (+1)
+   \   00000024   0x2101             MOVS     R1,#+1
+   \   00000026   0xE000             B.N      ??CRC_DRV_GetCrcBlock_3
+    128                       break;
+    129                  case kCrcTransposeBytes:
+    130                       CRC_HAL_SetWriteTranspose(g_crcBase[instance], kCrcNoTranspose);
+   \                     ??CRC_DRV_GetCrcBlock_6: (+1)
+   \   00000028   0x2100             MOVS     R1,#+0
+   \                     ??CRC_DRV_GetCrcBlock_3: (+1)
+   \   0000002A   0x4630             MOV      R0,R6
+   \   0000002C   0x.... 0x....      BL       CRC_HAL_SetWriteTranspose
+    131                       break;
+   \   00000030   0xE003             B.N      ??CRC_DRV_GetCrcBlock_1
+    132                  default:
+    133                       break;
+    134              }
+    135          
+    136              /* Start the checksum calculation */
+    137              /* If address is not word-aligned, then read initial bytes in 8bit mode till word-aligned */
+    138              while (((uint32_t)data & 3U) && (dataLen > 0))
+    139              {
+    140                  CRC_HAL_SetDataLLReg(g_crcBase[instance], *(data++));
+   \                     ??CRC_DRV_GetCrcBlock_7: (+1)
+   \   00000032   0xF814 0x0B01      LDRB     R0,[R4], #+1
+   \   00000036   0x7030             STRB     R0,[R6, #+0]
+    141                  dataLen--;
+   \   00000038   0x1E6D             SUBS     R5,R5,#+1
+    142              }
+   \                     ??CRC_DRV_GetCrcBlock_1: (+1)
+   \   0000003A   0xF014 0x0003      ANDS     R0,R4,#0x3
+   \   0000003E   0xD006             BEQ.N    ??CRC_DRV_GetCrcBlock_8
+   \   00000040   0x2D00             CMP      R5,#+0
+   \   00000042   0xD1F6             BNE.N    ??CRC_DRV_GetCrcBlock_7
+    143          
+    144              data32 = (uint32_t *)data;
+   \   00000044   0xE003             B.N      ??CRC_DRV_GetCrcBlock_8
+    145              while (dataLen >= sizeof(uint32_t))
+    146              {
+    147                  CRC_HAL_SetDataReg(g_crcBase[instance], *(data32++)); /* 32bit access */
+   \                     ??CRC_DRV_GetCrcBlock_9: (+1)
+   \   00000046   0xF854 0x0B04      LDR      R0,[R4], #+4
+   \   0000004A   0x6030             STR      R0,[R6, #+0]
+    148                  dataLen -= sizeof(uint32_t);
+   \   0000004C   0x1F2D             SUBS     R5,R5,#+4
+    149              }
+   \                     ??CRC_DRV_GetCrcBlock_8: (+1)
+   \   0000004E   0x2D04             CMP      R5,#+4
+   \   00000050   0xD2F9             BCS.N    ??CRC_DRV_GetCrcBlock_9
+    150          
+    151              data8 = (uint8_t *)data32;
+    152          
+    153              switch(dataLen)
+   \   00000052   0x2D01             CMP      R5,#+1
+   \   00000054   0xD00A             BEQ.N    ??CRC_DRV_GetCrcBlock_10
+   \   00000056   0xD30B             BCC.N    ??CRC_DRV_GetCrcBlock_11
+   \   00000058   0x2D03             CMP      R5,#+3
+   \   0000005A   0xD003             BEQ.N    ??CRC_DRV_GetCrcBlock_12
+   \   0000005C   0xBF3C             ITT      CC 
+   \   0000005E   0x8820             LDRHCC   R0,[R4, #+0]
+   \   00000060   0x8030             STRHCC   R0,[R6, #+0]
+    154              {
+    155                  case 3U:
+    156                      CRC_HAL_SetDataLReg(g_crcBase[instance], *(uint16_t *)data8);   /* 16 bit */
+    157                      CRC_HAL_SetDataLLReg(g_crcBase[instance], *(data8 + 2U));         /* 8 bit */
+    158                      break;
+    159                  case 2U:
+    160                      CRC_HAL_SetDataLReg(g_crcBase[instance], *(uint16_t *)data8);   /* 16 bit */
+   \   00000062   0xE005             B.N      ??CRC_DRV_GetCrcBlock_11
+   \                     ??CRC_DRV_GetCrcBlock_12: (+1)
+   \   00000064   0x8820             LDRH     R0,[R4, #+0]
+   \   00000066   0x8030             STRH     R0,[R6, #+0]
+   \   00000068   0x78A0             LDRB     R0,[R4, #+2]
+   \   0000006A   0xE000             B.N      ??CRC_DRV_GetCrcBlock_13
+    161                      break;
+    162                  case 1U:
+    163                      CRC_HAL_SetDataLLReg(g_crcBase[instance], *data8);         /* 8 bit */
+   \                     ??CRC_DRV_GetCrcBlock_10: (+1)
+   \   0000006C   0x7820             LDRB     R0,[R4, #+0]
+   \                     ??CRC_DRV_GetCrcBlock_13: (+1)
+   \   0000006E   0x7030             STRB     R0,[R6, #+0]
+    164                      break;
+    165                  default:
+    166                      break;
+    167              }
+    168          
+    169              result = CRC_HAL_GetCrcResult(g_crcBase[instance]);
+   \                     ??CRC_DRV_GetCrcBlock_11: (+1)
+   \   00000070   0x4630             MOV      R0,R6
+   \   00000072   0x.... 0x....      BL       CRC_HAL_GetCrcResult
+   \   00000076   0x4604             MOV      R4,R0
+    170              CRC_HAL_SetWriteTranspose(g_crcBase[instance], oldInputTranspose);
+   \   00000078   0x4639             MOV      R1,R7
+   \   0000007A   0x4630             MOV      R0,R6
+   \   0000007C   0x.... 0x....      BL       CRC_HAL_SetWriteTranspose
+    171          
+    172              return result;
+   \   00000080   0x4620             MOV      R0,R4
+   \   00000082   0xBDF2             POP      {R1,R4-R7,PC}    ;; return
+    173          }
+    174          
+    175          /*FUNCTION**********************************************************************
+    176           *
+    177           * Function Name : CRC_DRV_Configure
+    178           * Description   : Configure CRC module from a user configuration.
+    179           *
+    180           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    181          crc_status_t CRC_DRV_Configure(uint32_t instance, const crc_user_config_t *userConfigPtr)
+    182          {
+   \                     CRC_DRV_Configure: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0x000C             MOVS     R4,R1
+    183              if((!userConfigPtr))
+   \   00000004   0xD101             BNE.N    ??CRC_DRV_Configure_0
+    184              {
+    185                  return kStatus_CRC_InvalidArgument;
+   \   00000006   0x2001             MOVS     R0,#+1
+   \   00000008   0xBD70             POP      {R4-R6,PC}
+    186              }
+   \                     ??CRC_DRV_Configure_0: (+1)
+   \   0000000A   0x....             LDR.N    R1,??DataTable4_2
+   \   0000000C   0xF851 0x5020      LDR      R5,[R1, R0, LSL #+2]
+   \   00000010   0x....             LDR.N    R1,??DataTable4_3  ;; 0x42000060
+   \   00000012   0xF105 0x0008      ADD      R0,R5,#+8
+   \   00000016   0x0146             LSLS     R6,R0,#+5
+   \   00000018   0x7820             LDRB     R0,[R4, #+0]
+   \   0000001A   0x5188             STR      R0,[R1, R6]
+    187          
+    188              /* 1. set 16 or 32-bit crc width */
+    189              CRC_HAL_SetProtocolWidth(g_crcBase[instance], userConfigPtr->crcWidth);
+    190          
+    191              /* 2. set transpose and complement options */
+    192              CRC_HAL_SetWriteTranspose(g_crcBase[instance], userConfigPtr->writeTranspose);
+   \   0000001C   0x4628             MOV      R0,R5
+   \   0000001E   0x7B21             LDRB     R1,[R4, #+12]
+   \   00000020   0x.... 0x....      BL       CRC_HAL_SetWriteTranspose
+    193              CRC_HAL_SetReadTranspose(g_crcBase[instance], userConfigPtr->readTranspose);
+   \   00000024   0x7B60             LDRB     R0,[R4, #+13]
+   \   00000026   0x68A9             LDR      R1,[R5, #+8]
+   \   00000028   0x0700             LSLS     R0,R0,#+28
+   \   0000002A   0xF021 0x5140      BIC      R1,R1,#0x30000000
+   \   0000002E   0xF000 0x5040      AND      R0,R0,#0x30000000
+   \   00000032   0x4308             ORRS     R0,R0,R1
+   \   00000034   0x60A8             STR      R0,[R5, #+8]
+    194              CRC_HAL_SetXorMode(g_crcBase[instance], userConfigPtr->complementRead);
+   \   00000036   0x....             LDR.N    R1,??DataTable4_4  ;; 0x42000068
+   \   00000038   0x7BA0             LDRB     R0,[R4, #+14]
+   \   0000003A   0x5188             STR      R0,[R1, R6]
+    195          
+    196              /* 3. Write polynomial */
+    197              CRC_HAL_SetPolyReg(g_crcBase[instance], userConfigPtr->polynomial);
+    198          
+    199              /* 4. Set seed value */
+    200              CRC_HAL_SetSeedOrDataMode(g_crcBase[instance], true);
+   \   0000003C   0x2101             MOVS     R1,#+1
+   \   0000003E   0x68A0             LDR      R0,[R4, #+8]
+   \   00000040   0x6068             STR      R0,[R5, #+4]
+   \   00000042   0x4628             MOV      R0,R5
+   \   00000044   0x.... 0x....      BL       CRC_HAL_SetSeedOrDataMode
+    201              CRC_HAL_SetDataReg(g_crcBase[instance], userConfigPtr->seed);
+   \   00000048   0x6860             LDR      R0,[R4, #+4]
+   \   0000004A   0x6028             STR      R0,[R5, #+0]
+    202              CRC_HAL_SetSeedOrDataMode(g_crcBase[instance], false);
+   \   0000004C   0x2100             MOVS     R1,#+0
+   \   0000004E   0x4628             MOV      R0,R5
+   \   00000050   0x.... 0x....      BL       CRC_HAL_SetSeedOrDataMode
+    203          
+    204              return kStatus_CRC_Success;
+   \   00000054   0x2000             MOVS     R0,#+0
+   \   00000056   0xBD70             POP      {R4-R6,PC}       ;; return
+    205          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4:
+   \   00000000   0x42000064         DC32     0x42000064
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_1:
+   \   00000000   0x4004803C         DC32     0x4004803c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_2:
+   \   00000000   0x........         DC32     g_crcBase
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_3:
+   \   00000000   0x42000060         DC32     0x42000060
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable4_4:
+   \   00000000   0x42000068         DC32     0x42000068
+    206          #endif
+    207          #endif
+    208          /******************************************************************************
+    209           * EOF
+    210           *****************************************************************************/
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   CRC_DRV_Configure
+        16   -> CRC_HAL_SetSeedOrDataMode
+        16   -> CRC_HAL_SetWriteTranspose
+       0   CRC_DRV_Deinit
+      24   CRC_DRV_GetCrcBlock
+        24   -> CRC_HAL_GetCrcResult
+        24   -> CRC_HAL_SetWriteTranspose
+       0   CRC_DRV_Init
+         0   -> CRC_DRV_Configure
+       0   CRC_HAL_SetSeedOrDataMode
+       0   CRC_HAL_SetWriteTranspose
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable4
+       4  ??DataTable4_1
+       4  ??DataTable4_2
+       4  ??DataTable4_3
+       4  ??DataTable4_4
+      88  CRC_DRV_Configure
+      30  CRC_DRV_Deinit
+     132  CRC_DRV_GetCrcBlock
+      20  CRC_DRV_Init
+      10  CRC_HAL_SetSeedOrDataMode
+      14  CRC_HAL_SetWriteTranspose
+
+ 
+ 314 bytes in section .text
+ 
+ 314 bytes of CODE memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,317 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:45:55
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmevent.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmevent.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\bmevent.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmevent.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmevent.c
+      1          /**HEADER********************************************************************
+      2          * 
+      3          * Copyright (c) 2010, 2013- 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          *************************************************************************** 
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR 
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          **************************************************************************
+     22          *
+     23          * $FileName: bmevent.c$
+     24          * $Version : 
+     25          * $Date    : 
+     26          *
+     27          * Comments:
+     28          *
+     29          *   
+     30          *
+     31          *
+     32          *END************************************************************************/
+     33          #include "types.h"
+     34          #include "bmevent.h"
+     35          
+     36          /*FUNCTION*-------------------------------------------------------------------
+     37          *
+     38          * Function Name    : _bm_event_init
+     39          * Returned Value   :
+     40          * Comments         : Allocate event pointer, clear value and set event in valid state.
+     41          *    
+     42          *
+     43          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     44          uint16_t _bm_event_init
+     45          (
+     46              bm_event_struct_t* event
+     47          )
+     48          {
+     49              event->valid = BM_EVENT_VALID;
+   \                     _bm_event_init: (+1)
+   \   00000000   0x2104             MOVS     R1,#+4
+   \   00000002   0x7001             STRB     R1,[R0, #+0]
+     50              event->value = 0;
+   \   00000004   0x2100             MOVS     R1,#+0
+   \   00000006   0x6041             STR      R1,[R0, #+4]
+     51              return  BM_EVENT_OK;
+   \   00000008   0x2000             MOVS     R0,#+0
+   \   0000000A   0x4770             BX       LR               ;; return
+     52          }
+     53          
+     54          /*FUNCTION*-------------------------------------------------------------------
+     55          *
+     56          * Function Name    : _bm_event_set
+     57          * Returned Value   : 
+     58          * Comments         : Set value of event pointer. 
+     59          *    
+     60          *
+     61          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     62          uint16_t _bm_event_set
+     63          (
+     64            bm_event_struct_t* event,
+     65            uint32_t value
+     66          )
+     67          {
+   \                     _bm_event_set: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+     68          	sys_lock();
+   \   00000006   0x.... 0x....      BL       sys_lock
+     69          	if(event->valid == BM_EVENT_VALID)
+   \   0000000A   0x7820             LDRB     R0,[R4, #+0]
+   \   0000000C   0x2804             CMP      R0,#+4
+   \   0000000E   0xD102             BNE.N    ??_bm_event_set_0
+     70          	{
+     71          		event->value |= value;
+   \   00000010   0x6860             LDR      R0,[R4, #+4]
+   \   00000012   0x4328             ORRS     R0,R5,R0
+   \   00000014   0x....             B.N      ?Subroutine0
+     72          		sys_unlock();
+     73          		return BM_EVENT_VALID;
+     74          	}
+     75          	sys_unlock();	
+   \                     ??_bm_event_set_0: (+1)
+   \   00000016   0x....             B.N      ?Subroutine1
+     76              return BM_EVENT_INVALID;
+     77          }
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine1: (+1)
+   \   00000000   0x.... 0x....      BL       sys_unlock
+   \   00000004   0x2005             MOVS     R0,#+5
+   \   00000006   0xBD32             POP      {R1,R4,R5,PC}    ;; return
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine0: (+1)
+   \   00000000   0x6060             STR      R0,[R4, #+4]
+   \   00000002   0x.... 0x....      BL       sys_unlock
+   \   00000006   0x2004             MOVS     R0,#+4
+   \   00000008   0xBD32             POP      {R1,R4,R5,PC}
+     78          
+     79          /*FUNCTION*-------------------------------------------------------------------
+     80          *
+     81          * Function Name    : _bm_event_clear
+     82          * Returned Value   : 
+     83          * Comments         : Clear value of event pointer.
+     84          *    
+     85          *
+     86          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     87          uint16_t _bm_event_clear
+     88          (
+     89            bm_event_struct_t* event,
+     90            uint32_t bitmask
+     91          )
+     92          {
+   \                     _bm_event_clear: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+     93          	sys_lock(); 
+   \   00000006   0x.... 0x....      BL       sys_lock
+     94          	if((uint8_t)(event->valid) == BM_EVENT_VALID)
+   \   0000000A   0x7820             LDRB     R0,[R4, #+0]
+   \   0000000C   0x2804             CMP      R0,#+4
+   \   0000000E   0xD102             BNE.N    ??_bm_event_clear_0
+     95          	{
+     96          		event->value &= ~bitmask;
+   \   00000010   0x6860             LDR      R0,[R4, #+4]
+   \   00000012   0x43A8             BICS     R0,R0,R5
+   \   00000014   0x....             B.N      ?Subroutine0
+     97          		sys_unlock();
+     98          		return BM_EVENT_VALID;
+     99          	}
+    100          	sys_unlock();
+   \                     ??_bm_event_clear_0: (+1)
+   \   00000016                      REQUIRE ?Subroutine1
+   \   00000016                      ;; // Fall through to label ?Subroutine1
+    101              return BM_EVENT_INVALID;
+    102          }
+    103          
+    104          /*FUNCTION*-------------------------------------------------------------------
+    105          *
+    106          * Function Name    : _bm_event_wait_ticks
+    107          * Returned Value   : 
+    108          * Comments         : This function returns the value USB_EVENT_SET when an event occurs, but timeout not support.
+    109          *    
+    110          *
+    111          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    112          uint16_t _bm_event_wait_ticks
+    113          (
+    114              bm_event_struct_t* event,
+    115              uint32_t bitmask,
+    116              uint8_t  all,
+    117              uint16_t ticks
+    118          )
+    119          {
+    120              UNUSED(all)
+    121              UNUSED(ticks)
+    122          
+    123              if(event->valid == BM_EVENT_VALID) 
+   \                     _bm_event_wait_ticks: (+1)
+   \   00000000   0x7802             LDRB     R2,[R0, #+0]
+   \   00000002   0x2A04             CMP      R2,#+4
+   \   00000004   0xD105             BNE.N    ??_bm_event_wait_ticks_0
+    124              {
+    125                  if(0x00 != (event->value & bitmask))
+   \   00000006   0x6840             LDR      R0,[R0, #+4]
+   \   00000008   0x4208             TST      R0,R1
+   \   0000000A   0xBF14             ITE      NE 
+   \   0000000C   0x2002             MOVNE    R0,#+2
+   \   0000000E   0x2003             MOVEQ    R0,#+3
+    126                  {
+    127                      return BM_EVENT_SET;
+    128                  } 
+    129                  else 
+    130                  {
+    131                      return BM_EVENT_NOT_SET;
+   \   00000010   0x4770             BX       LR
+    132                  }
+    133              } 
+    134              return (uint16_t)BM_EVENT_INVALID; 
+   \                     ??_bm_event_wait_ticks_0: (+1)
+   \   00000012   0x2005             MOVS     R0,#+5
+   \   00000014   0x4770             BX       LR               ;; return
+    135          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      16   _bm_event_clear
+        16   -> sys_lock
+        16   -> sys_unlock
+       0   _bm_event_init
+      16   _bm_event_set
+        16   -> sys_lock
+        16   -> sys_unlock
+       0   _bm_event_wait_ticks
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      10  ?Subroutine0
+       8  ?Subroutine1
+      22  _bm_event_clear
+      12  _bm_event_init
+      24  _bm_event_set
+      22  _bm_event_wait_ticks
+
+ 
+ 98 bytes in section .text
+ 
+ 98 bytes of CODE memory
+
+Errors: none
+Warnings: none

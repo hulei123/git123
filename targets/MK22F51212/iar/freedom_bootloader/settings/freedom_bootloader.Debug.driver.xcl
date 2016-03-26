@@ -1,0 +1,17 @@
+"--endian=little" 
+
+"--cpu=Cortex-M4" 
+
+"--fpu=None" 
+
+"-p" 
+
+"F:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\CONFIG\debugger\NXP\MK22FN512xxx12.ddf" 
+
+"--semihosting=none" 
+
+"--device=MK22FN512xxx12" 
+
+
+
+

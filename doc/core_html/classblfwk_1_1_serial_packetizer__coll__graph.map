@@ -1,0 +1,9 @@
+<map id="blfwk::SerialPacketizer" name="blfwk::SerialPacketizer">
+<area shape="rect" id="node2" href="$group__host__packetizers.html#classblfwk_1_1_packetizer" title="Interface class for packetization of commands and data. " alt="" coords="151,273,273,300"/>
+<area shape="rect" id="node3" href="$group__host__peripherals.html#classblfwk_1_1_peripheral" title="Represents a peripheral. " alt="" coords="5,184,123,211"/>
+<area shape="rect" id="node4" href="$group__bl__core.html#unionstandard__version__t" title="Structure of version property. " alt="" coords="147,184,277,211"/>
+<area shape="rect" id="node5" href="$group__packet.html#structserial__data__t" title="Format of global context data. " alt="" coords="307,273,403,300"/>
+<area shape="rect" id="node6" href="$group__packet.html#structserial__framing__packet__t" title="Framing packet with data area. " alt="" coords="302,184,461,211"/>
+<area shape="rect" id="node7" href="$group__packet.html#structframing__data__packet__t" title="Serial framing data packet. " alt="" coords="305,95,458,121"/>
+<area shape="rect" id="node8" href="$group__packet.html#structframing__header__t" title="Serial framing header. " alt="" coords="321,5,442,32"/>
+</map>

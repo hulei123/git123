@@ -1,0 +1,322 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:45:59
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmsem.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmsem.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\bmsem.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\bmsem.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\os\bm\bmsem.c
+      1          /**HEADER********************************************************************
+      2          * 
+      3          * Copyright (c) 2010, 2013- 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          *
+      7          *************************************************************************** 
+      8          *
+      9          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR 
+     10          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES 
+     11          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  
+     12          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, 
+     13          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+     14          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR 
+     15          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+     16          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, 
+     17          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING 
+     18          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+     19          * THE POSSIBILITY OF SUCH DAMAGE.
+     20          *
+     21          **************************************************************************
+     22          *
+     23          * $FileName: bmsem.c$
+     24          * $Version : 
+     25          * $Date    : 
+     26          *
+     27          * Comments:
+     28          *
+     29          *   
+     30          *
+     31          *
+     32          *END************************************************************************/
+     33          #include "types.h"
+     34          #include "bmsem.h"
+     35          
+     36          /*FUNCTION*-------------------------------------------------------------------
+     37          *
+     38          * Function Name    : _bm_sem_create
+     39          * Returned Value   :
+     40          * Comments         : Create a semaphore pointer, set valid field to BM_SEM_VALID and VAULE to initial_number
+     41          *    
+     42          *
+     43          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     44          uint16_t _bm_sem_create
+     45          (
+     46              bm_sem_struct_t*      sem_ptr,
+     47              int32_t               initial_number
+     48          )
+     49          {
+     50              sem_ptr->valid = BM_SEM_VALID;
+   \                     _bm_sem_create: (+1)
+   \   00000000   0x2204             MOVS     R2,#+4
+   \   00000002   0x7002             STRB     R2,[R0, #+0]
+     51              sem_ptr->value = (uint32_t)initial_number;
+   \   00000004   0x....             B.N      ??Subroutine0_0
+     52              return  BM_SEM_OK;
+     53          }
+
+   \                                 In section .text, align 2, keep-with-next
+   \                     ?Subroutine0: (+1)
+   \   00000000   0x6841             LDR      R1,[R0, #+4]
+   \   00000002   0x1E49             SUBS     R1,R1,#+1
+   \                     ??Subroutine0_0: (+1)
+   \   00000004   0x6041             STR      R1,[R0, #+4]
+   \   00000006   0x2000             MOVS     R0,#+0
+   \   00000008   0x4770             BX       LR
+     54          
+     55          /*FUNCTION*-------------------------------------------------------------------
+     56          *
+     57          * Function Name    : _bm_sem_post
+     58          * Returned Value   : 
+     59          * Comments         : Increate VALUE field of semaphore pointer.
+     60          *    
+     61          *
+     62          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     63          uint16_t _bm_sem_post
+     64          (
+     65              bm_sem_struct_t*    sem_ptr
+     66          )
+     67          {
+     68              if(sem_ptr->valid == BM_SEM_VALID) 
+   \                     _bm_sem_post: (+1)
+   \   00000000   0x7801             LDRB     R1,[R0, #+0]
+   \   00000002   0x2904             CMP      R1,#+4
+   \   00000004   0xD102             BNE.N    ??_bm_sem_post_0
+     69              {
+     70                  sem_ptr->value++;
+   \   00000006   0x6841             LDR      R1,[R0, #+4]
+   \   00000008   0x1C49             ADDS     R1,R1,#+1
+   \   0000000A   0x....             B.N      ??Subroutine0_0
+     71                  return BM_SEM_OK;
+     72              }
+     73              return BM_SEM_INVALID;
+   \                     ??_bm_sem_post_0: (+1)
+   \   0000000C   0x2005             MOVS     R0,#+5
+   \   0000000E   0x4770             BX       LR               ;; return
+     74          }
+     75          
+     76          /*FUNCTION*-------------------------------------------------------------------
+     77          *
+     78          * Function Name    : _bm_sem_wait
+     79          * Returned Value   : 
+     80          * Comments         : Wait for a lightweight semaphore.
+     81          * 
+     82          *
+     83          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+     84          uint16_t _bm_sem_wait
+     85          (
+     86              bm_sem_struct_t* sem_ptr
+     87          )
+     88          {
+     89              if(sem_ptr->valid == BM_SEM_VALID) 
+   \                     _bm_sem_wait: (+1)
+   \   00000000   0x7801             LDRB     R1,[R0, #+0]
+   \   00000002   0x2904             CMP      R1,#+4
+   \   00000004   0xD100             BNE.N    ??_bm_sem_wait_0
+     90              {
+     91                  sem_ptr->value--;
+   \   00000006   0x....             B.N      ?Subroutine0
+     92                  return BM_SEM_OK;
+     93              }
+     94              return BM_SEM_INVALID;
+   \                     ??_bm_sem_wait_0: (+1)
+   \   00000008   0x2005             MOVS     R0,#+5
+   \   0000000A   0x4770             BX       LR               ;; return
+     95          }
+     96          
+     97          /*FUNCTION*-------------------------------------------------------------------
+     98          *
+     99          * Function Name    : _bm_sem_wait_ticks
+    100          * Returned Value   : 
+    101          * Comments         :
+    102          *    
+    103          *
+    104          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    105          uint16_t _bm_sem_wait_ticks
+    106          (
+    107              bm_sem_struct_t* sem_ptr,
+    108              uint32_t ticks
+    109          )
+    110          {
+    111              UNUSED(ticks)
+    112          
+    113              if(sem_ptr->valid == BM_SEM_VALID) 
+   \                     _bm_sem_wait_ticks: (+1)
+   \   00000000   0x7801             LDRB     R1,[R0, #+0]
+   \   00000002   0x2904             CMP      R1,#+4
+   \   00000004   0xD107             BNE.N    ??_bm_sem_wait_ticks_0
+    114              {
+    115                  if(sem_ptr->value <= 0)
+   \   00000006   0x6841             LDR      R1,[R0, #+4]
+   \   00000008   0x2900             CMP      R1,#+0
+   \   0000000A   0xBF0F             ITEEE    EQ 
+   \   0000000C   0x2002             MOVEQ    R0,#+2
+   \   0000000E   0x1E49             SUBNE    R1,R1,#+1
+   \   00000010   0x6041             STRNE    R1,[R0, #+4]
+   \   00000012   0x2000             MOVNE    R0,#+0
+    116                  {
+    117                      return BM_SEM_FREE;
+    118                  }
+    119                  else 
+    120                  {
+    121                      sem_ptr->value--;
+    122                      return BM_SEM_OK;
+   \   00000014   0x4770             BX       LR
+    123                  }
+    124              }
+    125              return BM_SEM_INVALID;
+   \                     ??_bm_sem_wait_ticks_0: (+1)
+   \   00000016   0x2005             MOVS     R0,#+5
+   \   00000018   0x4770             BX       LR               ;; return
+    126          }
+    127          
+    128          /*FUNCTION*-------------------------------------------------------------------
+    129          *
+    130          * Function Name    : _bm_sem_wait_ticks
+    131          * Returned Value   : 
+    132          * Comments         : Set valid field of semaphore pointer to BM_SEM_INVALID
+    133          *    
+    134          *
+    135          *END*----------------------------------------------------------------------*/
+
+   \                                 In section .text, align 2, keep-with-next
+    136          uint16_t _bm_sem_destroy
+    137          (
+    138              bm_sem_struct_t* sem_ptr
+    139          )
+    140          {
+    141              if(sem_ptr->valid == BM_SEM_VALID) 
+   \                     _bm_sem_destroy: (+1)
+   \   00000000   0x7801             LDRB     R1,[R0, #+0]
+   \   00000002   0x2904             CMP      R1,#+4
+   \   00000004   0xD100             BNE.N    ??_bm_sem_destroy_0
+    142              {
+    143                  sem_ptr->value--;
+   \   00000006   0x....             B.N      ?Subroutine0
+    144                  return (uint16_t)BM_SEM_OK;
+    145              }
+    146              return (uint16_t)BM_SEM_INVALID;
+   \                     ??_bm_sem_destroy_0: (+1)
+   \   00000008   0x2005             MOVS     R0,#+5
+   \   0000000A   0x4770             BX       LR               ;; return
+    147          }
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   _bm_sem_create
+       0   _bm_sem_destroy
+       0   _bm_sem_post
+       0   _bm_sem_wait
+       0   _bm_sem_wait_ticks
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      10  ?Subroutine0
+       6  _bm_sem_create
+      12  _bm_sem_destroy
+      16  _bm_sem_post
+      12  _bm_sem_wait
+      26  _bm_sem_wait_ticks
+
+ 
+ 82 bytes in section .text
+ 
+ 82 bytes of CODE memory
+
+Errors: none
+Warnings: none

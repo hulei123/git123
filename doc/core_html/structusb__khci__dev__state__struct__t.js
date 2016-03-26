@@ -1,0 +1,28 @@
+var structusb__khci__dev__state__struct__t =
+[
+    [ "controller_id", "structusb__khci__dev__state__struct__t.html#a4f6fc3c9cdd6d427c3b8f8ffefab95be", null ],
+    [ "dev_ptr", "structusb__khci__dev__state__struct__t.html#a523d78ceff5319ba821532d149669622", null ],
+    [ "dev_vec", "structusb__khci__dev__state__struct__t.html#ad8cc706ae44d844827a3cb72d03f7bd0", null ],
+    [ "device_address", "structusb__khci__dev__state__struct__t.html#a965e3051a97576de47efa9c08042d936", null ],
+    [ "ep_info", "structusb__khci__dev__state__struct__t.html#a6976d7aa1e024874ce558d218a9093d9", null ],
+    [ "errors", "structusb__khci__dev__state__struct__t.html#ae812e0ec1d53ade77f16621e799e8613", null ],
+    [ "max_endpoints", "structusb__khci__dev__state__struct__t.html#afe122b7a4215cb4e110d7204bf7d8804", null ],
+    [ "mutex", "structusb__khci__dev__state__struct__t.html#a809b044725cd9d3053aab025364a69eb", null ],
+    [ "otg_attr_hnp", "structusb__khci__dev__state__struct__t.html#a9eb520b2726f38630efea9ee8c720428", null ],
+    [ "otg_attr_srp", "structusb__khci__dev__state__struct__t.html#a417b7953f57618e8607423ebf87108fe", null ],
+    [ "otg_handle", "structusb__khci__dev__state__struct__t.html#a31c6d9bf9a80cc1797a1d78b8c9f697b", null ],
+    [ "setup_buff", "structusb__khci__dev__state__struct__t.html#a153aa8057974b0e3d8d1fdae73edac31", null ],
+    [ "speed", "structusb__khci__dev__state__struct__t.html#ae771e9a55b28eb5f7d85c4049c8c4f8f", null ],
+    [ "upper_layer_handle", "structusb__khci__dev__state__struct__t.html#a5598a0ba4a19ad77243e309ea6ba89f4", null ],
+    [ "usb_curr_config", "structusb__khci__dev__state__struct__t.html#a0b616f0e131998bcf6466b67e393f77a", null ],
+    [ "usb_dev_state_b4_suspend", "structusb__khci__dev__state__struct__t.html#ad96fd79bfe822df24d6f6be4dc289426", null ],
+    [ "usb_device_status", "structusb__khci__dev__state__struct__t.html#a70545982c70f7adea46868f87278e028", null ],
+    [ "usb_otg_status", "structusb__khci__dev__state__struct__t.html#ad14ae9c9cebadd0df92fe303f7174558", null ],
+    [ "usb_sof_count", "structusb__khci__dev__state__struct__t.html#ab33d13df61b08deef22449bc0b9d9921", null ],
+    [ "usb_state", "structusb__khci__dev__state__struct__t.html#aac7c80ce102d562ceb65d4e067b9aa17", null ],
+    [ "usbRegBase", "structusb__khci__dev__state__struct__t.html#ae5f12553c9d83ac5ab63e615e1b4a0ae", null ],
+    [ "xd_base", "structusb__khci__dev__state__struct__t.html#aac85e22ba8bccae5845e2f3418abd4b5", null ],
+    [ "xd_entries", "structusb__khci__dev__state__struct__t.html#a8a498c21a2ad6558e4a0d1e03ae09620", null ],
+    [ "xd_head", "structusb__khci__dev__state__struct__t.html#ac71c9f3908995bdf4e7aa96662eef0f5", null ],
+    [ "xd_tail", "structusb__khci__dev__state__struct__t.html#a19ca2463c039605ff5ded8e637d0e37f", null ]
+];

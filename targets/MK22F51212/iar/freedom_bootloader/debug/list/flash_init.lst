@@ -1,0 +1,575 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:32
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_init.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_init.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\flash_init.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_init.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_init.c
+      1          /*
+      2           * Copyright (c) 2013-2014, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "SSD_FTFx_Common.h"
+     32          #include "device/fsl_device_registers.h"
+     33          #include "flash/flash.h"
+     34          #include "fsl_platform_status.h"
+     35          #include "bootloader_common.h"
+     36          #include "flash_densities.h"
+     37          #include "bootloader/context.h"
+     38          
+     39          ////////////////////////////////////////////////////////////////////////////////
+     40          // Definitions
+     41          ////////////////////////////////////////////////////////////////////////////////
+     42          enum
+     43          {
+     44              kFlashAccessSegmentBase = 256UL,
+     45          };
+     46          
+     47          
+     48          ////////////////////////////////////////////////////////////////////////////////
+     49          // Variables
+     50          ////////////////////////////////////////////////////////////////////////////////
+     51          
+
+   \                                 In section .rodata, align 4, keep-with-next
+     52          volatile uint32_t * const restrict kFCCOBx =
+   \                     kFCCOBx:
+   \   00000000   0x40020004         DC32 40020004H
+     53          #if FSL_FEATURE_FLASH_IS_FTFA
+     54              (volatile uint32_t *)&FTFA->FCCOB3;
+     55          #elif FSL_FEATURE_FLASH_IS_FTFE
+     56              (volatile uint32_t *)&FTFE->FCCOB3;
+     57          #elif FSL_FEATURE_FLASH_IS_FTFL
+     58              (volatile uint32_t *)&FTFL->FCCOB3;
+     59          #else
+     60              #error "Unknown flash controller"
+     61          #endif
+     62          
+     63          #if BL_TARGET_FLASH
+     64          //! @brief A static buffer used to hold flash_run_command()
+
+   \                                 In section .bss, align 4
+     65          static uint8_t s_flashRunCommand[kFlashExecuteInRamFunction_MaxSize];
+   \                     s_flashRunCommand:
+   \   00000000                      DS8 32
+     66          //! @brief A static buffer used to hold flash_cache_clear_command()
+
+   \                                 In section .bss, align 4
+     67          static uint8_t s_flashCacheClearCommand[kFlashExecuteInRamFunction_MaxSize];
+   \                     s_flashCacheClearCommand:
+   \   00000000                      DS8 32
+     68          
+
+   \                                 In section .data, align 4
+     69          static flash_execute_in_ram_function_info_t s_flashExecuteInRamFunctionInfo = {
+   \                     s_flashExecuteInRamFunctionInfo:
+   \   00000000   0x00000000         DC32 0, s_flashRunCommand, s_flashCacheClearCommand
+   \              0x........   
+   \              0x........   
+     70              .activeFunctionCount = 0,
+     71              .flashRunCommand = s_flashRunCommand,
+     72              .flashCacheClearCommand = s_flashCacheClearCommand,
+     73          };
+     74          #endif
+     75          
+     76          ////////////////////////////////////////////////////////////////////////////////
+     77          // Code
+     78          ////////////////////////////////////////////////////////////////////////////////
+     79          #if BL_TARGET_FLASH
+     80          // See SSD_FTFx_Common.h for documentation of this function.
+
+   \                                 In section .text, align 2, keep-with-next
+     81          status_t flash_check_execute_in_ram_function_info(flash_driver_t * driver)
+     82          {
+     83              if (driver == NULL)
+   \                     flash_check_execute_in_ram_function_info: (+1)
+   \   00000000   0xB908             CBNZ.N   R0,??flash_check_execute_in_ram_function_info_0
+     84              {
+     85                  return kStatus_InvalidArgument;
+   \   00000002   0x2004             MOVS     R0,#+4
+   \   00000004   0x4770             BX       LR
+     86              }
+     87          
+     88              flash_execute_in_ram_function_info_t *flashExecuteInRamFunctionInfo = (flash_execute_in_ram_function_info_t *)driver->flashExecuteInRamFunctionInfo;
+     89          
+     90              if (driver->flashExecuteInRamFunctionInfo && (kFlashExecuteInRamFunction_TotalNum == flashExecuteInRamFunctionInfo->activeFunctionCount))
+   \                     ??flash_check_execute_in_ram_function_info_0: (+1)
+   \   00000006   0x69C0             LDR      R0,[R0, #+28]
+   \   00000008   0xB120             CBZ.N    R0,??flash_check_execute_in_ram_function_info_1
+   \   0000000A   0x6800             LDR      R0,[R0, #+0]
+   \   0000000C   0x2802             CMP      R0,#+2
+   \   0000000E   0xD101             BNE.N    ??flash_check_execute_in_ram_function_info_1
+     91              {
+     92                  return kStatus_Success;
+   \   00000010   0x2000             MOVS     R0,#+0
+   \   00000012   0x4770             BX       LR
+     93              }
+     94          
+     95              return kStatus_FlashExecuteInRamFunctionNotReady;
+   \                     ??flash_check_execute_in_ram_function_info_1: (+1)
+   \   00000014   0x206D             MOVS     R0,#+109
+   \   00000016   0x4770             BX       LR               ;; return
+     96          }
+     97          
+     98          // See flash.h for documentation of this function.
+
+   \                                 In section .text, align 2, keep-with-next
+     99          status_t flash_prepare_execute_in_ram_functions(flash_driver_t * driver)
+    100          {
+   \                     flash_prepare_execute_in_ram_functions: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+    101              if (driver == NULL)
+   \   00000002   0xB908             CBNZ.N   R0,??flash_prepare_execute_in_ram_functions_0
+    102              {
+    103                  return kStatus_InvalidArgument;
+   \   00000004   0x2004             MOVS     R0,#+4
+   \   00000006   0xBD10             POP      {R4,PC}
+    104              }
+    105          
+    106              flash_execute_in_ram_function_info_t *flashExecuteInRamFunctionInfo = (flash_execute_in_ram_function_info_t *)driver->flashExecuteInRamFunctionInfo;
+   \                     ??flash_prepare_execute_in_ram_functions_0: (+1)
+   \   00000008   0x69C4             LDR      R4,[R0, #+28]
+    107          
+    108              copy_flash_run_command(flashExecuteInRamFunctionInfo->flashRunCommand);
+   \   0000000A   0x6860             LDR      R0,[R4, #+4]
+   \   0000000C   0x.... 0x....      BL       copy_flash_run_command
+    109              copy_flash_cache_clear_command(flashExecuteInRamFunctionInfo->flashCacheClearCommand);
+   \   00000010   0x68A0             LDR      R0,[R4, #+8]
+   \   00000012   0x.... 0x....      BL       copy_flash_cache_clear_command
+    110              flashExecuteInRamFunctionInfo->activeFunctionCount = kFlashExecuteInRamFunction_TotalNum;
+   \   00000016   0x2002             MOVS     R0,#+2
+   \   00000018   0x6020             STR      R0,[R4, #+0]
+    111          
+    112              return kStatus_Success;
+   \   0000001A   0x2000             MOVS     R0,#+0
+   \   0000001C   0xBD10             POP      {R4,PC}          ;; return
+    113          }
+    114          #endif
+    115          
+    116          // See flash.h for documentation of this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    117          status_t flash_init(flash_driver_t * driver)
+    118          {
+   \                     flash_init: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    119              if (driver == NULL)
+   \   00000004   0xD101             BNE.N    ??flash_init_0
+    120              {
+    121                  return kStatus_InvalidArgument;
+   \   00000006   0x2004             MOVS     R0,#+4
+   \   00000008   0xBD10             POP      {R4,PC}
+    122              }
+    123          
+    124              // calculate the flash density from SIM_FCFG1.PFSIZE
+    125              uint32_t flashDensity = kFlashDensities[SIM_RD_FCFG1_PFSIZE(SIM)] << 12;
+   \                     ??flash_init_0: (+1)
+   \   0000000A   0x....             LDR.N    R1,??DataTable2  ;; 0x4004804c
+   \   0000000C   0x....             LDR.N    R0,??DataTable2_1
+   \   0000000E   0x6809             LDR      R1,[R1, #+0]
+   \   00000010   0xF3C1 0x6103      UBFX     R1,R1,#+24,#+4
+   \   00000014   0xF830 0x0011      LDRH     R0,[R0, R1, LSL #+1]
+   \   00000018   0x0300             LSLS     R0,R0,#+12
+    126              if (flashDensity == 0)
+   \   0000001A   0xD101             BNE.N    ??flash_init_1
+    127              {
+    128                  return kStatus_FlashSizeError;
+   \   0000001C   0x2064             MOVS     R0,#+100
+   \   0000001E   0xBD10             POP      {R4,PC}
+    129              }
+    130          
+    131              // fill out a few of the structure members
+    132              driver->PFlashBlockBase = FLASH_BLOCK_BASE;
+   \                     ??flash_init_1: (+1)
+   \   00000020   0x2100             MOVS     R1,#+0
+   \   00000022   0x6021             STR      R1,[R4, #+0]
+    133              driver->PFlashTotalSize = flashDensity;
+   \   00000024   0x6060             STR      R0,[R4, #+4]
+    134              driver->PFlashBlockCount = FSL_FEATURE_FLASH_PFLASH_BLOCK_COUNT;
+    135              driver->PFlashSectorSize = FSL_FEATURE_FLASH_PFLASH_BLOCK_SECTOR_SIZE;
+    136          
+    137          #if FSL_FEATURE_FLASH_HAS_ACCESS_CONTROL
+    138              driver->PFlashAccessSegmentSize =  kFlashAccessSegmentBase << FTFx->FACSS;
+   \   00000026   0xF44F 0x7180      MOV      R1,#+256
+   \   0000002A   0x2002             MOVS     R0,#+2
+   \   0000002C   0x60A0             STR      R0,[R4, #+8]
+   \   0000002E   0xF44F 0x6000      MOV      R0,#+2048
+   \   00000032   0x60E0             STR      R0,[R4, #+12]
+   \   00000034   0x....             LDR.N    R0,??DataTable2_2  ;; 0x40020028
+   \   00000036   0xF990 0x2000      LDRSB    R2,[R0, #+0]
+   \   0000003A   0x4091             LSLS     R1,R1,R2
+   \   0000003C   0x6161             STR      R1,[R4, #+20]
+    139              driver->PFlashAccessSegmentCount = FTFx->FACSN;
+   \   0000003E   0x78C0             LDRB     R0,[R0, #+3]
+   \   00000040   0x61A0             STR      R0,[R4, #+24]
+    140          #else
+    141              driver->PFlashAccessSegmentSize =  0;
+    142              driver->PFlashAccessSegmentCount = 0;
+    143          #endif // FSL_FEATURE_FLASH_HAS_ACCESS_CONTROL
+    144          
+    145              driver->PFlashCallback = NULL;
+   \   00000042   0x2000             MOVS     R0,#+0
+   \   00000044   0x6120             STR      R0,[R4, #+16]
+    146          
+    147              // copy required flash commands to RAM
+    148          #if BL_TARGET_FLASH
+    149              if (kStatus_Success != flash_check_execute_in_ram_function_info(driver))
+   \   00000046   0x4620             MOV      R0,R4
+   \   00000048   0x.... 0x....      BL       flash_check_execute_in_ram_function_info
+   \   0000004C   0xB120             CBZ.N    R0,??flash_init_2
+    150              {
+    151                  driver->flashExecuteInRamFunctionInfo = &s_flashExecuteInRamFunctionInfo.activeFunctionCount;
+   \   0000004E   0x....             LDR.N    R0,??DataTable2_3
+   \   00000050   0x61E0             STR      R0,[R4, #+28]
+    152                  flash_prepare_execute_in_ram_functions(driver);
+   \   00000052   0x4620             MOV      R0,R4
+   \   00000054   0x.... 0x....      BL       flash_prepare_execute_in_ram_functions
+    153              }
+    154          #endif
+    155          
+    156              return kStatus_Success;
+   \                     ??flash_init_2: (+1)
+   \   00000058   0x2000             MOVS     R0,#+0
+   \   0000005A   0xBD10             POP      {R4,PC}          ;; return
+    157          }
+    158          
+    159          // See flash.h for documentation of this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    160          status_t flash_register_callback(flash_driver_t * driver, flash_callback_t callback)
+    161          {
+    162              if (driver == NULL)
+   \                     flash_register_callback: (+1)
+   \   00000000   0x2800             CMP      R0,#+0
+   \   00000002   0xBF0E             ITEE     EQ 
+   \   00000004   0x2004             MOVEQ    R0,#+4
+   \   00000006   0x6101             STRNE    R1,[R0, #+16]
+   \   00000008   0x2000             MOVNE    R0,#+0
+    163              {
+    164                  return kStatus_InvalidArgument;
+    165              }
+    166          
+    167              driver->PFlashCallback = callback;
+    168          
+    169              return kStatus_Success;
+   \   0000000A   0x4770             BX       LR
+    170          }
+    171          
+    172          
+    173          
+    174          // See SSD_FTFx_Common.h for documentation of this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    175          status_t flash_check_range(flash_driver_t * driver, uint32_t start, uint32_t lengthInBytes, uint32_t alignmentBaseline)
+    176          {
+    177              if (driver == NULL)
+   \                     flash_check_range: (+1)
+   \   00000000   0xB908             CBNZ.N   R0,??flash_check_range_0
+    178              {
+    179                  return kStatus_InvalidArgument;
+   \   00000002   0x2004             MOVS     R0,#+4
+   \   00000004   0x4770             BX       LR
+    180              }
+    181          
+    182              // Verify the start and length are alignmentBaseline aligned.
+    183              if ((start & (alignmentBaseline - 1))
+    184                  || (lengthInBytes & (alignmentBaseline - 1)))
+   \                     ??flash_check_range_0: (+1)
+   \   00000006   0x1E5B             SUBS     R3,R3,#+1
+   \   00000008   0x4219             TST      R1,R3
+   \   0000000A   0xBF08             IT       EQ 
+   \   0000000C   0x421A             TSTEQ    R2,R3
+   \   0000000E   0xD001             BEQ.N    ??flash_check_range_1
+    185              {
+    186                  return kStatus_FlashAlignmentError;
+   \   00000010   0x2065             MOVS     R0,#+101
+   \   00000012   0x4770             BX       LR
+    187              }
+    188          
+    189              // check for valid range of the target addresses
+    190              if ((start < driver->PFlashBlockBase) ||
+    191                  ((start+lengthInBytes) > (driver->PFlashBlockBase + driver->PFlashTotalSize)))
+   \                     ??flash_check_range_1: (+1)
+   \   00000014   0x6803             LDR      R3,[R0, #+0]
+   \   00000016   0x4299             CMP      R1,R3
+   \   00000018   0xBF21             ITTTT    CS 
+   \   0000001A   0x6840             LDRCS    R0,[R0, #+4]
+   \   0000001C   0x18C0             ADDCS    R0,R0,R3
+   \   0000001E   0x1851             ADDCS    R1,R2,R1
+   \   00000020   0x4288             CMPCS    R0,R1
+   \   00000022   0xBF34             ITE      CC 
+   \   00000024   0x2066             MOVCC    R0,#+102
+   \   00000026   0x2000             MOVCS    R0,#+0
+    192              {
+    193                  return kStatus_FlashAddressError;
+    194              }
+    195          
+    196              return kStatus_Success;
+   \   00000028   0x4770             BX       LR
+    197          }
+    198          
+    199          // See SSD_FTFx_Common.h for documentation of this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    200          status_t flash_check_user_key(uint32_t key)
+    201          {
+    202              // Validate the user key
+    203              if (key != kFlashEraseKey)
+   \                     flash_check_user_key: (+1)
+   \   00000000   0x....             LDR.N    R1,??DataTable2_4  ;; 0x6b65666b
+   \   00000002   0x4288             CMP      R0,R1
+   \   00000004   0xBF14             ITE      NE 
+   \   00000006   0x206B             MOVNE    R0,#+107
+   \   00000008   0x2000             MOVEQ    R0,#+0
+    204              {
+    205                  return kStatus_FlashEraseKeyError;
+    206              }
+    207          
+    208              return kStatus_Success;
+   \   0000000A   0x4770             BX       LR
+    209          }
+    210          
+    211          // See SSD_FTFx_Common.h for documentation of this function.
+
+   \                                 In section .text, align 2, keep-with-next
+    212          status_t flash_check_access_ifr_range(flash_driver_t * driver, uint32_t index, uint32_t lengthInBytes)
+    213          {
+    214              if (driver == NULL)
+   \                     flash_check_access_ifr_range: (+1)
+   \   00000000   0xB168             CBZ.N    R0,??flash_check_access_ifr_range_0
+    215              {
+    216                  return kStatus_InvalidArgument;
+    217              }
+    218          
+    219              switch(lengthInBytes)
+   \   00000002   0x2A04             CMP      R2,#+4
+   \   00000004   0xD002             BEQ.N    ??flash_check_access_ifr_range_1
+   \   00000006   0x2A08             CMP      R2,#+8
+   \   00000008   0xD00B             BEQ.N    ??flash_check_access_ifr_range_2
+   \   0000000A   0xE008             B.N      ??flash_check_access_ifr_range_0
+    220              {
+    221                  case FLASH_PROGRAM_ONCE_UNIT_4BYTES:
+    222                      // Note: Have to seperate the first index from the rest if it equals 0
+    223                      //       to avoid a pointless comparison of unsigned int to 0 compiler warning
+    224                      if (   (index == FLASH_PROGRAM_ONCE_LOWER_MIN_ID_4BYTES) ||
+    225                      // Compare to the rest of the range
+    226                           ( (index >= FLASH_PROGRAM_ONCE_LOWER_MIN_ID_4BYTES + 1) &&
+    227                             (index <= FLASH_PROGRAM_ONCE_LOWER_MAX_ID_4BYTES) ) ||
+    228          
+    229                              (index == FLASH_PROGRAM_ONCE_UPPER_MIN_ID_4BYTES) ||
+    230                      // Compare to the rest of the range
+    231                           ( (index >= FLASH_PROGRAM_ONCE_UPPER_MIN_ID_4BYTES + 1) &&
+    232                             (index <= FLASH_PROGRAM_ONCE_UPPER_MAX_ID_4BYTES) ) )
+   \                     ??flash_check_access_ifr_range_1: (+1)
+   \   0000000C   0xB179             CBZ.N    R1,??flash_check_access_ifr_range_3
+   \   0000000E   0x2910             CMP      R1,#+16
+   \   00000010   0xD30D             BCC.N    ??flash_check_access_ifr_range_3
+   \   00000012   0x2920             CMP      R1,#+32
+   \   00000014   0xD00B             BEQ.N    ??flash_check_access_ifr_range_3
+   \   00000016   0xF1A1 0x0021      SUB      R0,R1,#+33
+   \   0000001A   0x2813             CMP      R0,#+19
+   \   0000001C   0xD307             BCC.N    ??flash_check_access_ifr_range_3
+    233                      {
+    234                          return kStatus_Success;
+    235                      }
+    236                      break;
+    237                  case FLASH_PROGRAM_ONCE_UNIT_8BYTES:
+    238                      if ((index == FLASH_PROGRAM_ONCE_MIN_ID_8BYTES) ||
+    239                        ((index >= FLASH_PROGRAM_ONCE_MIN_ID_8BYTES +1) &&
+    240                       (index <= FLASH_PROGRAM_ONCE_MAX_ID_8BYTES)) )
+    241                      {
+    242                          return kStatus_Success;
+    243                      }
+    244                      break;
+    245              }
+    246          
+    247              return kStatus_InvalidArgument;
+   \                     ??flash_check_access_ifr_range_0: (+1)
+   \   0000001E   0x2004             MOVS     R0,#+4
+   \   00000020   0x4770             BX       LR               ;; return
+   \                     ??flash_check_access_ifr_range_2: (+1)
+   \   00000022   0x2910             CMP      R1,#+16
+   \   00000024   0xD003             BEQ.N    ??flash_check_access_ifr_range_3
+   \   00000026   0xF1A1 0x0011      SUB      R0,R1,#+17
+   \   0000002A   0x2803             CMP      R0,#+3
+   \   0000002C   0xD2F7             BCS.N    ??flash_check_access_ifr_range_0
+   \                     ??flash_check_access_ifr_range_3: (+1)
+   \   0000002E   0x2000             MOVS     R0,#+0
+   \   00000030   0x4770             BX       LR
+    248          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2:
+   \   00000000   0x4004804C         DC32     0x4004804c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_1:
+   \   00000000   0x........         DC32     kFlashDensities
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_2:
+   \   00000000   0x40020028         DC32     0x40020028
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_3:
+   \   00000000   0x........         DC32     s_flashExecuteInRamFunctionInfo
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable2_4:
+   \   00000000   0x6B65666B         DC32     0x6b65666b
+    249          ////////////////////////////////////////////////////////////////////////////////
+    250          // EOF
+    251          ////////////////////////////////////////////////////////////////////////////////
+    252          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   flash_check_access_ifr_range
+       0   flash_check_execute_in_ram_function_info
+       0   flash_check_range
+       0   flash_check_user_key
+       8   flash_init
+         8   -> flash_check_execute_in_ram_function_info
+         8   -> flash_prepare_execute_in_ram_functions
+       8   flash_prepare_execute_in_ram_functions
+         8   -> copy_flash_cache_clear_command
+         8   -> copy_flash_run_command
+       0   flash_register_callback
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable2
+       4  ??DataTable2_1
+       4  ??DataTable2_2
+       4  ??DataTable2_3
+       4  ??DataTable2_4
+      50  flash_check_access_ifr_range
+      24  flash_check_execute_in_ram_function_info
+      42  flash_check_range
+      12  flash_check_user_key
+      92  flash_init
+      30  flash_prepare_execute_in_ram_functions
+      12  flash_register_callback
+       4  kFCCOBx
+      32  s_flashCacheClearCommand
+      12  s_flashExecuteInRamFunctionInfo
+      32  s_flashRunCommand
+
+ 
+  64 bytes in section .bss
+  12 bytes in section .data
+   4 bytes in section .rodata
+ 282 bytes in section .text
+ 
+ 282 bytes of CODE  memory
+   4 bytes of CONST memory
+  76 bytes of DATA  memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,6 @@
+<map id="hid_config_struct_t" name="hid_config_struct_t">
+<area shape="rect" id="node2" href="$structusb__vendor__req__callback__struct__t.html" title="Obtains the callback for vendor reqeust. " alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node3" href="$structusb__desc__request__notify__struct__t.html" title="Obtains the data structure of the descriptor related callback function. The application needs to impl..." alt="" coords="5,71,172,112"/>
+<area shape="rect" id="node4" href="$structusb__class__specific__callback__struct__t.html" title="usb_class_specific\l_callback_struct_t" alt="" coords="23,136,155,177"/>
+<area shape="rect" id="node5" href="$structusb__application__callback__struct__t.html" title="Obtains the callback for application. " alt="" coords="5,201,172,243"/>
+</map>

@@ -1,0 +1,27 @@
+var group__property_structproperty__store__t =
+[
+    [ "availableCommands", "group__property.html#a44db8872bf3634f07da93476122e1aee", null ],
+    [ "availablePeripherals", "group__property.html#a0f3934818bb9f7031a8c7b054b6a7e99", null ],
+    [ "bootloaderVersion", "group__property.html#a521d4b80ddc0ce90f86163e9ccfd387e", null ],
+    [ "configurationData", "group__property.html#add401ea48715f90f6dc5c1274b862bbf", null ],
+    [ "crcCheckStatus", "group__property.html#a69dee86c8e45bf218a57ccb5e9048046", null ],
+    [ "externalMemoryPropertyStore", "group__property.html#a0349447e1db944ceac78c6879eda777c", null ],
+    [ "flashAccessSegmentCount", "group__property.html#acb14bd0f98193a485548630119858937", null ],
+    [ "flashAccessSegmentSize", "group__property.html#a32ff59aeabbcadafc39663e8d4c8ade2", null ],
+    [ "flashBlockCount", "group__property.html#aee1cdd3ba84313ab497f21c849e9473b", null ],
+    [ "flashBlockSize", "group__property.html#a0bf264fbfd28f1ec15f36fce2b453408", null ],
+    [ "flashFacSupport", "group__property.html#a2dfacc265ed5b2ee2886f51888fb95fe", null ],
+    [ "flashReadMargin", "group__property.html#ac9dc6cf5a29c12ce0db4cf2a9ef6b1f1", null ],
+    [ "flashSectorSize", "group__property.html#a650661ee12ae3281fdf313249aa63b13", null ],
+    [ "flashSizeInBytes", "group__property.html#a9f733d862f4212f78e2c05c4b4b83427", null ],
+    [ "flashStartAddress", "group__property.html#ae26e7ef676cdeefd16e6108eb6c74916", null ],
+    [ "qspiInitStatus", "group__property.html#aac3d6f0acf73ca98c460c206946ae194", null ],
+    [ "ramSizeInBytes", "group__property.html#a3b7bb476e2de618b9d72dda5bc17f572", null ],
+    [ "ramStartAddress", "group__property.html#abecac570119f1c0c3f8a338d74923dea", null ],
+    [ "reservedRegions", "group__property.html#a7056ab498a9964e7f563ff686f61b55e", null ],
+    [ "serialProtocolVersion", "group__property.html#a4535bb9170367a92dd0ee521d4ac93b9", null ],
+    [ "targetVersion", "group__property.html#aa12709dc9d14d1fe2f69f0ba1038893b", null ],
+    [ "UniqueDeviceId", "group__property.html#ac316c8376dd714418330c9915046e46c", null ],
+    [ "validateRegions", "group__property.html#a53157be8af79c71b0da4a09148526d0b", null ],
+    [ "verifyWrites", "group__property.html#ab93a891692057f7c1f99ec43deee7d57", null ]
+];

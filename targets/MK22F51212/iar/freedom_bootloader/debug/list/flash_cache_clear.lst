@@ -1,0 +1,322 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:22
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_cache_clear.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_cache_clear.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\flash_cache_clear.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\flash_cache_clear.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\drivers\flash\src\flash_cache_clear.c
+      1          /*
+      2           * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "utilities/fsl_assert.h"
+     32          #include "SSD_FTFx_Common.h"
+     33          #include "flash/flash.h"
+     34          #include "device/fsl_device_registers.h"
+     35          #include "fsl_platform_status.h"
+     36          #include "bootloader_common.h"
+     37          #include <string.h>
+     38          
+     39          #if BL_TARGET_FLASH
+     40          //! @brief A function pointer used to point to relocated flash_cache_clear_command()
+     41          #define FTFx_REG32_ACCESS_TYPE  volatile uint32_t *
+
+   \                                 In section .bss, align 4
+     42          static void (*callFlashCacheClearCommand)(FTFx_REG32_ACCESS_TYPE);
+   \                     callFlashCacheClearCommand:
+   \   00000000                      DS8 4
+     43          
+     44          //! @brief Run flash cache clear command
+     45          //!
+     46          //! This function should be copied to RAM for execution to make sure that code works
+     47          //! properly even flash cache is disabled.
+     48          //! It is for flash-resident bootloader only, not technically required for ROM or
+     49          //! flashloader (RAM-resident bootloader).
+
+   \                                 In section .text, align 2, keep-with-next
+     50          void flash_cache_clear_command(FTFx_REG32_ACCESS_TYPE ftfx_reg)
+     51          {
+     52          #if FSL_FEATURE_FLASH_HAS_MCM_FLASH_CACHE_CONTROLS
+     53              *ftfx_reg |= MCM_PLACR_CFCC_MASK;
+     54          #elif (defined(CPU_MK66FN2M0VLQ18) || defined (CPU_MK65FN2M0VMI18))
+     55              *ftfx_reg = (*ftfx_reg & ~FMC_PFB01CR_CINV_WAY_MASK) | FMC_PFB01CR_CINV_WAY(~0);
+     56          #elif FSL_FEATURE_FLASH_HAS_FMC_FLASH_CACHE_CONTROLS
+     57              *ftfx_reg = (*ftfx_reg & ~FMC_PFB0CR_CINV_WAY_MASK) | FMC_PFB0CR_CINV_WAY(~0);
+   \                     flash_cache_clear_command: (+1)
+   \   00000000   0x6801             LDR      R1,[R0, #+0]
+   \   00000002   0xF441 0x0170      ORR      R1,R1,#0xF00000
+   \   00000006   0x6001             STR      R1,[R0, #+0]
+     58          #else
+     59          //    #error "Unknown flash cache controller"
+     60          #endif // FSL_FEATURE_FTFx_MCM_FLASH_CACHE_CONTROLS
+     61              // Memory barriers for good measure.
+     62              // All Cache, Branch predictor and TLB maintenance operations before this instruction complete
+     63              __ISB();
+   \   00000008   0xF3BF 0x8F6F      ISB      
+     64              __DSB();
+   \   0000000C   0xF3BF 0x8F4F      DSB      
+     65          }
+   \   00000010   0x4770             BX       LR               ;; return
+     66          
+     67          //! @brief Be used for determining the size of flash_cache_clear_command()
+     68          //!
+     69          //! This function must be defined that lexically follows flash_cache_clear_command(),
+     70          //! so we can determine the size of flash_cache_clear_command() at runtime and not worry
+     71          //! about toolchain or code generation differences.
+
+   \                                 In section .text, align 2, keep-with-next
+     72          void flash_cache_clear_command_end(void)
+     73          {}
+   \                     flash_cache_clear_command_end: (+1)
+   \   00000000   0x4770             BX       LR               ;; return
+     74          
+     75          //! @brief Copy flash_cache_clear_command() to RAM
+     76          //!
+     77          //! This function copies the memory between flash_cache_clear_command() and flash_cache_clear_command_end()
+     78          //! into the buffer which is also means that copying flash_cache_clear_command() to RAM.
+
+   \                                 In section .text, align 2, keep-with-next
+     79          void copy_flash_cache_clear_command(uint8_t *flashCacheClearCommand)
+     80          {
+   \                     copy_flash_cache_clear_command: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4604             MOV      R4,R0
+     81              // Calculate the valid length of flash_cache_clear_command() memory
+     82              uint32_t funcLength = (uint32_t)flash_cache_clear_command_end - (uint32_t)flash_cache_clear_command;
+     83          
+     84              assert(funcLength <= kFlashExecuteInRamFunction_MaxSize);
+     85          
+     86              // Since the value of ARM function pointer is always odd, but the real start address
+     87              // of function memory should be even, that's why -1 and +1 operation exist.
+     88              memcpy((void *)flashCacheClearCommand, (void *)((uint32_t)flash_cache_clear_command - 1), funcLength);
+   \   00000004   0x....             LDR.N    R0,??DataTable1
+   \   00000006   0x....             LDR.N    R1,??DataTable1_1
+   \   00000008   0x1A0A             SUBS     R2,R1,R0
+   \   0000000A   0x1E41             SUBS     R1,R0,#+1
+   \   0000000C   0x4620             MOV      R0,R4
+   \   0000000E   0x.... 0x....      BL       __aeabi_memcpy
+     89              callFlashCacheClearCommand = (void (*)(FTFx_REG32_ACCESS_TYPE))((uint32_t)flashCacheClearCommand + 1);
+   \   00000012   0x....             LDR.N    R1,??DataTable1_2
+   \   00000014   0x1C60             ADDS     R0,R4,#+1
+   \   00000016   0x6008             STR      R0,[R1, #+0]
+     90          }
+   \   00000018   0xBD10             POP      {R4,PC}          ;; return
+     91          #endif // BL_TARGET_FLASH
+     92          
+     93          ////////////////////////////////////////////////////////////////////////////////
+     94          //!
+     95          //! @brief Flash Cache Clear
+     96          //!
+     97          //! This function is used to perform the cache clear to the flash.
+     98          ////////////////////////////////////////////////////////////////////////////////
+     99          #pragma optimize=none
+
+   \                                 In section .text, align 2, keep-with-next
+    100          void flash_cache_clear(flash_driver_t * driver)
+    101          {
+   \                     flash_cache_clear: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    102          #if BL_TARGET_FLASH
+    103              status_t returnCode = flash_check_execute_in_ram_function_info(driver);
+   \   00000004   0x0020             MOVS     R0,R4
+   \   00000006   0x.... 0x....      BL       flash_check_execute_in_ram_function_info
+   \   0000000A   0x0005             MOVS     R5,R0
+    104              if (kStatus_Success != returnCode)
+   \   0000000C   0x2D00             CMP      R5,#+0
+   \   0000000E   0xD103             BNE.N    ??flash_cache_clear_0
+    105              {
+    106                  return;
+    107              }
+    108          
+    109              // We pass the ftfx register address as a parameter to flash_cache_clear_comamnd() instead of using
+    110              // pre-processed MACROs or a global variable in flash_cache_clear_comamnd()
+    111              // to make sure that flash_cache_clear_command() will be compiled into position-independent code (PIC).
+    112          #if FSL_FEATURE_FLASH_HAS_MCM_FLASH_CACHE_CONTROLS
+    113              callFlashCacheClearCommand((FTFx_REG32_ACCESS_TYPE)&MCM_PLACR);
+    114          #elif (defined(CPU_MK66FN2M0VLQ18) || defined (CPU_MK65FN2M0VMI18))
+    115              callFlashCacheClearCommand((FTFx_REG32_ACCESS_TYPE)&FMC_PFB01CR);
+    116          #elif FSL_FEATURE_FLASH_HAS_FMC_FLASH_CACHE_CONTROLS
+    117              callFlashCacheClearCommand((FTFx_REG32_ACCESS_TYPE)&FMC_PFB0CR);
+   \                     ??flash_cache_clear_1: (+1)
+   \   00000010   0x....             LDR.N    R0,??DataTable1_3  ;; 0x4001f004
+   \   00000012   0x....             LDR.N    R1,??DataTable1_2
+   \   00000014   0x6809             LDR      R1,[R1, #+0]
+   \   00000016   0x4788             BLX      R1
+    118          #else
+    119          //    #error "Unknown flash cache controller"
+    120          #endif // FSL_FEATURE_FTFx_MCM_FLASH_CACHE_CONTROLS
+    121          #else
+    122          #if FSL_FEATURE_FLASH_HAS_MCM_FLASH_CACHE_CONTROLS
+    123              MCM_BWR_PLACR_CFCC(MCM, 1);
+    124          #elif (defined(CPU_MK66FN2M0VLQ18) || defined (CPU_MK65FN2M0VMI18))
+    125              FMC_BWR_PFB01CR_CINV_WAY(FMC, ~0);
+    126          #elif FSL_FEATURE_FLASH_HAS_FMC_FLASH_CACHE_CONTROLS
+    127              FMC_BWR_PFB0CR_CINV_WAY(FMC, ~0);
+    128          #elif FSL_FEATURE_FLASH_HAS_MSCM_FLASH_CAHCE_CONTROLS
+    129              MSCM->OCMDR[0] |= MSCM_OCMDR_OCMC1(2);
+    130              MSCM->OCMDR[0] |= MSCM_OCMDR_OCMC1(1);
+    131          #else
+    132          //    #error "Unknown flash cache controller"
+    133          #endif // FSL_FEATURE_FTFx_MCM_FLASH_CACHE_CONTROLS
+    134          #endif // BL_TARGET_FLASH
+    135          }
+   \                     ??flash_cache_clear_0: (+1)
+   \   00000018   0xBD31             POP      {R0,R4,R5,PC}    ;; return
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   0x........         DC32     flash_cache_clear_command
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \   00000000   0x........         DC32     flash_cache_clear_command_end
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_2:
+   \   00000000   0x........         DC32     callFlashCacheClearCommand
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_3:
+   \   00000000   0x4001F004         DC32     0x4001f004
+    136          ////////////////////////////////////////////////////////////////////////////////
+    137          // EOF
+    138          ////////////////////////////////////////////////////////////////////////////////
+    139          
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   copy_flash_cache_clear_command
+         8   -> __aeabi_memcpy
+      16   flash_cache_clear
+        16   -- Indirect call
+        16   -> flash_check_execute_in_ram_function_info
+       0   flash_cache_clear_command
+       0   flash_cache_clear_command_end
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable1
+       4  ??DataTable1_1
+       4  ??DataTable1_2
+       4  ??DataTable1_3
+       4  callFlashCacheClearCommand
+      26  copy_flash_cache_clear_command
+      26  flash_cache_clear
+      18  flash_cache_clear_command
+       2  flash_cache_clear_command_end
+
+ 
+  4 bytes in section .bss
+ 88 bytes in section .text
+ 
+ 88 bytes of CODE memory
+  4 bytes of DATA memory
+
+Errors: none
+Warnings: none

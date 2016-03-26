@@ -1,0 +1,7 @@
+<map id="UARTs" name="UARTs">
+<area shape="rect" id="node1" href="$group__uart__driver.html" title="UART Driver. " alt="" coords="276,5,368,32"/>
+<area shape="rect" id="node2" href="$group__drivers.html" title="IP device drivers. " alt="" coords="5,81,108,108"/>
+<area shape="rect" id="node3" href="$group__uart0__driver.html" title="UART0 Driver. " alt="" coords="273,56,371,83"/>
+<area shape="rect" id="node4" href="$group__scuart__driver.html" title="SCUART Driver. " alt="" coords="267,107,377,133"/>
+<area shape="rect" id="node5" href="$group__lpuart__driver.html" title="LPUART driver. " alt="" coords="269,157,375,184"/>
+</map>

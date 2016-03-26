@@ -1,0 +1,10 @@
+/*!
+
+@defgroup sbloader SB Loader
+@brief SB file loader state machine.
+
+@defgroup sb_file_format SB File Format
+@ingroup sbloader
+@brief SB file format definitions.
+
+ */

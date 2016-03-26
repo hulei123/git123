@@ -1,0 +1,288 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:17
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\memory\src\normal_memory.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\memory\src\normal_memory.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\normal_memory.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\normal_memory.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\memory\src\normal_memory.c
+      1          /*
+      2           * Copyright (c) 2013, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include <string.h>
+     32          #include "normal_memory.h"
+     33          #include "pattern_fill.h"
+     34          #include "sram_init.h"
+     35          #if !defined(BOOTLOADER_HOST)
+     36          #include "device/fsl_device_registers.h"
+     37          #endif // BOOTLOADER_HOST
+     38          
+     39          ////////////////////////////////////////////////////////////////////////////////
+     40          // Variables
+     41          ////////////////////////////////////////////////////////////////////////////////
+     42          
+     43          //! @brief Interface to simulator memory operations.
+
+   \                                 In section .rodata, align 4, keep-with-next
+     44          const memory_region_interface_t g_normalMemoryInterface = {
+   \                     g_normalMemoryInterface:
+   \   00000000   0x........         DC32 normal_mem_init, normal_mem_read, normal_mem_write
+   \              0x........   
+   \              0x........   
+   \   0000000C   0x........         DC32 normal_mem_fill, 0H, 0H
+   \              0x00000000   
+   \              0x00000000   
+     45              .init = &normal_mem_init,
+     46              .read = &normal_mem_read,
+     47              .write = &normal_mem_write,
+     48          #if !BL_MIN_PROFILE || BL_FEATURE_FILL_MEMORY
+     49              .fill = &normal_mem_fill,
+     50          #endif // !BL_MIN_PROFILE
+     51              .flush = NULL,
+     52              .erase = NULL
+     53          };
+     54          
+     55          
+     56          enum
+     57          {
+     58              kSRAM_Boundary = 0x20000000u //!< SRAM boundary address
+     59          };
+     60          
+     61          ////////////////////////////////////////////////////////////////////////////////
+     62          // Code
+     63          ////////////////////////////////////////////////////////////////////////////////
+     64          
+     65          //! See normal_memory.h for documentation on this function.
+
+   \                                 In section .text, align 2, keep-with-next
+     66          status_t normal_mem_init(void)
+     67          {
+     68              return sram_init();
+   \                     normal_mem_init: (+1)
+   \   00000000   0x.... 0x....      B.W      sram_init
+     69          }
+     70          
+
+   \                                 In section .text, align 2, keep-with-next
+     71          status_t normal_mem_read(uint32_t address, uint32_t length, uint8_t * buffer)
+     72          {
+   \                     normal_mem_read: (+1)
+   \   00000000   0x4613             MOV      R3,R2
+   \   00000002   0xB580             PUSH     {R7,LR}
+     73              memcpy((void *)buffer, (void *)address, length);
+   \   00000004   0x460A             MOV      R2,R1
+   \   00000006   0x4601             MOV      R1,R0
+   \   00000008   0x4618             MOV      R0,R3
+   \   0000000A   0x.... 0x....      BL       __aeabi_memcpy
+     74              return kStatus_Success;
+   \   0000000E   0x2000             MOVS     R0,#+0
+   \   00000010   0xBD02             POP      {R1,PC}          ;; return
+     75          }
+     76          
+
+   \                                 In section .text, align 2, keep-with-next
+     77          status_t normal_mem_write(uint32_t address, uint32_t length, const uint8_t * buffer)
+     78          {
+   \                     normal_mem_write: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+     79          #if defined (__CORE_CM4_H_GENERIC)
+     80              // If address is non-longword aligned and the area to be written is across RAM_L and RAM_U,
+     81              // need to write the RAM_L first and then write RAM_U to avoid unaligned access across RAM boundary
+     82              if ((address & 0x03) && ((address < kSRAM_Boundary) && ((address + length - 1) >= kSRAM_Boundary)))
+   \   00000002   0xF010 0x0F03      TST      R0,#0x3
+   \   00000006   0x460C             MOV      R4,R1
+   \   00000008   0x4615             MOV      R5,R2
+   \   0000000A   0xD012             BEQ.N    ??normal_mem_write_0
+   \   0000000C   0xF1B0 0x5F00      CMP      R0,#+536870912
+   \   00000010   0xD20F             BCS.N    ??normal_mem_write_0
+   \   00000012   0x1821             ADDS     R1,R4,R0
+   \   00000014   0x1E49             SUBS     R1,R1,#+1
+   \   00000016   0xF1B1 0x5F00      CMP      R1,#+536870912
+   \   0000001A   0xD30A             BCC.N    ??normal_mem_write_0
+     83              {
+     84                  uint32_t firstCopyCount = kSRAM_Boundary - address;
+   \   0000001C   0xF1C0 0x5600      RSB      R6,R0,#+536870912
+     85                  uint32_t secondCopyCount = length - firstCopyCount;
+     86          
+     87                  memcpy((void *)address, (void *)buffer, firstCopyCount);
+   \   00000020   0x4632             MOV      R2,R6
+   \   00000022   0x4629             MOV      R1,R5
+   \   00000024   0x.... 0x....      BL       __aeabi_memcpy
+     88                  memcpy((void *)kSRAM_Boundary, (void*)(buffer + firstCopyCount), secondCopyCount);
+   \   00000028   0x1BA2             SUBS     R2,R4,R6
+   \   0000002A   0x1971             ADDS     R1,R6,R5
+   \   0000002C   0xF04F 0x5000      MOV      R0,#+536870912
+   \   00000030   0xE001             B.N      ??normal_mem_write_1
+     89              }
+     90              else
+     91          #endif // #if defined (__CORE_CM4_H_GENERIC)
+     92              {
+     93                  memcpy((void *)address, (void *)buffer, length);
+   \                     ??normal_mem_write_0: (+1)
+   \   00000032   0x4622             MOV      R2,R4
+   \   00000034   0x4629             MOV      R1,R5
+   \                     ??normal_mem_write_1: (+1)
+   \   00000036   0x.... 0x....      BL       __aeabi_memcpy
+     94              }
+     95              return kStatus_Success;
+   \   0000003A   0x2000             MOVS     R0,#+0
+   \   0000003C   0xBD70             POP      {R4-R6,PC}       ;; return
+     96          }
+     97          
+
+   \                                 In section .text, align 2, keep-with-next
+     98          status_t normal_mem_fill(uint32_t address, uint32_t length, uint32_t pattern)
+     99          {
+   \                     normal_mem_fill: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4614             MOV      R4,R2
+    100              status_t status = kStatus_Success;
+    101              // Allow multiword stores in the pattern fill.
+    102          #if !BL_MIN_PROFILE || BL_FEATURE_FILL_MEMORY
+    103              status = pattern_fill(address, pattern, length, true);
+    104          #endif // !BL_MIN_PROFILE
+    105              return status;
+   \   00000004   0x460A             MOV      R2,R1
+   \   00000006   0x4621             MOV      R1,R4
+   \   00000008   0xE8BD 0x4010      POP      {R4,LR}
+   \   0000000C   0x2301             MOVS     R3,#+1
+   \   0000000E   0x.... 0x....      B.W      pattern_fill
+    106          }
+    107          
+    108          ////////////////////////////////////////////////////////////////////////////////
+    109          // EOF
+    110          ////////////////////////////////////////////////////////////////////////////////
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   normal_mem_fill
+         0   -> pattern_fill
+       0   normal_mem_init
+         0   -> sram_init
+       8   normal_mem_read
+         8   -> __aeabi_memcpy
+      16   normal_mem_write
+        16   -> __aeabi_memcpy
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      24  g_normalMemoryInterface
+      18  normal_mem_fill
+       4  normal_mem_init
+      18  normal_mem_read
+      62  normal_mem_write
+
+ 
+  24 bytes in section .rodata
+ 102 bytes in section .text
+ 
+ 102 bytes of CODE  memory
+  24 bytes of CONST memory
+
+Errors: none
+Warnings: none

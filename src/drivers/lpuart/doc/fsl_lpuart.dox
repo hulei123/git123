@@ -1,0 +1,15 @@
+/*!
+
+@defgroup lpuart_driver LPUART
+@ingroup drivers
+@brief LPUART driver
+
+@defgroup lpuart_types LPUART Types
+@ingroup lpuart_driver
+@brief LPUART Types
+
+@defgroup lpuart_hal LPUART HAL Driver
+@ingroup lpuart_driver
+@brief LPUART peripheral HAL
+
+*/

@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$group__host__peripherals.html#classblfwk_1_1_peripheral" title="Represents a peripheral. " alt="" coords="5,31,123,57"/>
+<area shape="rect" id="node2" href="$group__uart__peripheral.html#classblfwk_1_1_uart_peripheral" title="Peripheral that talks to the target device over COM port hardware. " alt="" coords="179,5,321,32"/>
+<area shape="rect" id="node4" href="$group__host__usb__hid__peripheral.html#classblfwk_1_1_usb_hid_peripheral" title="Represents a USB HID peripheral. " alt="" coords="171,56,329,83"/>
+<area shape="rect" id="node3" href="$group__bus__pal__peripheral.html#classblfwk_1_1_bus_pal_uart_peripheral" title="Peripheral that talks to the target device over BusPal UART hardware. " alt="" coords="377,5,560,32"/>
+</map>

@@ -1,0 +1,7 @@
+/*!
+
+@defgroup usb_hal USB HAL
+@ingroup drivers
+@brief USB HAL
+
+*/

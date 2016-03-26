@@ -1,0 +1,294 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:38
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\memory\src\sram_init_cm4.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\memory\src\sram_init_cm4.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\sram_init_cm4.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\sram_init_cm4.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\memory\src\sram_init_cm4.c
+      1          /*
+      2           * Copyright (c) 2014, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "bootloader_common.h"
+     32          #include "bootloader/context.h"
+     33          #include "memory/memory.h"
+     34          #if !defined(BOOTLOADER_HOST)
+     35          #include "device/fsl_device_registers.h"
+     36          #endif // BOOTLOADER_HOST
+     37          #include "sram_init.h"
+     38          #include "utilities/fsl_assert.h"
+     39          
+     40          
+     41          ////////////////////////////////////////////////////////////////////////////////
+     42          // Code
+     43          ////////////////////////////////////////////////////////////////////////////////
+     44          //! @brief Determine if a number is power of 2.
+     45          static inline bool is_power_of_2(uint32_t number)
+     46          {
+     47              return !(number && (number & (number -1)));
+     48          }
+     49          
+     50          
+     51          //! @brief Initialize address ranges of SRAM for chips belongs to cm4 family
+
+   \                                 In section .text, align 4, keep-with-next
+     52          status_t sram_init(void)
+     53          {
+     54          #if defined (__CORE_CM4_H_GENERIC)
+     55          
+     56              uint32_t ram_size = 0;
+     57          #if defined(SIM_RD_SOPT1_RAMSIZE)
+     58              switch(SIM_RD_SOPT1_RAMSIZE(SIM))
+   \                     sram_init: (+1)
+   \   00000000   0x481D             LDR.N    R0,??sram_init_1  ;; 0x40047000
+   \   00000002   0x6800             LDR      R0,[R0, #+0]
+   \   00000004   0x0B00             LSRS     R0,R0,#+12
+   \   00000006   0xF000 0x000F      AND      R0,R0,#0xF
+   \   0000000A   0x1EC0             SUBS     R0,R0,#+3
+   \   0000000C   0x2808             CMP      R0,#+8
+   \   0000000E   0xD830             BHI.N    ??sram_init_2
+   \   00000010   0xE8DF 0xF000      TBB      [PC, R0]
+   \                     ??sram_init_0:
+   \   00000014   0x05 0x08          DC8      0x5,0x8,0xB,0xE
+   \              0x0B 0x0E    
+   \   00000018   0x11 0x14          DC8      0x11,0x14,0x17,0x2F
+   \              0x17 0x2F    
+   \   0000001C   0x1A 0x00          DC8      0x1A,0x0
+     59          #elif defined(SIM_RD_SDID_RAMSIZE)
+     60              switch(SIM_RD_SDID_RAMSIZE(SIM))
+     61          #else
+     62              #error "No valid RAMSIZE defined!"
+     63          #endif
+     64              {
+     65                  case kRamSize16kIndex:
+     66                      ram_size = 16 * 1024UL;
+   \                     ??sram_init_3: (+1)
+   \   0000001E   0xF44F 0x4080      MOV      R0,#+16384
+     67                      break;
+   \   00000022   0xE013             B.N      ??sram_init_4
+     68                  case kRamSize24kIndex:
+     69                      ram_size = 24 * 1024UL;
+   \                     ??sram_init_5: (+1)
+   \   00000024   0xF44F 0x40C0      MOV      R0,#+24576
+     70                      break;
+   \   00000028   0xE010             B.N      ??sram_init_4
+     71                  case kRamSize32kIndex:
+     72                      ram_size = 32 * 1024UL;
+   \                     ??sram_init_6: (+1)
+   \   0000002A   0xF44F 0x4000      MOV      R0,#+32768
+     73                      break;
+   \   0000002E   0xE00D             B.N      ??sram_init_4
+     74                  case kRamSize48kIndex:
+     75                      ram_size = 48 * 1024UL;
+   \                     ??sram_init_7: (+1)
+   \   00000030   0xF44F 0x4040      MOV      R0,#+49152
+     76                      break;
+   \   00000034   0xE00A             B.N      ??sram_init_4
+     77                  case kRamSize64kIndex:
+     78                      ram_size = 64 * 1024UL;
+   \                     ??sram_init_8: (+1)
+   \   00000036   0xF44F 0x3080      MOV      R0,#+65536
+     79                      break;
+   \   0000003A   0xE007             B.N      ??sram_init_4
+     80                  case kRamSize96kIndex:
+     81                      ram_size = 96 * 1024UL;
+   \                     ??sram_init_9: (+1)
+   \   0000003C   0xF44F 0x30C0      MOV      R0,#+98304
+     82                      break;
+   \   00000040   0xE004             B.N      ??sram_init_4
+     83                  case kRamSize128kIndex:
+     84                      ram_size = 128 * 1024UL;
+   \                     ??sram_init_10: (+1)
+   \   00000042   0xF44F 0x3000      MOV      R0,#+131072
+     85                      break;
+   \   00000046   0xE001             B.N      ??sram_init_4
+     86                  case kRamSize256kIndex:
+     87                      ram_size = 256 * 1024UL;
+   \                     ??sram_init_11: (+1)
+   \   00000048   0xF44F 0x2080      MOV      R0,#+262144
+     88                      break;
+   \                     ??sram_init_4: (+1)
+   \   0000004C   0x2101             MOVS     R1,#+1
+     89                  default:
+     90                      ram_size = 0;
+     91                      break;
+     92              }
+     93          
+     94              assert(ram_size > 0);
+     95          
+     96              uint32_t sram_lower_part = kSram_LowerPart;
+     97              uint32_t sram_upper_part = kSram_UpperPart;
+     98          
+     99              if(ram_size)
+    100              {
+    101                  // For target in which RAM size is not power of 2, for example, 24KB, 48KB, 96KB, 192KB, etc
+    102                  // SRAM_LOWER is 1 / 3 of Total SRAM.
+    103                  if (!is_power_of_2(ram_size))
+   \   0000004E   0x1E42             SUBS     R2,R0,#+1
+   \   00000050   0x4210             TST      R0,R2
+    104                  {
+    105                      sram_lower_part = 1;
+    106                      sram_upper_part = 2;
+    107                  }
+    108          
+    109                  // Update  address range of SRAM
+    110                  memory_map_entry_t* map = (memory_map_entry_t *)&g_bootloaderContext.memoryMap[kIndexSRAM];
+   \   00000052   0x4A0A             LDR.N    R2,??sram_init_1+0x4
+   \   00000054   0xBF18             IT       NE 
+   \   00000056   0x2102             MOVNE    R1,#+2
+   \   00000058   0x6852             LDR      R2,[R2, #+4]
+    111          
+    112                  uint32_t tmp = ram_size / (sram_lower_part + sram_upper_part);
+   \   0000005A   0x1C4B             ADDS     R3,R1,#+1
+   \   0000005C   0xFBB0 0xF0F3      UDIV     R0,R0,R3
+    113          
+    114                  map->startAddress = kSRAMSeparatrix - tmp * sram_lower_part;        // start of SRAM
+   \   00000060   0xF1C0 0x5300      RSB      R3,R0,#+536870912
+   \   00000064   0xF842 0x3F0C      STR      R3,[R2, #+12]!
+    115                  map->endAddress = kSRAMSeparatrix + tmp * sram_upper_part - 1;       // end of SRAM
+   \   00000068   0xF06F 0x4360      MVN      R3,#-536870912
+   \   0000006C   0xFB01 0x3000      MLA      R0,R1,R0,R3
+   \   00000070   0x6050             STR      R0,[R2, #+4]
+    116              }
+    117          
+    118          #else
+    119              #error "This function only applies to cm4 family"
+    120          #endif // __CORE_CM4_H_GENERIC
+    121          
+    122              return kStatus_Success;
+   \                     ??sram_init_2: (+1)
+   \   00000072   0x2000             MOVS     R0,#+0
+   \   00000074   0x4770             BX       LR               ;; return
+   \   00000076   0xBF00             Nop      
+   \                     ??sram_init_1:
+   \   00000078   0x40047000         DC32     0x40047000
+   \   0000007C   0x........         DC32     g_bootloaderContext
+    123          }
+    124          
+    125          
+    126          
+    127          
+    128          ////////////////////////////////////////////////////////////////////////////////
+    129          // EOF
+    130          ////////////////////////////////////////////////////////////////////////////////
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   sram_init
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+     128  sram_init
+
+ 
+ 128 bytes in section .text
+ 
+ 128 bytes of CODE memory
+
+Errors: none
+Warnings: none

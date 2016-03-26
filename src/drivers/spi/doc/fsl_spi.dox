@@ -1,0 +1,27 @@
+/*!
+
+@defgroup spi SPI
+@ingroup drivers
+@brief SPI driver
+
+
+@defgroup spi_hal SPI HAL
+@ingroup spi
+@brief SPI peripheral HAL
+
+
+@defgroup spi_master_driver SPI Master Driver
+@ingroup spi
+@brief SPI master mode peripheral driver
+
+
+@defgroup spi_slave_driver SPI Slave Driver
+@ingroup spi
+@brief SPI slave mode peripheral driver
+
+
+@defgroup spi_types Shared SPI Types
+@ingroup spi
+@brief Shared types for SPI drivers
+
+*/

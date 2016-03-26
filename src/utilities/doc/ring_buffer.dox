@@ -1,0 +1,7 @@
+/*!
+
+@defgroup ring_buffer Ring Buffer
+@ingroup utilities
+@brief Ring buffer manager.
+
+ */

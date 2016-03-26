@@ -1,0 +1,460 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:28
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\scuart_peripheral_interface.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\scuart_peripheral_interface.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\scuart_peripheral_interface.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\scuart_peripheral_interface.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\scuart_peripheral_interface.c
+      1          /*
+      2           * Copyright (c) 2013, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "bootloader/context.h"
+     32          #include "bootloader_common.h"
+     33          #include "autobaud/autobaud.h"
+     34          #include "packet/serial_packet.h"
+     35          #include "device/fsl_device_registers.h"
+     36          #include "uart/scuart.h"
+     37          #include "utilities/fsl_assert.h"
+     38          
+     39          #if BL_CONFIG_SCUART
+     40          
+     41          //! @addtogroup scuart_peripheral
+     42          //! @{
+     43          
+     44          ////////////////////////////////////////////////////////////////////////////////
+     45          // Definitions
+     46          ////////////////////////////////////////////////////////////////////////////////
+     47          
+     48          ////////////////////////////////////////////////////////////////////////////////
+     49          // Prototypes
+     50          ////////////////////////////////////////////////////////////////////////////////
+     51          
+     52          static UART_Type * get_uart_instance(uint32_t instance);
+     53          static bool scuart_poll_for_activity(const peripheral_descriptor_t * self);
+     54          static status_t scuart_full_init(const peripheral_descriptor_t * self, serial_byte_receive_func_t function);
+     55          static void scuart_full_shutdown(const peripheral_descriptor_t * self);
+     56          
+     57          static status_t scuart_write(const peripheral_descriptor_t * self, const uint8_t * buffer, uint32_t byteCount);
+     58          
+     59          ////////////////////////////////////////////////////////////////////////////////
+     60          // Variables
+     61          ////////////////////////////////////////////////////////////////////////////////
+     62          
+
+   \                                 In section .rodata, align 4, keep-with-next
+     63          const peripheral_control_interface_t g_scuartControlInterface = {
+   \                     g_scuartControlInterface:
+   \   00000000   0x........         DC32 scuart_poll_for_activity, scuart_full_init, scuart_full_shutdown
+   \              0x........   
+   \              0x........   
+   \   0000000C   0x00000000         DC32 0H
+     64              .pollForActivity = scuart_poll_for_activity,
+     65              .init = scuart_full_init,
+     66              .shutdown = scuart_full_shutdown,
+     67              .pump = 0
+     68          };
+     69          
+
+   \                                 In section .rodata, align 4, keep-with-next
+     70          const peripheral_byte_inteface_t g_scuartByteInterface = {
+   \                     g_scuartByteInterface:
+   \   00000000   0x00000000         DC32 0H, scuart_write
+   \              0x........   
+     71              .init = NULL,
+     72              .write = scuart_write
+     73          };
+     74          
+
+   \                                 In section .bss, align 4
+     75          static serial_byte_receive_func_t s_scuart_byte_receive_callback;
+   \                     s_scuart_byte_receive_callback:
+   \   00000000                      DS8 4
+     76          
+     77          ////////////////////////////////////////////////////////////////////////////////
+     78          // Code
+     79          ////////////////////////////////////////////////////////////////////////////////
+     80          static UART_Type * get_uart_instance(uint32_t instance)
+     81          {
+     82              switch(instance)
+     83              {
+     84                  default:
+     85                  case 0:
+     86                      return UART0;
+     87                  case 1:
+     88                      return UART1;
+     89          #if (UART_INSTANCE_COUNT > 2U)            
+     90                  case 2:
+     91                      return UART2;
+     92          #if (UART_INSTANCE_COUNT > 3U)  
+     93                  case 3:
+     94                      return UART3;            
+     95          #if (UART_INSTANCE_COUNT > 4U)            
+     96                  case 4:
+     97                      return UART4;    
+     98          #if (UART_INSTANCE_COUNT > 5U)            
+     99                  case 5:
+    100                      return UART5;     
+    101          #endif    // (UART_INSTANCE_COUNT > 5U) 
+    102          #endif    // (UART_INSTANCE_COUNT > 4U)  
+    103          #endif    // (UART_INSTANCE_COUNT > 3U)             
+    104          #endif    // (UART_INSTANCE_COUNT > 2U)        
+    105              }
+    106          }
+    107          
+
+   \                                 In section .text, align 2, keep-with-next
+    108          bool scuart_poll_for_activity(const peripheral_descriptor_t * self)
+    109          {
+   \                     scuart_poll_for_activity: (+1)
+   \   00000000   0xB538             PUSH     {R3-R5,LR}
+   \   00000002   0x4604             MOV      R4,R0
+    110              unsigned int baud;
+    111              status_t autoBaudCompleted = autobaud_get_rate(self->instance, &baud);
+    112          
+    113              if (autoBaudCompleted == kStatus_Success)
+   \   00000004   0x4669             MOV      R1,SP
+   \   00000006   0x6860             LDR      R0,[R4, #+4]
+   \   00000008   0x.... 0x....      BL       autobaud_get_rate
+   \   0000000C   0xBB08             CBNZ.N   R0,??scuart_poll_for_activity_0
+    114              {
+    115                  if (scuart_init(get_uart_instance(self->instance), get_uart_clock(self->instance), baud, s_scuart_byte_receive_callback) == kStatus_Success)
+   \   0000000E   0x6860             LDR      R0,[R4, #+4]
+   \   00000010   0x.... 0x....      BL       get_uart_clock
+   \   00000014   0x4601             MOV      R1,R0
+   \   00000016   0x6860             LDR      R0,[R4, #+4]
+   \   00000018   0x2801             CMP      R0,#+1
+   \   0000001A   0xD004             BEQ.N    ??scuart_poll_for_activity_1
+   \   0000001C   0x2802             CMP      R0,#+2
+   \   0000001E   0xBF0C             ITE      EQ 
+   \   00000020   0x....             LDREQ.N  R0,??DataTable5  ;; 0x4006c000
+   \   00000022   0x....             LDRNE.N  R0,??DataTable5_1  ;; 0x4006a000
+   \   00000024   0xE000             B.N      ??scuart_poll_for_activity_2
+   \                     ??scuart_poll_for_activity_1: (+1)
+   \   00000026   0x....             LDR.N    R0,??DataTable5_2  ;; 0x4006b000
+   \                     ??scuart_poll_for_activity_2: (+1)
+   \   00000028   0x....             LDR.N    R5,??DataTable5_3
+   \   0000002A   0x9A00             LDR      R2,[SP, #+0]
+   \   0000002C   0x682B             LDR      R3,[R5, #+0]
+   \   0000002E   0x.... 0x....      BL       scuart_init
+   \   00000032   0xB958             CBNZ.N   R0,??scuart_poll_for_activity_3
+    116                  {
+    117                      // Configure selected pin as uart peripheral interface
+    118                      self->pinmuxConfig(self->instance, kPinmuxType_Peripheral);
+   \   00000034   0x6860             LDR      R0,[R4, #+4]
+   \   00000036   0x68A2             LDR      R2,[R4, #+8]
+   \   00000038   0x2102             MOVS     R1,#+2
+   \   0000003A   0x4790             BLX      R2
+    119          
+    120                      // This was the byte pattern identified in autobaud detection, inform the command layer
+    121                      s_scuart_byte_receive_callback(kFramingPacketStartByte);
+   \   0000003C   0x6829             LDR      R1,[R5, #+0]
+   \   0000003E   0x205A             MOVS     R0,#+90
+   \   00000040   0x4788             BLX      R1
+    122                      s_scuart_byte_receive_callback(kFramingPacketType_Ping);
+   \   00000042   0x6829             LDR      R1,[R5, #+0]
+   \   00000044   0x20A6             MOVS     R0,#+166
+   \   00000046   0x4788             BLX      R1
+    123          
+    124                      return true;
+   \   00000048   0x2001             MOVS     R0,#+1
+   \   0000004A   0xBD32             POP      {R1,R4,R5,PC}
+    125                  }
+    126                  else
+    127                  {
+    128                      // If the uart init did not complete that means that the detected baud rate was invalid
+    129                      // restart autobaud and resume detection
+    130                      autobaud_init(self->instance);
+   \                     ??scuart_poll_for_activity_3: (+1)
+   \   0000004C   0x6860             LDR      R0,[R4, #+4]
+   \   0000004E   0x.... 0x....      BL       autobaud_init
+    131          
+    132                      return false;
+    133                  }
+    134              }
+    135          
+    136              return false;
+   \                     ??scuart_poll_for_activity_0: (+1)
+   \   00000052   0x2000             MOVS     R0,#+0
+   \   00000054   0xBD32             POP      {R1,R4,R5,PC}    ;; return
+    137          }
+    138          
+
+   \                                 In section .text, align 2, keep-with-next
+    139          status_t scuart_full_init(const peripheral_descriptor_t * self, serial_byte_receive_func_t function)
+    140          {
+   \                     scuart_full_init: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4604             MOV      R4,R0
+    141              s_scuart_byte_receive_callback = function;
+   \   00000004   0x....             LDR.N    R0,??DataTable5_3
+   \   00000006   0x6001             STR      R1,[R0, #+0]
+    142          
+    143              // Since we are using autobaud once the detection is completed
+    144              // it will call the UART initialization and remux the pins when it completes
+    145              self->pinmuxConfig(self->instance, kPinmuxType_GPIO);
+   \   00000008   0x6860             LDR      R0,[R4, #+4]
+   \   0000000A   0x68A2             LDR      R2,[R4, #+8]
+   \   0000000C   0x2101             MOVS     R1,#+1
+   \   0000000E   0x4790             BLX      R2
+    146          
+    147              // Init autobaud detector.
+    148              autobaud_init(self->instance);
+   \   00000010   0x6860             LDR      R0,[R4, #+4]
+   \   00000012   0x.... 0x....      BL       autobaud_init
+    149          
+    150              return kStatus_Success;
+   \   00000016   0x2000             MOVS     R0,#+0
+   \   00000018   0xBD10             POP      {R4,PC}          ;; return
+    151          }
+    152          
+
+   \                                 In section .text, align 2, keep-with-next
+    153          void scuart_full_shutdown(const peripheral_descriptor_t * self)
+    154          {
+   \                     scuart_full_shutdown: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4604             MOV      R4,R0
+    155              scuart_shutdown(get_uart_instance(self->instance));
+   \   00000004   0x6860             LDR      R0,[R4, #+4]
+   \   00000006   0x2801             CMP      R0,#+1
+   \   00000008   0xD004             BEQ.N    ??scuart_full_shutdown_0
+   \   0000000A   0x2802             CMP      R0,#+2
+   \   0000000C   0xBF0C             ITE      EQ 
+   \   0000000E   0x....             LDREQ.N  R0,??DataTable5  ;; 0x4006c000
+   \   00000010   0x....             LDRNE.N  R0,??DataTable5_1  ;; 0x4006a000
+   \   00000012   0xE000             B.N      ??scuart_full_shutdown_1
+   \                     ??scuart_full_shutdown_0: (+1)
+   \   00000014   0x....             LDR.N    R0,??DataTable5_2  ;; 0x4006b000
+   \                     ??scuart_full_shutdown_1: (+1)
+   \   00000016   0x.... 0x....      BL       scuart_shutdown
+    156              //! Note: if not deinit autobaud(IRQ method), user app may encounters hardfault
+    157              //! if it doesn't provide related pin interrupt service routine.
+    158          #if BL_UART_AUTOBAUD_IRQ
+    159              // De-init autobaud detector.
+    160              autobaud_deinit(self->instance);
+   \   0000001A   0x6860             LDR      R0,[R4, #+4]
+   \   0000001C   0x.... 0x....      BL       autobaud_deinit
+    161          #endif
+    162              // Restore selected pin to default state to reduce IDD.
+    163              self->pinmuxConfig(self->instance, kPinmuxType_Default);
+   \   00000020   0x6860             LDR      R0,[R4, #+4]
+   \   00000022   0x68A2             LDR      R2,[R4, #+8]
+   \   00000024   0xE8BD 0x4010      POP      {R4,LR}
+   \   00000028   0x2100             MOVS     R1,#+0
+   \   0000002A   0x4710             BX       R2
+    164          }
+    165          
+
+   \                                 In section .text, align 2, keep-with-next
+    166          status_t scuart_write(const peripheral_descriptor_t * self, const uint8_t * buffer, uint32_t byteCount)
+    167          {
+   \                     scuart_write: (+1)
+   \   00000000   0xB570             PUSH     {R4-R6,LR}
+   \   00000002   0x4604             MOV      R4,R0
+   \   00000004   0x460D             MOV      R5,R1
+   \   00000006   0x4616             MOV      R6,R2
+    168              uint32_t remaining = byteCount;
+   \   00000008   0xE002             B.N      ??scuart_write_0
+    169              while (remaining--)
+    170              {
+    171                  scuart_putchar(get_uart_instance(self->instance), *buffer++);
+   \                     ??scuart_write_1: (+1)
+   \   0000000A   0x7809             LDRB     R1,[R1, #+0]
+   \   0000000C   0x.... 0x....      BL       scuart_putchar
+   \                     ??scuart_write_0: (+1)
+   \   00000010   0x4630             MOV      R0,R6
+   \   00000012   0x1E46             SUBS     R6,R0,#+1
+   \   00000014   0xB158             CBZ.N    R0,??scuart_write_2
+   \   00000016   0x4629             MOV      R1,R5
+   \   00000018   0x6860             LDR      R0,[R4, #+4]
+   \   0000001A   0x1C4D             ADDS     R5,R1,#+1
+   \   0000001C   0x2801             CMP      R0,#+1
+   \   0000001E   0xD004             BEQ.N    ??scuart_write_3
+   \   00000020   0x2802             CMP      R0,#+2
+   \   00000022   0xBF0C             ITE      EQ 
+   \   00000024   0x....             LDREQ.N  R0,??DataTable5  ;; 0x4006c000
+   \   00000026   0x....             LDRNE.N  R0,??DataTable5_1  ;; 0x4006a000
+   \   00000028   0xE7EF             B.N      ??scuart_write_1
+   \                     ??scuart_write_3: (+1)
+   \   0000002A   0x....             LDR.N    R0,??DataTable5_2  ;; 0x4006b000
+   \   0000002C   0xE7ED             B.N      ??scuart_write_1
+    172              }
+    173          
+    174              return kStatus_Success;
+   \                     ??scuart_write_2: (+1)
+   \   0000002E   0xBD70             POP      {R4-R6,PC}       ;; return
+    175          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5:
+   \   00000000   0x4006C000         DC32     0x4006c000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_1:
+   \   00000000   0x4006A000         DC32     0x4006a000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_2:
+   \   00000000   0x4006B000         DC32     0x4006b000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable5_3:
+   \   00000000   0x........         DC32     s_scuart_byte_receive_callback
+    176          
+    177          //! @}
+    178          
+    179          #endif // BL_CONFIG_SCUART
+    180          
+    181          ////////////////////////////////////////////////////////////////////////////////
+    182          // EOF
+    183          ////////////////////////////////////////////////////////////////////////////////
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       8   scuart_full_init
+         8   -- Indirect call
+         8   -> autobaud_init
+       8   scuart_full_shutdown
+         0   -- Indirect call
+         8   -> autobaud_deinit
+         8   -> scuart_shutdown
+      16   scuart_poll_for_activity
+        16   -- Indirect call
+        16   -> autobaud_get_rate
+        16   -> autobaud_init
+        16   -> get_uart_clock
+        16   -> scuart_init
+      16   scuart_write
+        16   -> scuart_putchar
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable5
+       4  ??DataTable5_1
+       4  ??DataTable5_2
+       4  ??DataTable5_3
+       8  g_scuartByteInterface
+      16  g_scuartControlInterface
+       4  s_scuart_byte_receive_callback
+      26  scuart_full_init
+      44  scuart_full_shutdown
+      86  scuart_poll_for_activity
+      48  scuart_write
+
+ 
+   4 bytes in section .bss
+  24 bytes in section .rodata
+ 220 bytes in section .text
+ 
+ 220 bytes of CODE  memory
+  24 bytes of CONST memory
+   4 bytes of DATA  memory
+
+Errors: none
+Warnings: none

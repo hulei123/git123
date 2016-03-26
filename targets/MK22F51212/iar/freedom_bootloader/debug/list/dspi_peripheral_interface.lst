@@ -1,0 +1,517 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:20
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\dspi_peripheral_interface.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\dspi_peripheral_interface.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\dspi_peripheral_interface.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\dspi_peripheral_interface.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\bootloader\src\dspi_peripheral_interface.c
+      1          /*
+      2           * Copyright (c) 2013, Freescale Semiconductor, Inc.
+      3           * All rights reserved.
+      4           *
+      5           * Redistribution and use in source and binary forms, with or without modification,
+      6           * are permitted provided that the following conditions are met:
+      7           *
+      8           * o Redistributions of source code must retain the above copyright notice, this list
+      9           *   of conditions and the following disclaimer.
+     10           *
+     11           * o Redistributions in binary form must reproduce the above copyright notice, this
+     12           *   list of conditions and the following disclaimer in the documentation and/or
+     13           *   other materials provided with the distribution.
+     14           *
+     15           * o Neither the name of Freescale Semiconductor, Inc. nor the names of its
+     16           *   contributors may be used to endorse or promote products derived from this
+     17           *   software without specific prior written permission.
+     18           *
+     19           * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+     20           * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+     21           * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+     22           * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+     23           * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     24           * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+     25           * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+     26           * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+     27           * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+     28           * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+     29           */
+     30          
+     31          #include "utilities/fsl_assert.h"
+     32          #include "bootloader/context.h"
+     33          #include "bootloader_common.h"
+     34          #include "packet/command_packet.h"
+     35          #include "dspi/fsl_dspi_slave_driver.h"
+     36          #include "device/fsl_device_registers.h"
+     37          #include "packet/serial_packet.h"
+     38          
+     39          #if BL_CONFIG_DSPI
+     40          
+     41          //! @addtogroup dspi_peripheral
+     42          //! @{
+     43          
+     44          ////////////////////////////////////////////////////////////////////////////////
+     45          // Definitions
+     46          ////////////////////////////////////////////////////////////////////////////////
+     47          
+     48          //! @brief Synchronization state between DSPI ISR and read/write functions.
+     49          typedef struct _dspi_transfer_info {
+     50              const uint8_t * writeData;            //!< The applications data to write
+     51              volatile uint32_t bytesToTransfer;    //!< The total number of bytes to be transmitted
+     52          } dspi_transfer_info_t;
+     53          
+     54          ////////////////////////////////////////////////////////////////////////////////
+     55          // Prototypes
+     56          ////////////////////////////////////////////////////////////////////////////////
+     57          
+     58          //! @brief DSPI slave poll for activity function
+     59          static bool dspi_poll_for_activity(const peripheral_descriptor_t * self);
+     60          //! @brief DSPI slave init function
+     61          static status_t dspi_full_init(const peripheral_descriptor_t * self, serial_byte_receive_func_t function);
+     62          //! @brief DSPI slave shutdown function
+     63          static void dspi_full_shutdown(const peripheral_descriptor_t * self);
+     64          //! @brief DSPI slave sending data function
+     65          static void dspi_data_source(uint8_t * source_byte, uint32_t instance);
+     66          //! @brief DSPI slave receiving data function
+     67          static void dspi_data_sink(uint8_t sink_byte, uint32_t instance);
+     68          //! @brief DSPI slave receiving first byte data function
+     69          static void dspi_initial_data_sink(uint8_t sink_byte, uint32_t instance);
+     70          //! @brief DSPI slave writing data function
+     71          static status_t dspi_write(const peripheral_descriptor_t * self, const uint8_t * buffer, uint32_t byteCount);
+     72          
+     73          ////////////////////////////////////////////////////////////////////////////////
+     74          // Variables
+     75          ////////////////////////////////////////////////////////////////////////////////
+     76          
+     77          /*!
+     78           * @brief DSPI slave control interface information
+     79           */
+
+   \                                 In section .rodata, align 4, keep-with-next
+     80          const peripheral_control_interface_t g_dspiControlInterface = {
+   \                     g_dspiControlInterface:
+   \   00000000   0x........         DC32 dspi_poll_for_activity, dspi_full_init, dspi_full_shutdown, 0H
+   \              0x........   
+   \              0x........   
+   \              0x00000000   
+     81              .pollForActivity = dspi_poll_for_activity,
+     82              .init = dspi_full_init,
+     83              .shutdown = dspi_full_shutdown,
+     84              .pump = 0
+     85          };
+     86          
+     87          /*!
+     88           * @brief DSPI slave byte interface information
+     89           */
+
+   \                                 In section .rodata, align 4, keep-with-next
+     90          const peripheral_byte_inteface_t g_dspiByteInterface = {
+   \                     g_dspiByteInterface:
+   \   00000000   0x00000000         DC32 0H, dspi_write
+   \              0x........   
+     91              .init = NULL,
+     92              .write = dspi_write
+     93          };
+     94          
+     95          //! @brief Global state for the DSPI slave peripheral interface.
+
+   \                                 In section .bss, align 4
+     96          static dspi_transfer_info_t s_dspiInfo = {
+   \                     s_dspiInfo:
+   \   00000000                      DS8 8
+     97              .writeData = 0,
+     98              .bytesToTransfer = 0
+     99          };
+    100          
+    101          //! @brief Global state for the DSPI slave peripheral interface.
+
+   \                                 In section .bss, align 4
+    102          static dspi_slave_state_t s_dspiState[SPI_INSTANCE_COUNT];
+    103          
+    104          //! @brief Flag for DSPI detecting device activity
+    105          static bool s_dspiActivity[SPI_INSTANCE_COUNT] = {false};
+   \                     s_dspiActivity:
+   \   00000000                      DS8 2
+   \   00000002                      DS8 2
+   \   00000004                      DS8 40
+   \   0000002C                      DS8 4
+    106          
+    107          /*!
+    108           * @brief DSPI slave receiving data call back function
+    109           */
+    110          static serial_byte_receive_func_t s_dspi_app_data_sink_callback;
+    111          
+    112          ////////////////////////////////////////////////////////////////////////////////
+    113          // Code
+    114          ////////////////////////////////////////////////////////////////////////////////
+    115          
+    116          /*FUNCTION**********************************************************************
+    117           *
+    118           * Function Name : dspi_poll_for_activity
+    119           * Description   : Polling for DSPI slave activities
+    120           *
+    121           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    122          bool dspi_poll_for_activity(const peripheral_descriptor_t * self)
+    123          {
+    124              return s_dspiActivity[self->instance];
+   \                     dspi_poll_for_activity: (+1)
+   \   00000000   0x6840             LDR      R0,[R0, #+4]
+   \   00000002   0x....             LDR.N    R1,??DataTable9
+   \   00000004   0x5C40             LDRB     R0,[R0, R1]
+   \   00000006   0x4770             BX       LR               ;; return
+    125          }
+    126          
+    127          /*FUNCTION**********************************************************************
+    128           *
+    129           * Function Name : dspi_data_source
+    130           * Description   : DSPI slave sending data function
+    131           *
+    132           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    133          void dspi_data_source(uint8_t * source_byte, uint32_t instance)
+    134          {
+    135              assert(source_byte);
+    136          
+    137              if (s_dspiInfo.bytesToTransfer)
+   \                     dspi_data_source: (+1)
+   \   00000000   0x....             LDR.N    R1,??DataTable9_1
+   \   00000002   0x684A             LDR      R2,[R1, #+4]
+   \   00000004   0xB142             CBZ.N    R2,??dspi_data_source_0
+    138              {
+    139                  *source_byte = *s_dspiInfo.writeData++;
+   \   00000006   0x680A             LDR      R2,[R1, #+0]
+   \   00000008   0x7813             LDRB     R3,[R2, #+0]
+   \   0000000A   0x7003             STRB     R3,[R0, #+0]
+   \   0000000C   0x1C50             ADDS     R0,R2,#+1
+   \   0000000E   0x6008             STR      R0,[R1, #+0]
+    140                  s_dspiInfo.bytesToTransfer--;
+   \   00000010   0x6848             LDR      R0,[R1, #+4]
+   \   00000012   0x1E40             SUBS     R0,R0,#+1
+   \   00000014   0x6048             STR      R0,[R1, #+4]
+   \   00000016   0x4770             BX       LR
+    141              }
+    142              else
+    143              {
+    144                  *source_byte = 0;
+   \                     ??dspi_data_source_0: (+1)
+   \   00000018   0x2100             MOVS     R1,#+0
+   \   0000001A   0x7001             STRB     R1,[R0, #+0]
+    145              }
+    146          }
+   \   0000001C   0x4770             BX       LR               ;; return
+    147          
+    148          /*FUNCTION**********************************************************************
+    149           *
+    150           * Function Name : dspi_initial_data_sink
+    151           * Description   : DSPI slave receiving first byte data function
+    152           *
+    153           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    154          void dspi_initial_data_sink(uint8_t sink_byte, uint32_t instance)
+    155          {
+   \                     dspi_initial_data_sink: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+    156              if (sink_byte == kFramingPacketStartByte)
+   \   00000002   0x285A             CMP      R0,#+90
+   \   00000004   0xD10C             BNE.N    ??dspi_initial_data_sink_0
+    157              {
+    158                  s_dspiActivity[instance] = true;
+   \   00000006   0x....             LDR.N    R2,??DataTable9
+   \   00000008   0x2301             MOVS     R3,#+1
+   \   0000000A   0x548B             STRB     R3,[R1, R2]
+    159                  s_dspiState[instance].callbacks.dataSink = dspi_data_sink;
+   \   0000000C   0x2414             MOVS     R4,#+20
+   \   0000000E   0xFB04 0x2101      MLA      R1,R4,R1,R2
+   \   00000012   0x.... 0x....      ADR.W    R3,dspi_data_sink
+   \   00000016   0x60CB             STR      R3,[R1, #+12]
+    160                  s_dspi_app_data_sink_callback(sink_byte);
+   \   00000018   0xE8BD 0x4010      POP      {R4,LR}
+   \   0000001C   0x6AD1             LDR      R1,[R2, #+44]
+   \   0000001E   0x4708             BX       R1
+    161              }
+    162          }
+   \                     ??dspi_initial_data_sink_0: (+1)
+   \   00000020   0xBD10             POP      {R4,PC}          ;; return
+    163          
+    164          /*FUNCTION**********************************************************************
+    165           *
+    166           * Function Name : dspi_data_sink
+    167           * Description   : DSPI slave receiving data function
+    168           *
+    169           *END**************************************************************************/
+
+   \                                 In section .text, align 4, keep-with-next
+    170          void dspi_data_sink(uint8_t sink_byte, uint32_t instance)
+    171          {
+    172               s_dspi_app_data_sink_callback(sink_byte);
+   \                     dspi_data_sink: (+1)
+   \   00000000   0x....             LDR.N    R1,??DataTable9
+   \   00000002   0x6AC9             LDR      R1,[R1, #+44]
+   \   00000004   0x4708             BX       R1
+    173          }
+    174          
+    175          /*FUNCTION**********************************************************************
+    176           *
+    177           * Function Name : dspi_full_init
+    178           * Description   : DSPI slave full init function
+    179           *
+    180           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    181          status_t dspi_full_init(const peripheral_descriptor_t * self, serial_byte_receive_func_t function)
+    182          {
+   \                     dspi_full_init: (+1)
+   \   00000000   0xB530             PUSH     {R4,R5,LR}
+    183              s_dspi_app_data_sink_callback = function;
+   \   00000002   0x....             LDR.N    R5,??DataTable9
+   \   00000004   0xB085             SUB      SP,SP,#+20
+   \   00000006   0x62E9             STR      R1,[R5, #+44]
+   \   00000008   0x4604             MOV      R4,R0
+    184          
+    185              dspi_slave_user_config_t config = {
+    186                      .callbacks = {
+    187                              .dataSource = dspi_data_source,
+    188                              .dataSink = dspi_initial_data_sink,
+    189                              0
+    190                          },
+    191                      .dataConfig = {
+    192                          .bitsPerFrame = 8,
+    193                          .clkPolarity = kDspiClockPolarity_ActiveLow,
+    194                          .clkPhase = kDspiClockPhase_SecondEdge,
+    195                          .direction = kDspiMsbFirst
+    196                      }
+    197              };
+   \   0000000A   0x4668             MOV      R0,SP
+   \   0000000C   0x.... 0x....      ADR.W    R1,?_0
+   \   00000010   0x2214             MOVS     R2,#+20
+   \   00000012   0x.... 0x....      BL       __aeabi_memcpy4
+    198              // Configure selected pin as spi peripheral interface
+    199              self->pinmuxConfig(self->instance, kPinmuxType_Peripheral);
+   \   00000016   0x6860             LDR      R0,[R4, #+4]
+   \   00000018   0x68A2             LDR      R2,[R4, #+8]
+   \   0000001A   0x2102             MOVS     R1,#+2
+   \   0000001C   0x4790             BLX      R2
+    200              dspi_slave_init(self->instance, &config, &s_dspiState[self->instance]);
+   \   0000001E   0x6860             LDR      R0,[R4, #+4]
+   \   00000020   0x2114             MOVS     R1,#+20
+   \   00000022   0xFB01 0x5100      MLA      R1,R1,R0,R5
+   \   00000026   0x1D0A             ADDS     R2,R1,#+4
+   \   00000028   0x4669             MOV      R1,SP
+   \   0000002A   0x.... 0x....      BL       dspi_slave_init
+    201          
+    202              return kStatus_Success;
+   \   0000002E   0x2000             MOVS     R0,#+0
+   \   00000030   0xB005             ADD      SP,SP,#+20
+   \   00000032   0xBD30             POP      {R4,R5,PC}       ;; return
+    203          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ?_0:
+   \   00000000   0x........         DC32 dspi_data_source, dspi_initial_data_sink, 0H, 8
+   \              0x........   
+   \              0x00000000   
+   \              0x00000008   
+   \   00000010   0x01 0x01          DC8 1, 1, 0, 0
+   \              0x00 0x00    
+    204          
+    205          /*FUNCTION**********************************************************************
+    206           *
+    207           * Function Name : dspi_full_shutdown
+    208           * Description   : DSPI slave full shutdown function
+    209           *
+    210           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    211          void dspi_full_shutdown(const peripheral_descriptor_t * self)
+    212          {
+   \                     dspi_full_shutdown: (+1)
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x4604             MOV      R4,R0
+    213              dspi_slave_shutdown(&s_dspiState[self->instance]);
+   \   00000004   0x....             LDR.N    R0,??DataTable9
+   \   00000006   0x6861             LDR      R1,[R4, #+4]
+   \   00000008   0x2214             MOVS     R2,#+20
+   \   0000000A   0xFB02 0x0001      MLA      R0,R2,R1,R0
+   \   0000000E   0x1D00             ADDS     R0,R0,#+4
+   \   00000010   0x.... 0x....      BL       dspi_slave_shutdown
+    214              // Restore selected pin to default state to reduce IDD.
+    215              self->pinmuxConfig(self->instance, kPinmuxType_Default);
+   \   00000014   0x6860             LDR      R0,[R4, #+4]
+   \   00000016   0x68A2             LDR      R2,[R4, #+8]
+   \   00000018   0xE8BD 0x4010      POP      {R4,LR}
+   \   0000001C   0x2100             MOVS     R1,#+0
+   \   0000001E   0x4710             BX       R2
+    216          }
+    217          
+    218          /*FUNCTION**********************************************************************
+    219           *
+    220           * Function Name : dspi_write
+    221           * Description   : DSPI slave writing data function
+    222           *
+    223           *END**************************************************************************/
+
+   \                                 In section .text, align 2, keep-with-next
+    224          status_t dspi_write(const peripheral_descriptor_t * self, const uint8_t * buffer, uint32_t byteCount)
+    225          {
+    226              s_dspiInfo.writeData = buffer;
+   \                     dspi_write: (+1)
+   \   00000000   0x....             LDR.N    R0,??DataTable9_1
+   \   00000002   0x6001             STR      R1,[R0, #+0]
+    227              s_dspiInfo.bytesToTransfer = byteCount;
+   \   00000004   0x6042             STR      R2,[R0, #+4]
+    228          
+    229              while (s_dspiInfo.bytesToTransfer);
+   \                     ??dspi_write_0: (+1)
+   \   00000006   0x6841             LDR      R1,[R0, #+4]
+   \   00000008   0x2900             CMP      R1,#+0
+   \   0000000A   0xD1FC             BNE.N    ??dspi_write_0
+    230          
+    231              return kStatus_Success;
+   \   0000000C   0x2000             MOVS     R0,#+0
+   \   0000000E   0x4770             BX       LR               ;; return
+    232          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9:
+   \   00000000   0x........         DC32     s_dspiActivity
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable9_1:
+   \   00000000   0x........         DC32     s_dspiInfo
+    233          
+    234          //! @}
+    235          
+    236          #endif // BL_CONFIG_DSPI
+    237          
+    238          ////////////////////////////////////////////////////////////////////////////////
+    239          // EOF
+    240          ////////////////////////////////////////////////////////////////////////////////
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+       0   dspi_data_sink
+         0   -- Indirect call
+       0   dspi_data_source
+      32   dspi_full_init
+        32   -- Indirect call
+        32   -> __aeabi_memcpy4
+        32   -> dspi_slave_init
+       8   dspi_full_shutdown
+         0   -- Indirect call
+         8   -> dspi_slave_shutdown
+       8   dspi_initial_data_sink
+         0   -- Indirect call
+       0   dspi_poll_for_activity
+       0   dspi_write
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable9
+       4  ??DataTable9_1
+      20  ?_0
+       6  dspi_data_sink
+      30  dspi_data_source
+      52  dspi_full_init
+      32  dspi_full_shutdown
+      34  dspi_initial_data_sink
+       8  dspi_poll_for_activity
+      16  dspi_write
+       8  g_dspiByteInterface
+      16  g_dspiControlInterface
+      48  s_dspiActivity
+          s_dspiState
+          s_dspi_app_data_sink_callback
+       8  s_dspiInfo
+
+ 
+  56 bytes in section .bss
+  24 bytes in section .rodata
+ 206 bytes in section .text
+ 
+ 206 bytes of CODE  memory
+  24 bytes of CONST memory
+  56 bytes of DATA  memory
+
+Errors: none
+Warnings: none

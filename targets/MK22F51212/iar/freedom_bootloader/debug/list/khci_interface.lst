@@ -1,0 +1,190 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:47:09
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\controller\khci_interface.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\controller\khci_interface.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\khci_interface.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\khci_interface.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\controller\khci_interface.c
+      1          /**HEADER********************************************************************
+      2          *
+      3          * Copyright (c) 2009, 2013 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          ***************************************************************************
+      7          *
+      8          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+      9          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     10          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     11          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     12          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     13          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     14          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     15          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     16          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     17          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     18          * THE POSSIBILITY OF SUCH DAMAGE.
+     19          *
+     20          **************************************************************************
+     21          *
+     22          * $FileName: khci_interface.c$
+     23          * $Version : 
+     24          * $Date    : 
+     25          *
+     26          * Comments:
+     27          *
+     28          *
+     29          *END************************************************************************/
+     30          #include "usb_device_config.h"
+     31          #if USBCFG_DEV_KHCI
+     32          #include "types.h"
+     33          #include "usb_types.h" //USB error definitions
+     34          #include "compiler.h"
+     35          #include "usb_desc.h"  //USB descriptor macros
+     36          #include "usb_misc.h"
+     37          #include "adapter_types.h"
+     38          #include "usb_device_stack_interface.h"
+     39          #include "khci_dev.h"
+     40          #include "usb_dev.h"
+     41          
+     42          
+
+   \                                 In section .rodata, align 4, keep-with-next
+     43          const usb_dev_interface_functions_struct_t _usb_khci_dev_function_table =
+   \                     _usb_khci_dev_function_table:
+   \   00000000   0x........         DC32 usb_dci_khci_preinit, usb_dci_khci_init, usb_dci_khci_postinit
+   \              0x........   
+   \              0x........   
+   \   0000000C   0x........         DC32 usb_dci_khci_send, usb_dci_khci_recv, usb_dci_khci_cancel
+   \              0x........   
+   \              0x........   
+   \   00000018   0x........         DC32 usb_dci_khci_init_endpoint, usb_dci_khci_deinit_endpoint
+   \              0x........   
+   \   00000020   0x........         DC32 usb_dci_khci_unstall_endpoint, usb_dci_khci_get_endpoint_status
+   \              0x........   
+   \   00000028   0x........         DC32 usb_dci_khci_set_endpoint_status, 0H, usb_dci_khci_set_addr
+   \              0x00000000   
+   \              0x........   
+   \   00000034   0x........         DC32 usb_dci_khci_shutdown, 0H, usb_dci_khci_stall_endpoint
+   \              0x00000000   
+   \              0x........   
+   \   00000040   0x........         DC32 usb_dci_khci_set_status, usb_dci_khci_get_status
+   \              0x........   
+   \   00000048   0x........         DC32 usb_dci_khci_get_xd, usb_dci_khci_reset
+   \              0x........   
+     44          {
+     45              usb_dci_khci_preinit,
+     46              usb_dci_khci_init,
+     47              usb_dci_khci_postinit,
+     48              usb_dci_khci_send,
+     49              usb_dci_khci_recv,
+     50          #if USBCFG_DEV_ADVANCED_CANCEL_ENABLE
+     51              usb_dci_khci_cancel,
+     52          #endif
+     53              usb_dci_khci_init_endpoint,
+     54              usb_dci_khci_deinit_endpoint,
+     55              usb_dci_khci_unstall_endpoint,
+     56              usb_dci_khci_get_endpoint_status,
+     57              usb_dci_khci_set_endpoint_status,
+     58              NULL,
+     59              usb_dci_khci_set_addr,
+     60              usb_dci_khci_shutdown,
+     61              NULL,
+     62          #if USBCFG_DEV_ADVANCED_SUSPEND_RESUME
+     63              usb_dci_khci_assert_resume,
+     64          #endif
+     65              usb_dci_khci_stall_endpoint,
+     66              usb_dci_khci_set_status,
+     67              usb_dci_khci_get_status,
+     68              usb_dci_khci_get_xd,
+     69              usb_dci_khci_reset,
+     70          };
+     71          #endif
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+      80  _usb_khci_dev_function_table
+
+ 
+ 80 bytes in section .rodata
+ 
+ 80 bytes of CONST memory
+
+Errors: none
+Warnings: none

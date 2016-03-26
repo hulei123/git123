@@ -1,0 +1,19 @@
+<map id="blfwk::Command" name="blfwk::Command">
+<area shape="rect" id="node2" href="$group__host__commands.html#classblfwk_1_1_call" title="Represents the bootloader Call command. " alt="" coords="229,5,310,32"/>
+<area shape="rect" id="node3" href="$group__host__commands.html#classblfwk_1_1_configure_quad_spi" title="Represents the bootloader Configure QuadSpi command. " alt="" coords="188,56,351,83"/>
+<area shape="rect" id="node4" href="$group__host__commands.html#classblfwk_1_1_execute" title="Represents the bootloader Execute command. " alt="" coords="216,107,323,133"/>
+<area shape="rect" id="node5" href="$group__host__commands.html#classblfwk_1_1_fill_memory" title="Represents the bootloader Fill Memory command. " alt="" coords="208,157,331,184"/>
+<area shape="rect" id="node6" href="$group__host__commands.html#classblfwk_1_1_flash_erase_all" title="Represents the bootloader Flash Erase All command. " alt="" coords="199,208,339,235"/>
+<area shape="rect" id="node7" href="$group__host__commands.html#classblfwk_1_1_flash_erase_all_unsecure" title="Represents the bootloader Flash Erase All Unsecure command. " alt="" coords="172,259,367,285"/>
+<area shape="rect" id="node8" href="$group__host__commands.html#classblfwk_1_1_flash_erase_region" title="Represents the bootloader Flash Erase command. " alt="" coords="187,309,352,336"/>
+<area shape="rect" id="node9" href="$group__host__commands.html#classblfwk_1_1_flash_program_once" title="Represents the bootloader Flash Program Once command. " alt="" coords="184,360,355,387"/>
+<area shape="rect" id="node10" href="$group__host__commands.html#classblfwk_1_1_flash_read_once" title="Represents the bootloader Flash Read Once command. " alt="" coords="193,411,345,437"/>
+<area shape="rect" id="node11" href="$group__host__commands.html#classblfwk_1_1_flash_read_resource" title="Represents the bootloader Read Resource command. " alt="" coords="181,461,357,488"/>
+<area shape="rect" id="node12" href="$group__host__commands.html#classblfwk_1_1_flash_security_disable" title="Represents the bootloader Flash Security Disable command. " alt="" coords="178,512,361,539"/>
+<area shape="rect" id="node13" href="$group__host__commands.html#classblfwk_1_1_get_property" title="Represents the bootloader GetProperty command. " alt="" coords="205,563,334,589"/>
+<area shape="rect" id="node14" href="$group__host__commands.html#classblfwk_1_1_read_memory" title="Represents the bootloader Read Memory command. " alt="" coords="201,613,337,640"/>
+<area shape="rect" id="node15" href="$group__host__commands.html#classblfwk_1_1_receive_sb_file" title="Represents the bootloader Receive SB File command. " alt="" coords="199,664,340,691"/>
+<area shape="rect" id="node16" href="$group__host__commands.html#classblfwk_1_1_reset" title="Represents the bootloader Reset command. " alt="" coords="223,715,316,741"/>
+<area shape="rect" id="node17" href="$group__host__commands.html#classblfwk_1_1_set_property" title="Represents the bootloader GetProperty command. " alt="" coords="205,765,333,792"/>
+<area shape="rect" id="node18" href="$group__host__commands.html#classblfwk_1_1_write_memory" title="Represents the bootloader Write Memory command. " alt="" coords="201,816,338,843"/>
+</map>

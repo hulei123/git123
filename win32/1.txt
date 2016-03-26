@@ -1,1 +1,0 @@
-elftosb ¨CV ¨Cc qspi_image_0000.bd ¨Co image.sb

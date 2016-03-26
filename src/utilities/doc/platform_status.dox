@@ -1,0 +1,7 @@
+/*!
+
+@defgroup platform_status Status
+@ingroup utilities
+@brief Status and error definitions.
+
+ */

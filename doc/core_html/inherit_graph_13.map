@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$group__host__packetizers.html#classblfwk_1_1_packetizer" title="Interface class for packetization of commands and data. " alt="" coords="5,31,127,57"/>
+<area shape="rect" id="node2" href="$group__serial__packetizer.html#classblfwk_1_1_serial_packetizer" title="Provides source and sink for packets that go over the serial peripherals. " alt="" coords="179,5,333,32"/>
+<area shape="rect" id="node3" href="$group__usb__hid__packetizer.html#classblfwk_1_1_usb_hid_packetizer" title="Provides source and sink for packets that go over USB HID class. " alt="" coords="175,56,337,83"/>
+</map>

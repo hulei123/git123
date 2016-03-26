@@ -1,0 +1,8 @@
+<map id="DSPI" name="DSPI">
+<area shape="rect" id="node1" href="$group__dspi__types.html" title="Shared types for DSPI drivers. " alt="" coords="267,5,403,32"/>
+<area shape="rect" id="node2" href="$group__dspi__master__driver.html" title="DSPI master mode peripheral driver. " alt="" coords="269,56,401,83"/>
+<area shape="rect" id="node3" href="$group__dspi__shared__irq.html" title="DSPI shared IRQ driver for master and slave drivers. " alt="" coords="256,107,415,133"/>
+<area shape="rect" id="node4" href="$group__drivers.html" title="IP device drivers. " alt="" coords="5,107,108,133"/>
+<area shape="rect" id="node5" href="$group__dspi__slave__driver.html" title="DSPI slave mode peripheral driver. " alt="" coords="274,157,397,184"/>
+<area shape="rect" id="node7" href="$group__dspi__hal.html" title="DSPI peripheral HAL. " alt="" coords="295,208,376,235"/>
+</map>

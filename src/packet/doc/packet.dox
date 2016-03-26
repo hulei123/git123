@@ -1,0 +1,7 @@
+/*!
+
+@defgroup packet Packet Interface
+@brief Serial packetizer.
+
+
+ */

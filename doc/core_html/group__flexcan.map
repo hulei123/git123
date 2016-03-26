@@ -1,0 +1,5 @@
+<map id="FlexCAN" name="FlexCAN">
+<area shape="rect" id="node1" href="$group__drivers.html" title="IP device drivers. " alt="" coords="5,31,108,57"/>
+<area shape="rect" id="node2" href="$group__flexcan__driver.html" title="FlexCAN Driver" alt="" coords="292,5,403,32"/>
+<area shape="rect" id="node4" href="$group__flexcan__hal.html" title="FlexCAN HAL driver" alt="" coords="279,56,416,83"/>
+</map>

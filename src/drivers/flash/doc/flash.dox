@@ -1,0 +1,19 @@
+/*!
+
+@defgroup flash_driver C90TFS Flash
+@ingroup drivers
+@brief IP driver for C90TFS flash module
+
+@defgroup flash_densities Flash densities
+@ingroup flash_driver
+@brief Definitions of flash densities.
+
+@defgroup SSD_FTFx_Common Flash common
+@ingroup flash_driver
+@brief Common definitions for flash access.
+
+@defgroup flash Flash operations
+@ingroup flash_driver
+@brief Definitions and functions for flash operations.
+
+*/

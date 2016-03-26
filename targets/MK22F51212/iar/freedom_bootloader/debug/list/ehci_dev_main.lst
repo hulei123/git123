@@ -1,0 +1,2206 @@
+###############################################################################
+#
+# IAR ANSI C/C++ Compiler V7.50.3.10732/W32 for ARM       13/Mar/2016  16:46:20
+# Copyright 1999-2016 IAR Systems AB.
+#
+#    Cpu mode     =  thumb
+#    Endian       =  little
+#    Source file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\controller\ehci\ehci_dev_main.c
+#    Command line =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\controller\ehci\ehci_dev_main.c
+#        -D NDEBUG -D CPU_MK22FN512VDC12 -D CPU_IS_ARM_CORTEX_M4=1 -D IAR -D
+#        FREEDOM -D BL_TARGET_FLASH -lC
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list
+#        --diag_suppress Pa050 -o
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj
+#        --no_unroll --debug --endian=little --cpu=Cortex-M4 -e --fpu=None
+#        --dlib_config "F:\Program Files\IAR Systems\Embedded Workbench
+#        7.3\arm\INC\c\DLib_Config_Normal.h" -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/include/device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/autobaud\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/startup\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/drivers/uart\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/hid_device\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/adapter/sources/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/os/bm\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/arch/cortex_m\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/soc/MK22F\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/platform/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/include/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/bsp/mk22f\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/common\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/hid\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/classes/include\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/khci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/device/sources/controller/ehci\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/hal\
+#        -I
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader/../../../../src/usb_stack/usb_core/include\
+#        -Ohz --use_c++_inline
+#    List file    =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\list\ehci_dev_main.lst
+#    Object file  =  
+#        C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\targets\MK22F51212\iar\freedom_bootloader\debug\obj\ehci_dev_main.o
+#
+###############################################################################
+
+C:\Users\hulei\Desktop\FSL_Kinetis_Bootloader_1_2_1\src\usb_stack\usb_core\device\sources\controller\ehci\ehci_dev_main.c
+      1          /**HEADER********************************************************************
+      2          *
+      3          * Copyright (c) 2008, 2013 - 2014 Freescale Semiconductor;
+      4          * All Rights Reserved
+      5          *
+      6          * Copyright (c) 1989-2008 ARC International;
+      7          * All Rights Reserved
+      8          *
+      9          ***************************************************************************
+     10          *
+     11          * THIS SOFTWARE IS PROVIDED BY FREESCALE "AS IS" AND ANY EXPRESSED OR
+     12          * IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+     13          * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+     14          * IN NO EVENT SHALL FREESCALE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+     15          * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+     16          * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+     17          * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+     18          * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+     19          * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+     20          * IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+     21          * THE POSSIBILITY OF SUCH DAMAGE.
+     22          *
+     23          **************************************************************************
+     24          *
+     25          * $FileName: ehci_dev_main.c$
+     26          * $Version : 3.8.14.0$
+     27          * $Date    : Jul-2-2012$
+     28          *
+     29          * Comments:
+     30          *
+     31          *   This file contains the main VUSBHS USB Device Controller interface
+     32          *   functions.
+     33          *
+     34          *END*********************************************************************/
+     35          
+     36          /******************************************************************************
+     37           * Includes
+     38           *****************************************************************************/
+     39          
+     40          #include "usb_device_config.h"
+     41          #if USBCFG_DEV_EHCI
+     42          #include "usb.h"
+     43          
+     44          #include "usb_device_stack_interface.h"
+     45          
+     46          #include "ehci_dev_main.h"
+     47          #include "ehci_usbprv.h"
+     48          
+     49          #include "fsl_usb_ehci_hal.h"
+     50          #include "usb_dev.h"
+     51          
+     52          #define MAX_EHCI_DEV_NUM 2
+     53          
+     54          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_BM)
+     55          
+     56          #if defined( __ICCARM__ )
+     57              #pragma data_alignment=2048
+     58              __no_init usb_device_ehci_data_t g_ehci_data[MAX_EHCI_DEV_NUM];
+     59          #elif defined (__CC_ARM) || defined(__GNUC__)
+     60              __attribute__((aligned(2048))) usb_device_ehci_data_t g_ehci_data[MAX_EHCI_DEV_NUM];
+     61          #else
+     62              #error Unsupported compiler, please use IAR, Keil or arm gcc compiler and rebuild the project.
+     63          #endif
+     64          
+     65          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+     66              usb_device_ehci_data_t* g_ehci_data_ptr[MAX_EHCI_DEV_NUM] = {NULL};
+     67          #endif
+     68          
+     69          /*****************************************************************************
+     70           * Constant and Macro's
+     71           *****************************************************************************/
+     72          #define USB_TEST_MODE_TEST_PACKET_LENGTH   (53)
+     73          #define MCF_USB_USBMODE             (*(volatile uint32_t*)(0xFC0B01A8))
+     74          #define MCF_USB_USBCMD              (*(volatile uint32_t*)(0xFC0B0140))
+     75          #define MCF_USB_USBMODE_SLOM        (0x00000008)
+     76          #define MCF_USB_USBCMD_ITC(x)       (((x)&0x000000FF)<<16)
+     77          #define MCF_USB_USBSTS              (*(volatile uint32_t*)(0xFC0B0144))
+     78          #define MCF_USB_USBSTS_URI          (0x00000040)
+     79          /****************************************************************************
+     80           * Global Variables
+     81           ****************************************************************************/
+     82          
+     83          /****************************************************************************
+     84           * Global Functions
+     85           ****************************************************************************/
+     86          
+     87          /*****************************************************************************
+     88           * Local Types - None
+     89           *****************************************************************************/
+     90          
+     91          /*****************************************************************************
+     92           * Local Functions
+     93           *****************************************************************************/
+     94          static void _usb_dci_usbhs_isr(void*);
+     95          /*****************************************************************************
+     96           * Local Functions Prototypes
+     97           *****************************************************************************/
+     98          
+     99          /*****************************************************************************
+    100           * Local Variables
+    101           *****************************************************************************/
+    102          /* Test packet for Test Mode :
+    103             TEST_PACKET. USB 2.0 Specification section 7.1.20 */
+    104          uint8_t test_packet[USB_TEST_MODE_TEST_PACKET_LENGTH] =
+    105          {
+    106              /* Synch */
+    107              /* DATA 0 PID */
+    108              0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+    109              0x00, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA, 0xAA,
+    110              0xAA, 0xEE, 0xEE, 0xEE, 0xEE, 0xEE, 0xEE, 0xEE,
+    111              0xEE, 0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF,
+    112              0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0x7F, 0xBF, 0xDF,
+    113              0xEF, 0xF7, 0xFB, 0xFD, 0xFC, 0x7E, 0xBF, 0xDF,
+    114              0xEF, 0xF7, 0xFB, 0xFD, 0x7E
+    115          };
+    116          
+    117          extern usb_status _usb_device_call_service(uint8_t,usb_event_struct_t*);
+    118          extern uint8_t soc_get_usb_vector_number(uint8_t);
+    119          extern uint32_t soc_get_usb_base_address(uint8_t controller_id);
+    120          //extern uint32_t usb_hal_ehci_get_endpoint_control(uint32_t baseAddr, uint32_t epNumber);
+    121          
+    122          usb_ehci_dev_state_struct_t g_ehci_dev[MAX_EHCI_DEV_NUM] = {0};
+    123          /*FUNCTION*-------------------------------------------------------------
+    124          *
+    125          *  Function Name  : _usb_khci_free_XD
+    126          *  Returned Value : void
+    127          *  Comments       :
+    128          *        Enqueues a XD onto the free XD ring.
+    129          *
+    130          *END*-----------------------------------------------------------------*/
+    131          
+    132          void _usb_ehci_free_XD
+    133             (
+    134               usb_device_handle  handle,
+    135                /* [IN] the dTD to enqueue */
+    136               xd_struct_t*       xd_ptr
+    137             )
+    138          { /* Body */
+    139              usb_ehci_dev_state_struct_t * usb_dev_ptr = (usb_ehci_dev_state_struct_t *)
+    140                  handle;
+    141          	struct xd_struct*	  xd_ptr_tmp;
+    142          
+    143              /*
+    144               ** This function can be called from any context, and it needs mutual
+    145               ** exclusion with itself.
+    146               */
+    147              OS_Lock();
+    148          
+    149          	xd_ptr_tmp = usb_dev_ptr->xd_head;
+    150          	while(xd_ptr_tmp)
+    151          	{
+    152          		if(xd_ptr == xd_ptr_tmp)
+    153          		{
+    154          			/* Already in free list */
+    155          			OS_Unlock();
+    156          			return;
+    157          		}
+    158          		xd_ptr_tmp = xd_ptr_tmp->next;
+    159          	}
+    160              /*
+    161               ** Add the XD to the free XD queue (linked via PRIVATE) and
+    162               ** increment the tail to the next descriptor
+    163               */
+    164              if (usb_dev_ptr->xd_head == NULL)
+    165              {
+    166                  usb_dev_ptr->xd_head = xd_ptr;
+    167              }
+    168              else
+    169              {
+    170                  usb_dev_ptr->xd_tail->next = xd_ptr;
+    171              }
+    172              usb_dev_ptr->xd_tail = xd_ptr;
+    173              xd_ptr->next = NULL;
+    174              usb_dev_ptr->xd_entries ++;
+    175              
+    176              OS_Unlock();
+    177          } /* Endbody */
+    178          
+    179          /*****************************************************************************
+    180           * Global Functions
+    181           *****************************************************************************/
+    182          /********************************************************************/
+    183          /**************************************************************************//*!
+    184          *
+    185          * @name        : _usb_dci_usbhs_preinit
+    186          * @brief       : Allocates space for the USB device controller.
+    187          * @param handle: Handle to USB Device to be filled
+    188          * @return   USB_OK on successful.
+    189          ******************************************************************************/
+    190          usb_status _usb_dci_usbhs_preinit
+    191          (
+    192              /* [IN] the USB device handle */
+    193              usb_device_handle upper_layer_handle,
+    194              /* [IN] the USB device handle */
+    195              usb_device_handle  *handle_ptr
+    196          )
+    197          {
+    198            
+    199            usb_dev_state_struct_t*                 usb_dev_state_ptr;
+    200            usb_ehci_dev_state_struct_t *           usb_dev_ptr;
+    201            xd_struct_t*                            xd_ptr;
+    202            uint32_t                                j;
+    203            
+    204            usb_dev_state_ptr = (usb_dev_state_struct_t*)upper_layer_handle;
+    205            usb_dev_ptr = (usb_ehci_dev_state_struct_t *) (&g_ehci_dev[usb_dev_state_ptr->controller_id - USB_CONTROLLER_EHCI_0]);
+    206          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+    207            for(j = 0; j < MAX_EHCI_DEV_NUM; j++)
+    208            {
+    209                if(NULL == g_ehci_data_ptr[j])
+    210                {
+    211                    g_ehci_data_ptr[j] = OS_Mem_alloc_uncached_align(sizeof(usb_device_ehci_data_t), 2048);
+    212                }
+    213            }
+    214          #endif    
+    215            if (NULL != usb_dev_ptr)
+    216            {
+    217              usb_dev_ptr->controller_id = usb_dev_state_ptr->controller_id - USB_CONTROLLER_EHCI_0;
+    218          
+    219          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_BM)
+    220              usb_dev_ptr->xd_base = (xd_struct_t*)g_ehci_data[usb_dev_ptr->controller_id].xd_base;
+    221          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+    222              usb_dev_ptr->xd_base = (xd_struct_t*)g_ehci_data_ptr[usb_dev_ptr->controller_id]->xd_base;
+    223          #endif
+    224          
+    225              usb_dev_ptr->xd_head = NULL;
+    226              usb_dev_ptr->xd_tail = NULL;
+    227              usb_dev_ptr->xd_entries = 0;
+    228          
+    229              /* Enqueue all the XDs */   
+    230              xd_ptr = (xd_struct_t*) usb_dev_ptr->xd_base;
+    231          
+    232              for (j = 0; j < USBCFG_DEV_MAX_XDS; j++) 
+    233              {
+    234                  _usb_ehci_free_XD(usb_dev_ptr, xd_ptr);
+    235                  xd_ptr++;
+    236              }
+    237          
+    238              *handle_ptr = (usb_device_handle) usb_dev_ptr;
+    239              usb_dev_ptr->upper_layer_handle = upper_layer_handle;
+    240            }
+    241            else
+    242            {
+    243                return USBERR_ALLOC;
+    244            }
+    245            
+    246            return USB_OK;
+    247            
+    248          }
+    249          
+    250          /*FUNCTION*-------------------------------------------------------------
+    251          *
+    252          *  Function Name  : _usb_dci_usbhs_init
+    253          *  Returned Value : USB_OK or error code
+    254          *  Comments       :
+    255          *        Initializes the USB device controller.
+    256          *
+    257          *END*-----------------------------------------------------------------*/
+    258          usb_status _usb_dci_usbhs_init
+    259          (
+    260              uint8_t     controller_id,
+    261              /* [IN] the USB device handle */
+    262              usb_device_handle         handle
+    263          )
+    264          {   /* Body */
+    265              volatile usb_ehci_dev_state_struct_t * usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+    266          
+    267              if (usb_dev_ptr == NULL) {
+    268                  return USBERR_INVALID_DEVICE_NUM;
+    269              }
+    270          
+    271              usb_dev_ptr->dev_vec = soc_get_usb_vector_number(controller_id);
+    272             
+    273              /* Get the maximum number of endpoints supported by this USB controller */
+    274              usb_dev_ptr->usb_state = USB_STATE_UNKNOWN;
+    275          
+    276              usb_dev_ptr->usbRegBase = soc_get_usb_base_address(controller_id);
+    277             
+    278              usb_dev_ptr->cap_base_ptr = (void *)((uint8_t*)soc_get_usb_base_address(controller_id)+ 0x100);
+    279             
+    280              /* Get the maximum number of endpoints supported by this USB controller */
+    281              usb_dev_ptr->max_endpoints =
+    282                  (uint8_t)((usb_hal_ehci_get_dcc_params(usb_dev_ptr->usbRegBase)&
+    283                   USBHS_MAX_ENDPTS_SUPPORTED) & 0x000000FF);
+    284          
+    285              if(((uint8_t)USBCFG_DEV_EHCI_MAX_ENDPOINTS) < usb_dev_ptr->max_endpoints)
+    286              {
+    287          //         USB_PRINTF("EHCI: Endpoint num large than USBCFG_DEV_EHCI_MAX_ENDPOINTS\n");
+    288                   return USBERR_ERROR;
+    289              }
+    290          
+    291              /****************************************************************
+    292               Assign QH base
+    293               ****************************************************************/
+    294          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_BM)
+    295              usb_dev_ptr->qh_base_ptr = (usb_ehc_dev_qh_struct_t *)g_ehci_data[controller_id - USB_CONTROLLER_EHCI_0].qh_base;
+    296          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+    297              usb_dev_ptr->qh_base_ptr = (usb_ehc_dev_qh_struct_t *)g_ehci_data_ptr[controller_id - USB_CONTROLLER_EHCI_0]->qh_base;
+    298          #endif
+    299          
+    300              /****************************************************************
+    301               Assign DTD base
+    302               ****************************************************************/
+    303          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_BM)
+    304              usb_dev_ptr->dtd_base_ptr = (usb_ehci_dev_dtd_struct_t *)g_ehci_data[controller_id - USB_CONTROLLER_EHCI_0].dtd_base;
+    305          #elif (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+    306              usb_dev_ptr->dtd_base_ptr = (usb_ehci_dev_dtd_struct_t *)g_ehci_data_ptr[controller_id - USB_CONTROLLER_EHCI_0]->dtd_base;
+    307          #endif
+    308          
+    309              /* Install the interrupt service routine */
+    310              if (!(OS_install_isr(usb_dev_ptr->dev_vec,_usb_dci_usbhs_isr,(void *)usb_dev_ptr)))
+    311              {
+    312                  #ifdef _DEV_DEBUG
+    313           //           USB_PRINTF("USB_Install_isr failed.\n");
+    314                  #endif
+    315                  return USBERR_INSTALL_ISR;
+    316              }
+    317              usb_dev_ptr->usb_state = USB_STATE_UNKNOWN;
+    318          
+    319              /* Initialize the VUSB_HS controller */
+    320              _usb_dci_usbhs_chip_initialize((usb_device_handle) usb_dev_ptr);
+    321          
+    322              return USB_OK;
+    323          } /* EndBody */
+    324          
+    325          /*FUNCTION*-------------------------------------------------------------
+    326          *
+    327          *  Function Name  : _usb_dci_usbhs_chip_initialize
+    328          *  Returned Value : USB_OK or error code
+    329          *  Comments       :
+    330          *        Initializes the USB device controller.
+    331          *
+    332          *END*-----------------------------------------------------------------*/
+    333          void _usb_dci_usbhs_chip_initialize
+    334          (
+    335              /* [IN] the USB_dev_initialize state structure */
+    336              usb_device_handle         handle
+    337          )
+    338          {   /* Body */
+    339              volatile usb_ehci_dev_state_struct_t *          usb_dev_ptr;
+    340              volatile usb_ehc_dev_reg_struct_t *             cap_dev_ptr;
+    341              volatile usb_ehc_dev_qh_struct_t *              ep_queue_head_ptr;
+    342              volatile usb_ehci_dev_dtd_struct_t *            dTD_ptr;
+    343              uint8_t                                         temp;
+    344              uint8_t                                         i;
+    345          
+    346              usb_dev_ptr = (usb_ehci_dev_state_struct_t *) handle;
+    347              if (usb_dev_ptr == NULL) {
+    348                  return;
+    349              }
+    350          
+    351              OS_Lock();
+    352          
+    353              cap_dev_ptr = (usb_ehc_dev_reg_struct_t *)usb_dev_ptr->cap_base_ptr;
+    354              /* Modify the base address of the VUSB_HS registers, do not use the old one anymore */
+    355              usb_dev_ptr->dev_ptr = (void *) ((uint32_t)cap_dev_ptr +
+    356                  (EHCI_REG_READ(cap_dev_ptr->REGISTERS.CAPABILITY_REGISTERS.CAPLENGTH_HCIVER) &
+    357                   EHCI_CAP_LEN_MASK));
+    358          
+    359              /* Program the controller to be the USB device controller */
+    360              usb_hal_ehci_set_controller_device_mode(usb_dev_ptr->usbRegBase);
+    361              usb_hal_ehci_disable_setup_lock(usb_dev_ptr->usbRegBase);
+    362          #if (ENDIANNESS == BIG_ENDIAN)
+    363              usb_hal_ehci_set_big_endian(usb_dev_ptr->usbRegBase);
+    364          #else
+    365              usb_hal_ehci_set_little_endian(usb_dev_ptr->usbRegBase);
+    366          #endif
+    367          
+    368              temp = (uint8_t)(usb_dev_ptr->max_endpoints * 2);
+    369          
+    370              /* Initialize the internal dTD head and tail to NULL */
+    371              usb_dev_ptr->dtd_head = NULL;
+    372              usb_dev_ptr->dtd_tail = NULL;
+    373          
+    374              ep_queue_head_ptr = usb_dev_ptr->qh_base_ptr;
+    375          
+    376              /* Initialize all device queue heads */
+    377              for (i = 0; i < temp; i++)
+    378              {
+    379                  /* Interrupt on Setup packet */
+    380                  /*EHCI_MEM_WRITE((ep_queue_head_ptr + i)->MAX_PKT_LENGTH,
+    381                      ((uint32_t)USB_MAX_CTRL_PAYLOAD <<
+    382                          VUSB_EP_QUEUE_HEAD_MAX_PKT_LEN_POS)
+    383                      | VUSB_EP_QUEUE_HEAD_IOS);
+    384                      */
+    385                  usb_hal_ehci_set_max_packet_length((ep_queue_head_ptr + i),USB_MAX_CTRL_PAYLOAD);
+    386                  usb_hal_ehci_set_next_dtd_terminate((ep_queue_head_ptr + i));
+    387              }
+    388          
+    389              /* Configure the Endpoint List Address */
+    390              usb_hal_ehci_set_eplist_address(usb_dev_ptr->usbRegBase, (uint32_t)ep_queue_head_ptr);
+    391          
+    392              dTD_ptr = usb_dev_ptr->dtd_base_ptr;
+    393              usb_dev_ptr->dtd_entries = 0;
+    394          
+    395              /* Enqueue all the dTDs */
+    396              for (i=0;i<USBCFG_DEV_EHCI_MAX_DTD;i++)
+    397              {
+    398                  /* Set the dTD to be invalid */
+    399                  usb_hal_ehci_set_next_dtd_invalid(dTD_ptr);
+    400                  /* Set the Reserved fields to 0 */
+    401                  usb_hal_ehci_clear_ioc_reserved_fields(dTD_ptr);
+    402                  _usb_dci_usbhs_free_dTD((void *)usb_dev_ptr, (void *)dTD_ptr);
+    403                  dTD_ptr++;
+    404              }
+    405          
+    406              /*--- Intial Configuration ---*/
+    407              /* Initialize the endpoint 0 properties */
+    408          #if 0
+    409              EHCI_REG_WRITE(dev_ptr->REGISTERS.OPERATIONAL_DEVICE_REGISTERS.ENDPTCTRLX[0],
+    410                  (EHCI_EPCTRL_TX_DATA_TOGGLE_RST | EHCI_EPCTRL_RX_DATA_TOGGLE_RST));
+    411              EHCI_REG_CLEAR_BITS(dev_ptr->REGISTERS.OPERATIONAL_DEVICE_REGISTERS.ENDPTCTRLX[0],
+    412                  0 );
+    413          #endif
+    414          
+    415              /* Enable interrupts */
+    416              /* There is no need to enable SOF Interrupt as its generated automatically
+    417                 by hardware irrespective of device attachment status */
+    418              usb_hal_ehci_enable_interrupts((usb_dev_ptr->usbRegBase), (EHCI_INTR_INT_EN | EHCI_INTR_ERR_INT_EN |
+    419                  EHCI_INTR_PORT_CHANGE_DETECT_EN | EHCI_INTR_RESET_EN
+    420                  |EHCI_INTR_DEVICE_SUSPEND));
+    421           
+    422              /* Enable the interrupts */
+    423              OS_Unlock();
+    424          
+    425              usb_dev_ptr->usb_state = USB_STATE_UNKNOWN;
+    426          
+    427              /* Set the OTG Termination bit: not needed; the device termination is done with USBCMD:RS bit
+    428                  ** when B session is active: see below
+    429                  */
+    430              /* Set the Run bit in the command register */
+    431              usb_hal_ehci_initiate_attach_event(usb_dev_ptr->usbRegBase);
+    432          
+    433          } /* EndBody */
+    434          
+    435          
+    436          /*FUNCTION*-------------------------------------------------------------
+    437          *
+    438          *  Function Name  : _usb_dci_usbhs_free_dTD
+    439          *  Returned Value : void
+    440          *  Comments       :
+    441          *        Enqueues a dTD onto the free DTD ring.
+    442          *
+    443          *END*-----------------------------------------------------------------*/
+    444          
+    445          void _usb_dci_usbhs_free_dTD
+    446          (
+    447              usb_device_handle handle,
+    448              /* [IN] the dTD to enqueue */
+    449              void    *dTD_ptr
+    450          )
+    451          {   /* Body */
+    452              volatile usb_ehci_dev_state_struct_t * usb_dev_ptr = (usb_ehci_dev_state_struct_t *) handle;
+    453          
+    454              /*
+    455              ** This function can be called from any context, and it needs mutual
+    456              ** exclusion with itself.
+    457              */
+    458              OS_Lock();
+    459          
+    460              /*
+    461              ** Add the dTD to the free dTD queue (linked via PRIVATE) and
+    462              ** increment the tail to the next descriptor
+    463              */    
+    464              if ((usb_dev_ptr->dtd_head) == NULL) 
+    465              {
+    466                  (usb_dev_ptr->dtd_head) = (dTD_ptr);
+    467              }
+    468              else
+    469              {
+    470                  (usb_dev_ptr->dtd_tail)->NEXT_TR_ELEM_PTR = (uint32_t) (dTD_ptr);
+    471              } /* Endif */
+    472              (usb_dev_ptr->dtd_tail) = (dTD_ptr);
+    473              ((usb_ehci_dev_dtd_struct_t*)dTD_ptr)->NEXT_TR_ELEM_PTR = 0;
+    474             
+    475              usb_dev_ptr->dtd_entries++;
+    476              OS_Unlock();
+    477          } /* Endbody */
+    478          
+    479          
+    480          /*FUNCTION*-------------------------------------------------------------
+    481          *
+    482          *  Function Name  : _usb_dci_usbhs_add_dTD
+    483          *  Returned Value : USB_OK or error code
+    484          *  Comments       :
+    485          *        Adds a device transfer desriptor(s) to the queue.
+    486          *
+    487          *END*-----------------------------------------------------------------*/
+    488          uint8_t _usb_dci_usbhs_add_dTD
+    489          (
+    490              /* [IN] the USB_dev_initialize state structure */
+    491              usb_device_handle         handle,
+    492          
+    493              /* [IN] The transfer descriptor address */
+    494              xd_struct_t*              xd_ptr
+    495          )
+    496          {   /* Body */
+    497              volatile usb_ehci_dev_state_struct_t *  usb_dev_ptr;
+    498              volatile usb_ehci_dev_dtd_struct_t *    dTD_ptr = NULL;
+    499              volatile usb_ehci_dev_dtd_struct_t *    temp_dTD_ptr = NULL;
+    500              volatile usb_ehci_dev_dtd_struct_t *    first_dTD_ptr = NULL;
+    501              volatile usb_ehc_dev_qh_struct_t *      ep_queue_head_ptr;
+    502              uint32_t                                curr_pkt_len;
+    503              uint32_t                                remaining_len;
+    504              uint32_t                                curr_offset;
+    505              uint32_t                                bit_pos;
+    506              uint32_t                                addr;
+    507              uint32_t                                ep_status;
+    508              uint8_t                                 temp;
+    509          
+    510              /*********************************************************************
+    511               For a optimal implementation, we need to detect the fact that
+    512               we are adding DTD to an empty list. If list is empty, we can
+    513               actually skip several programming steps esp. those for ensuring
+    514               that there is no race condition.The following bool will be useful
+    515               in skipping some code here.
+    516               *********************************************************************/
+    517              bool                                    list_empty = FALSE;
+    518              bool                                    read_safe;
+    519          
+    520              OS_Lock();
+    521          
+    522              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+    523          
+    524              remaining_len = xd_ptr->wtotallength;
+    525          
+    526              curr_offset = 0;
+    527              temp = (uint8_t)(2 * xd_ptr->ep_num + xd_ptr->bdirection);
+    528              bit_pos = (uint32_t)(1 << (16 * xd_ptr->bdirection + xd_ptr->ep_num));
+    529          
+    530              ep_queue_head_ptr = (usb_ehc_dev_qh_struct_t *)
+    531                  usb_hal_ehci_get_eplist_address(usb_dev_ptr->usbRegBase) +
+    532                  temp;
+    533          
+    534             /*********************************************************************
+    535              This loops iterates through the length of the transfer and divides
+    536              the data in to DTDs each handling the a max of 0x4000 bytes of data.
+    537              The first DTD in the list is stored in a void *called first_dTD_ptr.
+    538              This void *is later linked in to QH for processing by the hardware.
+    539              *********************************************************************/
+    540          
+    541              do
+    542              {
+    543                  /* Check if we need to split the transfer into multiple dTDs */
+    544                  if(remaining_len > VUSB_EP_MAX_LENGTH_TRANSFER)
+    545                  {
+    546                      curr_pkt_len = VUSB_EP_MAX_LENGTH_TRANSFER;
+    547                  }
+    548                  else
+    549                  {
+    550                      curr_pkt_len = remaining_len;
+    551                  }
+    552          
+    553                  remaining_len -= curr_pkt_len;
+    554              
+    555                  /* Get a dTD from the queue */
+    556                  dTD_ptr = usb_dev_ptr->dtd_head;
+    557                  if (usb_dev_ptr->dtd_head)
+    558                  {
+    559                      usb_dev_ptr->dtd_head = (usb_ehci_dev_dtd_struct_t *)(usb_dev_ptr->dtd_head->NEXT_TR_ELEM_PTR);
+    560                      if (usb_dev_ptr->dtd_head == NULL)
+    561                      {
+    562                          usb_dev_ptr->dtd_tail = NULL;
+    563                      } /* Endif */
+    564                  } /* Endif */
+    565                 
+    566                  if (!dTD_ptr)
+    567                  {
+    568                      OS_Unlock();
+    569                      return USBERR_TR_FAILED;
+    570                  }
+    571          
+    572                  usb_dev_ptr->dtd_entries--;
+    573          
+    574                  if (curr_offset == 0)
+    575                  {
+    576                      first_dTD_ptr = dTD_ptr;
+    577                  }
+    578          
+    579                  usb_hal_ehci_clear_dtd(dTD_ptr);
+    580          
+    581                  /* Initialize the dTD */
+    582          
+    583                  /* Set the Terminate bit */
+    584                  usb_hal_ehci_set_dtd_next_tr_elem_terminate(dTD_ptr);
+    585          
+    586                  /*************************************************************
+    587                   FIX ME: For hig-speed and high-bandwidth ISO IN endpoints,
+    588                   we must initialize the multiplied field so that Host can issues
+    589                   multiple IN transactions on the endpoint. See the DTD data
+    590                   structure for MultiIO field.
+    591          
+    592                   S Garg 11/06/2003
+    593                   *************************************************************/
+    594          
+    595                  /* Set the reserved field to 0 */
+    596                  usb_hal_ehci_clear_ioc_reserved_fields(dTD_ptr);
+    597                  
+    598                  /* 4K apart buffer page pointers */
+    599                  
+    600                  addr = (uint32_t)(xd_ptr->wstartaddress + curr_offset);
+    601          
+    602                  usb_hal_ehci_set_dtd_buffer_address(dTD_ptr,addr);
+    603                  curr_offset += curr_pkt_len;
+    604          
+    605                  /* Fill in the transfer size */
+    606                  if (!remaining_len)
+    607                  {
+    608                      usb_hal_ehci_set_dtd_size_ioc_status(dTD_ptr,((curr_pkt_len << USBHS_TD_LENGTH_BIT_POS) | USBHS_TD_IOC | USBHS_TD_STATUS_ACTIVE));
+    609                  }
+    610                  else
+    611                  {
+    612                      usb_hal_ehci_set_dtd_size_ioc_status(dTD_ptr,((curr_pkt_len << USBHS_TD_LENGTH_BIT_POS) | USBHS_TD_STATUS_ACTIVE));
+    613                  }
+    614                  /* Maintain the first and last device transfer descriptor per
+    615                        endpoint and direction */
+    616                  if (!usb_dev_ptr->dtd_heads[temp])
+    617                  {
+    618                      usb_dev_ptr->dtd_heads[temp] = dTD_ptr;
+    619                      /***********************************************
+    620                       If list does not have a head, it means that list
+    621                       is empty. An empty condition is detected.
+    622                       ***********************************************/
+    623                      list_empty = TRUE;
+    624                  }
+    625          
+    626                  /* Check if the transfer is to be queued at the end or beginning */
+    627                  temp_dTD_ptr = usb_dev_ptr->dtd_tails[temp];
+    628          
+    629                  /* Remember which XD to use for this dTD */
+    630                  dTD_ptr->xd_for_this_dtd = (void *)xd_ptr;
+    631          
+    632                  /* New tail */
+    633                  usb_dev_ptr->dtd_tails[temp] = dTD_ptr;
+    634          
+    635                  if (temp_dTD_ptr)
+    636                  {
+    637                      /* Should not do |=. The Terminate bit should be zero */
+    638                      usb_hal_ehci_set_dtd_next_tr_elem_ptr(temp_dTD_ptr, (uint32_t)dTD_ptr);
+    639                  }
+    640          
+    641              } while (remaining_len); /* EndWhile */
+    642          
+    643          
+    644              /**************************************************************
+    645               In the loop above DTD has already been added to the list
+    646               However endpoint has not been primed yet. If list is not empty
+    647               we need safer ways to add DTD to the
+    648               existing list. Else we just skip to adding DTD to QH safely.
+    649               **************************************************************/
+    650              if(list_empty) /* If List is Empty : case 1*/
+    651              {
+    652                  /* No other transfers on the queue */
+    653                  /* Step 1 of Executing a Transfer Descriptor documentation */
+    654                  usb_hal_ehci_set_qh_next_dtd(ep_queue_head_ptr, (uint32_t)first_dTD_ptr);
+    655                  
+    656                  /* Step 2 of Executing a Transfer Descriptor documentation */
+    657                  usb_hal_ehci_clear_size_ioc_int_sts( ep_queue_head_ptr);
+    658              
+    659                  /* Prime the Endpoint */
+    660                  /* Step 3 of Executing a Transfer Descriptor documentation */
+    661                  usb_hal_ehci_set_endpoint_prime((usb_dev_ptr->usbRegBase), bit_pos);
+    662              }
+    663              else /* If list is not empty : case 2*/
+    664              {
+    665                  /*********************************************************
+    666                   Hardware v3.2+ require the use of semaphore to ensure that
+    667                   QH is safely updated.
+    668                   *********************************************************/
+    669          
+    670                  /*********************************************************
+    671                   Check the prime bit. If set return USB_OK
+    672                   *********************************************************/
+    673                  if (usb_hal_ehci_get_endpoint_prime(usb_dev_ptr->usbRegBase) &
+    674                      bit_pos)
+    675                  {
+    676                      OS_Unlock();
+    677                      return USB_OK;
+    678                  }
+    679          
+    680                  read_safe = FALSE;
+    681                  while(!read_safe)
+    682                  {
+    683                      /*********************************************************
+    684                       start with setting the semaphores
+    685                       *********************************************************/
+    686                      usb_hal_ehci_set_dtd_tripwire(usb_dev_ptr->usbRegBase);
+    687          
+    688                      /*********************************************************
+    689                       read endpoint status, store for later usage
+    690                       *********************************************************/
+    691                      ep_status = usb_hal_echi_get_endpoint_status(usb_dev_ptr->usbRegBase);
+    692                      
+    693                      /*********************************************************
+    694                       Check the tripwire status
+    695                       *********************************************************/
+    696                      if(usb_hal_ehci_is_tripwire_set(usb_dev_ptr->usbRegBase))
+    697                      {
+    698                          read_safe = TRUE;
+    699                      }
+    700                  } /*end while loop */
+    701          
+    702                  /*********************************************************
+    703                          Clear the semaphore
+    704                          *********************************************************/
+    705                  usb_hal_ehci_clear_dtd_tripwire(usb_dev_ptr->usbRegBase);
+    706                  /*********************************************************
+    707                          Check endpoint status
+    708                          *********************************************************/
+    709                  if (!(ep_status & bit_pos)) {
+    710                      /* No other transfers on the queue */
+    711                      /* Step 1 of Executing a Transfer Descriptor documentation */
+    712                      usb_hal_ehci_set_qh_next_dtd(ep_queue_head_ptr, (uint32_t)first_dTD_ptr);
+    713                      /* Step 2 of Executing a Transfer Descriptor documentation */
+    714                      usb_hal_ehci_clear_size_ioc_int_sts(ep_queue_head_ptr);
+    715                      /* Prime the Endpoint */
+    716                      /* Step 3 of Executing a Transfer Descriptor documentation */
+    717                      usb_hal_ehci_set_endpoint_prime((usb_dev_ptr->usbRegBase), bit_pos);
+    718                  }
+    719              }
+    720              
+    721              OS_Unlock();
+    722              return USB_OK;
+    723             /* End CR 1015 */
+    724          } /* EndBody */
+    725          
+    726          /*FUNCTION*-------------------------------------------------------------
+    727          *
+    728          *  Function Name  : _usb_dci_usbhs_send_data
+    729          *  Returned Value : USB_OK or error code
+    730          *  Comments       :
+    731          *        Sends data by adding and executing the dTD. Non-blocking.
+    732          *
+    733          *END*-----------------------------------------------------------------*/
+    734          usb_status _usb_dci_usbhs_send_data
+    735          (
+    736              /* [IN] the USB_dev_initialize state structure */
+    737              usb_device_handle         handle,
+    738          
+    739              /* [IN] The transfer descriptor address */
+    740              xd_struct_t*              xd_ptr
+    741          )
+    742          {   /* Body */
+    743              /* Add and execute the device transfer descriptor */
+    744              return(_usb_dci_usbhs_add_dTD(handle, xd_ptr));
+    745          } /* EndBody */
+    746          
+    747          /*FUNCTION*-------------------------------------------------------------
+    748          *
+    749          *  Function Name  : _usb_dci_usbhs_recv_data
+    750          *  Returned Value : USB_OK or error code
+    751          *  Comments       :
+    752          *        Receives data by adding and executing the dTD. Non-blocking.
+    753          *
+    754          *END*-----------------------------------------------------------------*/
+    755          usb_status _usb_dci_usbhs_recv_data
+    756          (
+    757              /* [IN] the USB_dev_initialize state structure */
+    758              usb_device_handle         handle,
+    759          
+    760              /* [IN] The transfer descriptor address */
+    761              xd_struct_t*              xd_ptr
+    762          )
+    763          {   /* Body */
+    764              /* Add and execute the device transfer descriptor */
+    765              return(_usb_dci_usbhs_add_dTD(handle, xd_ptr));
+    766          } /* EndBody */
+    767          
+    768          /*FUNCTION*-------------------------------------------------------------
+    769          *
+    770          *  Function Name  : _usb_dci_usbhs_process_tr_complete
+    771          *  Returned Value : None
+    772          *  Comments       :
+    773          *        Services transaction complete interrupt
+    774          *
+    775          *END*-----------------------------------------------------------------*/
+    776          void _usb_dci_usbhs_process_tr_complete
+    777          (
+    778              /* [IN] the USB_dev_initialize state structure */
+    779              usb_device_handle         handle
+    780          )
+    781          {   /* Body */
+    782              volatile usb_ehci_dev_state_struct_t *  usb_dev_ptr;
+    783              volatile usb_ehci_dev_dtd_struct_t *    dTD_ptr;
+    784              volatile usb_ehci_dev_dtd_struct_t *    temp_dTD_ptr;
+    785              volatile usb_ehc_dev_qh_struct_t *      ep_queue_head_ptr;
+    786              uint32_t                                remaining_length = 0;
+    787              uint32_t                                actual_transfer_length = 0;
+    788              uint32_t                                errors = 0;
+    789              volatile xd_struct_t*                   xd_ptr;
+    790              volatile xd_struct_t*                   temp_xd_ptr = NULL;
+    791              usb_event_struct_t                      event;
+    792              uint32_t                                bit_pos = 0;
+    793              uint8_t                                 temp;
+    794              uint8_t                                 i;
+    795              uint8_t                                 ep_num;
+    796              uint8_t                                 direction;
+    797          
+    798              OS_Lock();
+    799              OS_Mem_zero(&event, sizeof(usb_event_struct_t)); /* Initialize event structure */
+    800               
+    801              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+    802              event.handle = (usb_device_handle)usb_dev_ptr->upper_layer_handle;
+    803              /* We use separate loops for ENDPTSETUPSTAT and ENDPTCOMPLETE because the
+    804                 setup packets are to be read ASAP */
+    805              /* Process all Setup packet received interrupts */
+    806              bit_pos = usb_hal_ehci_get_ep_setup_status(usb_dev_ptr->usbRegBase);
+    807              if (bit_pos)
+    808              {
+    809                  for (i = 0; i < 16; i++)
+    810                  {
+    811                      if (bit_pos & (1 << i))
+    812                      {
+    813                          event.ep_num = USB_CONTROL_ENDPOINT;
+    814                          event.setup = TRUE;
+    815                          event.direction = USB_RECV;
+    816                          event.len = USB_SETUP_PKT_SIZE;
+    817                          event.buffer_ptr =
+    818                              (uint8_t *)usb_dev_ptr->setup_buff;
+    819                          if(event.buffer_ptr == NULL)
+    820                          {
+    821                              #ifdef _DEV_DEBUG
+    822          //                        USB_PRINTF("1 memalloc failed in _usb_dci_usbhs_process_tr_complete\n");
+    823                              #endif
+    824                              return;
+    825                          }
+    826                          (void)_usb_dci_usbhs_get_setup_data(handle,
+    827                              USB_CONTROL_ENDPOINT,event.buffer_ptr);
+    828          
+    829                          (void)_usb_device_call_service(i, &event);
+    830          
+    831                       } /* Endif */
+    832                   } /* Endfor */
+    833              } /* Endif */
+    834          
+    835             /* Don't clear the endpoint setup status register here. It is cleared as a
+    836                setup packet is read out of the buffer */
+    837          
+    838              /* Process non-setup transaction complete interrupts */
+    839              bit_pos = usb_hal_ehci_get_ep_complete_status(usb_dev_ptr->usbRegBase);
+    840          
+    841              /* Clear the bits in the register */
+    842              usb_hal_ehci_clear_ep_complete_status((usb_dev_ptr->usbRegBase), bit_pos);
+    843              
+    844              if (bit_pos)
+    845              {
+    846               
+    847                  /* Get the endpoint number and the direction of transfer */
+    848                  for (i = 0; i < 32; i++)
+    849                  {
+    850                      if (bit_pos & (1 << i))
+    851                      {
+    852                          if (i > 15)
+    853                          {
+    854                              ep_num = (uint8_t)(i - 16);
+    855                              direction = 1;
+    856                          }
+    857                          else
+    858                          {
+    859                              ep_num = i;
+    860                              direction = 0;
+    861                          } /* Endif */
+    862          
+    863                          temp = (uint8_t)(2*ep_num + direction);
+    864          
+    865                          /* Get the first dTD */
+    866                          dTD_ptr = usb_dev_ptr->dtd_heads[temp];
+    867          
+    868                          ep_queue_head_ptr = (usb_ehc_dev_qh_struct_t *)
+    869                          usb_hal_ehci_get_eplist_address(usb_dev_ptr->usbRegBase) +
+    870                          temp;
+    871          
+    872                          /* Process all the dTDs for respective transfers */
+    873                          while (dTD_ptr)
+    874                          {
+    875          
+    876                              if (usb_hal_ehci_get_dtd_size_ioc_status(dTD_ptr) & USBHS_TD_STATUS_ACTIVE)
+    877                              {
+    878                                  /*No more dTDs to process. Next one is owned by VUSB*/
+    879                                  break;
+    880                              } /* Endif */
+    881          
+    882                              /* Get the correct internal transfer descriptor */
+    883                              xd_ptr = (xd_struct_t *)usb_hal_ehci_get_xd_for_this_dtd(dTD_ptr);
+    884          
+    885                              if (xd_ptr)
+    886                              {
+    887                                  actual_transfer_length = xd_ptr->wtotallength;
+    888                                  event.buffer_ptr = xd_ptr->wstartaddress;
+    889                                  temp_xd_ptr = xd_ptr;
+    890                              } /* Endif */
+    891          
+    892                              /* Get the address of the next dTD */
+    893                              temp_dTD_ptr = (usb_ehci_dev_dtd_struct_t *)
+    894                              usb_hal_ehci_get_next_dtd_address(dTD_ptr);
+    895          
+    896                              /* Read the errors */
+    897                              errors = usb_hal_ehci_get_dtd_error_status(dTD_ptr);
+    898          
+    899                              if (!errors)
+    900                              {
+    901                                  /* No errors */
+    902                                  /* Get the length of transfer from the current dTD */
+    903                                  remaining_length += usb_hal_ehci_get_tr_packet_size(dTD_ptr);
+    904                                  actual_transfer_length -= remaining_length;
+    905                              }
+    906                              else
+    907                              {
+    908                                  if (errors & USBHS_TD_STATUS_HALTED)
+    909                                  {
+    910                                      /* Clear the errors and Halt condition */
+    911                                      usb_hal_ehci_clear_qh_error_status(ep_queue_head_ptr,errors);
+    912                                  } /* Endif */
+    913                              } /* Endif */
+    914          
+    915                              (void)_usb_dci_usbhs_cancel_transfer(handle, ep_num,
+    916                                  direction);
+    917                              event.ep_num = ep_num;
+    918                              event.setup = FALSE;
+    919                              event.direction = direction;
+    920                              event.len = actual_transfer_length;
+    921                              if (temp_dTD_ptr)
+    922                              {
+    923                                  if((uint32_t)usb_hal_ehci_get_xd_for_this_dtd(temp_dTD_ptr) != (uint32_t)temp_xd_ptr)
+    924                                  {
+    925                                      /* Transfer complete. Call the register service
+    926                                                          function for the endpoint */
+    927                                      (void)_usb_device_call_service(ep_num,&event);
+    928                                      remaining_length = 0;
+    929                                  } /* Endif */
+    930                              }
+    931                              else
+    932                              {
+    933                                  if (xd_ptr != NULL)
+    934                                      _usb_ehci_free_XD((void *)usb_dev_ptr, (void*)xd_ptr);
+    935                                  /* Transfer complete. Call the register service
+    936                                     function for the endpoint */
+    937                                  (void)_usb_device_call_service(ep_num,&event);
+    938                                  remaining_length = 0;
+    939                              } /* Endif */
+    940          
+    941                              dTD_ptr = temp_dTD_ptr;
+    942                              errors = 0;
+    943                          } /* Endwhile */
+    944                      } /* Endif */
+    945                  } /* Endfor */
+    946              }/* Endif */
+    947              OS_Unlock();
+    948          } /* EndBody */
+    949          
+    950          /*FUNCTION*-------------------------------------------------------------
+    951          *
+    952          *  Function Name  : _usb_dci_usbhs_process_reset
+    953          *  Returned Value : None
+    954          *  Comments       :
+    955          *        Services reset interrupt
+    956          *
+    957          *END*-----------------------------------------------------------------*/
+    958          void _usb_dci_usbhs_process_reset
+    959          (
+    960              /* [IN] the USB_dev_initialize state structure */
+    961              usb_device_handle         handle
+    962          )
+    963          {   /* Body */
+    964              volatile usb_ehci_dev_state_struct_t *  usb_dev_ptr;
+    965              uint32_t                                temp;
+    966              uint8_t                                 cnt=0;
+    967              usb_event_struct_t                      event;
+    968          
+    969              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+    970          
+    971              /* De-Init All the End Point.  */
+    972              for (cnt = 0; cnt < USBCFG_DEV_EHCI_MAX_ENDPOINTS; cnt++)
+    973              {
+    974                  _usb_dci_usbhs_deinit_endpoint(handle,cnt,USB_RECV);
+    975                  _usb_dci_usbhs_deinit_endpoint(handle,cnt,USB_SEND);
+    976              }
+    977          
+    978              /* The address bits are past bit 25-31. Set the address */
+    979              usb_hal_ehci_clear_device_address((usb_dev_ptr->usbRegBase));
+    980              
+    981              /* Clear all the setup token semaphores */
+    982              temp = usb_hal_ehci_get_ep_setup_status(usb_dev_ptr->usbRegBase);
+    983              usb_hal_ehci_clear_ep_setup_status((usb_dev_ptr->usbRegBase), temp);
+    984          
+    985              /* Clear all the endpoint complete status bits */
+    986              temp = usb_hal_ehci_get_ep_complete_status(usb_dev_ptr->usbRegBase);
+    987              usb_hal_ehci_clear_ep_complete_status((usb_dev_ptr->usbRegBase), temp);
+    988          
+    989              while (usb_hal_ehci_get_endpoint_prime(usb_dev_ptr->usbRegBase) & 0xFFFFFFFF)
+    990              {
+    991                  /* Wait until all ENDPTPRIME bits cleared */
+    992              } /* Endif */
+    993          
+    994              /* Write 1s to the Flush register */
+    995              usb_hal_ehci_flush_endpoint_buffer((usb_dev_ptr->usbRegBase), 0xFFFFFFFF);
+    996          
+    997              if (usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase) &
+    998                  EHCI_PORTSCX_PORT_RESET)
+    999              {
+   1000                  usb_dev_ptr->bus_resetting = TRUE;
+   1001                  usb_dev_ptr->usb_state = USB_STATE_POWERED;
+   1002              }
+   1003              else
+   1004              {
+   1005                  /* re-initialize */
+   1006                  _usb_dci_usbhs_chip_initialize((void *)usb_dev_ptr);
+   1007              } /* Endif */
+   1008              event.handle = (usb_device_handle)usb_dev_ptr->upper_layer_handle;
+   1009              event.ep_num = USB_CONTROL_ENDPOINT;
+   1010              event.setup = FALSE;
+   1011              event.direction = USB_RECV;
+   1012              event.buffer_ptr = NULL;
+   1013              event.len = ZERO_LENGTH;
+   1014              /* Inform the application so that it can cancel all previously queued transfers */
+   1015              _usb_device_call_service(USB_SERVICE_BUS_RESET,&event);
+   1016          
+   1017          } /* EndBody */
+   1018          
+   1019          /*FUNCTION*-------------------------------------------------------------
+   1020          *
+   1021          *  Function Name  : _usb_dci_usbhs_process_suspend
+   1022          *  Returned Value : None
+   1023          *  Comments       :
+   1024          *        Services suspend interrupt
+   1025          *
+   1026          *END*-----------------------------------------------------------------*/
+   1027          void _usb_dci_usbhs_process_suspend
+   1028          (
+   1029                /* [IN] the USB_dev_initialize state structure */
+   1030              usb_device_handle         handle
+   1031          )
+   1032          {   /* Body */
+   1033              volatile usb_ehci_dev_state_struct_t * usb_dev_ptr;
+   1034              usb_event_struct_t                     event;
+   1035          
+   1036              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1037          
+   1038              usb_dev_ptr->usb_dev_state_b4_suspend = usb_dev_ptr->usb_state;
+   1039          
+   1040              usb_dev_ptr->usb_state = USB_STATE_SUSPEND;
+   1041          
+   1042              /* Initialize the event strucutre to be passed to the upper layer*/
+   1043              event.handle = (usb_device_handle)usb_dev_ptr->upper_layer_handle;
+   1044              event.ep_num = (uint8_t)USB_UNINITIALIZED_VAL_32;
+   1045              event.setup = 0;
+   1046              event.direction = 0;
+   1047              event.buffer_ptr = (uint8_t*)NULL;
+   1048              event.len = ZERO_LENGTH;
+   1049              /* Inform the upper layers */
+   1050              (void)_usb_device_call_service(USB_SERVICE_SLEEP,&event);
+   1051          
+   1052          } /* EndBody */
+   1053          
+   1054          /*FUNCTION*-------------------------------------------------------------
+   1055          *
+   1056          *  Function Name  : _usb_dci_usbhs_process_SOF
+   1057          *  Returned Value : None
+   1058          *  Comments       :
+   1059          *        Services SOF interrupt
+   1060          *
+   1061          *END*-----------------------------------------------------------------*/
+   1062          void _usb_dci_usbhs_process_SOF
+   1063          (
+   1064              /* [IN] the USB_dev_initialize state structure */
+   1065              usb_device_handle         handle
+   1066          )
+   1067          {   /* Body */
+   1068          } /* EndBody */
+   1069          
+   1070          /*FUNCTION*-------------------------------------------------------------
+   1071          *
+   1072          *  Function Name  : _usb_dci_usbhs_process_port_change
+   1073          *  Returned Value : None
+   1074          *  Comments       :
+   1075          *        Services port change detect interrupt
+   1076          *
+   1077          *END*-----------------------------------------------------------------*/
+   1078          void _usb_dci_usbhs_process_port_change
+   1079          (
+   1080              /* [IN] the USB_dev_initialize state structure */
+   1081              usb_device_handle         handle
+   1082          )
+   1083          {   /* Body */
+   1084              volatile usb_ehci_dev_state_struct_t * usb_dev_ptr;
+   1085              usb_event_struct_t                     event;
+   1086          
+   1087              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1088          
+   1089              /* Initialize the event strucutre to be passed to the upper layer*/
+   1090              event.handle = (usb_device_handle)usb_dev_ptr->upper_layer_handle;
+   1091              event.ep_num = (uint8_t)USB_UNINITIALIZED_VAL_32;
+   1092              event.setup = 0;
+   1093              event.direction = 0;
+   1094          
+   1095              if (usb_dev_ptr->bus_resetting)
+   1096              {
+   1097                  /* Bus reset operation complete */
+   1098                  usb_dev_ptr->bus_resetting = FALSE;
+   1099              } /* Endif */
+   1100          
+   1101              if (!(usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase) &
+   1102                  EHCI_PORTSCX_PORT_RESET))
+   1103              {
+   1104                  /* Get the speed */
+   1105                  if (usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase) &
+   1106                      EHCI_PORTSCX_PORT_HIGH_SPEED)
+   1107                  {
+   1108                      usb_dev_ptr->speed = USB_SPEED_HIGH;
+   1109                  }
+   1110                  else
+   1111                  {
+   1112                      usb_dev_ptr->speed = USB_SPEED_FULL;
+   1113                  } /* Endif */
+   1114              } /* Endif */
+   1115          
+   1116          #if USBCFG_DEV_DETACH_ENABLE
+   1117              if ((!(usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase) &
+   1118                  EHCI_PORTSCX_CURRENT_CONNECT_STATUS)) &&
+   1119                  (usb_dev_ptr->usb_state == USB_STATE_CONFIG))
+   1120              {
+   1121                  event.len = ZERO_LENGTH;
+   1122                  event.buffer_ptr = (uint8_t*)NULL;
+   1123                  /* Inform the upper layers */
+   1124                  (void)_usb_device_call_service(USB_SERVICE_DETACH,&event);
+   1125              } /* Endif */
+   1126          #endif
+   1127          
+   1128              if (usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase) &
+   1129                  EHCI_PORTSCX_PORT_SUSPEND)
+   1130              {
+   1131                  usb_dev_ptr->usb_dev_state_b4_suspend = usb_dev_ptr->usb_state;
+   1132                  usb_dev_ptr->usb_state = USB_STATE_SUSPEND;
+   1133          
+   1134                  event.len = ZERO_LENGTH;
+   1135                  event.buffer_ptr = (uint8_t*)NULL;
+   1136                  /* Inform the upper layers */
+   1137                  (void)_usb_device_call_service(USB_SERVICE_SUSPEND,&event);
+   1138              } /* Endif */
+   1139          
+   1140              if(!(usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase) &
+   1141                  EHCI_PORTSCX_PORT_SUSPEND) &&
+   1142                  (usb_dev_ptr->usb_state == USB_STATE_SUSPEND))
+   1143              {
+   1144                  usb_dev_ptr->usb_state = usb_dev_ptr->usb_dev_state_b4_suspend;
+   1145          
+   1146                  event.len = ZERO_LENGTH;
+   1147                  event.buffer_ptr = (uint8_t*)NULL;
+   1148                  /* Inform the upper layers */
+   1149                  (void)_usb_device_call_service(USB_SERVICE_RESUME,&event);
+   1150          
+   1151                  return;
+   1152              } /* Endif */
+   1153          
+   1154              usb_dev_ptr->usb_state = USB_STATE_DEFAULT;
+   1155          } /* EndBody */
+   1156          
+   1157          /*FUNCTION*-------------------------------------------------------------
+   1158          *
+   1159          *  Function Name  : _usb_dci_usbhs_process_error
+   1160          *  Returned Value : None
+   1161          *  Comments       :
+   1162          *        Services error interrupt
+   1163          *
+   1164          *END*-----------------------------------------------------------------*/
+   1165          void _usb_dci_usbhs_process_error
+   1166          (
+   1167              /* [IN] the USB_dev_initialize state structure */
+   1168              usb_device_handle         handle
+   1169          )
+   1170          {   /* Body */
+   1171              volatile usb_ehci_dev_state_struct_t *  usb_dev_ptr;
+   1172              
+   1173              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1174          
+   1175              /* Increment the error count */
+   1176              usb_dev_ptr->errors++;
+   1177          } /* EndBody */
+   1178          
+   1179          /*FUNCTION*-------------------------------------------------------------
+   1180          *
+   1181          *  Function Name  : _usb_dci_usbhs_isr
+   1182          *  Returned Value : None
+   1183          *  Comments       :
+   1184          *        Services all the VUSB_HS interrupt sources
+   1185          *
+   1186          *END*-----------------------------------------------------------------*/
+   1187          static void _usb_dci_usbhs_isr(usb_device_handle handle)
+   1188          
+   1189          {   /* Body */
+   1190              volatile usb_ehci_dev_state_struct_t *   usb_dev_ptr;
+   1191              uint32_t                                 error;
+   1192          
+   1193              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1194          
+   1195              uint32_t base = usb_dev_ptr->usbRegBase;
+   1196              error = usb_hal_ehci_get_usb_interrupt_status(base) &
+   1197                 usb_hal_ehci_get_interrupt_enable_status(base);
+   1198          //    error = usb_hal_ehci_get_usb_interrupt_status((usb_dev_ptr->usbRegBase)) &
+   1199          //       usb_hal_ehci_get_interrupt_enable_status((usb_dev_ptr->usbRegBase));
+   1200              /* Clear all the interrupts occured */
+   1201              usb_hal_ehci_clear_usb_interrupt_status((usb_dev_ptr->usbRegBase), error);
+   1202              if(error & EHCI_STS_RESET)
+   1203              {
+   1204                  /* Print so that user can be notified of reset in general */
+   1205                  _usb_dci_usbhs_process_reset((void *)usb_dev_ptr);
+   1206              }
+   1207          
+   1208              if (error & EHCI_STS_INT)
+   1209              {
+   1210                  _usb_dci_usbhs_process_tr_complete((void *)usb_dev_ptr);
+   1211              }
+   1212          
+   1213              if (error & EHCI_STS_PORT_CHANGE)
+   1214              {
+   1215                  _usb_dci_usbhs_process_port_change((void *)usb_dev_ptr);
+   1216              }
+   1217          
+   1218              if (error & EHCI_STS_ERR)
+   1219              {
+   1220                  #ifdef _DEV_DEBUG
+   1221          //            USB_PRINTF("USB Error\n");
+   1222                  #endif
+   1223                  _usb_dci_usbhs_process_error((void *)usb_dev_ptr);
+   1224              }
+   1225          
+   1226              if (error & EHCI_STS_SOF)
+   1227              {
+   1228                  _usb_dci_usbhs_process_SOF((void *)usb_dev_ptr);
+   1229              }
+   1230          
+   1231              if (error & EHCI_STS_SUSPEND)
+   1232              {
+   1233          //         USB_PRINTF("USB EHCI_STS_SUSPEND\n");
+   1234                  _usb_dci_usbhs_process_suspend((void *)usb_dev_ptr);
+   1235                  return;
+   1236              }
+   1237          } /* EndBody */
+   1238          
+   1239          
+   1240          /*FUNCTION*-------------------------------------------------------------
+   1241          *
+   1242          *  Function Name  : _usb_dci_usbhs_set_address
+   1243          *  Returned Value : None
+   1244          *  Comments       :
+   1245          *        Sets the newly assigned device address
+   1246          *
+   1247          *END*-----------------------------------------------------------------*/
+   1248          usb_status _usb_dci_usbhs_set_address
+   1249          (
+   1250              /* [IN] the USB_dev_initialize state structure */
+   1251              usb_device_handle           handle,
+   1252          
+   1253              /* Address of the device assigned by the host */
+   1254              uint8_t                     address
+   1255          )
+   1256          {   /* Body */
+   1257              volatile usb_ehci_dev_state_struct_t *   usb_dev_ptr;
+   1258          
+   1259              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1260          
+   1261              /* The address bits are past bit 25-31. Set the address */
+   1262              usb_hal_ehci_set_device_address(usb_dev_ptr->usbRegBase,address);
+   1263              usb_dev_ptr->device_address = address;
+   1264              usb_dev_ptr->usb_state = USB_STATE_ADDRESS;
+   1265              return USB_OK;
+   1266          } /* EndBody */
+   1267          
+   1268          /*FUNCTION*-------------------------------------------------------------
+   1269          *
+   1270          *  Function Name  : _usb_dci_usbhs_get_setup_data
+   1271          *  Returned Value : None
+   1272          *  Comments       :
+   1273          *        Reads the Setup data from the 8-byte setup buffer
+   1274          *
+   1275          *END*-----------------------------------------------------------------*/
+   1276          usb_status _usb_dci_usbhs_get_setup_data
+   1277          (
+   1278              /* [IN] the USB_dev_initialize state structure */
+   1279              usb_device_handle         handle,
+   1280          
+   1281              /* [IN] the Endpoint number */
+   1282              uint8_t                   ep_num,
+   1283          
+   1284              /* [OUT] address of the buffer to read the setup data into */
+   1285              uint8_t                  *buffer_ptr
+   1286          )
+   1287          {   /* Body */
+   1288              volatile usb_ehci_dev_state_struct_t *         usb_dev_ptr;
+   1289              volatile usb_ehc_dev_qh_struct_t *             ep_queue_head_ptr;
+   1290              bool                                           read_safe;
+   1291          
+   1292              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1293          
+   1294              /* Get the endpoint queue head */
+   1295              ep_queue_head_ptr = (usb_ehc_dev_qh_struct_t *)
+   1296                  usb_hal_ehci_get_eplist_address(usb_dev_ptr->usbRegBase) +
+   1297                  2*ep_num + USB_RECV;
+   1298          
+   1299              /********************************************************************
+   1300               CR 1219. Hardware versions 2.3+ have a implementation of tripwire
+   1301               semaphore mechanism that requires that we read the contents of
+   1302               QH safely by using the semaphore. Read the USBHS document to under
+   1303               stand how the code uses the semaphore mechanism. The following are
+   1304               the steps in brief
+   1305          
+   1306               1. USBCMD Write ‘1’ to Setup Tripwire in register.
+   1307               2. Duplicate contents of dQH.StatusBuffer into local software byte
+   1308                  array.
+   1309               3  Read Setup TripWire in register. (if set - continue; if
+   1310                  cleared goto 1.)
+   1311               4. Write '0' to clear Setup Tripwire in register.
+   1312               5. Process setup packet using local software byte array copy and
+   1313                  execute status/handshake phases.
+   1314               ********************************************************************/
+   1315          
+   1316              /*if semaphore mechanism is used the following code is compiled in*/
+   1317              read_safe = FALSE;
+   1318              while(!read_safe)
+   1319              {
+   1320                  /*********************************************************
+   1321                   start with setting the semaphores
+   1322                   *********************************************************/
+   1323          
+   1324                  usb_hal_ehci_set_usb_cmd_setup_trip_wire(usb_dev_ptr->usbRegBase);
+   1325                  /*********************************************************
+   1326                   Duplicate the contents of SETUP buffer to our buffer
+   1327                   Note:On 5329 the data returned is little endian so it needs
+   1328                   to be byte swapped.Here while copying it is been takencare.
+   1329                   If you are using this as reference code care should be taken
+   1330                   while copying the setup packet on your chip.
+   1331                   *********************************************************/
+   1332          #if (ENDIANNESS == BIG_ENDIAN)
+   1333                  buffer_ptr[0]= ep_queue_head_ptr->SETUP_BUFFER[3];
+   1334                  buffer_ptr[1]= ep_queue_head_ptr->SETUP_BUFFER[2];
+   1335                  buffer_ptr[2]= ep_queue_head_ptr->SETUP_BUFFER[1];
+   1336                  buffer_ptr[3]= ep_queue_head_ptr->SETUP_BUFFER[0];
+   1337                  buffer_ptr[4]= ep_queue_head_ptr->SETUP_BUFFER[7];
+   1338                  buffer_ptr[5]= ep_queue_head_ptr->SETUP_BUFFER[6];
+   1339                  buffer_ptr[6]= ep_queue_head_ptr->SETUP_BUFFER[5];
+   1340                  buffer_ptr[7]= ep_queue_head_ptr->SETUP_BUFFER[4];
+   1341          #else
+   1342                  OS_Mem_copy((void *)ep_queue_head_ptr->SETUP_BUFFER,buffer_ptr, 8);
+   1343          #endif
+   1344                  /*********************************************************
+   1345                   If setup tripwire semaphore is cleared by hardware it means
+   1346                   that we have a danger and we need to restart.
+   1347                   else we can exit out of loop safely.
+   1348                   *********************************************************/
+   1349                  if(usb_hal_ehci_get_usb_cmd(usb_dev_ptr->usbRegBase) &
+   1350                      EHCI_CMD_SETUP_TRIPWIRE_SET)
+   1351                  {
+   1352                      /* we can proceed exiting out of loop*/
+   1353                      read_safe = TRUE;
+   1354                  }
+   1355              }
+   1356          
+   1357              /*********************************************************
+   1358               Clear the semaphore bit now
+   1359               *********************************************************/
+   1360              usb_hal_ehci_clear_usb_cmd_setup_trip_wire(usb_dev_ptr->usbRegBase);
+   1361          
+   1362              /* Clear the bit in the ENDPTSETUPSTAT */
+   1363              usb_hal_ehci_clear_setup_stat_ep_num(usb_dev_ptr->usbRegBase, (uint32_t)(1 << ep_num));
+   1364          
+   1365              return USB_OK;
+   1366          } /* EndBody */
+   1367          
+   1368          /*FUNCTION*-------------------------------------------------------------
+   1369          *
+   1370          *  Function Name  : _usb_dci_usbhs_init_endpoint
+   1371          *  Returned Value : None
+   1372          *  Comments       :
+   1373          *        Initializes the specified endpoint and the endpoint queue head
+   1374          *
+   1375          *END*-----------------------------------------------------------------*/
+   1376          usb_status _usb_dci_usbhs_init_endpoint
+   1377          (
+   1378              /* [IN] the USB_dev_initialize state structure */
+   1379              usb_device_handle         handle,
+   1380          
+   1381              /* [IN] the transaction descriptor address */
+   1382              xd_struct_t*              xd_p
+   1383          )
+   1384          {   /* Body */
+   1385              volatile usb_ehci_dev_state_struct_t *       usb_dev_ptr;
+   1386              volatile usb_ehc_dev_qh_struct_t *           ep_queue_head_ptr;
+   1387              uint32_t                                     bit_pos;
+   1388              xd_struct_t*                                 xd_ptr = (xd_struct_t*)xd_p;
+   1389          
+   1390              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1391          
+   1392              xd_ptr->max_pkts_per_uframe =
+   1393                (uint8_t)(((uint8_t)xd_ptr->dont_zero_terminate & USB_MAX_PKTS_PER_UFRAME) >> 1);
+   1394          
+   1395              if((xd_ptr->ep_type > USB_INTERRUPT_PIPE) ||
+   1396                  (xd_ptr->bdirection > USB_SEND))
+   1397              {
+   1398                  return USBERR_EP_INIT_FAILED;
+   1399              }
+   1400          
+   1401              /* before initializing cancel all transfers on EP as there may be calls
+   1402                 for endpoint initialization more than once. This will free any allocated
+   1403                 queue */
+   1404              _usb_dci_usbhs_cancel_transfer(handle, xd_ptr->ep_num, xd_ptr->bdirection);
+   1405              /* Get the endpoint queue head address */
+   1406              ep_queue_head_ptr = (usb_ehc_dev_qh_struct_t *)
+   1407                  usb_hal_ehci_get_eplist_address(usb_dev_ptr->usbRegBase) +
+   1408                  2 * xd_ptr->ep_num + xd_ptr->bdirection;
+   1409          
+   1410              bit_pos = (uint32_t)(1 << (16 * xd_ptr->bdirection + xd_ptr->ep_num));
+   1411          
+   1412              /* Check if the Endpoint is Primed */
+   1413              if((!(usb_hal_ehci_get_endpoint_prime(usb_dev_ptr->usbRegBase) & bit_pos))
+   1414                &&
+   1415                (!(usb_hal_echi_get_endpoint_status(usb_dev_ptr->usbRegBase) & bit_pos)))
+   1416              {
+   1417                  /* Set the max packet length, interrupt on Setup and Mult fields */
+   1418                  if (xd_ptr->ep_type == USB_ISOCHRONOUS_PIPE)
+   1419                  {
+   1420                      /* Mult bit should be set for isochronous endpoints */
+   1421                      usb_hal_ehci_set_max_packet_length(ep_queue_head_ptr, (uint32_t)((xd_ptr->wmaxpacketsize << 16) |
+   1422                         ((xd_ptr->max_pkts_per_uframe ? xd_ptr->max_pkts_per_uframe : 1)
+   1423                          << VUSB_EP_QUEUE_HEAD_MULT_POS)));
+   1424                  }
+   1425                  else
+   1426                  {
+   1427          
+   1428                      usb_hal_ehci_set_max_packet_length_for_non_iso(ep_queue_head_ptr, (uint32_t)
+   1429                          ((xd_ptr->wmaxpacketsize << 16) | VUSB_EP_QUEUE_HEAD_IOS|VUSB_EP_QUEUE_HEAD_ZERO_LEN_TER_SEL));
+   1430                  } /* Endif */
+   1431          
+   1432                  /* Enable the endpoint for Rx and Tx and set the endpoint type */
+   1433                  usb_hal_ehci_enable_endpoint(usb_dev_ptr->usbRegBase, xd_ptr->ep_num, xd_ptr->bdirection, xd_ptr->ep_type);
+   1434              }
+   1435              else
+   1436              {
+   1437                  return USBERR_EP_INIT_FAILED;
+   1438              } /* Endif */
+   1439          
+   1440              return USB_OK;
+   1441          } /* EndBody */
+   1442          
+   1443          /*FUNCTION*-------------------------------------------------------------
+   1444          *
+   1445          *  Function Name  : _usb_dci_usbhs_deinit_endpoint
+   1446          *  Returned Value : None
+   1447          *  Comments       :
+   1448          *        Disables the specified endpoint and the endpoint queue head
+   1449          *
+   1450          *END*-----------------------------------------------------------------*/
+   1451          usb_status _usb_dci_usbhs_deinit_endpoint
+   1452          (
+   1453              /* [IN] the USB_dev_initialize state structure */
+   1454              usb_device_handle           handle,
+   1455          
+   1456              /* [IN] the Endpoint number */
+   1457              uint8_t                     ep_num,
+   1458          
+   1459              /* [IN] direction */
+   1460              uint8_t                     direction
+   1461          )
+   1462          {   /* Body */
+   1463              volatile usb_ehci_dev_state_struct_t *             usb_dev_ptr;
+   1464              volatile usb_ehc_dev_qh_struct_t *                 ep_queue_head_ptr;
+   1465              uint32_t                                           bit_pos;
+   1466          
+   1467              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1468          
+   1469              /*before de-initializing cancel all transfers on EP */
+   1470              _usb_dci_usbhs_cancel_transfer(handle, ep_num, direction);
+   1471              /* Ger the endpoint queue head address */
+   1472              ep_queue_head_ptr = (usb_ehc_dev_qh_struct_t *)
+   1473                  usb_hal_ehci_get_eplist_address(usb_dev_ptr->usbRegBase) +
+   1474                  (2*ep_num + direction);
+   1475          
+   1476              bit_pos = (uint32_t)(1 << (16 * direction + ep_num));
+   1477          
+   1478              /* Check if the Endpoint is Primed */
+   1479              if((!(usb_hal_ehci_get_endpoint_prime(usb_dev_ptr->usbRegBase) & bit_pos))
+   1480                &&
+   1481                (!(usb_hal_echi_get_endpoint_status(usb_dev_ptr->usbRegBase) & bit_pos)))
+   1482              {
+   1483                  /* Reset the max packet length and the interrupt on Setup */
+   1484                  usb_hal_ehci_clear_max_packet_length(ep_queue_head_ptr);
+   1485          
+   1486                  /* Disable the endpoint for Rx or Tx and reset the endpoint type */
+   1487                  usb_hal_ehci_disable_endpoint(usb_dev_ptr->usbRegBase, ep_num, direction);
+   1488          
+   1489                  /* TODO: flush buffers. See EHCI EPFLUSH register */
+   1490              }
+   1491              else
+   1492              {
+   1493                  return USBERR_EP_DEINIT_FAILED;
+   1494              }
+   1495          
+   1496              return USB_OK;
+   1497          } /* EndBody */
+   1498          
+   1499          /*FUNCTION*-------------------------------------------------------------
+   1500          *
+   1501          *  Function Name  : _usb_dci_usbhs_get_transfer_status
+   1502          *  Returned Value : USB_OK or error code
+   1503          *  Comments       :
+   1504          *        Gets the status of a transfer
+   1505          *
+   1506          *END*-----------------------------------------------------------------*/
+   1507          usb_status _usb_dci_usbhs_get_transfer_status
+   1508          (
+   1509              /* [IN] the USB_dev_initialize state structure */
+   1510              usb_device_handle           handle,
+   1511          
+   1512              /* [IN] the Endpoint number */
+   1513              uint8_t                     ep_num,
+   1514          
+   1515              /* [IN] direction */
+   1516              uint8_t                     direction
+   1517          )
+   1518          {   /* Body */
+   1519              volatile usb_ehci_dev_state_struct_t *    usb_dev_ptr;
+   1520              volatile usb_ehci_dev_dtd_struct_t *      dTD_ptr;
+   1521              volatile xd_struct_t*                     xd_ptr;
+   1522              uint8_t                                   error;
+   1523          
+   1524              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1525          
+   1526              /* Unlink the dTD */
+   1527              dTD_ptr = usb_dev_ptr->dtd_heads[2*ep_num + direction];
+   1528          
+   1529              if (dTD_ptr)
+   1530              {
+   1531                  /* Get the transfer descriptor for the dTD */
+   1532                  xd_ptr = (xd_struct_t*)dTD_ptr->xd_for_this_dtd;
+   1533                  error = xd_ptr->bstatus;
+   1534              }
+   1535              else
+   1536              {
+   1537                  error = USB_STATUS_IDLE;
+   1538              }
+   1539          
+   1540              return (error);
+   1541          } /* EndBody */
+   1542          
+   1543          /*FUNCTION*-------------------------------------------------------------
+   1544          *
+   1545          *  Function Name  : _usb_dci_usbhs_cancel_transfer
+   1546          *  Returned Value : USB_OK or error code
+   1547          *  Comments       :
+   1548          *        Cancels a transfer
+   1549          *
+   1550          *END*-----------------------------------------------------------------*/
+   1551          usb_status _usb_dci_usbhs_cancel_transfer
+   1552          (
+   1553              /* [IN] the USB_dev_initialize state structure */
+   1554              usb_device_handle           handle,
+   1555          
+   1556              /* [IN] the Endpoint number */
+   1557              uint8_t                     ep_num,
+   1558          
+   1559              /* [IN] direction */
+   1560              uint8_t                     direction
+   1561          )
+   1562          {   /* Body */
+   1563              volatile usb_ehci_dev_state_struct_t *    usb_dev_ptr;
+   1564              volatile usb_ehci_dev_dtd_struct_t *      dTD_ptr;
+   1565              volatile usb_ehci_dev_dtd_struct_t *      check_dTD_ptr;
+   1566              volatile usb_ehc_dev_qh_struct_t *        ep_queue_head_ptr;
+   1567              volatile xd_struct_t*                     xd_ptr;
+   1568              uint32_t                                  temp;
+   1569              uint32_t                                  bit_pos;
+   1570          
+   1571              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1572          
+   1573              bit_pos = (uint32_t)(1 << (16 * direction + ep_num));
+   1574              temp = (uint32_t)(2*ep_num + direction);
+   1575          
+   1576              ep_queue_head_ptr = (usb_ehc_dev_qh_struct_t *)
+   1577                  usb_hal_ehci_get_eplist_address(usb_dev_ptr->usbRegBase) +
+   1578                  temp;
+   1579          
+   1580              /* Unlink the dTD */
+   1581              dTD_ptr = usb_dev_ptr->dtd_heads[temp];
+   1582          
+   1583              if (dTD_ptr)
+   1584              {
+   1585                  check_dTD_ptr = (usb_ehci_dev_dtd_struct_t *) \
+   1586                      ((uint32_t)usb_hal_ehci_get_next_dtd_address(dTD_ptr));
+   1587          
+   1588                  if (usb_hal_ehci_get_dtd_size_ioc_status(dTD_ptr) & USBHS_TD_STATUS_ACTIVE)
+   1589                  {
+   1590                      /* Flushing will halt the pipe */
+   1591                      /* Write 1 to the Flush register */
+   1592                      usb_hal_ehci_flush_endpoint_buffer(usb_dev_ptr->usbRegBase, bit_pos);
+   1593                      
+   1594                      /* Wait until flushing completed */
+   1595                      while (usb_hal_ehci_is_endpoint_transfer_flushed(usb_dev_ptr->usbRegBase, bit_pos))
+   1596                      {
+   1597                          /* ENDPTFLUSH bit should be cleared to indicate this
+   1598                             operation is complete */
+   1599                      }
+   1600          
+   1601                      while (usb_hal_echi_get_endpoint_status(usb_dev_ptr->usbRegBase) & bit_pos)
+   1602                      {
+   1603                          /* Write 1 to the Flush register */
+   1604                          usb_hal_ehci_flush_endpoint_buffer(usb_dev_ptr->usbRegBase, bit_pos);
+   1605          
+   1606                          /* Wait until flushing completed */
+   1607                          while (usb_hal_ehci_is_endpoint_transfer_flushed(usb_dev_ptr->usbRegBase, bit_pos))
+   1608                          {
+   1609                              /* ENDPTFLUSH bit should be cleared to indicate this
+   1610                                 operation is complete */
+   1611                          }
+   1612                      }
+   1613                  }
+   1614          
+   1615                  /* Retire the current dTD */
+   1616                  usb_hal_ehci_clear_size_ioc_sts(dTD_ptr);
+   1617                  usb_hal_ehci_set_next_dtd_invalid(dTD_ptr);
+   1618          
+   1619                  /* The transfer descriptor for this dTD */
+   1620                  xd_ptr = (xd_struct_t*)dTD_ptr->xd_for_this_dtd;
+   1621                  /* Free the dTD */
+   1622                  _usb_dci_usbhs_free_dTD((void*)usb_dev_ptr, (void *)dTD_ptr);
+   1623          
+   1624                  /* Update the dTD head and tail for specific endpoint/direction */
+   1625                  if (!check_dTD_ptr)
+   1626                  {
+   1627                      usb_dev_ptr->dtd_heads[temp] = NULL;
+   1628                      usb_dev_ptr->dtd_tails[temp] = NULL;
+   1629          
+   1630                      if (xd_ptr)
+   1631                      {
+   1632                          /* Free the transfer descriptor */
+   1633                          _usb_ehci_free_XD((void*)usb_dev_ptr, (void *)xd_ptr);
+   1634                      }
+   1635          
+   1636                      /* No other transfers on the queue */
+   1637                      usb_hal_ehci_set_next_dtd_terminate(ep_queue_head_ptr);
+   1638                      usb_hal_ehci_clear_size_ioc_int_sts(ep_queue_head_ptr);
+   1639                  }
+   1640                  else
+   1641                  {
+   1642                      usb_dev_ptr->dtd_heads[temp] = check_dTD_ptr;
+   1643          
+   1644                      if (xd_ptr)
+   1645                      {
+   1646                          if ((uint32_t)check_dTD_ptr->\
+   1647                              xd_for_this_dtd != (uint32_t)xd_ptr)
+   1648                          {
+   1649                              /* Free the transfer descriptor */
+   1650                              _usb_ehci_free_XD((void *)usb_dev_ptr, (void *)xd_ptr);
+   1651                          }
+   1652                      }
+   1653          
+   1654                      if (usb_hal_ehci_get_dtd_size_ioc_status(check_dTD_ptr) & USBHS_TD_STATUS_ACTIVE)
+   1655                      {
+   1656                          /* Start CR 1015 */
+   1657                          /* Prime the Endpoint */
+   1658                          usb_hal_ehci_set_endpoint_prime(usb_dev_ptr->usbRegBase,bit_pos);
+   1659          
+   1660                          if (!(usb_hal_echi_get_endpoint_status(usb_dev_ptr->usbRegBase) & bit_pos))
+   1661                          {
+   1662                              while(usb_hal_ehci_get_endpoint_prime(usb_dev_ptr->usbRegBase) & bit_pos)
+   1663                              {
+   1664                                  /* Wait for the ENDPTPRIME to go to zero */
+   1665                              }
+   1666          
+   1667                              if (usb_hal_echi_get_endpoint_status(usb_dev_ptr->usbRegBase) & bit_pos)
+   1668                              {
+   1669                                  /* The endpoint was not not primed so no other
+   1670                                  transfers on the queue */
+   1671                                  return USB_OK;
+   1672                              }
+   1673                          }
+   1674                          else
+   1675                          {
+   1676                              return USB_OK;
+   1677                          }
+   1678          
+   1679                          /* No other transfers on the queue */
+   1680                          usb_hal_ehci_set_qh_next_dtd(ep_queue_head_ptr,(uint32_t)check_dTD_ptr);
+   1681                          usb_hal_ehci_clear_size_ioc_int_sts(ep_queue_head_ptr);
+   1682                         
+   1683                          /* Prime the Endpoint */
+   1684                          usb_hal_ehci_set_endpoint_prime(usb_dev_ptr->usbRegBase,bit_pos);
+   1685                      }
+   1686                  }
+   1687              }
+   1688          
+   1689              return USB_OK;
+   1690              /* End CR 1015 */
+   1691          } /* EndBody */
+   1692          
+   1693          /*FUNCTION*-------------------------------------------------------------
+   1694          *
+   1695          *  Function Name  : _usb_dci_usbhs_shutdown
+   1696          *  Returned Value : None
+   1697          *  Comments       :
+   1698          *        Shuts down the VUSB_HS Device
+   1699          *
+   1700          *END*-----------------------------------------------------------------*/
+   1701          usb_status _usb_dci_usbhs_shutdown
+   1702          (
+   1703              /* [IN] the USB_dev_initialize state structure */
+   1704              usb_device_handle         handle
+   1705          )
+   1706          {   /* Body */
+   1707              volatile usb_ehci_dev_state_struct_t *              usb_dev_ptr;
+   1708          
+   1709              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1710          
+   1711              /* Disable interrupts */
+   1712              usb_hal_ehci_disable_interrupts(usb_dev_ptr->usbRegBase,
+   1713                  (EHCI_INTR_INT_EN | EHCI_INTR_ERR_INT_EN | EHCI_INTR_PORT_CHANGE_DETECT_EN | EHCI_INTR_RESET_EN));
+   1714          
+   1715              /* Reset the Run the bit in the command register to stop VUSB */
+   1716              usb_hal_ehci_initiate_detach_event(usb_dev_ptr->usbRegBase);
+   1717          
+   1718              /* Reset the controller to get default values */
+   1719              usb_hal_ehci_reset_controller(usb_dev_ptr->usbRegBase);
+   1720          
+   1721          #if (OS_ADAPTER_ACTIVE_OS == OS_ADAPTER_MQX)
+   1722              if(NULL != g_ehci_data_ptr[usb_dev_ptr->controller_id])
+   1723              {
+   1724                  OS_Mem_free(g_ehci_data_ptr[usb_dev_ptr->controller_id]);
+   1725                  g_ehci_data_ptr[usb_dev_ptr->controller_id] = NULL;
+   1726              }
+   1727          #endif
+   1728              return USB_OK;
+   1729          } /* EndBody */
+   1730          
+   1731          
+   1732          /*FUNCTION*-------------------------------------------------------------
+   1733          *
+   1734          *  Function Name  : _usb_dci_usbhs_assert_resume
+   1735          *  Returned Value : None
+   1736          *  Comments       :
+   1737          *        Resume signalling for remote wakeup
+   1738          *
+   1739          *END*-----------------------------------------------------------------*/
+   1740          usb_status _usb_dci_usbhs_assert_resume
+   1741          (
+   1742              /* [IN] the USB_dev_initialize state structure */
+   1743              usb_device_handle         handle
+   1744          )
+   1745          {   /* Body */
+   1746              volatile usb_ehci_dev_state_struct_t *  usb_dev_ptr;
+   1747              uint32_t                                temp;
+   1748          
+   1749              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1750          
+   1751              /* Assert the Resume signal */
+   1752              temp = usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase);
+   1753              temp &= ~EHCI_PORTSCX_W1C_BITS;
+   1754              temp |= EHCI_PORTSCX_PORT_FORCE_RESUME;
+   1755              usb_hal_ehci_set_port_status(usb_dev_ptr->usbRegBase, temp);
+   1756          
+   1757              /* Port change interrupt will be asserted at the end of resume
+   1758                 operation */
+   1759          
+   1760             return USB_OK;
+   1761          } /* EndBody */
+   1762          
+   1763          /*FUNCTION*-------------------------------------------------------------
+   1764          *
+   1765          *  Function Name  : _usb_dci_usbhs_stall_endpoint
+   1766          *  Returned Value : None
+   1767          *  Comments       :
+   1768          *        Stalls the specified endpoint
+   1769          *
+   1770          *END*-----------------------------------------------------------------*/
+   1771          usb_status _usb_dci_usbhs_stall_endpoint
+   1772          (
+   1773              /* [IN] the USB_dev_initialize state structure */
+   1774              usb_device_handle           handle,
+   1775          
+   1776              /* [IN] the Endpoint number */
+   1777              uint8_t                     ep_num,
+   1778          
+   1779              /* [IN] direction */
+   1780              uint8_t                     direction
+   1781          )
+   1782          {   /* Body */
+   1783              volatile usb_ehci_dev_state_struct_t *    usb_dev_ptr;
+   1784              volatile usb_ehc_dev_qh_struct_t *        ep_queue_head_ptr;
+   1785          
+   1786              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1787          
+   1788              /* Get the endpoint queue head address */
+   1789              ep_queue_head_ptr = (usb_ehc_dev_qh_struct_t *)
+   1790                  usb_hal_ehci_get_eplist_address(usb_dev_ptr->usbRegBase) + 2 * ep_num + direction;
+   1791          
+   1792              /* Stall the endpoint for Rx or Tx and set the endpoint type */
+   1793              if (usb_hal_ehci_is_ios_set(ep_queue_head_ptr))
+   1794              {
+   1795                  /* This is a control endpoint so STALL both directions */
+   1796                  usb_hal_ehci_stall_both_directions(usb_dev_ptr->usbRegBase, ep_num);
+   1797              }
+   1798              else
+   1799              {
+   1800                  usb_hal_ehci_stall_specific_direction(usb_dev_ptr->usbRegBase, ep_num, direction);
+   1801              }
+   1802          
+   1803              return USB_OK;
+   1804          } /* EndBody */
+   1805          
+   1806          /*FUNCTION*-------------------------------------------------------------
+   1807          *
+   1808          *  Function Name  : _usb_dci_usbhs_unstall_endpoint
+   1809          *  Returned Value : None
+   1810          *  Comments       :
+   1811          *        Unstall the specified endpoint in the specified direction
+   1812          *
+   1813          *END*-----------------------------------------------------------------*/
+   1814          usb_status _usb_dci_usbhs_unstall_endpoint
+   1815          (
+   1816              /* [IN] the USB_dev_initialize state structure */
+   1817              usb_device_handle           handle,
+   1818          
+   1819              /* [IN] the Endpoint number */
+   1820              uint8_t                     ep_num,
+   1821          
+   1822              /* [IN] direction */
+   1823              uint8_t                     direction
+   1824          )
+   1825          {   /* Body */
+   1826              volatile usb_ehci_dev_state_struct_t *  usb_dev_ptr;
+   1827          
+   1828              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1829          
+   1830              /* Enable the endpoint for Rx or Tx and set the endpoint type */
+   1831              usb_hal_ehci_clear_endpoint_stall(usb_dev_ptr->usbRegBase, ep_num, direction);
+   1832              usb_hal_ehci_reset_endpoint_data_toggle(usb_dev_ptr->usbRegBase, ep_num, direction);
+   1833              return USB_OK;
+   1834          } /* EndBody */
+   1835          
+   1836          /*FUNCTION*----------------------------------------------------------------
+   1837          *
+   1838          * Function Name  : _usb_dci_usbhs_get_endpoint_status
+   1839          * Returned Value : None
+   1840          * Comments       :
+   1841          *     Gets the endpoint status
+   1842          *
+   1843          *END*--------------------------------------------------------------------*/
+   1844          usb_status _usb_dci_usbhs_get_endpoint_status
+   1845          (
+   1846              /* [IN] Handle to the USB device */
+   1847              usb_device_handle     handle,
+   1848          
+   1849              /* [IN] Endpoint to get */
+   1850              uint8_t               ep,
+   1851              /* [OUT] Status to get */
+   1852              uint16_t *error
+   1853          )
+   1854          {   /* Body */
+   1855              volatile usb_ehci_dev_state_struct_t * usb_dev_ptr;
+   1856          
+   1857              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1858          
+   1859              *error = (uint16_t)((usb_hal_ehci_get_endpoint_control(usb_dev_ptr->usbRegBase, 
+   1860                      ep & USB_STATUS_ENDPOINT_NUMBER_MASK) &
+   1861                     ((ep & 0x80) ? EHCI_EPCTRL_TX_EP_STALL : EHCI_EPCTRL_RX_EP_STALL)) ? 1 : 0);
+   1862          
+   1863              return USB_OK;
+   1864          } /* EndBody */
+   1865          
+   1866          /*FUNCTION*----------------------------------------------------------------
+   1867          *
+   1868          * Function Name  : _usb_dci_usbhs_set_test_mode
+   1869          * Returned Value : None
+   1870          * Comments       :
+   1871          *     sets/resets the test mode
+   1872          *
+   1873          *END*--------------------------------------------------------------------*/
+   1874          usb_status _usb_dci_usbhs_set_test_mode
+   1875          (
+   1876              /* [IN] Handle to the USB device */
+   1877              usb_device_handle   handle,
+   1878          
+   1879              /* [IN] Test mode */
+   1880              uint16_t            test_mode
+   1881          )
+   1882          {   /* Body */
+   1883              volatile usb_ehci_dev_state_struct_t *       usb_dev_ptr;
+   1884              volatile usb_ehc_dev_reg_struct_t *          dev_ptr;
+   1885              uint32_t                                     temp;
+   1886          
+   1887              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1888              dev_ptr = (usb_ehc_dev_reg_struct_t *)usb_dev_ptr->dev_ptr;
+   1889          
+   1890              temp = usb_hal_ehci_get_endpoint_control(usb_dev_ptr->usbRegBase, 0);
+   1891          
+   1892              EHCI_REG_WRITE(dev_ptr->REGISTERS.OPERATIONAL_DEVICE_REGISTERS.ENDPTCTRLX[0],
+   1893                  (temp | EHCI_EPCTRL_TX_DATA_TOGGLE_RST));
+   1894          
+   1895              temp = usb_hal_ehci_get_port_status(usb_dev_ptr->usbRegBase);
+   1896              usb_hal_ehci_set_port_status(usb_dev_ptr->usbRegBase, (temp | ((uint32_t)test_mode << 16)));
+   1897              return USB_OK;
+   1898          } /* EndBody */
+   1899          
+   1900          /*FUNCTION*----------------------------------------------------------------
+   1901          *
+   1902          * Function Name  : _usb_dci_usbhs_set_endpoint_status
+   1903          * Returned Value : None
+   1904          * Comments       :
+   1905          *     Sets the endpoint registers e.g. to enable TX, RX, control
+   1906          *
+   1907          *END*--------------------------------------------------------------------*/
+   1908          usb_status _usb_dci_usbhs_set_endpoint_status
+   1909          (
+   1910              /* [IN] Handle to the USB device */
+   1911              usb_device_handle     handle,
+   1912          
+   1913              /* [IN] Endpoint to set */
+   1914              uint8_t               component,
+   1915          
+   1916              /* [IN] Endpoint characteristics */
+   1917              uint16_t              setting
+   1918          )
+   1919          {   /* Body */
+   1920              uint8_t error = USBERR_ERROR;
+   1921              uint8_t ep_num = (uint8_t)(component & USB_STATUS_ENDPOINT_NUMBER_MASK);
+   1922              uint8_t direction = 0;
+   1923          
+   1924              if (ep_num > USBCFG_DEV_EHCI_MAX_ENDPOINTS) {
+   1925                  return error;
+   1926              }
+   1927          
+   1928              if(setting == USB_STATUS_STALLED)
+   1929              {
+   1930                  error = _usb_dci_usbhs_stall_endpoint(handle, ep_num, direction);
+   1931          
+   1932              }
+   1933              else if(setting == USB_STATUS_IDLE)
+   1934              {
+   1935                  error = _usb_dci_usbhs_unstall_endpoint(handle, ep_num, direction);
+   1936              } /* Endif */
+   1937          
+   1938              return USB_OK;
+   1939          } /* EndBody */
+   1940          
+   1941          /*FUNCTION*----------------------------------------------------------------
+   1942          * 
+   1943          * Function Name  : usb_dci_khci_set_status
+   1944          * Returned Value : USB_OK or error code
+   1945          * Comments       :
+   1946          *     Provides API to set internal state
+   1947          * 
+   1948          *END*--------------------------------------------------------------------*/
+   1949          usb_status _usb_dci_usbhs_set_status
+   1950             (
+   1951                /* [IN] Handle to the usb device */
+   1952                usb_device_handle     handle,
+   1953                
+   1954                /* [IN] What to set the error of */
+   1955                uint8_t               component,
+   1956                
+   1957                /* [IN] What to set the error to */
+   1958                uint16_t              setting
+   1959             )
+   1960          { 
+   1961              volatile usb_ehci_dev_state_struct_t * usb_dev_ptr;
+   1962              uint8_t                                error = USB_OK;
+   1963              
+   1964              if (handle == NULL)
+   1965              {
+   1966                  #if _DEBUG
+   1967          //            USB_PRINTF("usb_dci_khci_set_status: handle is NULL\n");
+   1968                  #endif  
+   1969                  return USBERR_ERROR;
+   1970              }
+   1971              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   1972              OS_Lock();
+   1973              
+   1974              switch (component) 
+   1975              {
+   1976                  case USB_STATUS_DEVICE_STATE:
+   1977                      usb_dev_ptr->usb_state = setting;
+   1978                      break;
+   1979                  case USB_STATUS_DEVICE:
+   1980                      usb_dev_ptr->usb_device_status = setting;
+   1981                      break;
+   1982                  case USB_STATUS_INTERFACE:
+   1983                      break;
+   1984                  case USB_STATUS_CURRENT_CONFIG:
+   1985                      usb_dev_ptr->usb_curr_config = setting;
+   1986                      break;
+   1987                  case USB_STATUS_SOF_COUNT:
+   1988                      usb_dev_ptr->usb_sof_count = setting;
+   1989                      break;
+   1990                  
+   1991                  default:
+   1992                      
+   1993                  break;
+   1994             }/* Endswitch */
+   1995          
+   1996             OS_Unlock();
+   1997             return error;   
+   1998          } /* EndBody */
+   1999          
+   2000          /*FUNCTION*----------------------------------------------------------------
+   2001          * 
+   2002          * Function Name  : usb_dci_khci_get_status
+   2003          * Returned Value : USB_OK or error code
+   2004          * Comments       :
+   2005          *     Provides API to access the USB internal state.
+   2006          * 
+   2007          *END*--------------------------------------------------------------------*/
+   2008          usb_status _usb_dci_usbhs_get_status
+   2009             (
+   2010                /* [IN] Handle to the USB device */
+   2011                usb_device_handle    handle,
+   2012                
+   2013                /* [IN] What to get the error of */
+   2014                uint8_t              component,
+   2015                
+   2016                /* [OUT] The requested error */
+   2017                uint16_t*            error
+   2018             )
+   2019          {
+   2020              volatile usb_ehci_dev_state_struct_t * usb_dev_ptr;
+   2021          
+   2022              if((handle == NULL)||(error == NULL))
+   2023              {
+   2024                  #if _DEBUG
+   2025          //            USB_PRINTF("usb_dci_khci_get_status: NULL pointer\n");
+   2026                  #endif  
+   2027                  return USBERR_ERROR;
+   2028              }
+   2029              usb_dev_ptr = (usb_ehci_dev_state_struct_t *)handle;
+   2030             
+   2031              OS_Lock();
+   2032              switch (component) 
+   2033              {
+   2034                  case USB_STATUS_DEVICE_STATE:
+   2035                      *error = usb_dev_ptr->usb_state;
+   2036                      break;
+   2037          
+   2038                  case USB_STATUS_DEVICE:
+   2039                      *error = usb_dev_ptr->usb_device_status;
+   2040                      break;
+   2041              
+   2042                  case USB_STATUS_INTERFACE:
+   2043                      break;
+   2044                   
+   2045                  case USB_STATUS_ADDRESS:
+   2046                      *error = usb_dev_ptr->device_address;
+   2047                      break;
+   2048                   
+   2049                  case USB_STATUS_CURRENT_CONFIG:
+   2050                      *error = usb_dev_ptr->usb_curr_config;
+   2051                      break;
+   2052                  
+   2053                  case USB_STATUS_SOF_COUNT:
+   2054                      *error = usb_dev_ptr->usb_sof_count;
+   2055                      break;
+   2056                      
+   2057                  default:    
+   2058                      break;
+   2059             } /* Endswitch */
+   2060             OS_Unlock();
+   2061             return USB_OK;   
+   2062          }   
+   2063           /*FUNCTION*-------------------------------------------------------------
+   2064           *
+   2065           *  Function Name  : usb_dci_khci_alloc_xd
+   2066           *  Returned Value : void
+   2067           *  Comments       :
+   2068           *        Allocates an XD from the free XD ring.
+   2069           *
+   2070           *END*-----------------------------------------------------------------*/
+   2071          usb_status _usb_dci_usbhs_alloc_xd
+   2072          (
+   2073              usb_device_handle handle,
+   2074              /* [IN] the dTD to enqueue */
+   2075              xd_struct_t* *    xd_ptr_ptr
+   2076          )
+   2077          {   /* Body */
+   2078              volatile usb_ehci_dev_state_struct_t *   usb_dev_ptr = handle;
+   2079          
+   2080              if(!usb_dev_ptr)
+   2081              {
+   2082                  return USBERR_NOT_FOUND;
+   2083              }
+   2084              
+   2085              /* This function can be called from any context, and it needs mutual
+   2086                 exclusion with itself.*/
+   2087              OS_Lock();
+   2088              
+   2089              /* Get a transfer descriptor for the specified endpoint 
+   2090               ** and direction 
+   2091               */
+   2092              if(!usb_dev_ptr->xd_entries)
+   2093              {
+   2094                  OS_Unlock();
+   2095                  return USBERR_DEVICE_BUSY;
+   2096              }
+   2097              
+   2098              *xd_ptr_ptr = usb_dev_ptr->xd_head;
+   2099              if (usb_dev_ptr->xd_head)
+   2100              {
+   2101                  usb_dev_ptr->xd_head = usb_dev_ptr->xd_head->next;
+   2102                  if (usb_dev_ptr->xd_head == NULL)
+   2103                  {
+   2104                      usb_dev_ptr->xd_tail = NULL;
+   2105                  }
+   2106              }
+   2107          
+   2108              usb_dev_ptr->xd_entries--;
+   2109              
+   2110              OS_Unlock();
+   2111          
+   2112              return USB_OK;
+   2113          } /* Endbody */
+   2114          
+   2115          #endif
+   2116          /* EOF */
+
+
+ 
+
+ 
+
+
+Errors: none
+Warnings: none

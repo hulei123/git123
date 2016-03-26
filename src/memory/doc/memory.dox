@@ -1,0 +1,6 @@
+/*!
+
+@defgroup memif Memory Interface
+@brief Abstract memory interface.
+
+ */
